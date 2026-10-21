@@ -10,7 +10,10 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
-- New right axle on hand, not installed. Moog K80228 lower ball joint ordered (due Oct 23). Press-in joint: needs a press kit, or a shop presses it in the knuckle.
+- 2026-10-21: owner says the shake is the same.
+- New axle on hand, not installed: Parts Geek order #31-12567661, placed 2026-10-10, delivered 2026-10-19, $83.74 total. The emails say only "2005 Honda Accord CV Axle Assembly": **brand, part number and side (right/passenger) are not in them**. Read the box label before the job.
+- New Moog K80228 lower ball joint on hand (owner, 2026-10-21). Press-in joint: plan is an O'Reilly loaner press kit.
+- Seller listings (COMMUNITY): K80228 is press-in, not greaseable, has a cotter pin hole, "includes mounting hardware", no instructions included.
 - Do the ABS sensor (item 3) in the same job.
 - Worth knowing (UNVERIFIED, past chats): old ATF can also cause a shudder that feels like a CV problem. ATF change history is unknown (item 6).
 - If the shake remains after the new axle: check the mounts.
