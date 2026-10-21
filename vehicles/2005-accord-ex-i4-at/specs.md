@@ -1,27 +1,112 @@
-# Verified specs: 2005 Accord EX 2.4 L automatic
+# Verified specs: 2005 Accord EX sedan, 2.4 L K24A4, 5-speed automatic
 
-Only numbers with a real source go in the table. Anything not listed here is
-**not verified yet**, even if Claude "knows" it.
+Only numbers with a real source go here. Anything not listed is **not verified yet**,
+even if Claude "knows" it.
 
-| Item | Value | Label / source | Checked |
+"OM p.N" = the printed page number in Honda's 2005 Accord 4dr owner's manual,
+`sources/2005-accord-owners-manual.pdf`. In the PDF file, page N is PDF page N+1.
+The manual covers 4- and 6-cylinder sedans; only 4-cylinder / EX / automatic values are
+copied here.
+
+## Fluids and capacities
+
+| Item | Value | Source | Checked |
 |---|---|---|---|
-| Transmission | 5-speed automatic | OFFICIAL RECORD: EPA vehicle 20867 | 2026-10-21 |
-| Fuel | Regular gasoline | OFFICIAL RECORD: EPA vehicle 20867 | 2026-10-21 |
+| Engine oil type | API Premium grade 5W-20 detergent oil; Honda Motor Oil preferred; synthetic OK if it meets the same requirements | VERIFIED: OM p.213, Service Information Summary | 2026-10-21 |
+| Engine oil change, **with filter** | 4.4 US qt (4.2 L) | VERIFIED: OM p.274 + Service Information Summary | 2026-10-21 |
+| Engine oil change, without filter | 4.2 US qt (4.0 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| Engine oil total (dry engine) | 5.6 US qt (5.3 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| Automatic transmission fluid type | Honda ATF-Z1; DEXRON III only as a temporary replacement (continued use can affect shift quality) | VERIFIED: OM p.219 | 2026-10-21 |
+| ATF drain and refill (change) | 3.0 US qt (2.8 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| ATF total (dry) | 6.9 US qt (6.5 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| ATF level check | Engine at normal operating temp, level ground, engine off; yellow-loop dipstick pushed all the way in; level between upper and lower marks | VERIFIED: OM p.219 | 2026-10-21 |
+| Coolant type | Honda All Season Antifreeze/Coolant Type 2 (pre-mixed 50/50). Never straight antifreeze or plain water. Other brand only temporarily: non-silicate, for aluminum engines | VERIFIED: OM p.217 | 2026-10-21 |
+| Coolant change (automatic) | 1.32 US gal (5.0 L), includes reserve tank and what stays in the engine | VERIFIED: OM p.274 | 2026-10-21 |
+| Coolant total (automatic) | 1.88 US gal (7.1 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| Coolant reserve tank | 0.16 US gal (0.6 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| Brake fluid | Honda Heavy Duty Brake Fluid DOT 3 preferred; DOT 3 or DOT 4 as temporary replacement | VERIFIED: OM Service Information Summary | 2026-10-21 |
+| Power steering fluid | Honda Power Steering Fluid preferred; other brand temporarily. **Do not use ATF** | VERIFIED: OM Service Information Summary | 2026-10-21 |
+| Fuel | Unleaded, pump octane 86 or higher | VERIFIED: OM Service Information Summary | 2026-10-21 |
+| Fuel tank | Approx. 17.09 US gal (64.7 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| Windshield washer reservoir (U.S.) | 2.6 US qt (2.5 L) | VERIFIED: OM p.274 | 2026-10-21 |
+| A/C refrigerant | HFC-134a (R-134a), 25–27 oz (700–750 g) | VERIFIED: OM p.274 | 2026-10-21 |
+| A/C compressor oil | ND-OIL8 | VERIFIED: OM p.274 | 2026-10-21 |
 
-## Still needed, and where to get each one free
+## Wheels, tires, alignment
+
+| Item | Value | Source | Checked |
+|---|---|---|---|
+| **Lug nut (wheel nut) torque** | 80 lbf·ft (108 N·m), crisscross pattern | VERIFIED: OM p.250 | 2026-10-21 |
+| Tire size (EX) | P205/60R16 91V | VERIFIED: OM p.276. Confirm against the door-jamb sticker | 2026-10-21 |
+| Tire pressure, cold (EX) | Front 32 psi (220 kPa), rear 30 psi (210 kPa) | VERIFIED: OM p.276 + Service Information Summary. Confirm against the door-jamb sticker | 2026-10-21 |
+| Spare | T135/90D15 at 60 psi (420 kPa) | VERIFIED: OM p.276 | 2026-10-21 |
+| Alignment, toe-in | Front 0.00 in (0.0 mm), rear 0.08 in (2.0 mm) | VERIFIED: OM p.275 | 2026-10-21 |
+| Alignment, camber | Front 0°, rear 1° (printed with no + or − sign; direction unverified) | VERIFIED: OM p.275 | 2026-10-21 |
+| Alignment, caster (front) | 3°15′ | VERIFIED: OM p.275 | 2026-10-21 |
+
+## Engine and electrical
+
+| Item | Value | Source | Checked |
+|---|---|---|---|
+| Engine | K24A4, 2.4 L DOHC i-VTEC 4-cylinder, 160 hp | OFFICIAL RECORD: NHTSA VIN decode; type also VERIFIED: OM p.275 | 2026-10-21 |
+| Bore × stroke | 3.43 × 3.9 in (87.0 × 99.0 mm) | VERIFIED: OM p.275 | 2026-10-21 |
+| Displacement | 143.6 cu in (2,354 cc) | VERIFIED: OM p.275 | 2026-10-21 |
+| Compression ratio | 9.7:1 | VERIFIED: OM p.275 | 2026-10-21 |
+| Spark plugs | NGK IZFR6K-11 or DENSO SKJ20DR-M11. **Manual also lists** NGK IZFR6K-13 / DENSO SKJ20DR-M13 "on some models" without saying which: match the plug you pull out, or the under-hood label | VERIFIED: OM p.275 (conflict noted) | 2026-10-21 |
+| Battery | 12 V, 38 AH/5 HR | VERIFIED: OM p.275 | 2026-10-21 |
+
+## Bulbs (12 V)
+
+| Bulb | Rating | Source |
+|---|---|---|
+| Headlight high | 60 W (HB3) | VERIFIED: OM p.275 |
+| Headlight low | 51 W (HB4) | VERIFIED: OM p.275 |
+| Front turn signal / parking | 24/2.2 CP | VERIFIED: OM p.275 |
+| Rear turn signal | 21 W (amber) | VERIFIED: OM p.275 |
+| Stop/taillights | 21/5 W | VERIFIED: OM p.275 |
+| Taillights | 2 CP | VERIFIED: OM p.275 |
+| High-mount brake light | 21 W | VERIFIED: OM p.275 |
+| Back-up lights | 21 W | VERIFIED: OM p.275 |
+| License plate | 3 CP | VERIFIED: OM p.275 |
+| Spotlights/front ceiling (EX) | 8 W | VERIFIED: OM p.275 |
+| Ceiling light | 8 W | VERIFIED: OM p.275 |
+| Trunk light | 5 W | VERIFIED: OM p.275 |
+
+Fuse charts: OM p.268 (under-hood) and p.269 (interior), also printed on the fuse box covers.
+
+## Maintenance schedule, 4-cylinder (OM p.202 normal, p.203 severe)
+
+Use **severe** if the car is driven MAINLY under any of these (OM p.199): trips under 5 mi
+(under 10 mi in freezing temperatures); over 90°F; delivery/taxi-style stop-and-go or
+idling; towing, roof carrier or mountains; muddy, dusty or de-iced roads. Only
+occasionally → normal schedule.
+
+| Item | Normal conditions (p.202) | Severe conditions (p.203) |
+|---|---|---|
+| Engine oil | Every 10,000 mi or 1 yr | Every 5,000 mi or 6 months |
+| Oil filter | Every 20,000 mi or 1 yr | Every 10,000 mi or 1 yr |
+| Rotate tires | Every 10,000 mi | Every 10,000 mi |
+| Brakes, parking brake, steering/suspension/boots, brake lines, fluids, exhaust, fuel lines: inspect | Every 20,000 mi or 1 yr | Brakes + steering/suspension/boots every 10,000 mi or 1 yr; the rest every 20,000 mi or 1 yr |
+| Drive belt: inspect | Every 30,000 mi or 2 yr | Every 30,000 mi or 2 yr |
+| Dust and pollen (cabin) filter | Every 30,000 mi or 2 yr | Every 30,000 mi or 2 yr; more often in special conditions (OM p.235) |
+| Air cleaner element | Every 30,000 mi | Every 15,000 mi (dusty conditions) |
+| Spark plugs | 110,000 mi | 110,000 mi |
+| Valve clearance | Inspect at 110,000 mi, otherwise adjust only if noisy | Same |
+| Automatic transmission fluid | 120,000 mi or 6 yr, then every 90,000 mi or 5 yr\* | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr |
+| Idle speed: inspect | Every 160,000 mi | Every 160,000 mi |
+| Engine coolant | 120,000 mi or 10 yr, then every 60,000 mi or 5 yr | Same |
+| Brake fluid | Every 3 years, regardless of mileage | Same |
+
+\* The footnote mark didn't survive in the PDF; this footnote is on p.202 and the ATF
+row is the only row it can belong to (single dot at 120,000 mi). The car is past every
+time limit, so in practice anything without a dated record in `log.md` is overdue.
+
+## Not in the owner's manual, still unverified
 
 | Item | Free source |
 |---|---|
-| Tire size and cold pressures (front/rear) | Driver door-jamb sticker (photo) |
-| Engine oil viscosity | Oil filler cap and owner's manual |
-| Engine oil capacity with filter | Owner's manual, specifications section |
-| Automatic transmission fluid type and capacity | Owner's manual |
-| Coolant type and capacity | Owner's manual |
-| Brake fluid type | Brake fluid reservoir cap and owner's manual |
-| Power steering fluid type | Reservoir cap and owner's manual |
-| Spark plug type and gap | Owner's manual or under-hood label |
-| Lug nut torque | Owner's manual (tire change section) or library service manual |
-| Any other torque spec | Library service manual (Chilton Library / ALLDATA through a public library) |
+| Door-jamb sticker (tire size, pressures, build month) | Photo of the driver door jamb |
+| Spark plug gap | Library service manual (Chilton Library) |
+| Every other torque spec (brakes, suspension, drain plugs, axle nut…) | Library service manual (Chilton Library / ALLDATA through a public library) |
 
 Format for new rows: value, then the source with page or section, then the date checked.
-Example: `| Engine oil capacity w/ filter | X.X US qt | VERIFIED: owner's manual p.NNN | 2026-10-22 |`

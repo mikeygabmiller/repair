@@ -5,20 +5,22 @@
 | Item | Value | Label |
 |---|---|---|
 | Year / make / model / trim | 2005 Honda Accord EX | Owner |
-| Body | **Sedan or coupe? (owner to confirm)** | — |
+| Body | 4-door sedan | OFFICIAL RECORD: NHTSA VIN decode |
 | Engine | 4 cylinders, 2.4 L | OFFICIAL RECORD: EPA (`epa.md`) |
-| Engine code | K24A4 | UNVERIFIED (Claude's memory). Check with the VIN decode or the under-hood emissions label |
+| Engine code | K24A4, 160 hp | OFFICIAL RECORD: NHTSA VIN decode |
 | Transmission | 5-speed automatic | OFFICIAL RECORD: EPA (`epa.md`) |
 | Drive | Front-wheel drive | OFFICIAL RECORD: EPA (`epa.md`) |
 | Fuel | Regular gasoline | OFFICIAL RECORD: EPA (`epa.md`) |
-| VIN | not added yet (`vehicle.json`) | — |
-| Build month | unknown until VIN/door-jamb label is checked (matters for recall 11V395000) | — |
+| VIN | 1HGCM56895A072328 (check digit valid) | OFFICIAL RECORD: NHTSA VIN decode |
+| Assembly plant | Marysville, Ohio, USA | OFFICIAL RECORD: NHTSA VIN decode |
+| Build month | unknown: it's on the driver door-jamb label, not in the VIN (matters for recall 11V395000) | — |
 | Current mileage | not added yet | — |
 
-**To finish this profile (all free):** add the VIN to `vehicle.json` (it's on the
-dashboard by the windshield, the driver door jamb, and the registration), then run the
-refresh command in `CLAUDE.md`. Also take photos of the door-jamb sticker and the
-under-hood emissions label.
+**To finish this profile (all free):** photos of the driver door-jamb sticker (build
+month, tire info) and the under-hood emissions label, plus the current mileage.
+
+Owner's manual: `sources/2005-accord-owners-manual.pdf` (Honda's 2005 Accord 4dr Online
+Reference Owner's Manual; covers all 2005 Accord sedans, 4- and 6-cylinder).
 
 ## Recalls that may apply to this car
 
