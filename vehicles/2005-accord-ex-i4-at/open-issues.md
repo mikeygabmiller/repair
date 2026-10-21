@@ -7,7 +7,13 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Owner report: took a turn, came to a stop, loud screeching/grinding from the front. Details pending (which side, did the car stop on its own, does it repeat).
 - Right front was apart on Oct 19 (ball joint separated, axle out and back in, sway bar link, ABS sensor area hammered); mudflaps recently added.
 - **Do not drive until the right front is inspected.**
-- Les Schwab free inspection booked 2026-10-21, 2 pm. Record what they find here.
+- **Les Schwab inspection 2026-10-21 (owner's summary, written quote pending):**
+  - Right front axle worn (expected).
+  - Wheel bearing "extremely loose" with a lot of play; the play lets the caliper rub the rotor (the noise). They say replace it.
+  - Axle nut not tight enough, and the nut appears stripped.
+- Likely link (UNVERIFIED): on this design the axle nut clamps the hub bearing, so a loose/stripped nut alone can cause bearing play. Driving on it may also have damaged the bearing. Ask whether play was judged with the nut loose.
+- Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
+- **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
