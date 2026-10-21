@@ -3,6 +3,11 @@
 Most urgent first. Update or close an item whenever something changes. Background is in
 `log.md` and `sources/project-history-2026-10-21.md`.
 
+## 0. NEW 2026-10-21: loud screech/grinding from the front in a turn while stopping
+- Owner report: took a turn, came to a stop, loud screeching/grinding from the front. Details pending (which side, did the car stop on its own, does it repeat).
+- Right front was apart on Oct 19 (ball joint separated, axle out and back in, sway bar link, ABS sensor area hammered); mudflaps recently added.
+- **Do not drive until the right front is inspected.**
+
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
