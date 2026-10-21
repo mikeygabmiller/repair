@@ -14,10 +14,18 @@
 | VIN | 1HGCM56895A072328 (check digit valid) | OFFICIAL RECORD: NHTSA VIN decode |
 | Assembly plant | Marysville, Ohio, USA | OFFICIAL RECORD: NHTSA VIN decode |
 | Build month | unknown: it's on the driver door-jamb label, not in the VIN (matters for recall 11V395000) | — |
-| Current mileage | not added yet | — |
+| Mileage | ~137,000 at purchase (Aug 2026); 138,943 on 2026-10-18 | Owner |
+| Paint / interior | NH658P Graphite Pearl, interior Type B | Owner, read from door jamb |
+| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner |
+| Engine notes | Timing chain (no belt) | VERIFIED: the 4-cylinder maintenance schedules have no timing belt item; the V6 ones do (OM pp.202–205) |
+| Role | Only vehicle: daily driver and work rig. Plan: sell around 170k, keep it documented | Owner |
+| Current setup | Front passenger seat and rear seatbacks removed for cargo | Owner |
+| Coating | CarPro CQuartz Lite | Owner, 2026-10-21 |
 
-**To finish this profile (all free):** photos of the driver door-jamb sticker (build
-month, tire info) and the under-hood emissions label, plus the current mileage.
+**Open problems:** `open-issues.md`. **History:** `log.md`.
+
+**To finish this profile (free):** a photo of the driver door-jamb sticker (build month,
+tire info) and the under-hood emissions label.
 
 Owner's manual: `sources/2005-accord-owners-manual.pdf` (Honda's 2005 Accord 4dr Online
 Reference Owner's Manual; covers all 2005 Accord sedans, 4- and 6-cylinder).

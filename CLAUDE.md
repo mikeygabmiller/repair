@@ -13,8 +13,11 @@ Scope: **repair only** (no detailing, no business). Current vehicle: the owner's
 1. **Pin the vehicle.** Use the vehicle folder. If the question could differ by engine,
    transmission, trim or build date, say which version the answer is for.
 2. **Check the repo first**, in this order: `profile.md` (car + known issues),
-   `specs.md` (already-verified numbers), `parts.md`, `log.md` (what's been done, at what
-   mileage), then search `recalls.md` and `complaints-all.md` for the symptom or part.
+   `open-issues.md` (what's broken now), `specs.md` (already-verified numbers),
+   `parts.md`, `log.md` (what's been done, at what mileage), then search `recalls.md` and
+   `complaints-all.md` for the symptom or part. `sources/project-history-2026-10-21.md`
+   is the owner's full history compiled from past AI chats: trust it for what the
+   owner did, never for specs or part numbers.
 3. **Then outside sources**, ranked below. Use web search/fetch when needed.
 4. **Label every fact** (spec, part number, step, diagnosis claim):
    - `VERIFIED: <source, page/section>`: from a Tier 1 or 2 source that Claude or the
@@ -44,6 +47,21 @@ Scope: **repair only** (no detailing, no business). Current vehicle: the owner's
   free), check recalls and bulletins, inspect, then test. Don't jump to replacing parts.
 - **The owner doesn't buy repair data.** Never recommend paid subscriptions; use the free
   sources below.
+
+## Owner's standing rules for the car
+
+Apply these to every recommendation without being reminded:
+- Done right, and nothing that hurts resale value. Reversible installs; keep OEM parts.
+- No cutting factory wiring, no drilling. Use adapter harnesses, Posi-Taps,
+  add-a-circuit fuse taps. If the only way involves drilling, say so up front.
+- Wire connections soldered and heat-shrunk.
+- OEM-spec parts preferred; name-brand aftermarket OK; no no-name budget parts.
+- Honda fluids (ATF, power steering fluid, Type 2 coolant).
+- It's the owner's only car: say how long a job really takes and whether it can leave
+  the car undrivable. Don't plan big jobs the night before a work day.
+- Give the proven shop method. "Try harder" is not an answer.
+- The owner has the radio anti-theft code, so disconnecting the battery is never blocked.
+- Every finished job goes in `log.md`.
 
 ## Source tiers (highest first)
 
@@ -77,4 +95,5 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 
 The long-term goal is a reliable repair assistant others could use. Before any public
 release: remove the VIN, remove copyrighted files in `sources/` (keep only the page
-citations), and check `log.md` for personal details. Until then **the repo stays private**.
+citations), remove or scrub `sources/project-history-*.md` and check `log.md` for
+personal details, and rewrite git history (an early commit carries the owner's email). Until then **the repo stays private**.

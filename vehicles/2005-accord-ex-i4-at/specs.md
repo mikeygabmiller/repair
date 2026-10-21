@@ -101,6 +101,31 @@ occasionally → normal schedule.
 row is the only row it can belong to (single dot at 120,000 mi). The car is past every
 time limit, so in practice anything without a dated record in `log.md` is overdue.
 
+## Past-chat numbers checked against the manual (2026-10-21)
+
+From `sources/project-history-2026-10-21.md`, section 6–7.
+
+**Manual agrees:** oil 5W-20, ~4.4 qt with filter · ATF drain-and-refill 3.0 qt ·
+Honda Type 2 coolant · DOT 3 brake fluid · Honda PSF, not ATF · lug nuts 80 lb-ft ·
+headlights 9005 high / 9006 low (HB3/HB4) · factory plugs NGK IZFR6K-11 / DENSO
+SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
+
+**Manual disagrees (the manual wins):**
+
+| Past chats said | Manual says | Source |
+|---|---|---|
+| ATF total ~7.4 qt | 6.9 US qt (6.5 L) for the 4-cylinder. 7.6 qt is the V6 figure | OM p.274 |
+| Valve lash due at 105k | 4-cylinder: **inspect at 110,000 mi**, otherwise adjust only if noisy. 105k is the V6 interval | OM p.202–203 |
+| ATF: Honda DW-1 | Honda ATF-Z1 (DEXRON III only temporarily). DW-1 as Z1's replacement is UNVERIFIED: ask a Honda parts counter | OM p.219 |
+| ATF: repeat drain-and-fill 3 times, 50–100 mi apart | A full change is 3 drain-and-refills with a short drive after each, then a final drain-and-refill | OM p.220 |
+| ATF: check engine off "within ~60 sec" | Check at normal operating temperature, level ground, engine shut off. The manual gives no time window | OM p.219 |
+| Power steering: Honda PSF only | Honda PSF preferred; another brand only as a temporary replacement; never ATF | OM Service Information Summary |
+
+**Not in the owner's manual (still UNVERIFIED, need the library service manual):**
+drain plug 29 lb-ft · ATF drain plug 36 lb-ft / 18 mm · spark plug torque 13 lb-ft ·
+**front axle nut 181 vs 134 lb-ft** · valve lash intake 0.21–0.25 mm / exhaust
+0.25–0.29 mm · brake bleed order RR, LR, RF, LF · battery group 51R.
+
 ## Not in the owner's manual, still unverified
 
 | Item | Free source |
