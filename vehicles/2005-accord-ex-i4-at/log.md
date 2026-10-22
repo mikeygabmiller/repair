@@ -7,7 +7,11 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
-## Date unknown: mudflaps / splash guards installed
+## 2026-10-22 (reported): right front CV axle replaced (mileage not recorded)
+- Owner: new axle "in and working." Axle is the Parts Geek order #31-12567661 (brand, part number not recorded; read from the box or the axle tag).
+- Not recorded yet: date done, mileage, new axle nut or reused, torque used and its source, whether the bearing/hub, rotor or pads were touched, whether the screech and the hard-acceleration shake are gone.
+- Lower ball joint was **not** replaced; its boot is now completely gone. See `open-issues.md` item 2.
+
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
 - Past-chat pick was A-Premium SG023; OEM numbers never confirmed (see `parts.md`).
 

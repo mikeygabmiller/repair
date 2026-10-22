@@ -14,13 +14,19 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
+- **2026-10-22 (owner): new axle installed, "in and working."** Not yet recorded: new axle nut or reused, torque used, whether the screech/rubbing is gone, whether the bearing still has play now the nut is tight, whether the bearing/hub or rotor/pads were replaced. Until those are answered, this item stays open.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
 - **Safety-critical. Get the real 4-cylinder spec from Chilton Library (free through a public library) before the axle job, and use a new nut.**
 
-## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
+## 2. Right front lower ball joint: boot completely gone (axle now done)
+- **2026-10-22 (owner): the lower ball joint boot is completely gone.** Torn by the pickle fork on Oct 19; now missing entirely. The joint has no seal: water and grit get straight into it and it wears from here on. New Moog K80228 is already on hand.
+- A lower ball joint carries the car's weight; if it separates, the wheel folds under (UNVERIFIED: general knowledge, not from a manual). Replace soon, not "someday". Watch for clunks over bumps or wandering steering.
+- 2026-10-22: new axle installed (see `log.md`). Whether the hard-acceleration shake is gone: not yet confirmed.
+
+### Background (from before the axle was installed)
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
 - 2026-10-21: owner says the shake is the same.
 - New axle on hand, not installed: Parts Geek order #31-12567661, placed 2026-10-10, delivered 2026-10-19, $83.74 total. The emails say only "2005 Honda Accord CV Axle Assembly": **brand, part number and side (right/passenger) are not in them**. Read the box label before the job.
