@@ -15,6 +15,8 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 - **2026-10-22 (owner): new axle installed, "in and working."** Not yet recorded: new axle nut or reused, torque used, whether the screech/rubbing is gone, whether the bearing still has play now the nut is tight, whether the bearing/hub or rotor/pads were replaced. Until those are answered, this item stays open.
+- **2026-10-22 (owner, follow-up):** screech/rubbing **gone**; shake under acceleration **gone**. Owner plans to keep the rotor and pads. Owner's voice-to-text reply on the nut reads "new axle not talk to spec": most likely "new axle nut torqued to spec", but the number used and its source are **not confirmed**.
+- Still to do: rock the wheel at 12 and 6 o'clock (wheel off the ground) to confirm no bearing play; measure the grooved right rotor against the minimum thickness cast/stamped on the rotor itself (Tier 1); check pad thickness.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
@@ -24,7 +26,11 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 ## 2. Right front lower ball joint: boot completely gone (axle now done)
 - **2026-10-22 (owner): the lower ball joint boot is completely gone.** Torn by the pickle fork on Oct 19; now missing entirely. The joint has no seal: water and grit get straight into it and it wears from here on. New Moog K80228 is already on hand.
 - A lower ball joint carries the car's weight; if it separates, the wheel folds under (UNVERIFIED: general knowledge, not from a manual). Replace soon, not "someday". Watch for clunks over bumps or wandering steering.
-- 2026-10-22: new axle installed (see `log.md`). Whether the hard-acceleration shake is gone: not yet confirmed.
+- 2026-10-22: new axle installed (see `log.md`); owner says the hard-acceleration shake is **gone**.
+- **Tools, 2026-10-22:** owner's O'Reilly does **not** have the Honda Ball Joint Adapter Set (67049) the poster lists.
+  - OTC sells a separate adapter kit for this generation: OTC 6734, "Honda/Acura Ball Joint Adapter Update", 3 pieces, used with OTC C-frame 7248; covers Accord sedan/coupe 2003–2007 and TSX 2004–2007 (VERIFIED: otctools.com product page, read 2026-10-22). ~$246, so not a buy. Implication: a generic "Honda" adapter set may be for older Hondas and not fit this car. Ask any loaner counter whether their set covers a 2003–2007 Accord.
+  - Fallback that needs no adapter: remove the knuckle and have a shop press the old joint out and the new one in on a hydraulic press. Needs another new axle nut (it is staked). Car is undrivable while the knuckle is out.
+  - Joint is held by a circlip (52226-SL0-003 in `parts.md`, UNVERIFIED): snap ring pliers needed.
 
 ### Background (from before the axle was installed)
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.

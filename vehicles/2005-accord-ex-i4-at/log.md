@@ -11,6 +11,7 @@ unless `specs.md` lists them.
 - Owner: new axle "in and working." Axle is the Parts Geek order #31-12567661 (brand, part number not recorded; read from the box or the axle tag).
 - Not recorded yet: date done, mileage, new axle nut or reused, torque used and its source, whether the bearing/hub, rotor or pads were touched, whether the screech and the hard-acceleration shake are gone.
 - Lower ball joint was **not** replaced; its boot is now completely gone. See `open-issues.md` item 2.
+- Follow-up same day (owner): screech/rubbing gone, shake under acceleration gone; keeping the rotor and pads. Nut reply was voice-to-text ("new axle not talk to spec"): torque value and source still not recorded.
 
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
