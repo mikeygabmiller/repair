@@ -12,6 +12,7 @@ unless `specs.md` lists them.
 - Not recorded yet: date done, mileage, new axle nut or reused, torque used and its source, whether the bearing/hub, rotor or pads were touched, whether the screech and the hard-acceleration shake are gone.
 - Lower ball joint was **not** replaced; its boot is now completely gone. See `open-issues.md` item 2.
 
+## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
 - Past-chat pick was A-Premium SG023; OEM numbers never confirmed (see `parts.md`).
 
