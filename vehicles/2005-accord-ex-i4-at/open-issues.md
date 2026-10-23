@@ -39,6 +39,9 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 
 ## 4. SRS (airbag) light on
 - Was on before the passenger seat was removed; removing the seat adds codes of its own.
+- **The light cannot go off while the passenger seat is out.** That seat carries the passenger weight sensors (VERIFIED: OM pp.23–24, 27), and the system monitors front passenger seat belt use (OM p.24). The manual says not to remove a front seat without consulting the dealer, because it makes the weight sensors ineffective (OM p.33). Any fix starts with the seat going back in.
+- Reconnecting the seat's yellow SRS connectors is airbag work: shop or dealer, not DIY. Easiest: have the shop reinstall the seat while the car is in for the axle job.
+- Known pattern on 2005 Accords (COMMUNITY: NHTSA complaints, several naming code 71-10 and/or 61-10): broken driver seat position sensor harness or driver buckle switch. Recall 07V001000 replaced that harness only on some VINs; many 2005 owners were told their VIN was outside it.
 - Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1. Meanings from past chats are guesses (UNVERIFIED).
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
