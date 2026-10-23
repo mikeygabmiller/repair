@@ -85,6 +85,8 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 - After any job, add an entry to `log.md` (date, mileage, what, parts used, notes).
 - New part numbers confirmed → `parts.md`. A full procedure worth reusing →
   `procedures/<job>.md` following `procedures/README.md`.
+- Chilton Library results pulled by another AI (Muse): import them following the rules at the top of
+  `prompts/muse-chilton-pull.md`. Screenshot = VERIFIED; typed-only value = UNVERIFIED.
 - Refresh official data: `python3 tools/lookup.py refresh vehicles/2005-accord-ex-i4-at`
   (also prints the VIN decode once `vehicle.json` has a VIN).
 - Knowledge updates should end up on `main` so the next session sees them.
