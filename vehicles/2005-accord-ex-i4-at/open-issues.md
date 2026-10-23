@@ -49,6 +49,9 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
   - If that's right, this car was in a frontal crash and the front airbags went off at some point. Unknown whether the airbags and tensioner were replaced with real Honda parts, or replaced at all.
   - Must be confirmed against the factory manual's SRS code chart (Chilton Library; or charm.li, which was down 2026-10-23), then a Honda dealer inspection.
   - The pasted Google AI code list (2026-10-23) doesn't include any of these codes and mixes in older-model codes. Don't use it.
+  - Owner, 2026-10-23: the MADDOX app's own code descriptions match. That's the same tool that read the codes, not an independent check.
+- **Owner facts (2026-10-23):** the SRS light was **not on when the car was bought** (Aug 2026). Prior owner (Chuck) said the front end had a minor accident before he got it (bumper only, no insurance claim). The owner had a low-speed bump with another car (paint transfer only, date not recorded). No airbag has deployed while the owner has had the car.
+- These don't fit together: deployment codes should keep the light on from the day of the crash. Open possibilities: the codes are misread; the light was disabled or the airbag computer reset or swapped before the sale; or something else. Tests are in order of cost, cheapest first: when the light first came on; whether it lights briefly at key-on; airbag covers checked for signs of replacement; whether the MADDOX "clear" removes E2-11/F1-11; ask Chuck; a Honda dealer reading with Honda's own scan tool.
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
