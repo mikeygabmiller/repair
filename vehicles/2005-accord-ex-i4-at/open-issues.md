@@ -43,6 +43,12 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Reconnecting the seat's yellow SRS connectors is airbag work: shop or dealer, not DIY. Easiest: have the shop reinstall the seat while the car is in for the axle job.
 - Known pattern on 2005 Accords (COMMUNITY: NHTSA complaints, several naming code 71-10 and/or 61-10): broken driver seat position sensor harness or driver buckle switch. Recall 07V001000 replaced that harness only on some VINs; many 2005 owners were told their VIN was outside it.
 - Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1. Meanings from past chats are guesses (UNVERIFIED).
+- **2026-10-23 code meanings (COMMUNITY: two Honda SRS code lists, ramblerdan.com/e/srs_codes.htm and safetyrestore.com's "Honda (2002-2011) SRS Airbag Module DTC Codes"; neither is Honda's manual):**
+  - 61-1x = open circuit in the driver's seat belt buckle switch.
+  - **E2-11 = passenger front airbag deployed. F1-11 = driver airbag and driver seat belt tensioner deployed.** These are crash records. A scan tool can't clear them; the SRS unit has to be replaced or reset, and every deployed part replaced.
+  - If that's right, this car was in a frontal crash and the front airbags went off at some point. Unknown whether the airbags and tensioner were replaced with real Honda parts, or replaced at all.
+  - Must be confirmed against the factory manual's SRS code chart (Chilton Library; or charm.li, which was down 2026-10-23), then a Honda dealer inspection.
+  - The pasted Google AI code list (2026-10-23) doesn't include any of these codes and mixes in older-model codes. Don't use it.
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
