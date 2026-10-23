@@ -33,7 +33,7 @@ in a Honda dealer's online parts catalog by VIN.
 | ATF drain plug washer | never found | |
 | Lower ball joint (front) | Moog K80228 (said to interchange with Honda 51210-SDA-A02); boot 51225-SL5-003; circlip 52226-SL0-003 | K80228 ordered, due 2026-10-23 |
 | Right front ABS sensor | Honda 57450-SDA-A11 (US-built; said to replace A01/A02). Japan-built 57450-SDC-013 / SDH-003 said NOT to fit | Name brands: SMP, Dorman, Denso, Bosch |
-| Interior bulbs | DE3175 festoon (dome/map), 168 (trunk, license), 194 (glovebox, door courtesy), 74 (ashtray) | Manual ratings agree: trunk 5 W, license 3 CP, door courtesy 2 CP, ceiling 8 W (OM p.275). Bulb trade numbers still unverified: pull one and match |
+| Interior bulbs | DE3175 festoon (dome/map), 168 (trunk, license), 194 (glovebox, door courtesy), 74 (ashtray) | Manual ratings agree: trunk 5 W, license 3 CP, door courtesy 2 CP, ceiling 8 W (OM p.275). Bulb trade numbers still unverified: pull one and match. **Map (spot) lights conflict (2026-10-23):** autofiles.com says DE3175 festoon; fatboysoffroad.com says 168/194 wedge. Neither is Tier 1–3. The manual gives only the 8 W rating, no bulb type |
 | Battery group size | 51R | Read it off the installed battery's label |
 | Fog light kit | Genuine Honda 08V31-SDA-101 (03–05 sedan) | Fog bulb listed as both 9005 and H11 |
 | Touch-up paint | Honda pen 08703-NH658PAH-A1 (paint code NH658P confirmed from door jamb) | |

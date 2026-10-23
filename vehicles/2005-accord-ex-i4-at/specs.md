@@ -74,6 +74,8 @@ copied here.
 
 Fuse charts: OM p.268 (under-hood) and p.269 (interior), also printed on the fuse box covers.
 
+Front ceiling light (EX): two push-on spotlights (map lights) plus a courtesy light between them. The middle courtesy light comes on with the parking lights and is dimmed by the Select/Reset knob (VERIFIED: OM p.101), so an LED there may flicker or not dim. Interior fuse #6 is "Interior Light", 7.5 A (VERIFIED: OM p.269).
+
 ## Maintenance schedule, 4-cylinder (OM p.202 normal, p.203 severe)
 
 Use **severe** if the car is driven MAINLY under any of these (OM p.199): trips under 5 mi
