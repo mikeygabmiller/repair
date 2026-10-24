@@ -12,7 +12,7 @@ cross-reference to when known.
 | Front axle nut socket | — | 32 mm | Test fit (36 mm too big) | 2026-10-19 |
 | Front wiper blades | — | BFGoodrich Beam, 26" driver / 18" passenger | Installed and fit | 2026-09 |
 | Headlight bulbs | High HB3 (9005), low HB4 (9006) | — | VERIFIED: OM p.275 (HB3/HB4) | 2026-10-21 |
-| Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM) | Installed and working | 2026-09-08 |
+| Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM; Yomikoo per listing video). Has a 3.5 mm AUX input and an AUX cable in the package; USB, AUX and Bluetooth can't be used at the same time; on AUX only the radio's volume works (no wheel buttons) | Installed and working. AUX details: COMMUNITY, Amazon listing (checked 2026-10-24); confirm the cable in the box | 2026-09-08 |
 | Battery | — | EverStart Maxx (made May 2025). Manual rating 38 AH/5 HR (OM p.275) | Installed | — |
 
 ## Unconfirmed (from past chats): confirm by VIN before ordering
