@@ -45,6 +45,12 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
 - Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
 
+## 4b. NEW 2026-10-24: O'Reilly scan tool would not connect to the OBD port
+- Owner report: employee tried ~5 min, said it might be a wiring problem. Reason for the scan, ignition position and mileage not recorded.
+- The port worked in Oct 2026: the owner's MADDOX MRBT read SRS/ABS codes (project history). So something changed recently, or the store's tool/procedure was the problem.
+- Owner's manual fuse charts (OM pp.268–269) do **not** name a fuse for the diagnostic connector. Which fuse feeds it: UNVERIFIED; get it from the Chilton Library wiring diagram (free with a library card).
+- Free test order: own MADDOX with ignition ON (II) → check every fuse visually and with a test light → test light / meter on the port's power and ground pins → battery voltage (item 5).
+
 ## 5. Battery drain (status unknown)
 - See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.
 - Next: load test (free at many parts stores) and a parasitic draw test. Suspects: Bluetooth adapter, camera wiring.
