@@ -16,10 +16,13 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
+- **2026-10-23 (owner): "fixed everything."** Who did the work, date, mileage, parts (axle brand/number, bearing/hub, ball joint, ABS sensor?, rotor/pads), axle nut torque used and alignment: **not recorded yet**. Close this item and log the job once those are in.
+
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
-- **Safety-critical. Get the real 4-cylinder spec from Chilton Library (free through a public library) before the axle job, and use a new nut.**
+- **Chilton (2026-10-23):** only the **Hybrid** version has the spindle nut: 24 × 1.5 mm, 245 N·m (181 lbf·ft). The 4-cyl parts catalog lists a **22 mm** nut, and the owner's 32 mm socket fits (36 mm too big). So the Hybrid number is probably for a different nut. UNVERIFIED (Claude's math): 181 N·m = 134 lbf·ft, which would fit the "unit mix-up" theory. If the 4-cyl spec is lower than 181 lbf·ft, the Oct 19 nut was over-tightened. That nut has since been called stripped/cross-threaded by Les Schwab anyway.
+- **Safety-critical. Still need the real 4-cylinder spec.** Free: a Honda dealer service desk (read from Honda service info by VIN), or the Chilton halfshaft or torque-spec pages that name the 4-cylinder. New nut every time (Chilton, Hybrid article).
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
@@ -33,17 +36,26 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - If the shake remains after the new axle: check the mounts.
 
 ## 3. ABS light, code 12-1 (since Oct 20)
-- Past-chat reading: right front wheel speed sensor, noisy or intermittent signal, likely damaged by hammering on the knuckle. Meaning of 12-1 is UNVERIFIED; a library service manual has the Honda code chart.
-- Normal brakes work; no anti-lock until fixed.
-- Part from past chats: Honda 57450-SDA-A11 (UNVERIFIED; confirm by VIN at a Honda parts counter).
+- Code meaning (Chilton, **V6** version; Chilton writes "12", not "12-1"): right front wheel sensor, **electrical noise or intermittent interruption**. Fixes it lists: wheel sensor, the magnetic encoder, or **the front wheel bearing**. That fits the loose bearing Les Schwab found.
+- The tone ring on this car is the **magnetic encoder inside the front wheel bearing**, not a ring on the axle (Chilton bearing article + parts catalog, `specs.md`). A new bearing must go in with the **brown encoder side facing the inside of the knuckle**, or the sensor can't read it.
+- 2026-10-23 (owner): repairs done, code cleared with the MADDOX, rescan shows no ABS codes, but **the light stays on**.
+- What Chilton says (V6 version): the light stays on until the fault is gone **and the car is driven**; noise faults clear on a test drive at **19 mph (30 km/h)**; codes survive a battery disconnect.
+- MADDOX MRBT: Harbor Freight's coverage tool showed nothing for this car, and the product page only promises reading/clearing **engine** codes. So "no ABS codes" may mean it never reached the ABS unit. Check: does ABS live data show four wheel speeds?
+- Next, in order: (1) drive over 19 mph, then restart; (2) MADDOX ABS live data, right front vs the others; (3) fuses #17 (30 A) and #18 (20 A) under the hood; (4) battery/charging test, since earlier ABS code 61 = low voltage (Chilton V6: "Check the charging system"); (5) if a new bearing went in, confirm the encoder faces inward, plus the sensor plug, seating and wire routing.
+- Normal brakes work; no anti-lock until fixed (OM p.185).
+- RF sensor part 57450-SDA-A11 confirmed by VIN (`parts.md`). Sensor bolt 9.8 N·m (7.2 lbf·ft) (`specs.md`).
+- NHTSA service bulletins: none about code 12/61, wheel sensors or the ABS light (all 190 read 2026-10-23).
 
 ## 4. SRS (airbag) light on
 - Was on before the passenger seat was removed; removing the seat adds codes of its own.
-- Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1. Meanings from past chats are guesses (UNVERIFIED).
+- Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1.
+- Meanings from Chilton (**Hybrid** version, not confirmed for this car, 2026-10-23):
+  - 61-10: open in the driver's seat belt buckle switch circuit.
+  - **E2-11 / F1-11: in a group meaning an airbag, side airbag, curtain airbag or seat belt tensioner has DEPLOYED.** Chilton says the SRS unit must be replaced after a deployment. This could mean a past crash or a fired belt tensioner. **Dealer job, never DIY.**
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
-- Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
+- Recalls: NHTSA VIN check shows **0 unrepaired recalls** (OFFICIAL RECORD, data refreshed 2026-10-22, checked 2026-10-23).
 
 ## 5. Battery drain (status unknown)
 - See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.

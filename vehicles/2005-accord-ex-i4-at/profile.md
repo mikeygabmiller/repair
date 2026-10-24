@@ -4,7 +4,7 @@
 
 | Item | Value | Label |
 |---|---|---|
-| Year / make / model / trim | 2005 Honda Accord EX | Owner |
+| Year / make / model / trim | 2005 Honda Accord EX (owner). A parts site's VIN decode says **EX-L**, which would fit the leather interior | Owner; EX-L: HondaPartsNow VIN decode 2026-10-23, unconfirmed |
 | Body | 4-door sedan | OFFICIAL RECORD: NHTSA VIN decode |
 | Engine | 4 cylinders, 2.4 L | OFFICIAL RECORD: EPA (`epa.md`) |
 | Engine code | K24A4, 160 hp | OFFICIAL RECORD: NHTSA VIN decode |
@@ -31,6 +31,10 @@ Owner's manual: `sources/2005-accord-owners-manual.pdf` (Honda's 2005 Accord 4dr
 Reference Owner's Manual; covers all 2005 Accord sedans, 4- and 6-cylinder).
 
 ## Recalls that may apply to this car
+
+**VIN check 2026-10-23: "0 Unrepaired Recalls associated with this VIN"** (OFFICIAL RECORD:
+nhtsa.gov/recalls, data refreshed Oct 22, 2026). Re-check before selling and every few
+months; Takata campaigns have reopened before.
 
 OFFICIAL RECORD: NHTSA (`recalls.md`, 24 campaigns for all 2005 Accords). Whether each
 applies, and whether it's already been done, is **only** known by entering the VIN at

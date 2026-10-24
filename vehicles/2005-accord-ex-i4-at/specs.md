@@ -121,17 +121,80 @@ SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
 | ATF: check engine off "within ~60 sec" | Check at normal operating temperature, level ground, engine shut off. The manual gives no time window | OM p.219 |
 | Power steering: Honda PSF only | Honda PSF preferred; another brand only as a temporary replacement; never ATF | OM Service Information Summary |
 
-**Not in the owner's manual (still UNVERIFIED, need the library service manual):**
-drain plug 29 lb-ft · ATF drain plug 36 lb-ft / 18 mm · spark plug torque 13 lb-ft ·
-**front axle nut 181 vs 134 lb-ft** · valve lash intake 0.21–0.25 mm / exhaust
-0.25–0.29 mm · brake bleed order RR, LR, RF, LF · battery group 51R.
+**Not in the owner's manual:** these past-chat numbers were checked in Chilton on
+2026-10-23. Results are in the next section. Still unverified: **front axle nut torque**
+and battery group 51R.
 
-## Not in the owner's manual, still unverified
+## From the library service manual (Chilton Library), 2026-10-23
+
+Read by Claude in Chrome through the Obion County library's Chilton access. Full record
+with menu paths and screenshot IDs: `sources/chilton-2026-10-23.md` (R1 = Report 1,
+R2 = Report 2, then the row ID).
+
+Chilton has no 2.4 L Accord version of many articles for this car, only V6, Hybrid or
+Acura TSX (K24). **Only the first table is confirmed for this car.**
+
+### Confirmed for the 2005 Accord 2.4 L
+
+| Item | Value | Applies to (as printed) | Source | Checked |
+|---|---|---|---|---|
+| Lug nuts | 80 ft-lbs | 2005 Accord EX 4-cyl row | VERIFIED: Chilton R2 A05 (agrees with OM p.250) | 2026-10-23 |
+| Front caliper bracket bolts | 80 ft-lbs | 2005 Accord, front | VERIFIED: Chilton R2 A05, Brakes › Specifications | 2026-10-23 |
+| Front caliper slide/guide bolts | 26 ft-lbs (V6 is 37) | 4-cylinder | VERIFIED: Chilton R2 A05, Brakes › Specifications | 2026-10-23 |
+| Front rotor thickness | Original 0.910 in; **minimum 0.830 in** | 2005 Accord, front (not V6 auto) | VERIFIED: Chilton R2 A06 | 2026-10-23 |
+| Front rotor max runout | 0.004 in | 2005 Accord, front | VERIFIED: Chilton R2 A06 | 2026-10-23 |
+| Front pad minimum lining | 0.060 in | Disc brake | VERIFIED: Chilton R2 A06 | 2026-10-23 |
+| Front wheel speed (ABS) sensor bolt | 6 mm bolt, 9.8 N·m (7.2 lbf·ft) | Figure for "Accord with 4-cylinder engine" | VERIFIED: Chilton R1 1d / R2 A05 | 2026-10-23 |
+| Tie rod end nut (outer) | Castle nut 29–35 ft-lbs (39–47 N·m); non-castle 32 ft-lbs (43 N·m); new cotter pin | Outer tie rods | VERIFIED: Chilton R2 A05, Steering › Tie Rod Ends | 2026-10-23 |
+| Damper fork through-bolt nut | 47 ft-lbs (65 N·m), all 4 wheels on the ground, new self-locking bolts | Struts article | VERIFIED: Chilton R2 A05. Pinch bolt (2003–06): NOT FOUND | 2026-10-23 |
+| Engine oil drain plug | 33 ft-lbs | 2005 Accord 2.4, K24A4 | VERIFIED: Chilton R2 C02. Past chats said 29: Chilton wins | 2026-10-23 |
+| ATF drain plug | 18 × 1.5 mm, 49 N·m (36 lbf·ft), new sealing washer | 2005–07 Accord | VERIFIED: Chilton R2 C01 (agrees with past chats) | 2026-10-23 |
+| ATF filler bolt | 24 × 1.5 mm, 44 N·m (33 lbf·ft), new sealing washer | 2005–07 Accord | VERIFIED: Chilton R2 C01 | 2026-10-23 |
+| Spark plug gap | 0.039–0.043 in (SULEV 0.047–0.051 in) | 2005 Accord 2.4 K24A4 | VERIFIED: Chilton R2 D02 | 2026-10-23 |
+| Spark plug torque | 13 ft-lbs | 2005 Accord 2.4 K24A4 | VERIFIED: Chilton R2 D02 (the 2026-10-18 plug job used 13) | 2026-10-23 |
+| Valve clearance, cold | Intake 0.008–0.010 in; exhaust 0.011–0.013 in | 2005 Accord 2.4 K24A4 tune-up table | VERIFIED: Chilton R2 D01. **Conflicts with the TSX article, see below** | 2026-10-23 |
+| Coolant capacity, 2.4 automatic | 5.3 qt | 2.4 Fluid Capacities table | VERIFIED: Chilton R2 C03 (agrees with OM: 1.32 gal = 5.3 qt) | 2026-10-23 |
+| Brake bleed order | **Front left, front right, rear right, rear left** | Sequence figure "for Accord" (article text is Hybrid) | VERIFIED: Chilton R2 C04. Past chats said RR, LR, RF, LF: Chilton wins | 2026-10-23 |
+| Under-hood ABS fuses | #17 30 A and #18 20 A (L4; 40 A on V6), both feed the ABS modulator-control unit | 2003–05 Accord (non-hybrid) | VERIFIED: Chilton R1 1f + OM p.268 ("ABS Motor" #17, "ABS F/S" #18) | 2026-10-23 |
+| Front ABS tone ring | It's the **magnetic encoder in the front wheel bearing** (brown side faces the inside of the knuckle), not a ring on the axle | Hybrid/V6 bearing article; 4-cyl parts catalog shows no ring on the axle | VERIFIED: Chilton R1 1c + parts catalog R1 3b | 2026-10-23 |
+
+### From another engine/model version only (NOT confirmed for the 2.4 L)
+
+Likely shared parts, but not proven. **Don't use the safety-critical ones (marked ⚠) as
+final** until a 2.4 L source agrees.
+
+| Item | Value | Version it's from | Source |
+|---|---|---|---|
+| ⚠ Front spindle (axle) nut | 24 × 1.5 mm, 245 N·m (181 lbf·ft), new nut, staked | 2005–07 **Accord Hybrid** | Chilton R1 1e / R2 A01 |
+| ⚠ Lower ball joint castle nut | 12 × 1.25 mm, 78–88 N·m (58–65 lbf·ft); torque to the low value, then tighten only to line up the cotter pin, never loosen | **Hybrid** knuckle figure | Chilton R2 A04 |
+| ⚠ Front stabilizer link nuts | Self-locking 38 N·m (28 lbf·ft); flange 29 N·m (22 lbf·ft); new nuts; re-tighten the self-locking nut after 5 min of driving | **Hybrid** | Chilton R2 A05 |
+| ⚠ Front lower arm bolts | 12 mm: 64 N·m (47 lbf·ft); 14 mm: 83 N·m (61 lbf·ft); new bolts; final-tighten with weight on the wheels | **Hybrid** | Chilton R2 A05 |
+| Splash guard screws / rotor flat screw | 9.8 N·m (7.2 lbf·ft) | **Hybrid** | Chilton R2 A05 |
+| ABS code 12 | Right front wheel sensor, electrical noise or intermittent signal. Fixes listed: sensor, magnetic encoder, **front wheel bearing** | 2003–05 Accord **V6** | Chilton R1 1a |
+| ABS code 61 | Low +B-FSR voltage → check the charging system | **V6** | Chilton R1 1a |
+| ABS light after a repair | Stays on until the fault is gone **and the car is driven**; noise faults clear on a test drive at **19 mph (30 km/h)**; codes survive a battery disconnect | **V6** | Chilton R1 1b |
+| Engine mounts | Side 64 N·m (47 lbf·ft); rear 54 N·m (40 lbf·ft) | Acura **TSX** | Chilton R2 D05 |
+| Valve lash locknuts | Intake 20 N·m (15 lbf·ft); exhaust 14 N·m (10 lbf·ft); valve cover final 12 N·m | Acura **TSX** | Chilton R2 D01 |
+| Charging system | Fault if over 15.1 V, or under 13.5 V at 2,000 rpm | Acura **TSX** | Chilton R2 E05 |
+| Power steering reservoir | 0.4 L (0.42 US qt) | 2003–05 Accord **V6** / 2006–07 Accord | Chilton R2 C05 |
+
+### Conflicts (both shown; which ranks higher)
+
+| Item | Source A | Source B | Which to use |
+|---|---|---|---|
+| ATF drain-and-refill | OM p.274: **3.0 US qt (2.8 L)** | Chilton R2 C01: 3.0 L (3.2 US qt), article covers 2005–07 Accord and 2003–04 V6 | OM: it's 4-cylinder-specific and Chilton's article mixes engines. Either way, fill to the dipstick mark |
+| ATF total (dry) | OM p.274: **6.9 US qt (6.5 L)** | Chilton R2 C01: overhaul 7.0 L (7.4 US qt) | OM, same reason. Only matters for a rebuild |
+| Exhaust valve clearance | Chilton 2005 Accord 2.4 table: **0.011–0.013 in (0.28–0.33 mm)** | Chilton TSX K24 article: 0.25–0.29 mm (0.010–0.011 in); past chats also said 0.25–0.29 | Accord table, because it names this car. Unsure: Honda dealer service desk. Intake agrees (0.20–0.25 mm) |
+| ⚠ Front axle nut | Hybrid: 24 mm thread, 181 lbf·ft | 4-cyl parts catalog lists a **22 mm** nut, and the 32 mm socket fits (36 mm too big, `parts.md`), so this is probably not the Hybrid's 24 mm nut | **Neither yet.** The real 4-cyl number is still needed (see `open-issues.md` #1) |
+
+## Not verified yet
 
 | Item | Free source |
 |---|---|
 | Door-jamb sticker (tire size, pressures, build month) | Photo of the driver door jamb |
-| Spark plug gap | Library service manual (Chilton Library) |
-| Every other torque spec (brakes, suspension, drain plugs, axle nut…) | Library service manual (Chilton Library / ALLDATA through a public library) |
+| **Front axle nut torque, 4-cylinder** | Honda dealer service desk (ask them to read it from Honda service info for the VIN), or Chilton: Driveline › Halfshafts › Removal & Installation (blank in R1, loaded in R2 but no torque reported), or Suspension/Driveline torque spec tables |
+| 2.4 L versions of the ball joint, stabilizer link and lower arm torques | Same: Honda dealer service desk, or a Chilton article that names the 4-cylinder |
+| Battery group size | Label on the installed battery |
+| Damper fork pinch bolt, rotor thickness variation, parasitic drain spec | Not in Chilton (R2 NOT FOUND list) |
 
 Format for new rows: value, then the source with page or section, then the date checked.

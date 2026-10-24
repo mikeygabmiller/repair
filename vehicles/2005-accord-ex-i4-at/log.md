@@ -7,6 +7,13 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## ~2026-10-23: right front repair reported finished; ABS light stays on
+- Owner: "fixed everything" (axle/bearing/ball joint work from `open-issues.md` #0–2). **Details pending:** who, date, mileage, parts, axle nut torque, alignment.
+- ABS code cleared with the MADDOX MRBT; rescan shows no ABS codes, but the light stays on. Next steps in `open-issues.md` #3.
+
+## 2026-10-23: Chilton Library lookups (no work on the car)
+- Claude in Chrome pulled specs, ABS/SRS code meanings, parts numbers and the NHTSA VIN recall check. Record: `sources/chilton-2026-10-23.md`; numbers in `specs.md` and `parts.md`.
+
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
 - Past-chat pick was A-Premium SG023; OEM numbers never confirmed (see `parts.md`).
