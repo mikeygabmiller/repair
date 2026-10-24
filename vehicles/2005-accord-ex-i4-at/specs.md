@@ -132,6 +132,7 @@ drain plug 29 lb-ft · ATF drain plug 36 lb-ft / 18 mm · spark plug torque 13 l
 |---|---|
 | Door-jamb sticker (tire size, pressures, build month) | Photo of the driver door jamb |
 | Spark plug gap | Library service manual (Chilton Library) |
+| Alignment tolerances (±), whether toe is total or per wheel and at what diameter, rear camber sign; tie rod jam nut and rear toe cam bolt torque | Library service manual, wheel alignment section (Chilton Library) |
 | Every other torque spec (brakes, suspension, drain plugs, axle nut…) | Library service manual (Chilton Library / ALLDATA through a public library) |
 
 Format for new rows: value, then the source with page or section, then the date checked.

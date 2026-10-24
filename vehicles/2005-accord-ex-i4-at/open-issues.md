@@ -14,6 +14,7 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
+- Alignment after this job: DIY string method in `procedures/accord-2005-wheel-alignment-diy.md` (DRAFT; needs FSM tolerances and torques first). Ben's scope doesn't include an alignment yet.
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
