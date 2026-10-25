@@ -54,6 +54,7 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 - Battery: EverStart Maxx, made May 2025 (under warranty per owner).
 
 ## 6. Maintenance with no record (treat as overdue)
+Order, shopping list and quantities: `plan-maintenance-catchup.md` (2026-10-25).
 Intervals are from the manual (`specs.md`, OM pp.202–203). Severe schedule likely applies (short local trips).
 - ATF: no record. Honda drain-and-refill method (OM p.220).
 - Engine coolant: no record (120k mi / 10 yr first change).
