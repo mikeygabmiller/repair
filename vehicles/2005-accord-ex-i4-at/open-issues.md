@@ -3,6 +3,9 @@
 Most urgent first. Update or close an item whenever something changes. Background is in
 `log.md` and `sources/project-history-2026-10-21.md`.
 
+**Items 0–3 are one job.** Options, parts list with Honda numbers, questions for Ben's and
+the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
+
 ## 0. NEW 2026-10-21: loud screech/grinding from the front in a turn while stopping
 - Owner report: took a turn, came to a stop, loud screeching/grinding from the front. Details pending (which side, did the car stop on its own, does it repeat).
 - Right front was apart on Oct 19 (ball joint separated, axle out and back in, sway bar link, ABS sensor area hammered); mudflaps recently added.
