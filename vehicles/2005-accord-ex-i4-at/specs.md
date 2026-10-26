@@ -54,6 +54,9 @@ copied here.
 | Compression ratio | 9.7:1 | VERIFIED: OM p.275 | 2026-10-21 |
 | Spark plugs | NGK IZFR6K-11 or DENSO SKJ20DR-M11. **Manual also lists** NGK IZFR6K-13 / DENSO SKJ20DR-M13 "on some models" without saying which: match the plug you pull out, or the under-hood label | VERIFIED: OM p.275 (conflict noted) | 2026-10-21 |
 | Battery | 12 V, 38 AH/5 HR | VERIFIED: OM p.275 | 2026-10-21 |
+| 12 V accessory sockets | 120 W / 10 A max, **combined** across all sockets; won't run a cigarette lighter element | VERIFIED: OM p.103 | 2026-10-26 |
+| When the sockets have power | Key in ACCESSORY (I) or ON (II); off with the key out | VERIFIED: OM p.78 | 2026-10-26 |
+| Socket fuse | Interior fuse box #9, 15 A, "Front Accessory Sockets" | VERIFIED: OM p.269 | 2026-10-26 |
 
 ## Bulbs (12 V)
 
