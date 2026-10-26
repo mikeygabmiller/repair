@@ -47,6 +47,7 @@ unless `specs.md` lists them.
 - After a jump it died ~5 min after shutoff. After a long key-on session: too weak to crank, radio still lit, 12.6 V at rest.
 - Earlier: 10.9 V after a failed crank, 11.8 V after rest, 14 V charging at idle and under load.
 - Load test and parasitic draw test never done. See `open-issues.md`.
+- 2026-10-26: owner reports no drain currently.
 
 ## 2026-09-07 to 09-08: 14-pin Bluetooth adapter (mileage not recorded)
 - Amazon B08JQ9G2LP, $53.94, plugged into the factory head unit in place of XM. Working Sep 8.

@@ -45,9 +45,10 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
 - Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
 
-## 5. Battery drain (status unknown)
-- See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.
-- Next: load test (free at many parts stores) and a parasitic draw test. Suspects: Bluetooth adapter, camera wiring.
+## 5. Battery drain: not happening now (owner, 2026-10-26)
+- **2026-10-26 (owner): no battery drain currently.** The September episodes are in `log.md` (Sep 8). Cause was never pinned down.
+- If it comes back: load test (free at many parts stores), then a parasitic draw test. Old suspects: Bluetooth adapter, camera wiring.
+- Keep new add-ons on key-on power anyway, so a stuck accessory can't flatten the only car.
 - Battery: EverStart Maxx, made May 2025 (under warranty per owner).
 
 ## 6. Maintenance with no record (treat as overdue)
