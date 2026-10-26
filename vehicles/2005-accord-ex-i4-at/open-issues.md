@@ -72,3 +72,8 @@ Intervals are from the manual (`specs.md`, OM pp.202–203). Severe schedule lik
 - Backup camera monitor adhesive lets go in heat; keep it out of the passenger airbag zone.
 - Center vent vane broken. Leather worn in areas.
 - VTC actuator cold-start rattle (known K24 issue per past chats; UNVERIFIED). Not urgent.
+
+## 8. Head unit install pending (bought 2026-10-26)
+- Eonon HAC1X7A + camera ordered. Checklist, questions for Eonon and wiring: `plan-head-unit-2026-10.md`.
+- Before install: check climate panel type (single vs dual zone), and do the parasitic draw test (item 5) on the old setup.
+- 90-day return window: install and test inside it.

@@ -16,7 +16,7 @@
 | Build month | unknown: it's on the driver door-jamb label, not in the VIN (matters for recall 11V395000) | — |
 | Mileage | ~137,000 at purchase (Aug 2026); 138,943 on 2026-10-18 | Owner |
 | Paint / interior | NH658P Graphite Pearl, interior Type B | Owner, read from door jamb |
-| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner |
+| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner. **Climate type conflict:** OM p.106 says automatic dual-zone climate is EX-L/EX-V6 only, and the VIN decodes as "EX" (NHTSA vPIC, 2026-10-26). Check the panel: AUTO/DUAL buttons or three plain dials |
 | Engine notes | Timing chain (no belt) | VERIFIED: the 4-cylinder maintenance schedules have no timing belt item; the V6 ones do (OM pp.202–205) |
 | Role | Only vehicle: daily driver and work rig. Plan: sell around 170k, keep it documented | Owner |
 | Current setup | Front passenger seat and rear seatbacks removed for cargo | Owner |

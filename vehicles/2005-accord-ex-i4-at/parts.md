@@ -15,6 +15,12 @@ cross-reference to when known.
 | Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM) | Installed and working | 2026-09-08 |
 | Battery | — | EverStart Maxx (made May 2025). Manual rating 38 AH/5 HR (OM p.275) | Installed | — |
 
+## Bought, not installed
+
+| Part | Detail | Status | Date |
+|---|---|---|---|
+| Head unit | Eonon HAC1X7A (2003–07 Accord, 10.1" Android 14, CarPlay/Android Auto) + backup camera bundle, ~$200 | Ordered. Plan and wiring: `plan-head-unit-2026-10.md` | 2026-10-26 |
+
 ## Unconfirmed (from past chats): confirm by VIN before ordering
 
 Free check: call or visit a Honda dealer parts counter with the VIN, or look up the part
@@ -43,4 +49,4 @@ in a Honda dealer's online parts catalog by VIN.
 | Touch-up paint | Honda pen 08703-NH658PAH-A1 (paint code NH658P confirmed from door jamb) | |
 | Splash guards (OEM) | 08P00-SDA-100, 08P00-SDA-101A (listed 2006–07), 08P08-SDA-100 | Aftermarket SG023 was the past-chat pick. Which set is on the car: not recorded |
 | Hood struts (aftermarket) | Redline QuickLIFT PLUS 21-18002-02 + riveter 38-00047 | Needs drilling (conflicts with the no-drill rule) |
-| Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Only if going CarPlay |
+| Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Name-brand route, not used: Eonon HAC1X7A bought instead (see Bought, not installed) |
