@@ -60,7 +60,7 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
-- Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
+- Recalls: **confirmed 2026-10-26, 0 open recalls on the VIN** (OFFICIAL RECORD: NHTSA VIN lookup; Honda MyGarage agrees). Completed-recall history (which airbag work was done, when) is still unknown: call Honda 1-888-234-2138.
 
 ## 5. Battery drain (status unknown)
 - See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.

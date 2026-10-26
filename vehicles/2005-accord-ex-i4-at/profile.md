@@ -38,6 +38,8 @@ applies, and whether it's already been done, is **only** known by entering the V
 dealer. Confirm that when booking, because the free-repair obligation depends on the
 car's age when the recall was issued.
 
+**VIN check 2026-10-26 (owner screenshots): 0 open recalls.** OFFICIAL RECORD: nhtsa.gov/recalls, "0 Unrepaired Recalls associated with this VIN" (recall data refreshed Oct 24, 2026). Honda MyGarage for the same VIN: "no active recalls" (last updated 10/18/2026). These lookups list only unfixed recalls, so each campaign below was either done or doesn't cover this VIN; which one, and when, needs Honda customer service (1-888-234-2138) or a dealer. Re-check every few months: new campaigns get added.
+
 **Do first: Takata airbag inflators.** Campaigns 19V499000, 19V501000, 19V182000,
 15V370000, 15V320000, 14V700000, 14V353000 (the last two were regional: humid areas and
 California). Inflators can explode in a crash and throw metal fragments. 19V182000,
