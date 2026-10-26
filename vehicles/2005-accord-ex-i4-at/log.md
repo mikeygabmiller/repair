@@ -7,6 +7,11 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## ~2026-10-24 to 10-26: front passenger seat reinstalled by owner (mileage not recorded)
+- All yellow SRS connectors plugged back in by the owner. Unknown whether the battery was disconnected first. Seat bolt torque not recorded (spec must come from the service manual).
+- Afterward the Side Airbag Off indicator lights briefly at start, then goes out. That's the normal key-on check (VERIFIED: OM p.31).
+- Cleared SRS codes with the MADDOX. Rescan shows the same codes: 61-10, E2-11, F1-11. See `open-issues.md` item 4.
+
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
 - Past-chat pick was A-Premium SG023; OEM numbers never confirmed (see `parts.md`).
