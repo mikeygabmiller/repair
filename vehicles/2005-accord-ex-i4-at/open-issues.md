@@ -17,6 +17,10 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
+- **2026-10-27 (owner): car dropped off at Ben's Auto Care for the lower ball joint; work still being done today.** Two add-ons per Ben (verbal, owner's summary):
+  - Waiting on a **grease fitting (zerk)** for the lower ball joint. Open question: our notes say Moog K80228 is *not* greaseable (seller listings, COMMUNITY), so ask whether Ben used the owner's K80228 or a different joint, and if the car leaves before the fitting arrives, whether the hole is plugged and the joint already greased.
+  - **Right front ABS sensor snapped** while pressing the ball joint out of the knuckle. Ben is ordering one: **$40**. Brand/part number not given yet. That sensor was already suspected bad (item 3), so this is a part that was on the list anyway.
+  - Still to confirm with Ben: full scope today (axle? bearing/hub? axle nut torque source?), alignment, warranty, and whether the car is safe to drive until the parts arrive (ABS stays off until the sensor is in).
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
@@ -38,6 +42,7 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 ## 3. ABS light, code 12-1 (since Oct 20)
 - Past-chat reading: right front wheel speed sensor, noisy or intermittent signal, likely damaged by hammering on the knuckle. Meaning of 12-1 is UNVERIFIED; a library service manual has the Honda code chart.
 - Normal brakes work; no anti-lock until fixed.
+- 2026-10-27: old sensor snapped at Ben's during the ball joint press; Ben ordering a replacement ($40). Ask for the brand and part number (cross-check against 57450-SDA-A11) and clear the code after install.
 - Part from past chats: Honda 57450-SDA-A11 (UNVERIFIED; confirm by VIN at a Honda parts counter).
 
 ## 4. SRS (airbag) light on
