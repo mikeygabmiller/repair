@@ -3,29 +3,36 @@
 Most urgent first. Update or close an item whenever something changes. Background is in
 `log.md` and `sources/project-history-2026-10-21.md`.
 
-**Items 0–3 are one job.** Options, parts list with Honda numbers, questions for Ben's and
-the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
+**Status 2026-10-27 (owner): the car is drivable.** New right axle + new axle nut (owner,
+last week) and new lower ball joint (Ben's) are in. Still open on the right front: the ABS
+signal (item 3) and the grooved rotor/pads. Background: `plan-right-front-2026-10.md`.
 
-## 0. NEW 2026-10-21: loud screech/grinding from the front in a turn while stopping
+## 0. RESOLVED 2026-10-27: right front grinding, loose bearing, stripped axle nut
+- **Owner, 2026-10-27: car is drivable; the axle and axle nut issue is fixed** (new axle and new axle nut, installed by the owner the week of Oct 19–26; bearing play gone). The "do not drive / tow" warnings below are history, no longer in force.
+- Still open from this item: the right front rotor was being grooved by the caliper; check the rotor and pads (not yet inspected after the fix). Optional: free re-check of bearing play at a shop.
+
+History:
 - Owner report: took a turn, came to a stop, loud screeching/grinding from the front. Details pending (which side, did the car stop on its own, does it repeat).
 - Right front was apart on Oct 19 (ball joint separated, axle out and back in, sway bar link, ABS sensor area hammered); mudflaps recently added.
-- **Do not drive until the right front is inspected.**
+- (Was, until 2026-10-27) Do not drive until the right front is inspected.
 - **Les Schwab inspection 2026-10-21, 139,032 mi (free suspension check, written notes):** "Recommend replace front right bearing because of movement and recommend replace CV axle due to CV axle not being tight and looks cross threaded." Owner declined and signed their waiver.
   - Owner's verbal summary: axle worn; bearing very loose, play lets the caliper rub the rotor (the noise); axle nut under-torqued and stripped.
   - Quote (valid to 2026-11-20): front bearing PRB510073 $128.48 · front hub MPB63085 $110.11 · right CV axle HO8176 $157.74 · axle install labor $148.99 · hub assembly replacement w/ press off rotor $232.99 · thrust-angle alignment $119.99 · tax $84.45 · **total $982.75**. Lower ball joint is **not** on the quote. Bearing/hub brand not shown.
 - Likely link (UNVERIFIED): on this design the axle nut clamps the hub bearing, so a loose/stripped nut alone can cause bearing play. Driving on it may also have damaged the bearing. Ask whether play was judged with the nut loose.
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
-- **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
+- (Was, until 2026-10-27) Do not drive: stripped, loose axle nut plus a loose bearing.
 - 2026-10-27 (owner): new axle and new axle nut installed last week; owner reports no bearing play. If a re-check (wheel off the ground, rock it at 12 and 6 o'clock) confirms that, Les Schwab's "movement" was likely the loose nut and the bearing may not need replacing for play. It may still need replacing if its ABS magnetic ring is damaged (item 3).
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
-- 2026-10-27 (owner): that $275 turned out to be for the **lower ball joint only** (done). Bearing, hub, axle and axle nut still open unless Ben says otherwise.
+- 2026-10-27 (owner): that $275 turned out to be for the **lower ball joint only** (done). Axle and nut were done by the owner (above).
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
-## 1. Front axle nut torque is unverified, and the car is being driven on it
-- **2026-10-27 (owner): axle replaced last week with a new axle nut; owner says the bearing has no play now.** Torque used and its source not recorded. Bearing play not yet re-checked by a shop.
+## 1. RESOLVED 2026-10-27: front axle nut
+- **Owner, 2026-10-27: fixed. New axle nut on the new axle; car drivable.** Only loose end: the torque number used and its source weren't recorded (`log.md`). If it came from Chilton, add it to `specs.md`.
+
+History:
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
-- **Safety-critical. Get the real 4-cylinder spec from Chilton Library (free through a public library) before the axle job, and use a new nut.**
+- Safety-critical spec: the real 4-cylinder number belongs in `specs.md` with its Chilton citation.
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.

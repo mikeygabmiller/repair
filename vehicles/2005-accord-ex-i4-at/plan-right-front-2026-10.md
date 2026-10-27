@@ -6,9 +6,11 @@ steps and torque specs still have to come from the factory service manual (Chilt
 Library, free with a library card). Once the job is done, the real procedure goes in
 `procedures/` and the job goes in `log.md`.
 
-**The car stays parked until this is done.** Loose bearing, a stripped and possibly
-cross-threaded axle nut, and a caliper already grooving the rotor (`open-issues.md` item 0).
-Tow it to whoever does the work.
+**Update 2026-10-27 (owner): the car is drivable.** Axle and new axle nut done by the
+owner, lower ball joint done by Ben's ($275), ABS sensor replaced by Ben's. Bearing play is
+gone, so the bearing is only needed if its ABS magnetic ring turns out to be bad
+(`open-issues.md` item 3). Rotor and pads still to check. The rest of this sheet is the
+plan as written on 2026-10-25.
 
 ## 1. What the job actually is
 
