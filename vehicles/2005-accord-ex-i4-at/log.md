@@ -7,8 +7,10 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
-## Reported 2026-10-27: right front ABS sensor replaced by Ben's Auto Care (mileage not recorded)
-- Owner relaying Ben. Charged **$275** for what Ben estimated at about 1.5 hours (owner, 2026-10-27). Same figure as Ben's earlier $275 labor offer for the whole right front job with customer parts: what this charge covered is not confirmed. Date of work and sensor brand/part number not recorded yet.
+## Reported 2026-10-27: Ben's Auto Care, right front lower ball joint + ABS sensor (mileage not recorded)
+- **Lower ball joint replaced** with the owner's Moog K80228: **$275 labor**, about 1.5 hours by Ben's estimate (owner, 2026-10-27).
+- **Right front ABS sensor replaced.** Brand/part number and whether it was a separate charge not recorded yet.
+- Date of work not recorded. Not known yet: whether the axle, the stripped axle nut or the loose bearing were touched.
 - Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md` item 3.
 
 ## Date unknown: mudflaps / splash guards installed

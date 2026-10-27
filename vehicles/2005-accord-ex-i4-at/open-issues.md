@@ -17,6 +17,7 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
+- 2026-10-27 (owner): that $275 turned out to be for the **lower ball joint only** (done). Bearing, hub, axle and axle nut still open unless Ben says otherwise.
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
@@ -28,6 +29,7 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
 - 2026-10-21: owner says the shake is the same.
 - New axle on hand, not installed: Parts Geek order #31-12567661, placed 2026-10-10, delivered 2026-10-19, $83.74 total. The emails say only "2005 Honda Accord CV Axle Assembly": **brand, part number and side (right/passenger) are not in them**. Read the box label before the job.
+- **2026-10-27: lower ball joint replaced by Ben's Auto Care** with the owner's Moog K80228, $275 labor (`log.md`). Torn-boot part of this item is done; the shake and the axle are not.
 - New Moog K80228 lower ball joint on hand (owner, 2026-10-21). Press-in joint: plan is an O'Reilly loaner press kit.
 - Seller listings (COMMUNITY): K80228 is press-in, not greaseable, has a cotter pin hole, "includes mounting hardware", no instructions included.
 - Do the ABS sensor (item 3) in the same job.
