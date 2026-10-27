@@ -6,9 +6,11 @@ steps and torque specs still have to come from the factory service manual (Chilt
 Library, free with a library card). Once the job is done, the real procedure goes in
 `procedures/` and the job goes in `log.md`.
 
-**The car stays parked until this is done.** Loose bearing, a stripped and possibly
-cross-threaded axle nut, and a caliper already grooving the rotor (`open-issues.md` item 0).
-Tow it to whoever does the work.
+**Update 2026-10-27 (owner): the car is drivable.** Axle and new axle nut done by the
+owner, lower ball joint done by Ben's ($275), ABS sensor replaced by Ben's. Bearing play is
+gone, so the bearing is only needed if its ABS magnetic ring turns out to be bad
+(`open-issues.md` item 3). Rotor and pads still to check. The rest of this sheet is the
+plan as written on 2026-10-25.
 
 ## 1. What the job actually is
 
@@ -147,7 +149,11 @@ bring the list to the shop if B (a good shop has them; asking costs nothing).
 
 - Alignment. Specs are in `specs.md` (OM p.275).
 - Clear the ABS code and drive: does the light stay off? If 12-1 comes back with a new
-  sensor, the tone ring on the new axle or the sensor's wiring is next.
+  sensor, check the bearing's magnetic encoder (likely this car's "tone ring", on the
+  bearing's inboard face, not on the axle: see `open-issues.md` item 3) and the sensor's
+  wiring.
+- When the new bearing goes in: brown encoder side faces **in**, toward the ABS sensor
+  (MOTOR Magazine, Aug 2013, p.16; confirm in Chilton).
 - Re-check the axle nut torque after the first drive if the manual says to.
 - Is the hard-acceleration shake gone? If not, the mounts are next (`open-issues.md` item 2).
 - Log it: date, mileage, every part number actually installed (read off the boxes), who

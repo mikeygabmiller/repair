@@ -33,7 +33,7 @@ in a Honda dealer's online parts catalog by VIN.
 | ATF drain plug washer | never found | |
 | Lower ball joint (front) | Honda **51220-SDA-A02, now 51220-SDA-305** (HondaPartsNow, 2026-10-25). Moog K80228 on hand. Boot 51225-SL5-003; circlip 52226-SL0-003 (past chats) | Past chats said K80228 crosses to 51210-SDA-A02: **wrong, that's the right front knuckle**. K80228 → 51220-SDA-A02 still to check on Moog's catalog |
 | Right front ABS sensor | Honda 57450-SDA-A11, replaces -A02/-A01 (HondaPartsNow lists it for every 2003–07 Accord incl. 2005 4-door EX KA 5AT, 2026-10-25). Japan-built 57450-SDC-013 / SDH-003 said NOT to fit (past chats) | Name brands: SMP, Dorman, Denso, Bosch |
-| Front hub bearing | Honda 44300-TR4-A51 (replaces 44300-SDA-A52/-A51, NSK) | HondaPartsNow, 2026-10-25. See `plan-right-front-2026-10.md` |
+| Front hub bearing | Honda 44300-TR4-A51 (replaces 44300-SDA-A52/-A51, NSK) | HondaPartsNow, 2026-10-25. See `plan-right-front-2026-10.md`. Must have the ABS magnetic encoder (`open-issues.md` item 3). Name-brand candidates, not yet cross-checked against the Honda number: SKF FW48 (SKF tech tip via Brake & Front End: 2003–07 Accord, integrated tone ring), Timken 510073 (seen ~$56 at a bearing supplier, 2026-10-27; fitment not confirmed) |
 | Front hub | Honda 44600-SDA-A00 (4-cyl 5AT only; -A10 is V6/manual) | HondaPartsNow, 2026-10-25 |
 | Front axle (spindle) nut | Honda 90305-692-010, "Nut, Spindle (22MM)" (4-cyl 5AT only; 24 mm 90305-SD4-003 is V6 and others) | HondaPartsNow, 2026-10-25. Fits the 32 mm socket confirmed above |
 | Front rotor | Honda 45251-TA0-A02 or 45251-TA5-A00: catalog lists both for a 4-door EX KA 5AT | VIN decides |
