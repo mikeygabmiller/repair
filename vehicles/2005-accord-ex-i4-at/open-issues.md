@@ -3,9 +3,10 @@
 Most urgent first. Update or close an item whenever something changes. Background is in
 `log.md` and `sources/project-history-2026-10-21.md`.
 
-**Status 2026-10-27 (owner): the car is drivable.** New right axle + new axle nut (owner,
-last week) and new lower ball joint (Ben's) are in. Still open on the right front: the ABS
-signal (item 3) and the grooved rotor/pads. Background: `plan-right-front-2026-10.md`.
+**Status 2026-10-27 (owner): car back from Ben's and drivable.** Right front has a new
+axle, new axle nut (owner) and new lower ball joint (Ben's). Still open on the right front:
+the ABS (item 3: Ben found the bearing's tone ring damaged, quote below) and the grooved
+rotor/pads. Background: `plan-right-front-2026-10.md`.
 
 ## 0. RESOLVED 2026-10-27: right front grinding, loose bearing, stripped axle nut
 - **Owner, 2026-10-27: car is drivable; the axle and axle nut issue is fixed** (new axle and new axle nut, installed by the owner the week of Oct 19–26; bearing play gone). The "do not drive / tow" warnings below are history, no longer in force.
@@ -47,6 +48,9 @@ History:
 - If the shake remains after the new axle: check the mounts.
 
 ## 3. ABS light, code 12-1 (since Oct 20)
+- **2026-10-27, Ben's diagnosis (owner relaying):** the ABS fault is the **tone ring on the right front wheel bearing, damaged**. Ben compared it with the left side; the right one is "definitely damaged".
+- **Ben's quote (Tekmetric, 2026-10-27, tech "B Ieremie"):** R&R front wheel bearing, one side, labor **$404.25** · NSK wheel bearing ×1 **$93.04** · subtotal $497.29 · est. tax $46.75 · **total $544.04**. No hub, alignment, rotor or pads on it.
+- Compare: Les Schwab quote (item 0, valid to 2026-11-20) bearing $128.48 + hub $110.11 + hub/bearing labor w/ press off rotor $232.99 = $471.58 + tax ≈ $516, **includes a new hub**; brand not shown. Honda bearing 44300-TR4-A51 $119.63 (catalog, 2026-10-25). NSK makes Honda's original bearing (`plan-right-front-2026-10.md`).
 - Past-chat reading: right front wheel speed sensor, noisy or intermittent signal, likely damaged by hammering on the knuckle. Meaning of 12-1 is UNVERIFIED; a library service manual has the Honda code chart.
 - Normal brakes work; no anti-lock until fixed.
 - Part from past chats: Honda 57450-SDA-A11 (UNVERIFIED; confirm by VIN at a Honda parts counter).
