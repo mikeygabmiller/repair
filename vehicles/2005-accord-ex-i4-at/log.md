@@ -16,6 +16,7 @@ unless `specs.md` lists them.
 - **Right front ABS sensor replaced.** Brand/part number and whether it was a separate charge not recorded yet.
 - Date of work not recorded. Not known yet: whether the axle, the stripped axle nut or the loose bearing were touched.
 - Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md` item 3.
+- 2026-10-27: car picked up. Ben's final word: ABS fault is the damaged tone ring on the right front wheel bearing (compared with the left side). Quoted $544.04 for an NSK bearing installed (`open-issues.md` item 3). Owner's status summary listed axle, axle nut and ball joint as new; **ABS sensor replacement to be confirmed** against the invoice.
 
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
