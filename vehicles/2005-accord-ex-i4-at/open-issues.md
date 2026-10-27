@@ -57,6 +57,7 @@ History:
 ## 4. SRS (airbag) light on
 - Was on before the passenger seat was removed; removing the seat adds codes of its own.
 - Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1. Meanings from past chats are guesses (UNVERIFIED).
+- Lead to check (free): recall **07V001000** (Honda A07-002, driver's seat position sensor harness) says a broken sensor wire turns the SRS light on. Whether that recall was done on this VIN, and whether it matches these codes, is unknown. Check the VIN at nhtsa.gov/recalls or ask a Honda dealer's service desk; open recalls are fixed free.
 - **With the SRS light on, the airbags may not deploy in a crash.**
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
