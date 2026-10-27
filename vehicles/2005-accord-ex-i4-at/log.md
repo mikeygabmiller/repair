@@ -8,7 +8,7 @@ owner's record. Specs used in those jobs came from past chats and are **not** ve
 unless `specs.md` lists them.
 
 ## Reported 2026-10-27: right front ABS sensor replaced by Ben's Auto Care (mileage not recorded)
-- Owner relaying Ben. Date of work, sensor brand/part number and cost not recorded yet.
+- Owner relaying Ben. Charged **$275** for what Ben estimated at about 1.5 hours (owner, 2026-10-27). Same figure as Ben's earlier $275 labor offer for the whole right front job with customer parts: what this charge covered is not confirmed. Date of work and sensor brand/part number not recorded yet.
 - Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md` item 3.
 
 ## Date unknown: mudflaps / splash guards installed
