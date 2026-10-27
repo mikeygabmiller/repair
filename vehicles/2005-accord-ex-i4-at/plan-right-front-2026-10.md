@@ -147,7 +147,11 @@ bring the list to the shop if B (a good shop has them; asking costs nothing).
 
 - Alignment. Specs are in `specs.md` (OM p.275).
 - Clear the ABS code and drive: does the light stay off? If 12-1 comes back with a new
-  sensor, the tone ring on the new axle or the sensor's wiring is next.
+  sensor, check the bearing's magnetic encoder (likely this car's "tone ring", on the
+  bearing's inboard face, not on the axle: see `open-issues.md` item 3) and the sensor's
+  wiring.
+- When the new bearing goes in: brown encoder side faces **in**, toward the ABS sensor
+  (MOTOR Magazine, Aug 2013, p.16; confirm in Chilton).
 - Re-check the axle nut torque after the first drive if the manual says to.
 - Is the hard-acceleration shake gone? If not, the mounts are next (`open-issues.md` item 2).
 - Log it: date, mileage, every part number actually installed (read off the boxes), who

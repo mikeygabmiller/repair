@@ -7,6 +7,10 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## Reported 2026-10-27: right front ABS sensor replaced by Ben's Auto Care (mileage not recorded)
+- Owner relaying Ben. Date of work, sensor brand/part number and cost not recorded yet.
+- Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md` item 3.
+
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
 - Past-chat pick was A-Premium SG023; OEM numbers never confirmed (see `parts.md`).
