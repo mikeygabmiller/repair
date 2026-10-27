@@ -71,6 +71,8 @@ copied here.
 | Spotlights/front ceiling (EX) | 8 W | VERIFIED: OM p.275 |
 | Ceiling light | 8 W | VERIFIED: OM p.275 |
 | Trunk light | 5 W | VERIFIED: OM p.275 |
+| Door courtesy light | 2 CP | VERIFIED: OM p.275 |
+| Vanity mirror lights | 1.1 W | VERIFIED: OM p.275 |
 
 Fuse charts: OM p.268 (under-hood) and p.269 (interior), also printed on the fuse box covers.
 
