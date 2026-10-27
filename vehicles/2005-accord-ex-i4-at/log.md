@@ -7,6 +7,10 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## Week of 2026-10-19 to 10-26 (exact date not recorded): right front CV axle replaced, new axle nut (owner)
+- Owner report, 2026-10-27: replaced the axle and put on a new axle nut; says the bearing now has no play.
+- Not recorded yet: date, mileage, axle brand/part number (Parts Geek axle from `open-issues.md` item 2?), nut part number, torque used and where that number came from, whether the nut was staked.
+
 ## Reported 2026-10-27: Ben's Auto Care, right front lower ball joint + ABS sensor (mileage not recorded)
 - **Lower ball joint replaced** with the owner's Moog K80228: **$275 labor**, about 1.5 hours by Ben's estimate (owner, 2026-10-27).
 - **Right front ABS sensor replaced.** Brand/part number and whether it was a separate charge not recorded yet.

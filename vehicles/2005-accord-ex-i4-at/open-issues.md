@@ -16,11 +16,13 @@ the Chilton spec checklist: `plan-right-front-2026-10.md` (2026-10-25).
 - Likely link (UNVERIFIED): on this design the axle nut clamps the hub bearing, so a loose/stripped nut alone can cause bearing play. Driving on it may also have damaged the bearing. Ask whether play was judged with the nut loose.
 - Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
 - **Do not drive: stripped, loose axle nut plus a loose bearing. Tow.**
+- 2026-10-27 (owner): new axle and new axle nut installed last week; owner reports no bearing play. If a re-check (wheel off the ground, rock it at 12 and 6 o'clock) confirms that, Les Schwab's "movement" was likely the loose nut and the bearing may not need replacing for play. It may still need replacing if its ABS magnetic ring is damaged (item 3).
 - 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
 - 2026-10-27 (owner): that $275 turned out to be for the **lower ball joint only** (done). Bearing, hub, axle and axle nut still open unless Ben says otherwise.
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
 ## 1. Front axle nut torque is unverified, and the car is being driven on it
+- **2026-10-27 (owner): axle replaced last week with a new axle nut; owner says the bearing has no play now.** Torque used and its source not recorded. Bearing play not yet re-checked by a shop.
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
 - **Safety-critical. Get the real 4-cylinder spec from Chilton Library (free through a public library) before the axle job, and use a new nut.**
