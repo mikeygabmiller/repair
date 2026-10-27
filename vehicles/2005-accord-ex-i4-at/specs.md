@@ -101,7 +101,35 @@ occasionally → normal schedule.
 row is the only row it can belong to (single dot at 120,000 mi). The car is past every
 time limit, so in practice anything without a dated record in `log.md` is overdue.
 
-## Past-chat numbers checked against the manual (2026-10-21)
+## From Chilton Library (owner's research pack, 2026-10-27)
+
+Source: `sources/chilton-pack-F-2026-10-27.md` (Chilton Library via the public library;
+configuration EX, 2.4 L, automatic). Screenshot IDs are listed in the pack but the images
+weren't saved. Values the pack calls "from A–E" come from an earlier pack not yet in the
+repo.
+
+| Item | Value | Source | Checked |
+|---|---|---|---|
+| Engine oil drain plug torque | **33 lbf·ft** (2005 Accord 2.4, K24A4). Replaces the unverified 29 lb-ft from past chats | VERIFIED: Chilton (pack F02, citing pack A–E) | 2026-10-27 |
+| Spark plug gap | 0.039–0.043 in (1.0–1.1 mm); replace the plug if the gap exceeds 0.051 in (1.3 mm). Check with a wire gauge, don't adjust | VERIFIED: Chilton, Engine Electrical > Ignition > Spark Plugs > R&I (pack F04). Article has no applicability note, so it's Chilton's general article; it matches the factory "-11" plugs (OM p.275) | 2026-10-27 |
+| Spark plug torque | 13 lbf·ft (18 N·m) | VERIFIED: same Chilton article (pack F04). Matches what was used on 2026-10-18 | 2026-10-27 |
+| Power steering reservoir | 0.4 L | VERIFIED: Chilton (pack F11, citing A–E) | 2026-10-27 |
+| Engine oil with filter | 4.4 qt: **agrees** with OM p.274 | Chilton (pack F02) | 2026-10-27 |
+| Coolant (2.4 automatic) | 5.3 qt: **agrees** with OM's 1.32 US gal change capacity (= 5.28 qt) | Chilton (pack F06) | 2026-10-27 |
+| Lug nuts / tire size | 80 lbf·ft, P205/60R16: **agree** with OM | Chilton, Tire, Wheel & Ball Joint Specifications (pack F11) | 2026-10-27 |
+| Rotor stuck on the hub | Thread two **8 × 1.25 mm** bolts into the rotor's holes, two turns at a time, until it releases | VERIFIED: Chilton, Brakes > Front/Rear Disc Brakes > Rotor R&I (pack F03) | 2026-10-27 |
+| Pad shim lube | Thin coat of Honda M-77 assembly paste on the pad side of the shims and backs of the pads (pack shows the part number as "o8798-9010", probably 08798-9010: confirm at a Honda parts counter) | VERIFIED: Chilton (pack F03) | 2026-10-27 |
+
+**Chilton vs. other sources (both shown; which wins):**
+
+| Item | Chilton says | Other source says | Which ranks higher |
+|---|---|---|---|
+| Tire pressure, cold | Front 30 psi / rear 29 psi (pack F11; row doesn't say sedan or coupe) | **Front 32 / rear 30 psi** (OM p.276) | Neither yet: the **door-jamb sticker** on this car decides (Tier 1). Until then use the OM numbers, which are written for this sedan |
+| ATF drain and refill | 3.0 **L** (pack F11, citing A–E) | 3.0 **US qt (2.8 L)** (OM p.274) | OM (car-specific Tier 1). The difference is ~0.2 L; refill to the dipstick either way |
+| Spark plug anti-seize | "Light coat of anti-seize on the threads" (general article) | Plugs went in dry on 2026-10-18 (`log.md`, past-chat advice) | Chilton outranks past chats. Plug maker's instructions (on the Bosch box/site) are the tiebreaker for plated plugs. Not a reason to pull the plugs now |
+| Maintenance schedule | Generic Honda chart: lists timing belt, balancer belt, distributor cap, "non-VTEC" plugs, coolant at 45k, brake fluid at 30k | OM pp.202–203 (written for this car) | **OM.** The Chilton chart includes parts a K24 doesn't use (distributor), so it is not this car's schedule. Its severe-service conditions list is still useful |
+
+
 
 From `sources/project-history-2026-10-21.md`, section 6–7.
 
@@ -122,7 +150,7 @@ SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
 | Power steering: Honda PSF only | Honda PSF preferred; another brand only as a temporary replacement; never ATF | OM Service Information Summary |
 
 **Not in the owner's manual (still UNVERIFIED, need the library service manual):**
-drain plug 29 lb-ft · ATF drain plug 36 lb-ft / 18 mm · spark plug torque 13 lb-ft ·
+~~drain plug 29 lb-ft~~ (Chilton: 33, above) · ATF drain plug 36 lb-ft / 18 mm · ~~spark plug torque 13 lb-ft~~ (Chilton agrees, above) ·
 **front axle nut 181 vs 134 lb-ft** · valve lash intake 0.21–0.25 mm / exhaust
 0.25–0.29 mm · brake bleed order RR, LR, RF, LF · battery group 51R.
 
@@ -131,7 +159,6 @@ drain plug 29 lb-ft · ATF drain plug 36 lb-ft / 18 mm · spark plug torque 13 l
 | Item | Free source |
 |---|---|
 | Door-jamb sticker (tire size, pressures, build month) | Photo of the driver door jamb |
-| Spark plug gap | Library service manual (Chilton Library) |
 | Every other torque spec (brakes, suspension, drain plugs, axle nut…) | Library service manual (Chilton Library / ALLDATA through a public library) |
 
 Format for new rows: value, then the source with page or section, then the date checked.

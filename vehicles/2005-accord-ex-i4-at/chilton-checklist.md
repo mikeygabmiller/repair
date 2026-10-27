@@ -10,6 +10,19 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 **Screenshot each item with the section title visible.** Each confirmed value goes into
 `specs.md` with its section and date; tick it off here.
 
+## Progress
+
+- **Pack F (2026-10-27)**: `sources/chilton-pack-F-2026-10-27.md`. Results are in `specs.md`.
+  It refers to an earlier **pack A–E** that isn't in the repo yet: upload it.
+- Chilton's 2005 coverage often lists only Hybrid, V6 or Acura TSX for an article. When
+  that happens, try the same article under **2006 or 2007 Accord 2.4 L** (same generation)
+  and label anything found that way "2006–07 article", not 2005 data. Or try ALLDATA if the
+  library has it.
+- **Not found in Chilton for the 2.4 L (pack F):** oil change steps, front/rear rotor
+  specs, engine air filter steps, cabin filter (Hybrid only), coolant drain/fill, drive
+  belt replacement (V6 only for 2005), struts (Hybrid only), alternator and starter R&I,
+  battery spec, wiper size, bulbs (Hybrid only).
+
 ## A. Right front and ABS (the car right now)
 - [ ] 1. Front axle (spindle) nut torque, 4-cyl. Also: tighten with the wheel on or off the ground, and how to stake the nut
 - [ ] 2. Front wheel bearing axial play limit (proves "no play" with a number)
@@ -28,12 +41,12 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [ ] 15. CV axle install: how to confirm the inner joint's clip is locked into the transmission
 
 ## B. Brakes
-- [ ] 16. Front rotor minimum thickness, runout limit, thickness variation limit (decides if the grooved rotor can be resurfaced)
+- [ ] 16. (Pack F: NOT FOUND for 2005 2.4 L; try 2006–07) Front rotor minimum thickness, runout limit, thickness variation limit (decides if the grooved rotor can be resurfaced)
 - [ ] 17. Front pad minimum thickness
 - [ ] 18. Front caliper bracket bolt torque
 - [ ] 19. Front caliper slide pin bolt torque
-- [ ] 20. Rotor retaining screws: present on this car? torque
-- [ ] 21. Rear brakes: disc or drum on this car, minimum thickness, bracket/slide bolt torques
+- [ ] 20. Rotor retaining screws: torque (pack F: screws are in the procedure; no torque shown)
+- [ ] 21. Rear brakes (pack F found a rear disc procedure, but doesn't tie it to the EX; just look through the rear wheel): disc or drum on this car, minimum thickness, bracket/slide bolt torques
 - [ ] 22. Brake bleed order, and whether the ABS unit needs a scan-tool bleed
 - [ ] 23. How much fluid a full flush takes
 - [ ] 24. Parking brake adjustment
@@ -45,8 +58,8 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [ ] 28. Alignment camber sign: is rear camber 1° negative? (`specs.md` has the angle without a sign)
 
 ## D. Engine
-- [ ] 29. Oil drain plug torque (repo has 29 lb-ft, unverified)
-- [ ] 30. Spark plug torque and gap (13 lb-ft was used Oct 18, unverified)
+- [x] 29. Oil drain plug torque: **33 lbf·ft** (pack F02, citing A–E)
+- [x] 30. Spark plug torque and gap: 13 lbf·ft, 1.0–1.1 mm (pack F04, general article)
 - [ ] 31. Valve clearance, intake and exhaust, cold; adjustment procedure
 - [ ] 32. Valve cover bolt torque and order; whether the gasket is reusable
 - [ ] 33. Compression test spec: minimum and maximum spread between cylinders (health check before selling)
@@ -55,7 +68,7 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [ ] 36. Throttle body cleaning procedure and any idle relearn afterward
 - [ ] 37. Idle relearn after a battery disconnect
 - [ ] 38. Engine trouble code chart (P0507 and others)
-- [ ] 39. Drive belt: auto-tensioner indicator range, belt routing diagram
+- [ ] 39. (Pack F: replacement article is V6-only for 2005) Drive belt: auto-tensioner indicator range, belt routing diagram
 - [ ] 40. Coolant bleeding procedure, radiator cap pressure, thermostat opening temperature
 - [ ] 41. PCV valve location and test
 
@@ -83,4 +96,5 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [ ] 56. Dash trim removal around the center vents (broken vane)
 
 ## I. Bulletins
-- [ ] 57. Honda service bulletin (TSB) list for this car, if Chilton has one. Free copy of the list is also on nhtsa.gov → Manufacturer Communications
+- [x] 57. TSB list: 92 entries, 12 recalls (pack F10). Recalls match `recalls.md`. Worth reading in full: A06-087 front brake judder, A07-045 low/soft pedal, A03-036 drifts right, A14-001 DTC P0139 (L4), A05-062 no upshift to 4th, A05-071 DTC P0973.
+- Was: Honda service bulletin (TSB) list for this car, if Chilton has one. Free copy of the list is also on nhtsa.gov → Manufacturer Communications
