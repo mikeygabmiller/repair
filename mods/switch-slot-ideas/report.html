@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accord Blank Switch Ideas</title>
+<style>
+:root{
+  --bg:#f6f5f2; --surface:#ffffff; --surface2:#efede8; --text:#1d1d1b; --muted:#5d5b56; --border:#dcd9d2;
+  --accent:#1f5fa8; --accent-weak:#e3ecf7;
+  --good:#1e7a46; --good-bg:#e2f3e8; --mid:#9a6400; --mid-bg:#fbefd6; --bad:#b3261e; --bad-bg:#fbe3e1;
+  --warn-tag-bg:#fbe3e1; --warn-tag-text:#8c1d16; --tag-bg:#eceae4; --tag-text:#3b3a36;
+  --shadow:0 1px 2px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#141414; --surface:#1e1e1d; --surface2:#262624; --text:#ecebe7; --muted:#a8a69f; --border:#3a3936;
+    --accent:#7fb0ec; --accent-weak:#1f2d3f;
+    --good:#6fd39a; --good-bg:#16301f; --mid:#f0bd5c; --mid-bg:#352a12; --bad:#ff8a80; --bad-bg:#3a1a18;
+    --warn-tag-bg:#3a1a18; --warn-tag-text:#ffb4ab; --tag-bg:#2c2b29; --tag-text:#d6d4ce;
+    --shadow:none;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow-x:hidden}
+.wrap{max-width:860px;margin:0 auto;padding:16px 16px 48px}
+h1{font-size:1.55rem;line-height:1.2;margin:8px 0 4px}
+h2{font-size:1.2rem;margin:28px 0 10px}
+h3{font-size:1rem;margin:0 0 6px}
+p{margin:0 0 10px}
+a{color:var(--accent);overflow-wrap:anywhere}
+.sub{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+.box{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:12px 0;box-shadow:var(--shadow)}
+.box.alert{border-left:4px solid var(--bad)}
+.box.key{border-left:4px solid var(--accent)}
+.box.wire{border-left:4px solid var(--mid)}
+.box ul,.box ol{margin:6px 0 0;padding-left:20px}
+.box li{margin:4px 0}
+.picks{counter-reset:p;list-style:none;padding:0;margin:0}
+.picks li{position:relative;padding:8px 0 8px 40px;border-top:1px solid var(--border)}
+.picks li:first-child{border-top:0}
+.picks li::before{counter-increment:p;content:counter(p);position:absolute;left:0;top:8px;width:28px;height:28px;border-radius:50%;background:var(--accent-weak);color:var(--accent);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.lbl{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.03em;padding:1px 6px;border-radius:4px;background:var(--tag-bg);color:var(--tag-text);vertical-align:1px}
+.lbl.v{background:var(--good-bg);color:var(--good)}
+.lbl.u{background:var(--mid-bg);color:var(--mid)}
+.lbl.c{background:var(--accent-weak);color:var(--accent)}
+.never{color:var(--bad);font-weight:600}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--border)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{appearance:none;border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:999px;padding:6px 12px;font:inherit;font-size:.85rem;cursor:pointer;min-height:34px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.sortrow{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;font-size:.85rem;color:var(--muted)}
+.cards{display:grid;gap:10px;margin-top:12px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);min-width:0}
+.card-top{display:flex;gap:12px;align-items:flex-start}
+.badge{flex:0 0 auto;width:52px;height:52px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:1.15rem;line-height:1}
+.badge small{font-size:.62rem;font-weight:600;opacity:.8;margin-top:3px}
+.b-good{background:var(--good-bg);color:var(--good)}
+.b-mid{background:var(--mid-bg);color:var(--mid)}
+.b-bad{background:var(--bad-bg);color:var(--bad)}
+.title{min-width:0;flex:1}
+.title h3{font-size:1rem;line-height:1.3;overflow-wrap:anywhere}
+.rank{color:var(--muted);font-size:.8rem;font-weight:600}
+.what{margin:8px 0 8px;font-size:.95rem}
+.costs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:8px 0}
+.cost{background:var(--surface2);border-radius:8px;padding:6px 8px;min-width:0}
+.cost span{display:block;font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.cost b{font-size:.88rem;font-weight:600;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0 4px}
+.tag{font-size:.75rem;padding:2px 8px;border-radius:999px;background:var(--tag-bg);color:var(--tag-text)}
+.tag.w{background:var(--warn-tag-bg);color:var(--warn-tag-text);font-weight:600}
+.note{font-size:.85rem;color:var(--muted);margin:6px 0 0}
+.src{font-size:.75rem;color:var(--muted);margin-top:6px}
+.count{font-size:.85rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+td,th{text-align:left;vertical-align:top;padding:8px 6px;border-top:1px solid var(--border)}
+th{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.srcs li{overflow-wrap:anywhere;font-size:.85rem}
+@media (min-width:640px){
+  .cards{grid-template-columns:1fr 1fr}
+  .costs{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .card .costs{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:420px){
+  table, thead, tbody, tr, td, th{display:block}
+  thead{display:none}
+  tr{border-top:1px solid var(--border);padding:6px 0}
+  td{border:0;padding:2px 0}
+  td:first-child{font-weight:600}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Accord blank switch ideas</h1>
+<div class="sub">2005 Honda Accord EX sedan · 2.4 L 4-cyl · automatic · researched 2026-10-26</div>
+
+<div class="box">
+<p><b>Short answer:</b> your EX has <b>two</b> blank switch lids left of the steering wheel. Use them for the battery first. The best pick is a key-on <b>master switch</b> that turns off every add-on at once. Flip it off overnight: if the battery stops draining, an add-on is to blame. Second: a <b>backup-camera switch</b>, so you can see past cargo while driving.</p>
+<p>The only genuine Honda switch that does anything here is the <b>fog light switch</b>. It comes in Honda's fog kit, and that kit <b>needs holes cut and drilled in the front bumper</b>.</p>
+<p><b>No USB, voltmeter or switch insert is confirmed to fit</b> this year's blank. Measure first.</p>
+</div>
+
+<div class="box alert">
+<p><b>Update 2026-10-26:</b> the owner reports <b>no battery drain now</b>. Ratings assumed an unresolved drain, so the battery picks (#1, #2, #4, #44) are worth less than shown and key-off items like dash-cam parking mode (#25) are worth more. Key-on wiring is still the safe default.</p>
+<p><b>Not urgent.</b> Fix the right-front axle and bearing (open issue #0) and look into the SRS light (#4) first. Don't drive the car until the front end is fixed.</p>
+</div>
+
+<h2>Start here</h2>
+<div class="box">
+<ol class="picks">
+<li><b>Free parasitic-draw test</b> with a multimeter at the battery negative. Wait 10–45 min for the car to sleep, then pull fuses one at a time. Parts stores load-test the battery free.</li>
+<li><b>Accessory master switch</b> + "add-ons on" light in blank #1. 9/10. About $40–70 DIY.</li>
+<li><b>Backup-camera mode switch</b> (always-on or reverse-only) in blank #2. 8–8.5/10. About $20–35 DIY.</li>
+<li><b>Victron SmartShunt</b> (logs the drain) or <b>BatteryProtect</b> (auto cutoff) under the hood. 8–8.5/10.</li>
+<li><b>Cargo-area LED</b> wired through the master switch. 8/10. Or keep a blank stock (8/10).</li>
+</ol>
+</div>
+
+<h2>Key facts</h2>
+<div class="box key">
+<ul>
+<li><b>Where:</b> the switch bank in the driver's lower dash cover, left of the steering column, under the left vent. <span class="lbl c">OEM CATALOG</span></li>
+<li><b>How many:</b> 3 positions. On the EX the sunroof switch takes one, so <b>2 are blank</b>. The LX has 3 blanks and the EX-V6 has 1. Heated-seat switches are in the console, not here. <span class="lbl c">OEM CATALOG</span></li>
+<li><b>Blank lid part number:</b> <b>77625-SDA-A01ZA</b> (Graphite Black), about <b>$4.39–$4.87</b> (MSRP $6.20). Confirm the color for your gray/black interior by VIN. <span class="lbl c">OEM CATALOG</span></li>
+<li><b>Genuine Honda switches for this bank:</b> sunroof (you have it), TCS Off 35300-SDA-A01 (V6 only, does nothing on an I4), and fog switch <b>08V31-SDA-1M035</b> (discontinued, about $100 used). <span class="lbl c">OEM CATALOG</span></li>
+<li><b>Fog kit:</b> Honda kit 08V31-SDA-101 (2003–05 sedan, discontinued, about $349 new-old-stock) <b>includes the switch and harness</b>, which plug into connectors already in the dash. It <b>requires a 20 mm hole saw and cuts in the bumper</b>, and Honda says skilled technicians only. Bulbs are <b>H11 12 V 55 W</b>. <span class="lbl v">VERIFIED: Honda AII 24050</span></li>
+<li><b>Opening size: unknown.</b> No source gives it. <b>Pop a lid out and measure it in mm before buying any insert.</b> Modern "Honda" 36 x 23 mm switches are for 2013+ Accords.</li>
+<li><b>No insert product is confirmed to fit the 2003–2007 blank.</b> Most are no-name. Do any cutting on a <b>spare $5 lid</b> and keep the original.</li>
+</ul>
+<h3 style="margin-top:12px">Removing the panel (Honda's steps)</h3>
+<ol>
+<li>Disconnect the battery negative if you will wire anything. You have the radio code.</li>
+<li>Remove the <b>one self-tapping screw</b> in the driver's lower dash cover.</li>
+<li>Pull outward to release the <b>4 clips on the left side first</b>.</li>
+<li>Release the <b>2 right-side clips last</b> by twisting a flat screwdriver between the clip and the dash frame. A plastic trim tool is gentler.</li>
+<li>Unplug the connector behind it and lift the cover off. The lids pop out from behind.</li>
+<li>Afterward, reset the driver's window AUTO: hold it down until fully open, then pull it up until closed and hold 2 seconds.</li>
+</ol>
+<p class="note">Just swapping a lid takes about 15–30 min (estimate), and the car stays drivable. Spare clips: 90666-SDA-A01.</p>
+</div>
+
+<h2>Wiring basics</h2>
+<div class="box wire">
+<ul>
+<li><b>Tap fuse #9, Front Accessory Sockets, 15 A</b> with an add-a-circuit (Bussmann mini, about $8). The manual says the sockets work with the key in ACCESSORY, so it should be key-on (owner's manual p.78, fuse chart p.269). <span class="lbl v">VERIFIED</span></li>
+<li><b>Confirm with a test light:</b> dead with the key out, live in ACC and ON. Check whether the box takes standard or low-profile mini fuses.</li>
+<li>Put your add-on on the tap's own 5–7.5 A fuse. The sockets share a 10 A limit (p.103).</li>
+<li class="never">Never tap #22 IG SRS, #10 IG OPDS, #23 IGP (engine computer) or #19 fuel pump.</li>
+<li>Loads over about 10 A (compressor, inverter, fogs, horns) need a <b>relay</b> and their own fused battery feed. The dash switch only runs the relay coil.</li>
+<li><b>Solder and heat-shrink</b> your splices. Use add-a-circuits and Posi-Taps so <b>no factory wire is cut</b>.</li>
+<li><b>Disconnect the battery</b> before wiring. Ground to an existing body bolt, never a seat-belt bolt. Stay away from yellow SRS connectors.</li>
+<li>Do any cutting or drilling on a <b>spare blank</b> so the original stays stock.</li>
+<li>Until the drain is found, wire everything <b>key-on</b>. A parking-mode dash cam (~0.25–0.42 A) can flatten this 38 Ah battery in days.</li>
+</ul>
+</div>
+
+<h2>The 50 options</h2>
+<p class="count">Ranked best first for <i>your</i> car and rules. Costs: "(listing)" = from a cited listing; "est." = estimate (UNVERIFIED). Shop prices use a <b>$150/hr planning rate</b> (estimate) unless a Best Buy flat rate applies. "Under $50" means the DIY total.</p>
+
+<div class="controls">
+  <div class="chips" id="filters" role="group" aria-label="Filter options"></div>
+  <div class="sortrow">
+    <span id="shown"></span>
+    <button class="chip" id="sortBtn" type="button" aria-pressed="false">Sort: rating</button>
+  </div>
+</div>
+<div class="cards" id="cards"></div>
+
+<h2>Ideas to avoid</h2>
+<div class="box alert">
+<ul>
+<li><b>Strobe or flashing lights:</b> illegal in WA (RCW 46.37.280).</li>
+<li><b>Red, blue or green exterior lights, neon or underglow while driving, flashing white:</b> barred by WAC 204-21-230. No red visible from the front.</li>
+<li><b>Front LED light bar:</b> WA allows only 2 aux lamps, at set heights (RCW 46.37.180). Hurts resale.</li>
+<li><b>Puddle lights:</b> usually mean drilling the doors.</li>
+<li><b>No-name aftermarket fog kits</b> ($40–$138): still cut the bumper, and they aren't name brand.</li>
+<li><b>$59.99 FI Performance / ACM Technik fog switch:</b> sold out, maker unknown, useless without fog lights.</li>
+<li><b>DIY seat heater:</b> side airbag in the seat, and your SRS light is already on. Never DIY.</li>
+<li><b>GPS "privacy" switch, alarm valet switch, trailer-light tester, heated-mirror retrofit, AUX jack, mic mute:</b> pointless or unconfirmed for this car.</li>
+<li><b>Any add-on that stays on key-off with no cutoff</b>, until the drain test is done.</li>
+</ul>
+</div>
+
+<h2>What I couldn't verify</h2>
+<div class="box">
+<table>
+<thead><tr><th>Item</th><th>Free way to check</th></tr></thead>
+<tbody>
+<tr><td>Blank opening size (mm) and depth</td><td>Pull the panel, pop a lid, measure. Add it to specs.md.</td></tr>
+<tr><td>Whether any insert or phone mount fits</td><td>Measure first, then compare to the listing's cutout size.</td></tr>
+<tr><td>Lid color code for a gray/black interior</td><td>Honda parts counter or Honda's parts site by VIN, or compare the pulled lid.</td></tr>
+<tr><td>Fuse #9 is key-on</td><td>Test light: key out, ACC, ON.</td></tr>
+<tr><td>Standard vs low-profile mini fuses</td><td>Pull fuse #9 and look.</td></tr>
+<tr><td>Which fuses are constant</td><td>Test light with the key out, or library Chilton/ALLDATA wiring diagrams.</td></tr>
+<tr><td>Firewall grommet above the gas pedal</td><td>Look under the dash with a flashlight.</td></tr>
+<tr><td>Bluetooth adapter power source and draw; camera/monitor draw</td><td>Multimeter draw test with each one unplugged vs plugged in.</td></tr>
+<tr><td>Factory key-off draw spec</td><td>Library Chilton/ALLDATA.</td></tr>
+<tr><td>Fog kit labor time; -101 kit contents</td><td>Honda parts counter (ask for the install sheet). Library ALLDATA.</td></tr>
+<tr><td>Fog switch pinout</td><td>Honda sheet AII 24050, p.19 (linked below).</td></tr>
+<tr><td>Fog bulb on a used kit</td><td>Read the bulb base. The sheet and catalog say H11.</td></tr>
+<tr><td>Local labor rate (the $150/hr)</td><td>Call 2–3 shops. Checkbook is often free through King County Library.</td></tr>
+<tr><td>All "est." prices and DIY times</td><td>Check current listings. Allow 1.5–2x the time as a first-timer, and never start the night before work.</td></tr>
+<tr><td>WA rules for radar detectors and aux reverse lamps</td><td>RCW 46.37 at app.leg.wa.gov.</td></tr>
+<tr><td>Owner's manual pages cited</td><td>/home/user/repair/sources/2005-accord-owners-manual.pdf</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Sources</h2>
+<div class="box">
+<ul class="srcs">
+<li><a href="https://www.hondapartsnow.com/parts-list/2005-honda-accord--4dr_ex-ka_5at/electrical_exhaust_heater_fuel/switch.html">HondaPartsNow: 2005 EX switch diagram (2 lids + sunroof)</a></li>
+<li><a href="https://www.hondapartsnow.com/parts-list/2005-honda-accord--4dr_lx-ka_5at/electrical_exhaust_heater_fuel/switch.html">HondaPartsNow: 2005 LX switch diagram</a></li>
+<li><a href="https://www.hondapartsnow.com/parts-list/2005-honda-accord--4dr_ex_v6-kl_5at/electrical_exhaust_heater_fuel/switch.html">HondaPartsNow: 2005 EX-V6 switch diagram</a></li>
+<li><a href="https://www.hondapartsnow.com/genuine/honda~lid~switch~hole~77625-sda-a01za.html">HondaPartsNow: lid 77625-SDA-A01ZA</a></li>
+<li><a href="https://www.hondapartsconnection.com/oem-parts/honda-2003-2007-honda-accord-lid-switch-hole-nh167l-graphite-black-77625sdaa01za">HondaPartsConnection: lid 77625-SDA-A01ZA</a></li>
+<li><a href="https://www.hondapartsnow.com/parts-list/2005-honda-accord--4dr_ex-ka_5at/interior_bumper/instrument_panel_garnish_driver_side.html">HondaPartsNow: driver lower dash cover diagram</a></li>
+<li><a href="https://www.driveaccord.net/attachments/03-4drfogs-pdf.12405/">Honda install sheet AII 24050 (2003–05 sedan fog kit)</a></li>
+<li><a href="https://www.hondapartsnow.com/resources/installation/hpn/accord/2007-accord-4-door-fog-light-kit.pdf">Honda install sheet AII 32672 (2007 sedan fog kit)</a></li>
+<li><a href="https://www.hondapartsnow.com/genuine/honda~foglight~kit~08v31-sda-101.html">HondaPartsNow: fog kit 08V31-SDA-101</a></li>
+<li><a href="https://www.hondapartsnow.com/genuine/honda~switch~foglight~08v31-sda-1m035.html">HondaPartsNow: fog switch 08V31-SDA-1M035</a></li>
+<li><a href="https://www.hondapartsnow.com/parts-list/2005-honda-accord--4dr_ex-ka_5at/accessories/foglight_kit.html">HondaPartsNow: 2005 EX fog kit diagram (H11 bulb)</a></li>
+<li><a href="https://www.ebay.com/itm/188250855156">eBay: NOS fog kit $349</a> · <a href="https://www.ebay.com/p/1033811077">eBay: used fog switch</a></li>
+<li><a href="https://fiperformance.com/products/2003-2007-honda-accord-fog-light-switch">FI Performance fog switch</a></li>
+<li><a href="https://store.ijdmtoy.com/products/factory-style-4-pole-12v-push-button-switch-w-led-background-indicator-lights-2">iJDMTOY 36 x 23 mm switch</a> · <a href="https://www.amazon.com/Anina-Charger-Adapter-Extension-Odyssey/dp/B0CDWSN719">Anina USB port</a> · <a href="https://carzdeluxe.com/products/phone-holder-fits-2003-2007-honda-accord">Carzdeluxe phone mount</a> · <a href="https://www.aliexpress.us/item/3256806199004221.html">AliExpress Old/New Type USB</a></li>
+<li><a href="https://www.hardin-marine.com/c-2245-accessory-power-and-usb-power-ports.aspx">Blue Sea 1016</a> · <a href="https://navstore.com/products/blue-sea-1045-12-24v-dual-usb-charger-1-1-8-socket-mount-1045">Blue Sea 1045</a> · <a href="https://navstore.com/products/blue-sea-12v-dash-socket-white-1011200">Blue Sea 1011</a></li>
+<li><a href="https://www.solar-electric.com/victron-energy-smartshunt-500a-50mv-battery-shunt.html">Victron SmartShunt</a> · <a href="https://www.bimblesolar.com/BatteryProtect65A">Victron BatteryProtect</a> · <a href="https://www.bluesea.com/products/7700100/ML-RBS_Remote_Battery_Switch_12V">Blue Sea ML-RBS</a></li>
+<li><a href="https://www.blackboxmycar.com/products/viofo-a229-pro-4k-uhd-2-channel-dash-cam">Viofo A229 Pro</a> · <a href="https://www.blackboxmycar.com/products/viofo-type-c-hk4-hardwire-kit">Viofo HK4</a></li>
+<li><a href="https://www.ftspeed.com/products/hel-003399801-hella-supertone-horn-kit-pair">Hella Supertone</a> · <a href="https://www.sonicelectronix.com/item_107707_Kicker-Bass-Remote-Control-Knob-CXARC-43CXARC.html">Kicker CXARC</a> · <a href="https://landairsea.com/products/landairsea-54-waterproof-hardwire-power-adapter-cable-kit-from-external-power-source">LandAirSea kit</a></li>
+<li><a href="https://www.walmart.com/ip/ATM-Add-A-Circuit/52034992">Bussmann add-a-circuit</a> · <a href="https://www.customdynamics.com/posi-taptm-connectors">Posi-Taps</a></li>
+<li><a href="https://www.bestbuy.com/site/services/car-electronics-professional-installation/pcmcat59600050005.c?id=pcmcat59600050005">Best Buy install prices</a> · <a href="https://www.ratchetandwrench.com/news/researchreports/article/55398631/industry-insights-us-auto-repair-shops-and-labor-rate-trends-2025">Labor-rate survey</a> · <a href="https://www.thepricer.org/fog-light-installation-cost/">Fog install cost</a></li>
+<li><a href="https://fluke.com/en-in/learn/blog/digital-multimeters/how-to-find-parasitic-battery-drain-with-a-multimeter">Fluke: parasitic draw</a> · <a href="https://dashcamtalk.com/forum/threads/how-power-magic-pro-works.35038/post-431468">Dash cam draw</a> · <a href="https://www.tahoeyukonforum.com/threads/backup-camera-with-manual-on-switch-question.25082/">Camera manual-on method</a></li>
+<li><a href="https://lawfilesext.leg.wa.gov/law/RCW/RCW%20%2046%20%20TITLE/RCW%20%2046%20.%2037%20%20CHAPTER/RCW%20%2046%20.%2037%20.280.htm">RCW 46.37.280</a> · <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.180">RCW 46.37.180</a> · <a href="https://app.leg.wa.gov/WAC/default.aspx?cite=204-21-230">WAC 204-21-230</a></li>
+<li><a href="https://www.driveaccord.net/threads/3-blank-spots-under-left-vent-to-left-of-steering-wheel.309105/">DriveAccord: blank spots</a> · <a href="https://www.driveaccord.net/threads/oem-foglight-switch-part-number.562235/">DriveAccord: fog switch fit</a> · <a href="https://acurazine.com/forums/4g-tl-2009-2014-123/diy-how-independent-fog-light-control-933988/">AcuraZine: fog switch pins</a> · <a href="https://www.caraudio.com/threads/help-2004-honda-accord-amp-install.566166/">Firewall grommet</a></li>
+<li>Owner's manual (repo copy): sources/2005-accord-owners-manual.pdf, pp.19, 33, 68, 78, 87, 103, 187, 265–269, 275</li>
+</ul>
+<p class="note">Labels: <span class="lbl v">VERIFIED</span> Honda document or owner's manual read · <span class="lbl c">OEM CATALOG</span> Honda dealer parts catalog (Tier 3) · <span class="lbl">COMMUNITY</span> forum method · <span class="lbl u">UNVERIFIED</span> no Tier 1–3 source for the car-specific claim (prices may still come from a cited listing).</p>
+</div>
+
+</div>
+<script>
+var DATA = [{"rank": 1, "name": "Accessory master switch (relay + add-on fuse block)", "cat": "Battery", "rating": 9.0, "what": "One switch cuts power to every add-on wired through it. Flip it off overnight. If the drain stops, an add-on is the cause.", "parts": "$25–50 (est.)", "diy": "$40–70 (est.)", "diyMax": 70, "shop": "~$320 (est.: 1.75 h)", "shopNum": 320, "time": "2–3 h", "tags": ["No drill (spare blank)", "Key-on", "Relay", "Helps find drain"], "src": "UNVERIFIED", "price": "Estimate", "note": "Feed the relay coil from fuse #9 with an add-a-circuit. Small loads (under ~7 A total) can run through the relay from that tap. Bigger loads need a fused battery feed through an existing firewall grommet. Move the camera and any new add-ons onto it."}, {"rank": 2, "name": "Victron SmartShunt Bluetooth battery monitor", "cat": "Battery", "rating": 8.5, "what": "A meter on the battery negative cable. Your phone shows every amp in and out and logs it overnight, so it catches the drain in the act.", "parts": "$100–106 (listing)", "diy": "$105–120", "diyMax": 120, "shop": "~$270 (est.: 1 h)", "shopNum": 270, "time": "1–2 h", "tags": ["No drill", "Under hood", "~1 mA draw", "Name brand", "Helps find drain", "Slot stays blank"], "src": "UNVERIFIED", "price": "Listing", "note": "Not a slot item itself. Do the free multimeter parasitic-draw test first. Buy this if the drain comes and goes."}, {"rank": 3, "name": "Backup camera manual-on switch", "cat": "Camera", "rating": 8.5, "what": "Turn the rear camera on while driving to see past cargo that blocks the mirror. Uses the camera you already have.", "parts": "$5–15 (est.)", "diy": "$20–35 (est.)", "diyMax": 35, "shop": "~$215 (est.: 1.25 h)", "shopNum": 215, "time": "1–2 h", "tags": ["Key-on", "No drill (spare blank)", "Uses camera you have", "Diode or relay"], "src": "COMMUNITY", "price": "Estimate", "note": "Feed it from a key-on tap only, never battery-constant. Add a diode or relay so the switch does not light the reverse bulbs. Pick this or #5, not both."}, {"rank": 4, "name": "Victron BatteryProtect 65A low-voltage cutoff", "cat": "Battery", "rating": 8.0, "what": "Cuts power to your add-ons by itself before the battery gets too low to start the car.", "parts": "$37–68 (listing)", "diy": "$50–85", "diyMax": 85, "shop": "~$300 (est.: 1.5 h)", "shopNum": 300, "time": "1–2 h", "tags": ["No drill", "Name brand", "Auto cutoff", "0.6–1.5 mA own draw"], "src": "UNVERIFIED", "price": "Listing", "note": "Goes between the battery feed and the add-on fuse block. Pairs with #1."}, {"rank": 5, "name": "Camera mode switch: always-on or reverse-only", "cat": "Camera", "rating": 8.0, "what": "A two-way switch: rear camera on whenever the key is on, or only in reverse. Same goal as #3, easier to live with.", "parts": "$5–15 (est.)", "diy": "$20–35 (est.)", "diyMax": 35, "shop": "~$215 (est.: 1.25 h)", "shopNum": 215, "time": "1–2 h", "tags": ["Key-on", "No drill (spare blank)", "Uses camera you have"], "src": "COMMUNITY", "price": "Estimate", "note": "Pick this or #3."}, {"rank": 6, "name": "Keep the OEM blank (do nothing)", "cat": "Passive", "rating": 8.0, "what": "Factory look, zero risk, best for resale. The default until an idea earns the slot.", "parts": "$0", "diy": "$0", "diyMax": 0, "shop": "$0", "shopNum": 0, "time": "none", "tags": ["Stock", "Best for resale", "No wiring"], "src": "OEM CATALOG", "price": "Listing", "note": "Lid is 77625-SDA-A01ZA (OEM catalog). Buy a spare lid (~$4–5) for any project so the original stays stock."}, {"rank": 7, "name": "Cargo-area LED flood light", "cat": "Lighting", "rating": 8.0, "what": "Lights the cargo floor where the passenger seat and rear seatbacks used to be. Handy for loading at night.", "parts": "$15–40 (est.)", "diy": "$30–60 (est.)", "diyMax": 60, "shop": "~$275 (est.: 1.5 h)", "shopNum": 275, "time": "1–2 h", "tags": ["Key-on", "No drill (spare blank)", "Work car"], "src": "UNVERIFIED", "price": "Estimate", "note": "Name-brand white LED. Key-on feed only, so it cannot be left on overnight. Ground to an existing body bolt, never a seat-belt bolt."}, {"rank": 8, "name": "Push-to-read voltmeter", "cat": "Battery", "rating": 7.0, "what": "Press a button to read battery voltage, even key off. Draws nothing when not pressed. A morning 'will it start?' check.", "parts": "$10–25 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$185 (est.: 1 h)", "shopNum": 185, "time": "1 h", "tags": ["Zero draw when idle", "Spare blank", "!Brand unclear"], "src": "UNVERIFIED", "price": "Estimate", "note": "Wire a constant tap through a momentary button. No name-brand push-to-read unit was found. A name-brand panel meter (Blue Sea 1833, price not found) can be wired through a momentary switch."}, {"rank": 9, "name": "'Add-ons are on' indicator light", "cat": "Battery", "rating": 7.0, "what": "A small light that glows when your add-on power is on, so nothing gets left running.", "parts": "$2–5 (est.)", "diy": "$10–20 (est.)", "diyMax": 20, "shop": "~$90 alone, ~$40 with #1 (est.)", "shopNum": 90, "time": "0.5 h", "tags": ["Key-on", "Spare blank", "Pairs with #1"], "src": "UNVERIFIED", "price": "Estimate", "note": "Wire it across the switched side of the master switch."}, {"rank": 10, "name": "Dash cam, key-on only (Viofo A229 Pro + HK4 kit)", "cat": "Camera", "rating": 7.0, "what": "Front and rear dash cam for a work car. Evidence if someone hits you.", "parts": "$308–378 (listing)", "diy": "$320–395", "diyMax": 395, "shop": "~$505 (Best Buy $149.99 + parts)", "shopNum": 505, "time": "1.5–3 h", "tags": ["Key-on", "No drill", "Name brand", "!No parking mode yet"], "src": "UNVERIFIED", "price": "Listing", "note": "Wire it key-on only until the drain is fixed. Parking mode drew ~0.25–0.42 A in a community test, enough to flatten this 38 Ah battery in days. The slot can hold its parking switch later (#25)."}, {"rank": 11, "name": "Blue Sea 1045 dual USB fast charger (4.8 A)", "cat": "Power", "rating": 7.0, "what": "Two fast USB-A ports in the dash. Off when the key is off.", "parts": "$46–75 (listing)", "diy": "$65–100", "diyMax": 100, "shop": "~$230 (est.: 1 h)", "shopNum": 230, "time": "1–2 h", "tags": ["Key-on", "Name brand", "Cut spare blank", "!Fit unknown"], "src": "UNVERIFIED", "price": "Listing", "note": "Round body needs a 1-1/8 in hole in a spare lid. Whether that fits the lid is unknown until you measure. Your factory 12 V sockets already take a plug-in USB adapter with no install."}, {"rank": 12, "name": "Cargo-area task light", "cat": "Lighting", "rating": 6.5, "what": "A focused light for paperwork or finding things in the cargo area.", "parts": "$15–30 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$195 (est.: 1 h)", "shopNum": 195, "time": "1 h", "tags": ["Key-on", "No drill (spare blank)", "Work car"], "src": "UNVERIFIED", "price": "Estimate", "note": "Overlaps #7. One switch can run both."}, {"rank": 13, "name": "Blue Sea 1016 dual USB (2.1 A)", "cat": "Power", "rating": 6.5, "what": "Two USB-A ports. Cheaper and slower than #11. Not USB-C.", "parts": "$26–30 (listing)", "diy": "$45–55", "diyMax": 55, "shop": "~$200 (est.: 1 h)", "shopNum": 200, "time": "1–2 h", "tags": ["Key-on", "Name brand", "Cut spare blank", "!Fit unknown"], "src": "UNVERIFIED", "price": "Listing", "note": "Same round-hole fit question as #11."}, {"rank": 14, "name": "Bluetooth adapter power switch", "cat": "Battery", "rating": 6.5, "what": "Turns the 14-pin Bluetooth adapter off and on. Restarts it (the radio only finds it at power-up) and tests whether it is the drain.", "parts": "~$5 (est.)", "diy": "$10–25 (est.)", "diyMax": 25, "shop": "~$175 (est.: 1 h)", "shopNum": 175, "time": "1 h", "tags": ["Tests drain suspect", "Key-on", "!Only if adapter has own power lead", "No cutting the 14-pin"], "src": "UNVERIFIED", "price": "Estimate", "note": "How the adapter gets power is unknown. If power comes only through the 14-pin plug, skip this rather than cut that harness."}, {"rank": 15, "name": "Cargo-area 12 V socket (Blue Sea 1011)", "cat": "Power", "rating": 6.5, "what": "A 12 V socket in the cargo area for a tool charger or cooler, switched off from the dash.", "parts": "$20–37 (socket listing + relay est.)", "diy": "$30–55", "diyMax": 55, "shop": "~$275 (est.: 1.5 h)", "shopNum": 275, "time": "1–2 h", "tags": ["Key-on", "Name brand", "Relay if over ~10 A"], "src": "UNVERIFIED", "price": "Listing", "note": "Small loads can run off the #9 tap. Anything big gets a relay and its own fused battery feed."}, {"rank": 16, "name": "Camera monitor power switch", "cat": "Camera", "rating": 6.0, "what": "Turns the 4.3 in monitor off at night to stop glare.", "parts": "~$5 (est.)", "diy": "$10–20 (est.)", "diyMax": 20, "shop": "~$125 (est.: 0.75 h)", "shopNum": 125, "time": "0.5–1 h", "tags": ["Key-on", "Spare blank"], "src": "UNVERIFIED", "price": "Estimate", "note": "Keep the monitor out of the passenger airbag zone (OM p.19)."}, {"rank": 17, "name": "Trunk LED strip", "cat": "Lighting", "rating": 6.0, "what": "Brighter trunk than the stock 5 W bulb.", "parts": "$15–30 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$230 (est.: 1.25 h)", "shopNum": 230, "time": "1–2 h", "tags": ["Key-on", "No drill", "!Battery-drain risk if on trunk-light circuit"], "src": "UNVERIFIED", "price": "Estimate", "note": "Feed it key-on through the dash switch, not from the trunk-light circuit."}, {"rank": 18, "name": "Panel voltmeter, key-on only", "cat": "Battery", "rating": 6.0, "what": "Shows charging voltage while you drive. A weak alternator can look like a drain; this shows it.", "parts": "$10–30 (est.)", "diy": "$25–50 (est.)", "diyMax": 50, "shop": "~$185 (est.: 1 h)", "shopNum": 185, "time": "1 h", "tags": ["Key-on only", "!Battery-drain risk if constant", "!Brand unclear"], "src": "UNVERIFIED", "price": "Estimate", "note": "Digital meters can draw 15–30 mA if wired constant (community figure). Key-on only."}, {"rank": 19, "name": "Bluetooth mic mounted in a spare blank", "cat": "Audio", "rating": 6.0, "what": "Clearer calls on the Bluetooth adapter, with the mic in a spare lid.", "parts": "~$5 (spare lid)", "diy": "$5–10", "diyMax": 10, "shop": "~$115 (est.: 0.75 h)", "shopNum": 115, "time": "0.5–1 h", "tags": ["Passive", "Drill spare blank only", "!Mic type unknown"], "src": "UNVERIFIED", "price": "Estimate", "note": "Only if your adapter has a plug-in mic. Keep cables clear of yellow SRS wiring."}, {"rank": 20, "name": "High-current air-compressor socket", "cat": "Utility", "rating": 6.0, "what": "A heavy-duty socket for a full-size compressor. Factory sockets are limited to 10 A combined (OM p.103).", "parts": "$30–55 (socket listing + relay est.)", "diy": "$35–65", "diyMax": 65, "shop": "~$310 (est.: 1.75 h)", "shopNum": 310, "time": "1.5–2 h", "tags": ["Relay", "Fused battery feed", "Existing firewall grommet", "Key-on control"], "src": "UNVERIFIED", "price": "Estimate", "note": "The dash switch only drives the relay coil. Compressor current draw not sourced."}, {"rank": 21, "name": "Battery-maintainer plug (pigtail)", "cat": "Battery", "rating": 6.0, "what": "A plug at the front of the car so a maintainer can clip on without opening the hood. Keeps the battery up while you chase the drain.", "parts": "$10–25 (est.)", "diy": "$10–25 (est.)", "diyMax": 25, "shop": "~$100 (est.: 0.5 h)", "shopNum": 100, "time": "0.5 h", "tags": ["Not a slot item", "Fused", "No drill"], "src": "UNVERIFIED", "price": "Estimate", "note": "Ring terminals on the battery posts with an inline fuse."}, {"rank": 22, "name": "Switch backlight tied to dash dimmer", "cat": "Lighting", "rating": 5.5, "what": "Makes added switches glow and dim with the dash lights at night.", "parts": "$0–11 (Posi-Tap listing)", "diy": "$5–15", "diyMax": 15, "shop": "~$85 (est.: 0.5 h)", "shopNum": 85, "time": "0.5 h", "tags": ["Posi-Tap", "No cut", "Add-on to other switches"], "src": "COMMUNITY", "price": "Listing", "note": "Dash lighting is on under-hood fuse #4 Small Light 15 A (OM p.268). Find the wire with a test light."}, {"rank": 23, "name": "Driver footwell LED (white)", "cat": "Lighting", "rating": 5.5, "what": "Lights the driver's floor.", "parts": "$10–25 (est.)", "diy": "$20–40 (est.)", "diyMax": 40, "shop": "~$185 (est.: 1 h)", "shopNum": 185, "time": "1 h", "tags": ["Key-on", "White only", "No drill"], "src": "UNVERIFIED", "price": "Estimate", "note": "Keep it white or amber and dim. No red visible from the front (RCW 46.37.280)."}, {"rank": 24, "name": "Spare-fuse stash behind a lid", "cat": "Passive", "rating": 5.5, "what": "Keep spare fuses and a fuse tap behind a lid for roadside fixes.", "parts": "$5–16 (tap kit listing)", "diy": "$5–16", "diyMax": 16, "shop": "$0", "shopNum": 0, "time": "10 min", "tags": ["No wiring", "Stock look"], "src": "UNVERIFIED", "price": "Listing", "note": "Check there is room behind the lid. Honda's fuse puller lives in the fuse box (OM p.266)."}, {"rank": 25, "name": "Dash-cam parking-mode switch", "cat": "Camera", "rating": 5.0, "what": "Turns dash-cam parking mode on only when you want it.", "parts": "$20–28 (switch est. + HK4 $17.99 listing)", "diy": "$25–35", "diyMax": 35, "shop": "~$100 extra (est.)", "shopNum": 100, "time": "0.5 h", "tags": ["!Battery-drain risk", "Constant tap", "Set cutoff to 12.4 V", "Wait for drain fix"], "src": "UNVERIFIED", "price": "Listing", "note": "Rating goes up to about 7 once the drain is found and fixed."}, {"rank": 26, "name": "Small-item cubby (SD cards, coins)", "cat": "Passive", "rating": 5.0, "what": "A small pocket made from a spare lid for dash-cam cards, coins or a toll tag.", "parts": "$5–15 (est.)", "diy": "$5–15 (est.)", "diyMax": 15, "shop": "$0", "shopNum": 0, "time": "10 min", "tags": ["No wiring", "!No product found"], "src": "UNVERIFIED", "price": "Estimate", "note": "No ready-made insert for this lid was found."}, {"rank": 27, "name": "Plug-in heated seat cushion", "cat": "Comfort", "rating": 5.0, "what": "Seat heat without touching the seat or its airbag. Plugs into the factory socket, which is off with the key off.", "parts": "$25–50 (est.)", "diy": "$25–50 (est.)", "diyMax": 50, "shop": "$0", "shopNum": 0, "time": "none", "tags": ["No install", "Key-on socket", "Does not use slot"], "src": "UNVERIFIED", "price": "Estimate", "note": "Name brand only. Keep the cord away from seat-side airbag seams."}, {"rank": 28, "name": "Garage or gate remote in a spare lid", "cat": "Utility", "rating": 5.0, "what": "Mounts a garage or gate remote in the dash.", "parts": "$20–40 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$145 (est.: 0.5–1 h)", "shopNum": 145, "time": "0.5–1 h", "tags": ["Battery-powered", "No wiring", "Spare blank"], "src": "UNVERIFIED", "price": "Estimate", "note": "Only useful if you have a garage or gate."}, {"rank": 29, "name": "Genuine Honda fog light kit 08V31-SDA-101", "cat": "Lighting", "rating": 5.0, "what": "Factory fog lights. The kit includes Honda's own switch for the blank, and it plugs into connectors already in the car.", "parts": "~$349 used/NOS (eBay listing)", "diy": "$350–370", "diyMax": 370, "shop": "~$745 (est.: 2.5 h + kit)", "shopNum": 745, "time": "4–6 h (full day, bumper off)", "tags": ["Most OEM", "!Drills bumper", "Plugs into factory dash connectors", "Discontinued", "H11 bulbs"], "src": "VERIFIED", "price": "Listing", "note": "Honda's install sheet (AII 24050) calls for a 20 mm hole saw, a hacksaw cutout in the bumper and drilled mounting holes, and says skilled technicians only. That breaks the no-drilling rule and cannot be undone without a new bumper cover. Fogs work only with low beams on."}, {"rank": 30, "name": "Cooler power with low-voltage cutoff", "cat": "Comfort", "rating": 5.0, "what": "Keeps lunch or work items cold. The cutoff stops it from killing the battery.", "parts": "$60–110 (est.)", "diy": "$70–120 (est.)", "diyMax": 120, "shop": "~$405 (est.: 2 h)", "shopNum": 405, "time": "1.5–2 h", "tags": ["Relay", "Auto cutoff", "!Battery-drain risk without cutoff"], "src": "UNVERIFIED", "price": "Estimate", "note": "Uses the BatteryProtect (#4) plus a relay and socket."}, {"rank": 31, "name": "USB-C PD insert (Honda-shaped)", "cat": "Power", "rating": 4.5, "what": "Fast USB-C charging in the slot.", "parts": "$15–30 (est.)", "diy": "$30–50 (est.)", "diyMax": 50, "shop": "~$190 (est.: 1 h)", "shopNum": 190, "time": "1–2 h", "tags": ["Key-on", "!No-name only", "!Fit unknown"], "src": "UNVERIFIED", "price": "Estimate", "note": "No name-brand Honda-shaped USB-C PD insert was found."}, {"rank": 32, "name": "Hella Supertone horn upgrade (+ selector)", "cat": "Utility", "rating": 4.5, "what": "Louder horn (118 dB). The slot could hold a quiet/loud selector, which adds little.", "parts": "$46–70 (horn listing + harness est.)", "diy": "$50–75", "diyMax": 75, "shop": "~$250 (est.: 1.25 h)", "shopNum": 250, "time": "1–2 h", "tags": ["Name brand", "Relay", "Horn stays on wheel", "Slot optional"], "src": "UNVERIFIED", "price": "Listing", "note": "Factory horn fuse: under-hood #13 Horn, Stop 20 A (OM p.268). Bumper or grille access may be needed."}, {"rank": 33, "name": "Dash-cam 'save clip' remote button", "cat": "Camera", "rating": 4.5, "what": "A button that saves the current dash-cam clip.", "parts": "$15–30 (est.)", "diy": "$15–30 (est.)", "diyMax": 30, "shop": "$0", "shopNum": 0, "time": "15 min", "tags": ["No wiring", "Needs dash cam"], "src": "UNVERIFIED", "price": "Estimate", "note": "Only after a dash cam is installed."}, {"rank": 34, "name": "Honda fog switch 08V31-SDA-1M035 for another job", "cat": "Utility", "rating": 4.0, "what": "The only working switch Honda catalogues for this slot. It could trigger a relay for another add-on.", "parts": "~$100 used (eBay listing)", "diy": "$105–125", "diyMax": 125, "shop": "~$270 (est.: 1 h)", "shopNum": 270, "time": "1 h", "tags": ["OEM fit (catalogued)", "!Wrong icon", "Discontinued", "Relay needed"], "src": "OEM CATALOG", "price": "Listing", "note": "It shows a fog icon, which is misleading. The pinout is forum-only. The eBay listing is unclear whether it is the switch, the harness or both."}, {"rank": 35, "name": "Ambient cabin LED (white/amber)", "cat": "Lighting", "rating": 4.0, "what": "Soft cabin light.", "parts": "$20–40 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$195 (est.: 1 h)", "shopNum": 195, "time": "1–2 h", "tags": ["Key-on", "!WA: no red to the front", "Resale"], "src": "UNVERIFIED", "price": "Estimate", "note": "Keep it dim, white or amber."}, {"rank": 36, "name": "Square flush USB port (Anina, 44 x 26 mm)", "cat": "Power", "rating": 4.0, "what": "USB port sold for other Hondas.", "parts": "$10–20 (est.)", "diy": "$15–30 (est.)", "diyMax": 30, "shop": "~$185 (est.: 1 h)", "shopNum": 185, "time": "1 h", "tags": ["Key-on", "!No-name only", "!Fit unknown"], "src": "UNVERIFIED", "price": "Estimate", "note": "Sold for other Hondas. The seller says to measure your blank first."}, {"rank": 37, "name": "USB + voltmeter combo insert", "cat": "Power", "rating": 4.0, "what": "USB charging plus a voltage readout in one insert.", "parts": "$10–25 (est.)", "diy": "$20–35 (est.)", "diyMax": 35, "shop": "~$185 (est.: 1 h)", "shopNum": 185, "time": "1 h", "tags": ["Key-on", "!No-name only", "!Fit unknown"], "src": "UNVERIFIED", "price": "Estimate", "note": "AliExpress 'Old Type' is the likeliest fit, but no dimensions were found."}, {"rank": 38, "name": "Inverter remote on/off", "cat": "Power", "rating": 4.0, "what": "Turns a cargo-area inverter on and off from the dash.", "parts": "$15–40 (est.) + inverter", "diy": "$15–40 + inverter", "diyMax": 999, "shop": "~$270 + inverter (est.: 1.5 h)", "shopNum": 270, "time": "2–3 h", "tags": ["Fused battery feed", "Firewall grommet", "!Battery-drain risk", "Engine running only"], "src": "UNVERIFIED", "price": "Estimate", "note": "Inverter price was not researched."}, {"rank": 39, "name": "Phone mount that snaps into the blank (Carzdeluxe)", "cat": "Utility", "rating": 4.0, "what": "Phone holder listed for the 2003–2007 Accord blank.", "parts": "$50 (listing, sold out)", "diy": "$50–55", "diyMax": 55, "shop": "~$130 (est.: 0.5 h)", "shopNum": 130, "time": "0.5 h", "tags": ["Spare blank", "!Sold out", "Low viewing angle"], "src": "UNVERIFIED", "price": "Listing", "note": "No dimensions given. The slot sits low, left of the column."}, {"rank": 40, "name": "12 V fan", "cat": "Comfort", "rating": 4.0, "what": "Moves air in the cabin or cargo area.", "parts": "$15–30 (est.)", "diy": "$25–45 (est.)", "diyMax": 45, "shop": "~$150 (est.: 0.75 h)", "shopNum": 150, "time": "0.5–1 h", "tags": ["Key-on"], "src": "UNVERIFIED", "price": "Estimate", "note": "Name brand only."}, {"rank": 41, "name": "Front curb camera with selector switch", "cat": "Camera", "rating": 4.0, "what": "Front parking view on the same monitor. The slot holds the selector.", "parts": "$40–100 (est.)", "diy": "$50–110 (est.)", "diyMax": 110, "shop": "~$465 (est.: 2.5 h)", "shopNum": 465, "time": "2–3 h", "tags": ["Plate frame, no drill", "Firewall grommet", "Key-on"], "src": "UNVERIFIED", "price": "Estimate", "note": "Prices for front cameras and selectors were not found."}, {"rank": 42, "name": "Under-hood work light switched from the cabin", "cat": "Lighting", "rating": 3.5, "what": "Light for roadside repairs at night.", "parts": "$20–40 (est.)", "diy": "$30–55 (est.)", "diyMax": 55, "shop": "~$270 (est.: 1.5 h)", "shopNum": 270, "time": "1–2 h", "tags": ["Firewall grommet", "Fused battery feed"], "src": "UNVERIFIED", "price": "Estimate", "note": "A rechargeable magnetic work light does this with no wiring."}, {"rank": 43, "name": "Hardwired GPS tracker", "cat": "Security", "rating": 3.5, "what": "Helps recover the car if it is stolen.", "parts": "$25 kit (listing) + tracker + plan", "diy": "$25 + tracker", "diyMax": 999, "shop": "~$200 + tracker (est.)", "shopNum": 200, "time": "1 h", "tags": ["Constant feed", "!Battery-drain risk"], "src": "UNVERIFIED", "price": "Listing", "note": "Constant draw adds to the unsolved drain. A dash on/off switch defeats the point."}, {"rank": 44, "name": "Remote battery disconnect (Blue Sea ML-RBS)", "cat": "Battery", "rating": 3.5, "what": "A dash button that cuts the battery when parked.", "parts": "$195–234 (listing)", "diy": "$215–260", "diyMax": 260, "shop": "~$685 (est.: 3 h)", "shopNum": 685, "time": "2–4 h", "tags": ["Name brand", "!Loses radio presets each time", "Overkill"], "src": "UNVERIFIED", "price": "Listing", "note": "Only worth it if the drain can never be found."}, {"rank": 45, "name": "Hardwired radar detector power", "cat": "Power", "rating": 3.0, "what": "Clean key-on power for a radar detector.", "parts": "$5–15 wiring (est.) + detector", "diy": "$5–15 + detector", "diyMax": 999, "shop": "~$110 + detector (Best Buy $99.99)", "shopNum": 110, "time": "1 h", "tags": ["Key-on", "!WA legality not checked"], "src": "UNVERIFIED", "price": "Listing", "note": "Washington rules for private cars were not researched."}, {"rank": 46, "name": "Hidden starter-cut switch", "cat": "Security", "rating": 3.0, "what": "A hidden switch that blocks the starter.", "parts": "$10–30 (est.)", "diy": "Shop job", "diyMax": 999, "shop": "~$395 (est.: 2.5 h)", "shopNum": 395, "time": "2–3 h", "tags": ["!Can strand your only car", "!No confirmed plug-in point", "Shop job"], "src": "UNVERIFIED", "price": "Estimate", "note": "Needs a T-harness at an ignition or starter connector. None was confirmed for this car."}, {"rank": 47, "name": "Auxiliary reverse lights", "cat": "Lighting", "rating": 3.0, "what": "Extra light when backing up.", "parts": "$30–80 (est.)", "diy": "$40–95 (est.)", "diyMax": 95, "shop": "~$430 (est.: 2.5 h)", "shopNum": 430, "time": "2–3 h", "tags": ["!Usually drills", "WA rules not checked"], "src": "UNVERIFIED", "price": "Estimate", "note": "You already have a backup camera."}, {"rank": 48, "name": "Fuel-pump relay kill switch", "cat": "Security", "rating": 2.5, "what": "The car won't start unless a hidden switch is set.", "parts": "$15–40 (est.)", "diy": "$20–50 (est.)", "diyMax": 50, "shop": "~$230 (est.: 1.25 h)", "shopNum": 230, "time": "1–2 h", "tags": ["!Can strand your only car", "!Easy to bypass", "Relay layout unknown"], "src": "COMMUNITY", "price": "Estimate", "note": "Forum reports: easy to bypass, and switching the wrong side can fail under load."}, {"rank": 49, "name": "Subwoofer bass knob (Kicker CXARC etc.)", "cat": "Audio", "rating": 2.5, "what": "Bass level at your fingertips. Only works with a matching-brand amp, which you don't have.", "parts": "$40–60 knob (listing)", "diy": "$45–65 knob only", "diyMax": 65, "shop": "~$250 + amp and sub (Best Buy amp $199.99)", "shopNum": 250, "time": "1 h (knob)", "tags": ["!Needs an amp", "Eats cargo space"], "src": "UNVERIFIED", "price": "Listing", "note": "A sub and amp would take cargo space you use for work."}, {"rank": 50, "name": "Aftermarket driver seat heater", "cat": "Comfort", "rating": 1.5, "what": "Heated driver seat.", "parts": "Kit price not found", "diy": "Not DIY", "diyMax": 999, "shop": "~$575 per seat ($350–800, weak source)", "shopNum": 575, "time": "Shop only", "tags": ["!SRS risk", "Shop only", "!Airbag light already on"], "src": "UNVERIFIED", "price": "Estimate", "note": "The driver seat has a side airbag and your SRS light is already on. Pulling the seat touches SRS connectors. Never DIY. The plug-in cushion (#27) gets most of the benefit."}];
+var FILTERS = [
+  ["all","All"],["8","8+ rating"],["u50","Under $50"],["Lighting","Lighting"],["Power","Power"],["Battery","Battery"],
+  ["Camera","Camera"],["Audio","Audio"],["Security","Security"],["Utility","Utility"],["Comfort","Comfort"],["Passive","Passive"]
+];
+var state = {f:"all", sort:"rating"};
+try { var saved = JSON.parse(localStorage.getItem("abs-state")||"null"); if (saved && saved.f) state = saved; } catch(e) {}
+
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function badgeClass(r){return r>=8?"b-good":(r>=5?"b-mid":"b-bad");}
+function srcClass(s){return s==="VERIFIED"?"v":(s==="UNVERIFIED"?"u":(s==="OEM CATALOG"?"c":""));}
+
+function renderFilters(){
+  var el=document.getElementById("filters"); el.innerHTML="";
+  FILTERS.forEach(function(f){
+    var b=document.createElement("button"); b.type="button"; b.className="chip"; b.textContent=f[1];
+    b.setAttribute("aria-pressed", state.f===f[0]?"true":"false");
+    b.onclick=function(){state.f=f[0]; save(); renderFilters(); render();};
+    el.appendChild(b);
+  });
+  var sb=document.getElementById("sortBtn");
+  sb.textContent = state.sort==="rating" ? "Sort: rating" : "Sort: shop cost (low first)";
+  sb.setAttribute("aria-pressed", state.sort==="cost"?"true":"false");
+}
+function save(){try{localStorage.setItem("abs-state",JSON.stringify(state));}catch(e){}}
+
+function render(){
+  var list = DATA.filter(function(d){
+    if(state.f==="all") return true;
+    if(state.f==="8") return d.rating>=8;
+    if(state.f==="u50") return d.diyMax<=50;
+    return d.cat===state.f;
+  });
+  list.sort(function(a,b){
+    if(state.sort==="cost") return (a.shopNum-b.shopNum) || (a.rank-b.rank);
+    return a.rank-b.rank;
+  });
+  document.getElementById("shown").textContent = list.length + " of " + DATA.length + " shown";
+  var html = list.map(function(d){
+    var tags = d.tags.map(function(t){
+      var w = t.charAt(0)==="!"; return '<span class="tag'+(w?' w':'')+'">'+(w?"⚠ ":"")+esc(w?t.slice(1):t)+'</span>';
+    }).join("");
+    var r = (d.rating%1===0)? d.rating.toFixed(0) : d.rating.toFixed(1);
+    return '<article class="card">'+
+      '<div class="card-top"><div class="badge '+badgeClass(d.rating)+'" aria-label="Rating '+r+' out of 10">'+r+'<small>/10</small></div>'+
+      '<div class="title"><div class="rank">#'+d.rank+' · '+esc(d.cat)+'</div><h3>'+esc(d.name)+'</h3></div></div>'+
+      '<p class="what">'+esc(d.what)+'</p>'+
+      '<div class="costs">'+
+        '<div class="cost"><span>Parts</span><b>'+esc(d.parts)+'</b></div>'+
+        '<div class="cost"><span>DIY total</span><b>'+esc(d.diy)+'</b></div>'+
+        '<div class="cost"><span>Shop-installed avg</span><b>'+esc(d.shop)+'</b></div>'+
+        '<div class="cost"><span>DIY time</span><b>'+esc(d.time)+'</b></div>'+
+      '</div>'+
+      '<div class="tags">'+tags+'</div>'+
+      '<p class="note">'+esc(d.note)+'</p>'+
+      '<div class="src"><span class="lbl '+srcClass(d.src)+'">'+esc(d.src)+'</span> · price '+(d.price==="Listing"?"from cited listing":"is an estimate")+'</div>'+
+    '</article>';
+  }).join("");
+  document.getElementById("cards").innerHTML = html || '<p class="count">Nothing matches this filter.</p>';
+}
+document.getElementById("sortBtn").onclick=function(){state.sort = state.sort==="rating"?"cost":"rating"; save(); renderFilters(); render();};
+renderFilters(); render();
+</script>
+</body>
+</html>
