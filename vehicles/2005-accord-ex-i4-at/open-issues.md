@@ -34,6 +34,8 @@ History:
 - The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
 - Safety-critical spec: the real 4-cylinder number belongs in `specs.md` with its Chilton citation.
+- **Chilton A–I report (2026-10-27): 4-cyl axle nut torque NOT FOUND.** The only figure, 181 lbf·ft (245 N·m), is from the Accord **Hybrid** article for a **24 × 1.5 mm** nut. This car's Honda nut (90305-692-010) is the **22 mm** nut, so that figure is for a different nut. The Hybrid article also says: new nut every time, oil its seating face, stake the shoulder into the driveshaft slot after tightening.
+- **Open question:** what torque went on the new nut last week? If it was 181 lb-ft, that is the 24 mm nut's number. Get the 4-cyl figure from Ben (shop software, free to ask), a Honda dealer service desk, or Chilton's 2006–07 Accord 2.4 article, and re-torque if it differs.
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
@@ -48,6 +50,7 @@ History:
 - If the shake remains after the new axle: check the mounts.
 
 ## 3. ABS light, code 12-1 (since Oct 20)
+- **Chilton backs Ben's diagnosis (A–I report, 2026-10-27; V6 and Hybrid articles, not 4-cyl-specific):** code **12** = right front wheel sensor electrical noise / intermittent signal. Honda's fix order: check the sensor and the **front magnetic encoder**; if the encoder is bad, **replace the front wheel bearing** (the encoder is part of it). Bearing goes in with the brown encoder side toward the inside of the knuckle; keep metal debris and magnetic tools off it. Codes are stored in memory and are **not** cleared by disconnecting the battery; code 12-type faults stay on until the system is normal and the car is driven (Hybrid article). V6 sensor air gap 0.5–1.2 mm (V6 only). L4 wiring pins are in `specs.md`.
 - **2026-10-27, Ben's diagnosis (owner relaying):** the ABS fault is the **tone ring on the right front wheel bearing, damaged**. Ben compared it with the left side; the right one is "definitely damaged".
 - **Ben's quote (Tekmetric, 2026-10-27, tech "B Ieremie"):** R&R front wheel bearing, one side, labor **$404.25** · NSK wheel bearing ×1 **$93.04** · subtotal $497.29 · est. tax $46.75 · **total $544.04**. No hub, alignment, rotor or pads on it.
 - Compare: Les Schwab quote (item 0, valid to 2026-11-20) bearing $128.48 + hub $110.11 + hub/bearing labor w/ press off rotor $232.99 = $471.58 + tax ≈ $516, **includes a new hub**; brand not shown. Honda bearing 44300-TR4-A51 $119.63 (catalog, 2026-10-25). NSK makes Honda's original bearing (`plan-right-front-2026-10.md`).
@@ -66,11 +69,15 @@ History:
 - Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
 - Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
 - Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
+- **Chilton A–I report (2026-10-27), Hybrid-only SRS articles (code meanings are probably shared, not confirmed for this car):** **61-10 = open in the driver's seat belt buckle switch.** **E2-11 / F1-11** sit in one combined article about airbags, side airbags, curtain airbags and seat belt tensioners; its description was cut off, and it links a note that the SRS unit must be replaced after any deployment. Have a Honda dealer or SRS-capable shop read these with Honda's scan tool before assuming anything.
+- Bulletins worth asking the shop about: **A02-052 "Initializing the OPDS Unit"** (the passenger seat's occupant sensor; the passenger seat was removed), **A07-002** seat position sensor harness recall (above), **A20-010 / A20-015** warranty extensions for the driver's and passenger's airbag inflators on 2003–07 Accords.
 
 ## 5. Battery drain (status unknown)
 - See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.
 - Next: load test (free at many parts stores) and a parasitic draw test. Suspects: Bluetooth adapter, camera wiring.
 - Battery: EverStart Maxx, made May 2025 (under warranty per owner).
+- **Link (Chilton V6 ABS article, A–I report):** ABS code **61 = low +B-FSR voltage** at the ABS unit; Honda's fix is "check the charging system". So the ABS **61-1** read earlier points at low voltage: battery or charging, not the wheel sensor.
+- Bulletins: A88-023 Battery Testing and Replacement, A10-054 Alternator and Regulator Circuit Troubleshooting, A12-002 Alternator Testing (titles only; Chilton Bulletins tab).
 
 ## 6. Maintenance with no record (treat as overdue)
 Order, shopping list and quantities: `plan-maintenance-catchup.md` (2026-10-25).

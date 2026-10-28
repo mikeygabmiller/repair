@@ -120,13 +120,46 @@ repo.
 | Rotor stuck on the hub | Thread two **8 × 1.25 mm** bolts into the rotor's holes, two turns at a time, until it releases | VERIFIED: Chilton, Brakes > Front/Rear Disc Brakes > Rotor R&I (pack F03) | 2026-10-27 |
 | Pad shim lube | Thin coat of Honda M-77 assembly paste on the pad side of the shims and backs of the pads (pack shows the part number as "o8798-9010", probably 08798-9010: confirm at a Honda parts counter) | VERIFIED: Chilton (pack F03) | 2026-10-27 |
 
+### From the A–I report (`sources/chilton-report-A-I-2026-10-27.md`, same day)
+
+Chilton's selector asked only year/make/model, so the report labels every article by the
+configuration it was printed for. Only rows marked K24A4 / L4 / "2005 Accord" are this car.
+
+| Item | Value | Source | Checked |
+|---|---|---|---|
+| Ignition timing | 8° BTDC (AT) | VERIFIED: Chilton Tune-Up Specifications, 2005 2.4 K24A4 row (report D, G20) | 2026-10-27 |
+| Idle speed | 620–770 rpm (AT) | Same | 2026-10-27 |
+| Spark plug gap, by emissions version | **0.039–0.043 in (1.0–1.1 mm)** except SULEV; **SULEV 0.047–0.051 in (1.2–1.3 mm)**. The under-hood emissions label says whether this car is SULEV; the label wins if it differs | VERIFIED: same table, footnote ①. Likely explains the OM's "-11 or -13 on some models" plugs (p.275): -13 would be the SULEV plug (UNVERIFIED link) | 2026-10-27 |
+| Fuel pressure | 48–55 psi (SULEV 47–54) | Same table, footnote ② | 2026-10-27 |
+| Spark plug torque | 13 lbf·ft | VERIFIED: Chilton Torque Specifications, 2005 2.4 K24A4 row (report D, G21). Now confirmed for this engine, not just the general article | 2026-10-27 |
+| Oil drain plug torque | 33 lbf·ft | VERIFIED: same K24A4 row | 2026-10-27 |
+| Intake manifold / exhaust manifold | 16 / 33 lbf·ft | VERIFIED: same K24A4 row | 2026-10-27 |
+| Drive plate (flywheel) bolts, automatic | 54 lbf·ft | VERIFIED: same row, footnote ③ | 2026-10-27 |
+| Head / main / rod / crank pulley bolts | Torque-angle: head 29 lbf·ft + 90° + 90° (+90° if new bolt); mains 22 + 56°; rods 14 + 90°; crank pulley 36 + 90° | VERIFIED: same row, footnotes ⑪⑫⑮⑬ (engine-out work only) | 2026-10-27 |
+| Fluid capacities (service) | Oil w/ filter 4.4 qt; **automatic 6.0 pt (= 3.0 qt)**; cooling 5.3 qt (auto); fuel 17.1 gal | VERIFIED: Chilton Fluid Capacities, 2005 Accord 2.4 K24A4 row (report D, G22). All agree with OM p.274 | 2026-10-27 |
+| ATF drain plug | Thread 18 × 1.5 mm (**thread size, not the socket size**), **36 lbf·ft (49 N·m)**, new sealing washer | VERIFIED: Chilton A/T Fluid Replacement, applicability "2003–04 Accord V6 A/T and 2005–07 Accord" (engine not split; report E, G26). Matches the past-chat 36 lb-ft | 2026-10-27 |
+| ATF filler bolt | 24 × 1.5 mm thread, 33 lbf·ft (44 N·m), new sealing washer | Same article | 2026-10-27 |
+| ATF level check | Engine at normal temp (radiator fan has come on), level ground, engine off, check **within 60–90 s**; yellow-loop dipstick | VERIFIED: Chilton A/T Fluid Level Check, 2005–07 Accord (engine not split; report E, G25). Adds the time window the OM (p.219) doesn't give | 2026-10-27 |
+| Front caliper **bracket** bolts | **80 lbf·ft** | VERIFIED: Chilton Brake Specifications, 2005 Accord row, not footnoted (report B, G15) | 2026-10-27 |
+| Front caliper **mounting** bolts | 26 lbf·ft (4-cyl), V6 37 | **TENTATIVE**: same table, footnote ⑥; report flags the reading. Confirm before use | 2026-10-27 |
+| Front pad minimum lining | 0.060 in | VERIFIED: same table | 2026-10-27 |
+| Rotor runout limit (front and rear) | 0.004 in | VERIFIED: same table | 2026-10-27 |
+| Front rotor original / minimum thickness | 0.910 / **0.830 in** for non-V6 (V6 auto 1.110 / 1.020) | **TENTATIVE**: same table, footnotes ③④ printed as "Except V6 w/manual transaxle"; the 4-cyl attribution isn't clean. Confirm before deciding to resurface | 2026-10-27 |
+| Rear brake row | Min thickness 0.310 in, bracket 41 lbf·ft, mounting 17 lbf·ft, lining 0.060 in; drum columns 8.66 / 8.70 in on the same row | **TENTATIVE**: same table. Disc vs drum on this EX not settled: look through the rear wheel | 2026-10-27 |
+| Brake bleed order | **Front left, front right, rear right, rear left** | Chilton Bleeding the Brake System, figure "Accord and Prelude shown" (report B, G16). Generic figure. Bleed at each fitting until no bubbles, at least 4–5 times; never let the reservoir run dry | 2026-10-27 |
+| ABS wiring, right front sensor (L4) | At ABS modulator-control unit connector **C616**: **FR+B terminal 2 (GRN/BLK)**, **FR-GND terminal 18 (PNK)**. Fuses: under-dash No. 21 (7.5 A, ON/START); under-hood No. 13 (20 A), No. 17 (30 A, +B-FSR), No. 18 (20 A, +B-MR). Grounds 24, 25 | VERIFIED: Chilton ABS Electrical Schematic, 2003–05 Accord **L4**, ETM pp.44 and 44-1 (report A, G14). **Do not use the V6 47P pin numbers** | 2026-10-27 |
+| Back-up light circuit (A/T) | Fed by under-dash fuse No. 21 (7.5 A, ON/START). Wire colors per schematic: GRN to one lamp side, WHT/GRN or WHT to the other | Chilton Back-up Lights schematic, 2003–05 Accord A/T, ETM p.110-10 (report F, G34). Left/right routing read from an image: re-check before tapping (camera) | 2026-10-27 |
+
 **Chilton vs. other sources (both shown; which wins):**
 
 | Item | Chilton says | Other source says | Which ranks higher |
 |---|---|---|---|
 | Tire pressure, cold | Front 30 psi / rear 29 psi (pack F11; row doesn't say sedan or coupe) | **Front 32 / rear 30 psi** (OM p.276) | Neither yet: the **door-jamb sticker** on this car decides (Tier 1). Until then use the OM numbers, which are written for this sedan |
-| ATF drain and refill | 3.0 **L** (pack F11, citing A–E) | 3.0 **US qt (2.8 L)** (OM p.274) | OM (car-specific Tier 1). The difference is ~0.2 L; refill to the dipstick either way |
+| ATF drain and refill | 3.0 **L** (3.2 qt) in the A/T Fluid Replacement article, which doesn't split V6 from 4-cyl | 3.0 **US qt (2.8 L)**: OM p.274 **and** Chilton's K24A4 Fluid Capacities row (6.0 pt) | **Settled: 3.0 US qt** (two sources, one of them engine-specific). Fill to the dipstick |
 | Spark plug anti-seize | "Light coat of anti-seize on the threads" (general article) | Plugs went in dry on 2026-10-18 (`log.md`, past-chat advice) | Chilton outranks past chats. Plug maker's instructions (on the Bosch box/site) are the tiebreaker for plated plugs. Not a reason to pull the plugs now |
+| Valve clearance | K24A4 tune-up row: intake 0.008–0.010 in, **exhaust 0.011–0.013 in** (no "cold" label printed). Acura TSX article: intake 0.21–0.25 mm, exhaust 0.25–0.29 mm (0.010–0.011 in), head below 100 °F | Past chats: intake 0.21–0.25 / exhaust 0.25–0.29 mm (= the TSX numbers) | **Unsettled for exhaust.** The K24A4 row outranks a TSX article and past chats, but the table has no cold label and differs from the only procedure found. Confirm (2006–07 Accord article, or a Honda dealer) before adjusting valves |
+| Front axle nut torque | 181 lbf·ft (245 N·m) — **Accord Hybrid article, 24 × 1.5 mm nut** | This car's Honda nut 90305-692-010 is the **22 mm** nut (catalog: 4-cyl only; the 24 mm nut is V6/others) | **Not this car's spec.** The Hybrid figure is for the bigger nut. 4-cyl value still NOT FOUND (`open-issues.md` item 1) |
+| Rear camber sign | −1° 00′ ±30′ (Accord **Hybrid** alignment table) | OM p.275: "1°", no sign | Hybrid data, not 4-cyl. The magnitude matches; the sign is still unconfirmed for this car |
 | Maintenance schedule | Generic Honda chart: lists timing belt, balancer belt, distributor cap, "non-VTEC" plugs, coolant at 45k, brake fluid at 30k | OM pp.202–203 (written for this car) | **OM.** The Chilton chart includes parts a K24 doesn't use (distributor), so it is not this car's schedule. Its severe-service conditions list is still useful |
 
 
@@ -150,9 +183,9 @@ SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
 | Power steering: Honda PSF only | Honda PSF preferred; another brand only as a temporary replacement; never ATF | OM Service Information Summary |
 
 **Not in the owner's manual (still UNVERIFIED, need the library service manual):**
-~~drain plug 29 lb-ft~~ (Chilton: 33, above) · ATF drain plug 36 lb-ft / 18 mm · ~~spark plug torque 13 lb-ft~~ (Chilton agrees, above) ·
+~~drain plug 29 lb-ft~~ (Chilton: 33, above) · ~~ATF drain plug 36 lb-ft / 18 mm~~ (Chilton: 36 lbf·ft; 18 mm is the thread, above) · ~~spark plug torque 13 lb-ft~~ (Chilton agrees, above) ·
 **front axle nut 181 vs 134 lb-ft** · valve lash intake 0.21–0.25 mm / exhaust
-0.25–0.29 mm · brake bleed order RR, LR, RF, LF · battery group 51R.
+0.25–0.29 mm (conflicts with Chilton, above) · ~~brake bleed order RR, LR, RF, LF~~ (Chilton: FL, FR, RR, RL, above) · battery group 51R.
 
 ## Not in the owner's manual, still unverified
 
