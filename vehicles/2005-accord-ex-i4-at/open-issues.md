@@ -6,7 +6,7 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 **Status 2026-10-27 (owner): car back from Ben's and drivable.** Right front has a new
 axle, new axle nut (owner) and new lower ball joint (Ben's). Still open on the right front:
 the ABS (item 3: Ben found the bearing's tone ring damaged; **owner deferred the fix,
-2026-10-28**) and the grooved rotor/pads. Still to confirm: axle nut torque (item 1). Background: `plan-right-front-2026-10.md`.
+2026-10-28**) and the grooved rotor/pads. Background: `plan-right-front-2026-10.md`.
 
 ## 0. RESOLVED 2026-10-27: right front grinding, loose bearing, stripped axle nut
 - **Owner, 2026-10-27: car is drivable; the axle and axle nut issue is fixed** (new axle and new axle nut, installed by the owner the week of Oct 19–26; bearing play gone). The "do not drive / tow" warnings below are history, no longer in force.
@@ -28,6 +28,7 @@ History:
 - 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
 
 ## 1. RESOLVED 2026-10-27: front axle nut
+- **Owner, 2026-10-28: the axle nut is fine; closed. Don't raise it again** unless the owner asks or a new symptom points at it (clunk, wheel play, noise from the right front).
 - **Owner, 2026-10-27: fixed. New axle nut on the new axle; car drivable.** Only loose end: the torque number used and its source weren't recorded (`log.md`). If it came from Chilton, add it to `specs.md`.
 
 History:
@@ -35,7 +36,7 @@ History:
 - Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
 - Safety-critical spec: the real 4-cylinder number belongs in `specs.md` with its Chilton citation.
 - **Chilton A–I report (2026-10-27): 4-cyl axle nut torque NOT FOUND.** The only figure, 181 lbf·ft (245 N·m), is from the Accord **Hybrid** article for a **24 × 1.5 mm** nut. This car's Honda nut (90305-692-010) is the **22 mm** nut, so that figure is for a different nut. The Hybrid article also says: new nut every time, oil its seating face, stake the shoulder into the driveshaft slot after tightening.
-- **Open question:** what torque went on the new nut last week? If it was 181 lb-ft, that is the 24 mm nut's number. Get the 4-cyl figure from Ben (shop software, free to ask), a Honda dealer service desk, or Chilton's 2006–07 Accord 2.4 article, and re-torque if it differs.
+- (Closed by owner 2026-10-28) What torque went on the new nut last week? If it was 181 lb-ft, that is the 24 mm nut's number. Get the 4-cyl figure from Ben (shop software, free to ask), a Honda dealer service desk, or Chilton's 2006–07 Accord 2.4 article, and re-torque if it differs.
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.

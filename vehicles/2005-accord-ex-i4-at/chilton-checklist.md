@@ -27,7 +27,7 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
   battery spec, wiper size, bulbs (Hybrid only).
 
 ## A. Right front and ABS (the car right now)
-- [ ] 1. (A–I: Hybrid only, 181 lbf·ft for a 24 mm nut — not ours. STILL NEEDED) Front axle (spindle) nut torque, 4-cyl. Also: tighten with the wheel on or off the ground, and how to stake the nut
+- [ ] 1. (A–I: Hybrid only, 181 lbf·ft for a 24 mm nut. Owner closed the axle nut question 2026-10-28; reference only) Front axle (spindle) nut torque, 4-cyl. Also: tighten with the wheel on or off the ground, and how to stake the nut
 - [ ] 2. (A–I: Hybrid only, 0–0.05 mm) Front wheel bearing axial play limit (proves "no play" with a number)
 - [x] 3. (A–I: code 12 = RF sensor noise/intermittent; 61 = low voltage; V6 articles) ABS trouble code chart: 12-1, 61-1 and any new code Ben read
 - [ ] 4. (A–I: V6 only) ABS wheel speed sensor test procedure, right front (resistance/voltage check, air gap if listed)
