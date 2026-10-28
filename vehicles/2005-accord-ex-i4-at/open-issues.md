@@ -5,8 +5,8 @@ Most urgent first. Update or close an item whenever something changes. Backgroun
 
 **Status 2026-10-27 (owner): car back from Ben's and drivable.** Right front has a new
 axle, new axle nut (owner) and new lower ball joint (Ben's). Still open on the right front:
-the ABS (item 3: Ben found the bearing's tone ring damaged, quote below) and the grooved
-rotor/pads. Background: `plan-right-front-2026-10.md`.
+the ABS (item 3: Ben found the bearing's tone ring damaged; **owner deferred the fix,
+2026-10-28**) and the grooved rotor/pads. Still to confirm: axle nut torque (item 1). Background: `plan-right-front-2026-10.md`.
 
 ## 0. RESOLVED 2026-10-27: right front grinding, loose bearing, stripped axle nut
 - **Owner, 2026-10-27: car is drivable; the axle and axle nut issue is fixed** (new axle and new axle nut, installed by the owner the week of Oct 19–26; bearing play gone). The "do not drive / tow" warnings below are history, no longer in force.
@@ -50,6 +50,7 @@ History:
 - If the shake remains after the new axle: check the mounts.
 
 ## 3. ABS light, code 12-1 (since Oct 20)
+- **DEFERRED by owner, 2026-10-28:** living with the ABS light for now; will fix later. When it's picked back up: Ben's quote ($544.04, NSK bearing) vs Les Schwab (≈$516 incl. new hub, valid to 2026-11-20, bearing brand unknown) are below. Best done in the same visit as the right front rotor/pads (rotor comes off for the bearing anyway).
 - **Chilton backs Ben's diagnosis (A–I report, 2026-10-27; V6 and Hybrid articles, not 4-cyl-specific):** code **12** = right front wheel sensor electrical noise / intermittent signal. Honda's fix order: check the sensor and the **front magnetic encoder**; if the encoder is bad, **replace the front wheel bearing** (the encoder is part of it). Bearing goes in with the brown encoder side toward the inside of the knuckle; keep metal debris and magnetic tools off it. Codes are stored in memory and are **not** cleared by disconnecting the battery; code 12-type faults stay on until the system is normal and the car is driven (Hybrid article). V6 sensor air gap 0.5–1.2 mm (V6 only). L4 wiring pins are in `specs.md`.
 - **2026-10-27, Ben's diagnosis (owner relaying):** the ABS fault is the **tone ring on the right front wheel bearing, damaged**. Ben compared it with the left side; the right one is "definitely damaged".
 - **Ben's quote (Tekmetric, 2026-10-27, tech "B Ieremie"):** R&R front wheel bearing, one side, labor **$404.25** · NSK wheel bearing ×1 **$93.04** · subtotal $497.29 · est. tax $46.75 · **total $544.04**. No hub, alignment, rotor or pads on it.
