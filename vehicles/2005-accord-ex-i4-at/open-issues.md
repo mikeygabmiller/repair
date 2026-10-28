@@ -39,6 +39,7 @@ History:
 - (Closed by owner 2026-10-28) What torque went on the new nut last week? If it was 181 lb-ft, that is the 24 mm nut's number. Get the 4-cyl figure from Ben (shop software, free to ask), a Honda dealer service desk, or Chilton's 2006–07 Accord 2.4 article, and re-torque if it differs.
 
 ## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
+- **2026-10-28 (owner): "car is pretty shaky around 60 mph."** Not yet known: whether this is the old hard-acceleration shake or a new one since the right front work; steering wheel vs seat; whether it stays when coasting or changes when braking; whether lug nuts were re-checked after the wheel went back on. Triage order given: lug nuts (80 lbf·ft, OM p.250) → coast/brake test → wheel balance and tire check → axle/bearing → ATF/torque converter shudder (complaints 10299703, 11076272: 55–65 mph under light throttle).
 - Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
 - 2026-10-21: owner says the shake is the same.
 - New axle on hand, not installed: Parts Geek order #31-12567661, placed 2026-10-10, delivered 2026-10-19, $83.74 total. The emails say only "2005 Honda Accord CV Axle Assembly": **brand, part number and side (right/passenger) are not in them**. Read the box label before the job.
