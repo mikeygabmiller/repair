@@ -7,6 +7,12 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## Reported 2026-10-29: aux-light relay harness installed, light returned (owner; mileage not recorded)
+- Owner test-fit a Harbor Freight Roadshock 6" LED spot (1,050 lm claimed), triggered by the high beams through a relay wiring kit. Result: "not a big difference"; the light went back to the store.
+- Relay in the kit: RAYFIRE JD1912, 12 V coil, 40 A NO / 30 A NC (read off the relay, owner photo). 4-pin or 5-pin not confirmed.
+- The relay harness is still installed with nothing on its output. Not recorded yet: which wire was tapped for the trigger (likely WHT/RED at the HB3 high-beam plug; meter-test result not reported), Y-adapter or Posi-Tap, fuse rating in the holder, ground point, wire gauge.
+- Until a light is attached: the power lead to relay pin 30 is live at all times, and the output lead (pin 87) goes live with the high beams. Pull the fuse and keep the open ends insulated.
+
 ## Week of 2026-10-19 to 10-26 (exact date not recorded): right front CV axle replaced, new axle nut (owner)
 - Owner report, 2026-10-27: replaced the axle and put on a new axle nut; says the bearing now has no play.
 - Not recorded yet: date, mileage, axle brand/part number (Parts Geek axle from `open-issues.md` item 2?), nut part number, torque used and where that number came from, whether the nut was staked.
