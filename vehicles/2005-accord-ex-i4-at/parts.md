@@ -43,4 +43,5 @@ in a Honda dealer's online parts catalog by VIN.
 | Touch-up paint | Honda pen 08703-NH658PAH-A1 (paint code NH658P confirmed from door jamb) | |
 | Splash guards (OEM) | 08P00-SDA-100, 08P00-SDA-101A (listed 2006–07), 08P08-SDA-100 | Aftermarket SG023 was the past-chat pick. Which set is on the car: not recorded |
 | Hood struts (aftermarket) | Redline QuickLIFT PLUS 21-18002-02 + riveter 38-00047 | Needs drilling (conflicts with the no-drill rule) |
+| Hood struts: **V6 parts, not for this car** | Honda 74145-SDB-A02 (passenger) / 74195-SDB-A02 (driver). HondaPartsNow lists them only on 2003–07 **V6** trims (checked 2026-10-29). Cross-refs SG326013 / StrongArm 4157, so any Amazon kit sold as "OE# SG326013, 4157" (e.g. Kbkyawy, Oct 2026) is a V6 copy | I4 car has a prop rod; mounts on hood/body unconfirmed, **VERIFY** by looking. One buyer review says they drilled to fit a 2005 (COMMUNITY) |
 | Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Only if going CarPlay |
