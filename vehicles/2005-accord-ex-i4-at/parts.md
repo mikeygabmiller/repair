@@ -13,6 +13,7 @@ cross-reference to when known.
 | Front wiper blades | — | BFGoodrich Beam, 26" driver / 18" passenger | Installed and fit | 2026-09 |
 | Headlight bulbs | High HB3 (9005), low HB4 (9006) | — | VERIFIED: OM p.275 (HB3/HB4) | 2026-10-21 |
 | Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM) | Installed and working | 2026-09-08 |
+| Aux-light wiring kit | — | Harbor Freight Roadshock Light Bar Wiring Kit, item 64330: relay, inline fuse, cabin switch, one female DT output plug. Two lights need a DT Y-splitter (sold separately). 12 V fuse chart, two lights: 5 A up to 16 W each, 7.5 A for 17–24 W, 10 A for 25–50 W | Installed (owner, 2026-10-29). Kit details: HF owner's manual 64330 pp.3–4 | 2026-10-29 |
 | Battery | — | EverStart Maxx (made May 2025). Manual rating 38 AH/5 HR (OM p.275) | Installed | — |
 
 ## Unconfirmed (from past chats): confirm by VIN before ordering
