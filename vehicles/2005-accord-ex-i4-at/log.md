@@ -7,6 +7,11 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## Reported 2026-10-31: auxiliary driving lights installed (owner; mileage not recorded)
+- Owner: "I added these to my car." Which lights is not confirmed: the last ones discussed were Nilight 18 W 4" spot pods, 2-pack with harness (Amazon B00Q8CF7DE; listing: 18 W / 1.5 A each).
+- Not recorded yet: exact light model, mount location and bracket (hood-gap clamp Nilight B0824RPMDB was in the cart), mounted height (WA maximum 42 in. for auxiliary driving lamps, RCW 46.37.180(4)), which harness feeds them (the installed HF 64330 kit or the Nilight harness), fuse rating (HF manual 64330 p.4: two lights of 17–24 W each = 7.5 A), trigger (high beams or a switch), tethers.
+- Re-check mount screws, tethers and aim after the first ~10 miles.
+
 ## Reported 2026-10-29: aux-light relay harness installed, light returned (owner; mileage not recorded)
 - Owner test-fit a Harbor Freight Roadshock 6" LED spot (1,050 lm claimed), triggered by the high beams through a Harbor Freight Roadshock Light Bar Wiring Kit (item 64330). Result: "not a big difference"; the light went back to the store.
 - Relay in the kit: RAYFIRE JD1912, 12 V coil, 40 A NO / 30 A NC (read off the relay, owner photo). 4-pin or 5-pin not confirmed.
