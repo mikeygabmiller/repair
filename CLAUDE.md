@@ -5,9 +5,24 @@ that answers are **traceable**: every spec, part number and procedure step says 
 came from, and Claude says "unverified" instead of guessing. Never trade that away for a
 faster or more confident-sounding answer.
 
-Scope: **repair first**. Reversible upgrades and accessories go in `mods/` under the same
-rules. No detailing, no business. Current vehicle: the owner's
+Scope: **repair and mods**. Reversible upgrades and accessories go in `mods/` under the
+same rules. No detailing, no business. Current vehicle: the owner's
 2005 Honda Accord EX, 2.4 L 4-cylinder, automatic → `vehicles/2005-accord-ex-i4-at/`.
+
+## How to answer (owner's style rules, 2026-10-31)
+
+- **Short as the question allows.** Answer first, then detail. No filler, no restating
+  the question. Long is fine only when the topic needs it. Keep the "What I couldn't
+  verify" list tight.
+- **Open issues: only when they affect the job at hand.** The owner knows the car's
+  problems; don't tack on "but X is still unresolved". Mention one in a single line
+  only if it changes the job (e.g. SRS light for anything near the seats, console or
+  under the dash; battery drain for any electrical add-on).
+- **Proper method, then the backyard method.** Give the proven shop method first. If
+  there is a real practical shortcut a backyard mechanic would use (loaner tools, a
+  cheaper tool that does the job, a clever trick), add it, labeled `COMMUNITY`, and
+  explain *why* it works so the owner learns the principle. No shortcuts on torque
+  specs or safety-critical fasteners.
 
 ## Start and end of every chat
 
@@ -15,12 +30,15 @@ Each chat saves its notes on its own branch, and a new chat only sees `main`. Fo
 draft PRs piled up unmerged once (folded in 2026-10-28), so Claude was answering from
 stale notes. To stop that:
 
-- **Start:** run `python3 tools/unmerged.py` before answering. If it lists branches, tell
-  the owner in one line and offer to fold them into this chat's branch. Once a branch is
-  folded in by hand, add its name to `tools/folded-branches.txt`.
-- **End:** when this chat changed repo files, commit, push, open the PR, then ask the
-  owner: "Merge these notes into main now?" On yes, mark the PR ready and merge it with a
-  **merge commit** (not squash), so git knows the branch is merged.
+- **Start:** run `python3 tools/unmerged.py` before answering. If it lists branches with
+  open PRs, merge them (same checks as below) and tell the owner in one line. Once a
+  branch is folded in by hand, add its name to `tools/folded-branches.txt`.
+- **End: merge automatically (owner's standing rule, 2026-10-31).** When this chat
+  changed repo files, commit, push, open the PR, mark it ready, and merge it into `main`
+  right away with a **merge commit** (not squash, so git knows the branch is merged).
+  Don't ask first. Before merging, re-read the diff; if it conflicts with `main`, merge
+  `main` into the branch and resolve it. If the merge is blocked, or resolving a conflict
+  would mean choosing between two different facts, stop and tell the owner.
 
 ## Answering a question
 
@@ -71,8 +89,11 @@ Apply these to every recommendation without being reminded:
 - No cutting factory wiring, no drilling. Use adapter harnesses, Posi-Taps,
   add-a-circuit fuse taps. If the only way involves drilling, say so up front.
 - Wire connections soldered and heat-shrunk.
-- OEM-spec parts preferred; name-brand aftermarket OK; no no-name budget parts.
-- Honda fluids (ATF, power steering fluid, Type 2 coolant).
+- **Safety-critical parts** (brakes, wheel bearings/hubs, ball joints, axles, steering,
+  suspension, SRS): OEM or name-brand only, with a one-line reason.
+- **Everything else, including tools** (Harbor Freight and other budget brands OK):
+  lay out the budget vs. name-brand option with pros, cons and price; the owner decides.
+- Honda fluids (ATF, power steering fluid, Type 2 coolant). These stay strict.
 - It's the owner's only car: say how long a job really takes and whether it can leave
   the car undrivable. Don't plan big jobs the night before a work day.
 - Give the proven shop method. "Try harder" is not an answer.
