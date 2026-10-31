@@ -65,5 +65,12 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   Interior Lights schematic (`chilton-checklist.md` 51a). Drain risk only if the lid is
   left open or ajar; the kit's own switch is the off switch. Backyard: swap the stock bulb
   for one strip that draws no more than the bulb (bag the bulb for resale).
+  **Plan changed (owner, 2026-10-31): one strip in the trunk, one in each front footwell.**
+  Two circuits: trunk strip on the trunk relay; footwells on key-on fuse #9 with the kit
+  switch. Footwell strips go under the lower dash edge, aimed at the carpet, never under the
+  seats: the driver's seat position sensor and passenger weight sensors are there (OM p.23),
+  and the manual says no objects under the front seats (OM p.27). No knee airbag is listed
+  (OM p.23). Driver side tied off clear of the pedals. Bed strips may be too long and too
+  bright for a footwell: check lengths and cut marks; add a dimmer or a short footwell kit.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
