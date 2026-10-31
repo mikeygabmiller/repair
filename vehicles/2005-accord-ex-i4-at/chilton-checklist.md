@@ -90,6 +90,7 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [ ] 49. Head unit connector pinout (Bluetooth adapter power)
 - [x] 50. (A–I: fuse 21, ETM p.110-10; re-check routing before tapping) Reverse light circuit: wire color and where to tap it (backup camera, no cutting)
 - [ ] 51. Power window and moonroof reset after a battery disconnect
+- [ ] 51a. Trunk light circuit (Interior Lights schematic): which fuse feeds it, whether the trunk latch switch is on the ground side or the +12 V side, and whether the MICU (body computer) controls the lamp (for LED strips on a relay)
 
 ## G. Airbags (SRS): read only, never DIY
 - [x] 52. (A–I: Hybrid articles; 61-10 = driver buckle switch open) SRS code chart: 61-10, E2-11, F1-11
