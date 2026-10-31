@@ -54,6 +54,9 @@ copied here.
 | Compression ratio | 9.7:1 | VERIFIED: OM p.275 | 2026-10-21 |
 | Spark plugs | NGK IZFR6K-11 or DENSO SKJ20DR-M11. **Manual also lists** NGK IZFR6K-13 / DENSO SKJ20DR-M13 "on some models" without saying which: match the plug you pull out, or the under-hood label | VERIFIED: OM p.275 (conflict noted) | 2026-10-21 |
 | Battery | 12 V, 38 AH/5 HR | VERIFIED: OM p.275 | 2026-10-21 |
+| 12 V accessory sockets | 120 W / 10 A max, **combined** across all sockets; won't run a cigarette lighter element | VERIFIED: OM p.103 | 2026-10-26 |
+| When the sockets have power | Key in ACCESSORY (I) or ON (II); off with the key out | VERIFIED: OM p.78 | 2026-10-26 |
+| Socket fuse | Interior fuse box #9, 15 A, "Front Accessory Sockets" | VERIFIED: OM p.269 | 2026-10-26 |
 
 ## Bulbs (12 V)
 
@@ -71,8 +74,12 @@ copied here.
 | Spotlights/front ceiling (EX) | 8 W | VERIFIED: OM p.275 |
 | Ceiling light | 8 W | VERIFIED: OM p.275 |
 | Trunk light | 5 W | VERIFIED: OM p.275 |
+| Door courtesy light | 2 CP | VERIFIED: OM p.275 |
+| Vanity mirror lights | 1.1 W | VERIFIED: OM p.275 |
 
 Fuse charts: OM p.268 (under-hood) and p.269 (interior), also printed on the fuse box covers.
+
+Front ceiling light (EX): two push-on spotlights (map lights) plus a courtesy light between them. The middle courtesy light comes on with the parking lights and is dimmed by the Select/Reset knob (VERIFIED: OM p.101), so an LED there may flicker or not dim. Interior fuse #6 is "Interior Light", 7.5 A (VERIFIED: OM p.269).
 
 ## Maintenance schedule, 4-cylinder (OM p.202 normal, p.203 severe)
 
@@ -110,7 +117,7 @@ repo.
 
 | Item | Value | Source | Checked |
 |---|---|---|---|
-| Engine oil drain plug torque | **33 lbf·ft** (2005 Accord 2.4, K24A4). Replaces the unverified 29 lb-ft from past chats | VERIFIED: Chilton (pack F02, citing pack A–E) | 2026-10-27 |
+| Engine oil drain plug torque | **33 lbf·ft (45 N·m)** for the 4-cylinder, new washer. The OM gives **29 lbf·ft for the 6-cylinder**, which is probably where the past-chat 29 came from: never use it on this engine | VERIFIED: **OM p.215** (Changing the Oil and Filter, step 5; read 2026-10-28) and Chilton (pack F02, citing pack A–E). Two sources agree | 2026-10-28 |
 | Spark plug gap | 0.039–0.043 in (1.0–1.1 mm); replace the plug if the gap exceeds 0.051 in (1.3 mm). Check with a wire gauge, don't adjust | VERIFIED: Chilton, Engine Electrical > Ignition > Spark Plugs > R&I (pack F04). Article has no applicability note, so it's Chilton's general article; it matches the factory "-11" plugs (OM p.275) | 2026-10-27 |
 | Spark plug torque | 13 lbf·ft (18 N·m) | VERIFIED: same Chilton article (pack F04). Matches what was used on 2026-10-18 | 2026-10-27 |
 | Power steering reservoir | 0.4 L | VERIFIED: Chilton (pack F11, citing A–E) | 2026-10-27 |
@@ -187,11 +194,51 @@ SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
 **front axle nut 181 vs 134 lb-ft** · valve lash intake 0.21–0.25 mm / exhaust
 0.25–0.29 mm (conflicts with Chilton, above) · ~~brake bleed order RR, LR, RF, LF~~ (Chilton: FL, FR, RR, RL, above) · battery group 51R.
 
+### From the earlier Chilton pull (`sources/chilton-2026-10-23.md`, 2026-10-23)
+
+Read by Claude in Chrome through the owner's library's Chilton access. R1/R2 = report and
+row ID in that file. Rows already in the tables above are left out; disagreements with
+the 2026-10-27 report are in the conflicts table below.
+
+| Item | Value | Applies to (as printed) | Source | Checked |
+|---|---|---|---|---|
+| Front wheel speed (ABS) sensor bolt | 6 mm bolt, 9.8 N·m (7.2 lbf·ft) | Drawing labeled "Accord with 4-cylinder engine" | VERIFIED: Chilton R1 1d / R2 A05 (see conflicts) | 2026-10-23 |
+| Tie rod end nut (outer) | Castle nut 29–35 lbf·ft (39–47 N·m); non-castle 32 lbf·ft (43 N·m); new cotter pin | Outer tie rods (no engine split shown) | VERIFIED: Chilton R2 A05, Steering › Tie Rod Ends | 2026-10-23 |
+| Damper fork through-bolt nut | 47 lbf·ft (65 N·m), all 4 wheels on the ground, new self-locking bolts | Struts article (no engine split shown) | VERIFIED: Chilton R2 A05. Pinch bolt: NOT FOUND | 2026-10-23 |
+| Under-hood ABS fuses | #17 30 A and #18 20 A (L4; 40 A on V6), both feed the ABS modulator-control unit | 2003–05 Accord (non-hybrid) | VERIFIED: Chilton R1 1f + OM p.268 ("ABS Motor" #17, "ABS F/S" #18) | 2026-10-23 |
+| Honda coolant part number | OL999-9001 (Type 2, premixed) | **V6** coolant article | Chilton R2 C03. Confirm at a Honda parts counter (`parts.md`) | 2026-10-23 |
+
+**From another engine or model only (NOT confirmed for the 2.4 L).** Likely shared parts,
+but not proven. Rows marked ⚠ are safety-critical: don't use them as final until a 2.4 L
+source agrees.
+
+| Item | Value | Version it's from | Source |
+|---|---|---|---|
+| ⚠ Lower ball joint castle nut | 12 × 1.25 mm, 78–88 N·m (58–65 lbf·ft); torque to the low value, then tighten only to line up the cotter pin, never loosen | **Hybrid** knuckle figure | Chilton R2 A04 |
+| ⚠ Front stabilizer link nuts | Self-locking 38 N·m (28 lbf·ft); flange 29 N·m (22 lbf·ft); new nuts; re-tighten the self-locking nut after 5 min of driving | **Hybrid** | Chilton R2 A05 |
+| ⚠ Front lower arm bolts | 12 mm: 64 N·m (47 lbf·ft); 14 mm: 83 N·m (61 lbf·ft); new bolts; final-tighten with weight on the wheels | **Hybrid** | Chilton R2 A05 |
+| Splash guard screws / rotor flat screw | 9.8 N·m (7.2 lbf·ft) | **Hybrid** | Chilton R2 A05 |
+| ABS light after a repair | Stays on until the fault is gone **and the car is driven**; noise faults clear on a test drive at **19 mph (30 km/h)**; codes survive a battery disconnect | **V6** | Chilton R1 1b |
+| Engine mounts | Side 64 N·m (47 lbf·ft); rear 54 N·m (40 lbf·ft) | Acura **TSX** | Chilton R2 D05 |
+| Valve lash locknuts | Intake 20 N·m (15 lbf·ft); exhaust 14 N·m (10 lbf·ft); valve cover final 12 N·m | Acura **TSX** | Chilton R2 D01 |
+| Charging system | Fault if over 15.1 V, or under 13.5 V at 2,000 rpm | Acura **TSX** | Chilton R2 E05 |
+
+**The two Chilton pulls disagree (both shown; which ranks higher):**
+
+| Item | 2026-10-23 pull | 2026-10-27 A–I report | Which to use |
+|---|---|---|---|
+| ABS sensor bolt, 7.2 lbf·ft | From a drawing labeled "Accord with 4-cylinder engine" | Found only in a V6 article | The 10-23 reading names the 4-cylinder, so it ranks higher. Small bolt: either way, snug, not hard |
+| Front caliper mounting (slide pin) bolts, 26 lbf·ft | Read as "4 cyl." in the Brake Specifications table | Same table, flagged **TENTATIVE** (footnote reading unclear) | Same number both times. Still look at the table once more before relying on it: safety-critical |
+| Front rotor minimum thickness, 0.830 in | Read as "2005 Accord front (not V6 auto)" | Same table, **TENTATIVE**: footnotes printed "Except V6 w/manual transaxle" | Same number both times; the row's 4-cyl label is what's unsure. The minimum cast or stamped on the rotor itself (Tier 1) beats both |
+| Valve clearance | Labeled "cold" in the K24A4 tune-up row | Same row, "no cold label printed" | Unsettled (see the valve clearance conflict above) |
+| ATF total (dry) | Chilton overhaul figure 7.0 L (7.4 US qt), article mixes engines | — | **OM p.274: 6.9 US qt (6.5 L)** for the 4-cylinder. Only matters for a rebuild |
+
 ## Not in the owner's manual, still unverified
 
 | Item | Free source |
 |---|---|
 | Door-jamb sticker (tire size, pressures, build month) | Photo of the driver door jamb |
+| Alignment tolerances (±), whether toe is total or per wheel and at what diameter, rear camber sign; tie rod jam nut and rear toe cam bolt torque | Library service manual, wheel alignment section (Chilton Library) |
 | Every other torque spec (brakes, suspension, drain plugs, axle nut…) | Library service manual (Chilton Library / ALLDATA through a public library) |
 
 Format for new rows: value, then the source with page or section, then the date checked.
