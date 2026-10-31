@@ -28,9 +28,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   vehicle-specific fit kit (Thule Evo Clamp or Yakima BaseLine + BaseClip); kit number
   for a 2005 sedan **not confirmed** (Rack Warehouse lists a "guaranteed fit" Evo Clamp
   bundle for 2005 Accord without the kit number). Earlier pick was a soft roof bag
-  (`sources/project-history-2026-10-21.md`). Advice given: towels and cords are grabbed
-  every job and must stay dry, so gasketed totes inside come first; a hard locking box
-  on a clamp rack if the cabin is full; a soft bag leaks at zippers and can mark the paint.
+  (`sources/project-history-2026-10-21.md`). **Cabin is full (owner, 2026-10-31)**, so
+  the pick is a hard, locking, side-opening box on a name-brand clamp rack: it keeps towels
+  dry and frees cabin space for heavy gear. A soft bag leaks at zippers and can mark the paint.
   Prices seen 2026-10-31 (retail listings, recheck): Thule Evo Clamp feet $264.95, WingBar
   Evo 135 pair $279.95, Evo Clamp fit kit $159.95 (~$705 rack); Yakima BaseLine towers
   $219.95–275, JetStream bars $216–270, BaseClip $59.95–75 (~$500–620); universal bare-roof
