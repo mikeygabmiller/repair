@@ -24,6 +24,25 @@ carrier rating is the basket's rating, not the car's.
 | Curt 18145 basket carrier, 48×20, 1-1/4" shank, 500 lb | $128–173 | Same weight problem |
 | Harbor Freight Haul-Master 4×8 folding trailer | $519.99 (1,720 lb model, 2024 coupon); $699.99 (undated) | Rated well above the car's 1,000 lb limit; the car's limit rules. Trailer's own weight counts toward the 1,000 lb |
 
+## Use: carrying detailing gear (owner, 2026-10-31)
+
+The owner wants the hitch to carry detailing equipment. The car is already set up for it
+inside (passenger seat out, rear seatbacks out; `sources/project-history-2026-10-21.md`).
+- **Carrier weight eats the budget.** Curt 18110 (steel tray): 30 lb on etrailer's product
+  page and other listings, ~38 lb in an etrailer Q&A answer (retailer data, not Honda).
+  That leaves **about 60–70 lb of gear** under the ~100 lb ceiling, less with a box on it.
+- **What goes on the hitch:** light, bulky, weather-proof stuff (hoses, cord reels, empty
+  buckets, towel bins). Heavy, dense gear (extractor, pressure washer, full jugs) stays
+  inside, low and ahead of the rear axle. On the carrier, heaviest item nearest the bumper:
+  weight 2–3 ft out levers more on the hitch than the same weight at the ball.
+- **Weigh the actual gear** on a bathroom scale before buying anything.
+- Rain and theft: an open tray needs a locking weatherproof box or bag; box weight
+  comes out of the same budget.
+- Moving gear from the cabin to the hitch doesn't change the 850 lb total; it moves it
+  behind the rear axle, which lightens the front.
+- If the gear won't fit under ~100 lb, the small trailer is the only way that stays within
+  Honda's limits (1,000 lb total, ~100 lb on the ball).
+
 ## Options compared
 
 - **Hitch + carrier:** ~$330–425 plus tax. Only ~100 lb minus the carrier's weight usable.
