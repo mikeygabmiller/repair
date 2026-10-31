@@ -7,7 +7,7 @@ what's known and the next steps, cheapest first. When an item closes, move it to
 before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
 Part 1.
 
-Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
+Last updated 2026-10-31. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
 
 ## 1. SRS (airbag) light: codes 61-10, E2-11, F1-11. Dealer or SRS shop only, never DIY
 - **With the SRS light on, the airbags may not deploy in a crash.** This is the most
@@ -39,7 +39,35 @@ Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2
   4. While it's there: the passenger seat bolts also anchor that seat's belt buckle, and
      the torque used when it went back in wasn't recorded. Have the shop check them.
 
-## 2. Shake around 60 mph, much worse on the gas (reported 2026-10-28)
+## 2. Check engine light: P0685, ECM/PCM power relay control circuit (2026-10-31)
+- **2026-10-31 (owner, MADDOX screenshot):** MIL on, P0685 stored/confirmed. The app's
+  "most likely fix: replace main relay" is the app's guess, not a diagnosis. Mileage,
+  freeze frame and any symptoms (stall, hard start, cut-out) not recorded yet.
+- What it means on this car (COMMUNITY: Honda job aid quoted by ricksfreeautorepairadvice.com
+  and iamcarhacker.com, covers 2003–12 Accord; not yet checked in Chilton): the engine
+  computer turns on PGM-FI main relay 1 and watches its own power feed (IGP). If that feed
+  drops out or sags too low while the relay is commanded on, the code sets. Shops report a
+  weak battery or bad charging as the most common cause, then the main relay (cracked
+  solder joints inside), then fuses/wiring/grounds.
+- **Timing:** it showed up right after the aux-light relay harness (2026-10-29) and the aux
+  lights (2026-10-31) went in (`log.md`). A loose battery terminal, a ring terminal stacked
+  on a battery post, a disturbed ground or a tapped fuse can drop the computer's power for
+  a moment and set exactly this code (UNVERIFIED reasoning; check below).
+- Recall 07V097000 (fuel pump relay = PGM-FI main relay 2) shows **not open** on this VIN.
+- Next, cheapest first:
+  1. Screenshot the **Freeze Frame** before erasing anything (shows rpm, temp, speed when
+     it set).
+  2. Battery terminals: tight, clean, nothing loose under the clamps. Wiggle each clamp by
+     hand; it must not turn. Check the new harness's power and ground connections.
+  3. Confirm no fuse was pulled or tapped for the lights, and that nothing touches the
+     interior **#23 IGP (PGM-FI ECU) 7.5 A** fuse (VERIFIED: OM p.269) or the under-hood
+     main fuses (OM p.268).
+  4. Free battery + charging test at a parts store (battery under warranty, item 6).
+  5. Clear the code and drive normally for a few days. Comes back with everything tight →
+     test the main relay with the factory procedure (Chilton through the library), not by
+     guessing.
+
+## 3. Shake around 60 mph, much worse on the gas (reported 2026-10-28)
 - **2026-10-28 (owner, coast test):** coasting at ~60 is "kind of shaky"; **much worse on
   the gas**.
 - Owner reports conflict over time: shake under hard acceleration before Oct 21 → "gone"
@@ -66,7 +94,7 @@ Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2
   (`sources/chilton-pack-F-2026-10-27.md`); the free full list is on nhtsa.gov under the
   car's "Manufacturer Communications".
 
-## 3. ABS light: right front wheel bearing's encoder is damaged. DEFERRED by owner, 2026-10-28
+## 4. ABS light: right front wheel bearing's encoder is damaged. DEFERRED by owner, 2026-10-28
 - Normal brakes work; anti-lock doesn't until this is fixed.
 - **Diagnosis (Ben's Auto Care, 2026-10-27):** the "tone ring" on the right front wheel
   bearing is damaged (compared with the left). On this car the tone ring is the bearing's
@@ -78,13 +106,13 @@ Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2
 - Quotes: **Ben's $544.04** (NSK bearing, labor $404.25) · **Les Schwab ≈$516** incl. a
   new hub, valid to **2026-11-20**, bearing brand not shown. Honda bearing 44300-TR4-A51
   (`parts.md`).
-- When it's picked back up: do it in the same visit as item 4 (the rotor comes off for the
+- When it's picked back up: do it in the same visit as item 5 (the rotor comes off for the
   bearing anyway). The bearing's brown encoder side faces the inside of the knuckle; keep
   metal debris and magnetic tools off it (Chilton, Hybrid article).
 - Separate lead: the old ABS code 61-1 means low voltage at the ABS unit (Chilton, V6
-  article). See item 5.
+  article). See item 6.
 
-## 4. Right front rotor and pads: grooved, not checked since the repair
+## 5. Right front rotor and pads: grooved, not checked since the repair
 - The loose bearing let the caliper cut **deep grooves** into the right front rotor
   (owner, 2026-10-21). Owner planned to keep the rotor and pads (2026-10-22).
 - Next (free): measure the rotor's thickness at the grooves. The minimum is usually cast or
@@ -92,19 +120,19 @@ Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2
   two readings of that table disagree on whether that row is the 4-cylinder (`specs.md`).
   Pads: minimum lining **0.060 in** (VERIFIED: Chilton). Replace pads as a front pair.
 
-## 5. Battery and charging: no drain since 2026-10-26, cause never found
+## 6. Battery and charging: no drain since 2026-10-26, cause never found
 - **2026-10-26 (owner): no battery drain now.** The September episodes are in `log.md`.
 - If it comes back: free load test and charging test at a parts store, then a parasitic
   draw test. Old suspects: the Bluetooth adapter, the camera wiring.
 - Keep new add-ons on key-on power, so a stuck accessory can't flatten the only car.
 - Battery: EverStart Maxx, made May 2025 (under warranty per owner).
 
-## 6. Maintenance with no record
+## 7. Maintenance with no record
 Everything with no dated record counts as overdue. Status, intervals and what's due next:
 `maintenance.md`. Order and shopping list: `plan-maintenance-catchup.md`. First job:
 oil and filter (`procedures/accord-2005-oil-change.md`).
 
-## 7. Body and interior (not urgent)
+## 8. Body and interior (not urgent)
 - Front bumper cover cracked. Rear bumper divot and clear-coat crack. Hood rock chips to
   primer (check whether any reach bare metal before winter). Peeling clear coat in spots.
 - Rear road noise since the deadener was lost.
