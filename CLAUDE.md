@@ -106,6 +106,11 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 - Refresh official data: `python3 tools/lookup.py refresh vehicles/2005-accord-ex-i4-at`
   (also prints the VIN decode once `vehicle.json` has a VIN).
 - Knowledge updates should end up on `main` so the next session sees them.
+- **Merge automatically (owner's standing rule, 2026-10-31).** After pushing, open the PR,
+  mark it ready for review, and squash-merge it into `main` right away; don't wait for
+  the owner. Before merging: re-read the diff, and if it conflicts with `main`, merge
+  `main` into the branch and resolve it first. If a merge is blocked or the conflict
+  changes meaning, stop and tell the owner instead.
 - Commit messages say what was learned or changed, e.g. "Add oil capacity from owner's
   manual p.XXX".
 
