@@ -23,6 +23,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
+- **Roof storage for towels and cords (2026-10-31):** roof limit is 165 lb rack + load
+  (VERIFIED: OM p.172, `specs.md`). Bare roof, so a rack needs clamp feet with a
+  vehicle-specific fit kit (Thule Evo Clamp or Yakima BaseLine + BaseClip); kit number
+  for a 2005 sedan **not confirmed** (Rack Warehouse lists a "guaranteed fit" Evo Clamp
+  bundle for 2005 Accord without the kit number). Earlier pick was a soft roof bag
+  (`sources/project-history-2026-10-21.md`). Advice given: towels and cords are grabbed
+  every job and must stay dry, so gasketed totes inside come first; a hard locking box
+  on a clamp rack if the cabin is full; a soft bag leaks at zippers and can mark the paint.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
