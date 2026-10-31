@@ -5,19 +5,53 @@ that answers are **traceable**: every spec, part number and procedure step says 
 came from, and Claude says "unverified" instead of guessing. Never trade that away for a
 faster or more confident-sounding answer.
 
-Scope: **repair only** (no detailing, no business). Current vehicle: the owner's
+Scope: **repair and mods**. Reversible upgrades and accessories go in `mods/` under the
+same rules. No detailing, no business. Current vehicle: the owner's
 2005 Honda Accord EX, 2.4 L 4-cylinder, automatic → `vehicles/2005-accord-ex-i4-at/`.
+
+## How to answer (owner's style rules, 2026-10-31)
+
+- **Short as the question allows.** Answer first, then detail. No filler, no restating
+  the question. Long is fine only when the topic needs it. Keep the "What I couldn't
+  verify" list tight.
+- **Open issues: only when they affect the job at hand.** The owner knows the car's
+  problems; don't tack on "but X is still unresolved". Mention one in a single line
+  only if it changes the job (e.g. SRS light for anything near the seats, console or
+  under the dash; battery drain for any electrical add-on).
+- **Proper method, then the backyard method.** Give the proven shop method first. If
+  there is a real practical shortcut a backyard mechanic would use (loaner tools, a
+  cheaper tool that does the job, a clever trick), add it, labeled `COMMUNITY`, and
+  explain *why* it works so the owner learns the principle. No shortcuts on torque
+  specs or safety-critical fasteners.
+
+## Start and end of every chat
+
+Each chat saves its notes on its own branch, and a new chat only sees `main`. Fourteen
+draft PRs piled up unmerged once (folded in 2026-10-28), so Claude was answering from
+stale notes. To stop that:
+
+- **Start:** run `python3 tools/unmerged.py` before answering. If it lists branches with
+  open PRs, merge them (same checks as below) and tell the owner in one line. Once a
+  branch is folded in by hand, add its name to `tools/folded-branches.txt`.
+- **End: merge automatically (owner's standing rule, 2026-10-31).** When this chat
+  changed repo files, commit, push, open the PR, mark it ready, and merge it into `main`
+  right away with a **merge commit** (not squash, so git knows the branch is merged).
+  Don't ask first. Before merging, re-read the diff; if it conflicts with `main`, merge
+  `main` into the branch and resolve it. If the merge is blocked, or resolving a conflict
+  would mean choosing between two different facts, stop and tell the owner.
 
 ## Answering a question
 
 1. **Pin the vehicle.** Use the vehicle folder. If the question could differ by engine,
    transmission, trim or build date, say which version the answer is for.
 2. **Check the repo first**, in this order: `profile.md` (car + known issues),
-   `open-issues.md` (what's broken now), `specs.md` (already-verified numbers),
+   `open-issues.md` (what's broken now), `maintenance.md` (what's due),
+   `specs.md` (already-verified numbers),
    `parts.md`, `log.md` (what's been done, at what mileage), then search `recalls.md` and
-   `complaints-all.md` for the symptom or part. `sources/project-history-2026-10-21.md`
-   is the owner's full history compiled from past AI chats: trust it for what the
-   owner did, never for specs or part numbers.
+   `complaints-all.md` for the symptom or part. `issues-history.md` has the back story of
+   every issue; it's background only, `open-issues.md` is the current status.
+   `sources/project-history-2026-10-21.md` is the owner's full history compiled from past
+   AI chats: trust it for what the owner did, never for specs or part numbers.
 3. **Then outside sources**, ranked below. Use web search/fetch when needed.
 4. **Label every fact** (spec, part number, step, diagnosis claim):
    - `VERIFIED: <source, page/section>`: from a Tier 1 or 2 source that Claude or the
@@ -55,8 +89,11 @@ Apply these to every recommendation without being reminded:
 - No cutting factory wiring, no drilling. Use adapter harnesses, Posi-Taps,
   add-a-circuit fuse taps. If the only way involves drilling, say so up front.
 - Wire connections soldered and heat-shrunk.
-- OEM-spec parts preferred; name-brand aftermarket OK; no no-name budget parts.
-- Honda fluids (ATF, power steering fluid, Type 2 coolant).
+- **Safety-critical parts** (brakes, wheel bearings/hubs, ball joints, axles, steering,
+  suspension, SRS): OEM or name-brand only, with a one-line reason.
+- **Everything else, including tools** (Harbor Freight and other budget brands OK):
+  lay out the budget vs. name-brand option with pros, cons and price; the owner decides.
+- Honda fluids (ATF, power steering fluid, Type 2 coolant). These stay strict.
 - It's the owner's only car: say how long a job really takes and whether it can leave
   the car undrivable. Don't plan big jobs the night before a work day.
 - Give the proven shop method. "Try harder" is not an answer.
@@ -82,12 +119,25 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 
 - When the owner confirms a value from a real source (sticker photo, manual page,
   library database), add it to `specs.md` with the source and date, then commit.
-- After any job, add an entry to `log.md` (date, mileage, what, parts used, notes).
+- After any job, add an entry to `log.md` (date, mileage, what, parts used, notes). A
+  maintenance job also updates its row in `maintenance.md`.
+- **Mileage:** when the owner reports a job, inspection or symptom without the odometer
+  reading, ask for it (a dash photo is fine). Write "not recorded" only if they don't know.
+- `open-issues.md` holds **current items only**: status, what's known, next steps. When
+  something changes, rewrite the item's status instead of appending history below it.
+  When an item closes, move it to "Closed recently" and its details to
+  `issues-history.md`.
+- Invoices, quotes and inspection sheets → `receipts/` (copy what they show into the
+  vehicle files). Photos of labels and stamps → `sources/photos/`.
 - New part numbers confirmed → `parts.md`. A full procedure worth reusing →
   `procedures/<job>.md` following `procedures/README.md`.
+- Chilton Library results pulled by another AI (Muse): import them following the rules at
+  the top of `prompts/muse-chilton-pull.md`. Screenshot = VERIFIED; typed-only value =
+  UNVERIFIED.
 - Refresh official data: `python3 tools/lookup.py refresh vehicles/2005-accord-ex-i4-at`
   (also prints the VIN decode once `vehicle.json` has a VIN).
-- Knowledge updates should end up on `main` so the next session sees them.
+- Knowledge updates must end up on `main` so the next chat sees them (see "Start and end
+  of every chat").
 - Commit messages say what was learned or changed, e.g. "Add oil capacity from owner's
   manual p.XXX".
 
@@ -95,5 +145,6 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 
 The long-term goal is a reliable repair assistant others could use. Before any public
 release: remove the VIN, remove copyrighted files in `sources/` (keep only the page
-citations), remove or scrub `sources/project-history-*.md` and check `log.md` for
-personal details, and rewrite git history (an early commit carries the owner's email). Until then **the repo stays private**.
+citations), remove or scrub `sources/project-history-*.md`, remove `receipts/` and
+`sources/photos/`, remove the library link in `sources/README.md`, check `log.md` and
+`mods/` for personal details, and rewrite git history (an early commit carries the owner's email). Until then **the repo stays private**.

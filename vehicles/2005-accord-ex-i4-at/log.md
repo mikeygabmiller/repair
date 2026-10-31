@@ -18,16 +18,40 @@ unless `specs.md` lists them.
 - The relay harness is still installed with nothing on its output. Not recorded yet: which wire was tapped for the trigger (likely WHT/RED at the HB3 high-beam plug; meter-test result not reported), Y-adapter or Posi-Tap, fuse rating in the holder, ground point, wire gauge.
 - Until a light is attached: the power lead to relay pin 30 is live at all times, and the output lead (pin 87) goes live with the high beams. Pull the fuse and keep the open ends insulated.
 
-## Week of 2026-10-19 to 10-26 (exact date not recorded): right front CV axle replaced, new axle nut (owner)
-- Owner report, 2026-10-27: replaced the axle and put on a new axle nut; says the bearing now has no play.
-- Not recorded yet: date, mileage, axle brand/part number (Parts Geek axle from `open-issues.md` item 2?), nut part number, torque used and where that number came from, whether the nut was staked.
+## 2026-10-28: shake around 60 mph reported (mileage not recorded)
+- Owner: "car is pretty shaky around 60 mph." Coast test the same day: coasting at ~60 is "kind of shaky", **much worse on the gas**.
+- Triage plan: `open-issues.md`, shake item.
 
 ## Reported 2026-10-27: Ben's Auto Care, right front lower ball joint + ABS sensor (mileage not recorded)
 - **Lower ball joint replaced** with the owner's Moog K80228: **$275 labor**, about 1.5 hours by Ben's estimate (owner, 2026-10-27).
-- **Right front ABS sensor replaced.** Brand/part number and whether it was a separate charge not recorded yet.
+- **Right front ABS sensor replaced.** The old sensor **snapped while the ball joint was being pressed** out of the knuckle; Ben ordered a replacement for **$40, at his cost (no markup)** per Ben. Brand/part number not recorded yet (cross-check against 57450-SDA-A11).
+- Ben was waiting on a **grease fitting (zerk)** for the ball joint. Seller listings say K80228 isn't greaseable (COMMUNITY): ask whether the K80228 went in, and whether the fitting hole is plugged.
 - Date of work not recorded. Not known yet: whether the axle, the stripped axle nut or the loose bearing were touched.
-- Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md` item 3.
-- 2026-10-27: car picked up. Ben's final word: ABS fault is the damaged tone ring on the right front wheel bearing (compared with the left side). Quoted $544.04 for an NSK bearing installed (`open-issues.md` item 3). Owner's status summary listed axle, axle nut and ball joint as new; **ABS sensor replacement to be confirmed** against the invoice.
+- Result: ABS light still on. Ben: on a test drive the sensor isn't getting a reading from the wheel; suspects the tone ring. See `open-issues.md`, ABS item.
+- 2026-10-27: car picked up. Ben's final word: ABS fault is the damaged tone ring on the right front wheel bearing (compared with the left side). Quoted $544.04 for an NSK bearing installed (`open-issues.md`, ABS item). Owner's status summary listed axle, axle nut and ball joint as new; **ABS sensor replacement to be confirmed** against the invoice. Invoice goes in `receipts/`.
+
+## ~2026-10-24 to 10-26: front passenger seat reinstalled by owner (mileage not recorded)
+- All yellow SRS connectors plugged back in by the owner. Unknown whether the battery was disconnected first. Seat bolt torque not recorded (spec must come from the service manual).
+- Afterward the Side Airbag Off indicator lights briefly at start, then goes out. That's the normal key-on check (VERIFIED: OM p.31).
+- Cleared SRS codes with the MADDOX. Rescan shows the same codes: 61-10, E2-11, F1-11. See `open-issues.md`, SRS item.
+
+## 2026-10-24: O'Reilly scan tool would not connect to the OBD port (mileage not recorded)
+- Employee tried ~5 min, said it might be a wiring problem. The owner's MADDOX read codes through the same port before and after (Oct 2026), so the store's tool is the likelier problem.
+
+## ~2026-10-23: right front repair reported finished; ABS light stays on (mileage not recorded)
+- Owner: "fixed everything" (axle/bearing/ball joint work). Later reports (10-27) show the ball joint was done at Ben's on 10-27, so this referred to the axle job below.
+- ABS code cleared with the MADDOX MRBT; rescan showed no ABS codes, but the light stayed on. The MADDOX may not reach the ABS unit at all (Harbor Freight's coverage tool showed nothing for this car).
+
+## 2026-10-23: Chilton Library lookups (no work on the car)
+- Claude in Chrome pulled specs, ABS/SRS code meanings, parts numbers and the NHTSA VIN recall check. Record: `sources/chilton-2026-10-23.md`; numbers in `specs.md` and `parts.md`.
+
+## 2026-10-22 (reported): right front CV axle replaced, new axle nut (owner; mileage not recorded)
+- Owner, 2026-10-22: new axle "in and working." Axle is the Parts Geek order #31-12567661 (brand, part number not recorded; read from the box or the axle tag).
+- Same day (owner): screech/rubbing gone, shake under acceleration gone; keeping the rotor and pads. Nut reply was voice-to-text ("new axle not talk to spec").
+- Owner, 2026-10-27: confirmed new axle and new axle nut; says the bearing now has no play.
+- Lower ball joint was **not** replaced in this job (its boot was completely gone by 10-22); Ben's replaced it 10-27 (above).
+- Not recorded: mileage, axle brand/part number, nut part number, torque used and its source, whether the nut was staked. (Owner closed the torque question 2026-10-28.)
+- 2026-10-28: the shake is back, or a new one started (entry above).
 
 ## Date unknown: mudflaps / splash guards installed
 - Owner confirmed installed (2026-10-21). Brand, part number, date and mileage not recorded yet.
@@ -69,6 +93,7 @@ unless `specs.md` lists them.
 - After a jump it died ~5 min after shutoff. After a long key-on session: too weak to crank, radio still lit, 12.6 V at rest.
 - Earlier: 10.9 V after a failed crank, 11.8 V after rest, 14 V charging at idle and under load.
 - Load test and parasitic draw test never done. See `open-issues.md`.
+- 2026-10-26: owner reports no drain currently.
 
 ## 2026-09-07 to 09-08: 14-pin Bluetooth adapter (mileage not recorded)
 - Amazon B08JQ9G2LP, $53.94, plugged into the factory head unit in place of XM. Working Sep 8.

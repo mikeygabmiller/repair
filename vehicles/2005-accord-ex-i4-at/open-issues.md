@@ -1,102 +1,133 @@
 # Open issues: 2005 Accord EX
 
-Most urgent first. Update or close an item whenever something changes. Background is in
-`log.md` and `sources/project-history-2026-10-21.md`.
+**Only what is broken or unfinished now**, most urgent first. Each item gives its status,
+what's known and the next steps, cheapest first. When an item closes, move it to
+"Closed recently" with the date, put the job in `log.md`, and put its details in
+`issues-history.md`. Back story for every item: `issues-history.md`. Files written
+before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
+Part 1.
 
-**Status 2026-10-27 (owner): car back from Ben's and drivable.** Right front has a new
-axle, new axle nut (owner) and new lower ball joint (Ben's). Still open on the right front:
-the ABS (item 3: Ben found the bearing's tone ring damaged; **owner deferred the fix,
-2026-10-28**) and the grooved rotor/pads. Background: `plan-right-front-2026-10.md`.
+Last updated 2026-10-28. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
 
-## 0. RESOLVED 2026-10-27: right front grinding, loose bearing, stripped axle nut
-- **Owner, 2026-10-27: car is drivable; the axle and axle nut issue is fixed** (new axle and new axle nut, installed by the owner the week of Oct 19–26; bearing play gone). The "do not drive / tow" warnings below are history, no longer in force.
-- Still open from this item: the right front rotor was being grooved by the caliper; check the rotor and pads (not yet inspected after the fix). Optional: free re-check of bearing play at a shop.
+## 1. SRS (airbag) light: codes 61-10, E2-11, F1-11. Dealer or SRS shop only, never DIY
+- **With the SRS light on, the airbags may not deploy in a crash.** This is the most
+  important safety item even though the car drives normally.
+- **2026-10-26:** passenger seat reinstalled (owner plugged the connectors), codes cleared
+  with the MADDOX, **the same three came back**. So the missing seat isn't what sets these
+  codes.
+- What the codes may mean (none confirmed for this exact car):
+  - 61-10: open circuit in the **driver's** seat belt buckle switch. Chilton (Hybrid
+    article) and two community code lists agree.
+  - E2-11 / F1-11: community code lists say "passenger airbag deployed" and "driver airbag
+    plus driver belt tensioner deployed". Chilton (Hybrid article) puts them in a group
+    about deployed airbags and tensioners.
+  - **Conflict:** if they were real crash records, the light would have been on since the
+    crash. It was **off when the car was bought** (owner) and no airbag has gone off while
+    the owner has had it. So the MADDOX may be misreading the codes. Only a Honda-level
+    scan settles it.
+- Recalls: **0 open recalls on this VIN** (OFFICIAL RECORD: nhtsa.gov/recalls, checked
+  2026-10-23 and 2026-10-26; Honda MyGarage agrees). That doesn't show which airbag
+  recalls were *done*, or when.
+- Next, cheapest first:
+  1. Free: call Honda (1-888-234-2138) with the VIN and ask which airbag recalls were done
+     on this car, when and where. Takata work means a dealer had both front airbags apart.
+  2. Free look: does the driver's belt pull out and retract normally? Does the date on the
+     driver belt's label make sense next to the build date on the door jamb?
+  3. A Honda dealer or SRS-capable shop reads the codes with a Honda-level tool. Ask them
+     about bulletins A02-052 (OPDS initialization), A07-002 (seat position sensor harness)
+     and A20-010 / A20-015 (inflator warranty extensions).
+  4. While it's there: the passenger seat bolts also anchor that seat's belt buckle, and
+     the torque used when it went back in wasn't recorded. Have the shop check them.
 
-History:
-- Owner report: took a turn, came to a stop, loud screeching/grinding from the front. Details pending (which side, did the car stop on its own, does it repeat).
-- Right front was apart on Oct 19 (ball joint separated, axle out and back in, sway bar link, ABS sensor area hammered); mudflaps recently added.
-- (Was, until 2026-10-27) Do not drive until the right front is inspected.
-- **Les Schwab inspection 2026-10-21, 139,032 mi (free suspension check, written notes):** "Recommend replace front right bearing because of movement and recommend replace CV axle due to CV axle not being tight and looks cross threaded." Owner declined and signed their waiver.
-  - Owner's verbal summary: axle worn; bearing very loose, play lets the caliper rub the rotor (the noise); axle nut under-torqued and stripped.
-  - Quote (valid to 2026-11-20): front bearing PRB510073 $128.48 · front hub MPB63085 $110.11 · right CV axle HO8176 $157.74 · axle install labor $148.99 · hub assembly replacement w/ press off rotor $232.99 · thrust-angle alignment $119.99 · tax $84.45 · **total $982.75**. Lower ball joint is **not** on the quote. Bearing/hub brand not shown.
-- Likely link (UNVERIFIED): on this design the axle nut clamps the hub bearing, so a loose/stripped nut alone can cause bearing play. Driving on it may also have damaged the bearing. Ask whether play was judged with the nut loose.
-- Loaner on the poster if DIY: Master Wheel Hub & Bearing Remover & Installer Kit 67213 (select stores). Bearing is believed press-in (UNVERIFIED: Chilton).
-- (Was, until 2026-10-27) Do not drive: stripped, loose axle nut plus a loose bearing.
-- 2026-10-27 (owner): new axle and new axle nut installed last week; owner reports no bearing play. If a re-check (wheel off the ground, rock it at 12 and 6 o'clock) confirms that, Les Schwab's "movement" was likely the loose nut and the bearing may not need replacing for play. It may still need replacing if its ABS magnetic ring is damaged (item 3).
-- 2026-10-22 (owner): Ben's Auto Care will install customer-supplied parts for **$275 labor**. Scope (axle, bearing/hub press, ball joint, rotor/pads?), alignment and warranty not confirmed yet.
-- 2026-10-27 (owner): that $275 turned out to be for the **lower ball joint only** (done). Axle and nut were done by the owner (above).
-- 2026-10-21 (owner): the rubbing is cutting **deep grooves into the right front rotor**. Rotor and the right-side pads likely need replacing; the rotor and pads are not on the Les Schwab quote.
+## 2. Shake around 60 mph, much worse on the gas (reported 2026-10-28)
+- **2026-10-28 (owner, coast test):** coasting at ~60 is "kind of shaky"; **much worse on
+  the gas**.
+- Owner reports conflict over time: shake under hard acceleration before Oct 21 → "gone"
+  after the new right axle went in (2026-10-22) → shaky at 60 now (2026-10-28). So either
+  the new axle didn't fix it, or something new started.
+- Reading (UNVERIFIED, Claude's reasoning): two separate things. A mild shake that's there
+  when coasting points at something that turns with the wheels (tire, wheel balance,
+  bearing). The bigger shake under throttle points at the drivetrain under load
+  (transmission torque converter shudder, an inner CV joint on either axle, engine or
+  transmission mounts).
+- Next, cheapest first:
+  1. Lug nuts: re-torque to **80 lbf·ft, crisscross** (VERIFIED: OM p.250). The right
+     front wheel has been off several times.
+  2. Narrow it down on a drive: at what speeds it starts and stops; steering wheel or seat;
+     light vs hard throttle. Write the answers here.
+  3. Have a shop confirm the new right axle's inner joint is fully seated in the
+     transmission (Chilton checklist item 15).
+  4. Tires: look for bulges and uneven wear; get a wheel balance at a tire shop.
+  5. **ATF drain and refill**: overdue anyway (`maintenance.md`). NHTSA complaints
+     10299703 and 11076272 describe a 55–65 mph light-throttle shudder on this model
+     (COMMUNITY). Honda ATF only (`specs.md`).
+  6. Engine and transmission mounts (shop).
+- No Honda bulletin about this found yet. Only part of the bulletin title list is saved
+  (`sources/chilton-pack-F-2026-10-27.md`); the free full list is on nhtsa.gov under the
+  car's "Manufacturer Communications".
 
-## 1. RESOLVED 2026-10-27: front axle nut
-- **Owner, 2026-10-28: the axle nut is fine; closed. Don't raise it again** unless the owner asks or a new symptom points at it (clunk, wheel play, noise from the right front).
-- **Owner, 2026-10-27: fixed. New axle nut on the new axle; car drivable.** Only loose end: the torque number used and its source weren't recorded (`log.md`). If it came from Chilton, add it to `specs.md`.
+## 3. ABS light: right front wheel bearing's encoder is damaged. DEFERRED by owner, 2026-10-28
+- Normal brakes work; anti-lock doesn't until this is fixed.
+- **Diagnosis (Ben's Auto Care, 2026-10-27):** the "tone ring" on the right front wheel
+  bearing is damaged (compared with the left). On this car the tone ring is the bearing's
+  built-in **magnetic encoder**, so the fix is a new **wheel bearing** (Chilton V6/Hybrid
+  articles; MOTOR Magazine Aug 2013; details in `issues-history.md`).
+- Already done: right front ABS sensor replaced at Ben's (the old one snapped while the
+  ball joint was being pressed; $40 at Ben's cost). Brand and part number: on the invoice,
+  not recorded yet.
+- Quotes: **Ben's $544.04** (NSK bearing, labor $404.25) · **Les Schwab ≈$516** incl. a
+  new hub, valid to **2026-11-20**, bearing brand not shown. Honda bearing 44300-TR4-A51
+  (`parts.md`).
+- When it's picked back up: do it in the same visit as item 4 (the rotor comes off for the
+  bearing anyway). The bearing's brown encoder side faces the inside of the knuckle; keep
+  metal debris and magnetic tools off it (Chilton, Hybrid article).
+- Separate lead: the old ABS code 61-1 means low voltage at the ABS unit (Chilton, V6
+  article). See item 5.
 
-History:
-- The owner torqued the right front axle nut to **181 lb-ft** when the old axle went back in (Oct 19).
-- Past chats gave both 181 and 134 lb-ft (134 lb-ft = 181 N·m, so one is probably a unit mix-up). The owner's manual has no axle nut spec.
-- Safety-critical spec: the real 4-cylinder number belongs in `specs.md` with its Chilton citation.
-- **Chilton A–I report (2026-10-27): 4-cyl axle nut torque NOT FOUND.** The only figure, 181 lbf·ft (245 N·m), is from the Accord **Hybrid** article for a **24 × 1.5 mm** nut. This car's Honda nut (90305-692-010) is the **22 mm** nut, so that figure is for a different nut. The Hybrid article also says: new nut every time, oil its seating face, stake the shoulder into the driveshaft slot after tightening.
-- (Closed by owner 2026-10-28) What torque went on the new nut last week? If it was 181 lb-ft, that is the 24 mm nut's number. Get the 4-cyl figure from Ben (shop software, free to ask), a Honda dealer service desk, or Chilton's 2006–07 Accord 2.4 article, and re-torque if it differs.
+## 4. Right front rotor and pads: grooved, not checked since the repair
+- The loose bearing let the caliper cut **deep grooves** into the right front rotor
+  (owner, 2026-10-21). Owner planned to keep the rotor and pads (2026-10-22).
+- Next (free): measure the rotor's thickness at the grooves. The minimum is usually cast or
+  stamped on the rotor itself (Tier 1; read it). Chilton gives **0.830 in** minimum, but
+  two readings of that table disagree on whether that row is the 4-cylinder (`specs.md`).
+  Pads: minimum lining **0.060 in** (VERIFIED: Chilton). Replace pads as a front pair.
 
-## 2. Right front: steering shake under hard acceleration + torn lower ball joint boot
-- Symptom: shake only under hard acceleration, gone when coasting, no clunk. Suspect: inner CV joint; engine/transmission mounts second.
-- 2026-10-21: owner says the shake is the same.
-- New axle on hand, not installed: Parts Geek order #31-12567661, placed 2026-10-10, delivered 2026-10-19, $83.74 total. The emails say only "2005 Honda Accord CV Axle Assembly": **brand, part number and side (right/passenger) are not in them**. Read the box label before the job.
-- **2026-10-27: lower ball joint replaced by Ben's Auto Care** with the owner's Moog K80228, $275 labor (`log.md`). Torn-boot part of this item is done; the shake and the axle are not.
-- New Moog K80228 lower ball joint on hand (owner, 2026-10-21). Press-in joint: plan is an O'Reilly loaner press kit.
-- Seller listings (COMMUNITY): K80228 is press-in, not greaseable, has a cotter pin hole, "includes mounting hardware", no instructions included.
-- Do the ABS sensor (item 3) in the same job.
-- Loaner tools (O'Reilly EverTough free loaner poster, photo 2026-10-21; numbers read from a worn photo, confirm at the counter): Ball Joint/U-Joint Press Set 67045 + **Honda Ball Joint Adapter Set 67049**; Master Ball Joint Installer/Remover Adapter Set 67310 (select stores); Axle Puller 67030 + Slide Hammer 67031; FWD Axle Puller Adapter 67102; Pitman Arm/Tie Rod Puller 67028; Tie Rod End Remover (non-damaging) 67008; 1/2" click torque wrench 67075 (range not on poster); axle nut sockets 30/32/34/36 mm (67038–67041).
-- Worth knowing (UNVERIFIED, past chats): old ATF can also cause a shudder that feels like a CV problem. ATF change history is unknown (item 6).
-- If the shake remains after the new axle: check the mounts.
-
-## 3. ABS light, code 12-1 (since Oct 20)
-- **DEFERRED by owner, 2026-10-28:** living with the ABS light for now; will fix later. When it's picked back up: Ben's quote ($544.04, NSK bearing) vs Les Schwab (≈$516 incl. new hub, valid to 2026-11-20, bearing brand unknown) are below. Best done in the same visit as the right front rotor/pads (rotor comes off for the bearing anyway).
-- **Chilton backs Ben's diagnosis (A–I report, 2026-10-27; V6 and Hybrid articles, not 4-cyl-specific):** code **12** = right front wheel sensor electrical noise / intermittent signal. Honda's fix order: check the sensor and the **front magnetic encoder**; if the encoder is bad, **replace the front wheel bearing** (the encoder is part of it). Bearing goes in with the brown encoder side toward the inside of the knuckle; keep metal debris and magnetic tools off it. Codes are stored in memory and are **not** cleared by disconnecting the battery; code 12-type faults stay on until the system is normal and the car is driven (Hybrid article). V6 sensor air gap 0.5–1.2 mm (V6 only). L4 wiring pins are in `specs.md`.
-- **2026-10-27, Ben's diagnosis (owner relaying):** the ABS fault is the **tone ring on the right front wheel bearing, damaged**. Ben compared it with the left side; the right one is "definitely damaged".
-- **Ben's quote (Tekmetric, 2026-10-27, tech "B Ieremie"):** R&R front wheel bearing, one side, labor **$404.25** · NSK wheel bearing ×1 **$93.04** · subtotal $497.29 · est. tax $46.75 · **total $544.04**. No hub, alignment, rotor or pads on it.
-- Compare: Les Schwab quote (item 0, valid to 2026-11-20) bearing $128.48 + hub $110.11 + hub/bearing labor w/ press off rotor $232.99 = $471.58 + tax ≈ $516, **includes a new hub**; brand not shown. Honda bearing 44300-TR4-A51 $119.63 (catalog, 2026-10-25). NSK makes Honda's original bearing (`plan-right-front-2026-10.md`).
-- Past-chat reading: right front wheel speed sensor, noisy or intermittent signal, likely damaged by hammering on the knuckle. Meaning of 12-1 is UNVERIFIED; a library service manual has the Honda code chart.
-- Normal brakes work; no anti-lock until fixed.
-- Part from past chats: Honda 57450-SDA-A11 (UNVERIFIED; confirm by VIN at a Honda parts counter).
-- **2026-10-27 (owner, relaying Ben's Auto Care):** Ben replaced the right front ABS sensor. ABS light still on; on a test drive the sensor "isn't getting a read" from the wheel. Ben suspects the tone ring. Still unknown: new code number, how "no read" was judged (live data?), sensor brand/part number, whether Ben has already replaced the hub bearing.
-- **The "tone ring" on this car is most likely part of the hub bearing, not the axle.** MOTOR Magazine, "Foreign Service", Aug 2013, pp.12–16 (trade press, read 2026-10-27; not a Honda document): 2003-and-newer Accords usually use a wheel bearing with a built-in **magnetic encoder** (a flat brown ring on the bearing's inboard face) instead of a toothed tone ring. Brown side faces in toward the sensor, black rubbery seal faces out; the encoder holds a paper clip; installed backwards = no signal, and the bearing is usually ruined getting it back out. SKF also lists its 2003–07 Accord front bearing (FW48) as having an integrated tone ring (search listing only, article not opened). Confirm the design in Chilton.
-- So "bad tone ring" = new hub bearing, which is already on the list (item 0). Suspects, cheapest to check first: (a) if Ben already put in a new bearing, was it installed brown side in, and does it have an encoder at all; (b) old bearing: play changes the sensor gap, and steel dust from the caliper grinding the rotor sticks to a magnetic encoder; (c) sensor wiring/connector damaged by the October hammering; (d) wrong or bad new sensor (Japan-built 57450-SDC-013 / SDH-003 said not to fit).
-
-## 4. SRS (airbag) light on
-- Was on before the passenger seat was removed; removing the seat adds codes of its own.
-- Codes read with a MADDOX MRBT: SRS 61-10, E2-11, F1-11; ABS 61-1. Meanings from past chats are guesses (UNVERIFIED).
-- Lead to check (free): recall **07V001000** (Honda A07-002, driver's seat position sensor harness) says a broken sensor wire turns the SRS light on. Whether that recall was done on this VIN, and whether it matches these codes, is unknown. Check the VIN at nhtsa.gov/recalls or ask a Honda dealer's service desk; open recalls are fixed free.
-- **With the SRS light on, the airbags may not deploy in a crash.**
-- Not known: whether the light was on before Sep 7, when the console came apart over the SRS unit.
-- Plan from past chats: reinstall the passenger seat, clear codes, see which come back.
-- Recalls: project history says no open recalls on the VIN. Confirm at <https://www.nhtsa.gov/recalls>.
-- **Chilton A–I report (2026-10-27), Hybrid-only SRS articles (code meanings are probably shared, not confirmed for this car):** **61-10 = open in the driver's seat belt buckle switch.** **E2-11 / F1-11** sit in one combined article about airbags, side airbags, curtain airbags and seat belt tensioners; its description was cut off, and it links a note that the SRS unit must be replaced after any deployment. Have a Honda dealer or SRS-capable shop read these with Honda's scan tool before assuming anything.
-- Bulletins worth asking the shop about: **A02-052 "Initializing the OPDS Unit"** (the passenger seat's occupant sensor; the passenger seat was removed), **A07-002** seat position sensor harness recall (above), **A20-010 / A20-015** warranty extensions for the driver's and passenger's airbag inflators on 2003–07 Accords.
-
-## 5. Battery drain (status unknown)
-- See `log.md` (Sep 8). 12.6 V at rest proves nothing on its own.
-- Next: load test (free at many parts stores) and a parasitic draw test. Suspects: Bluetooth adapter, camera wiring.
+## 5. Battery and charging: no drain since 2026-10-26, cause never found
+- **2026-10-26 (owner): no battery drain now.** The September episodes are in `log.md`.
+- If it comes back: free load test and charging test at a parts store, then a parasitic
+  draw test. Old suspects: the Bluetooth adapter, the camera wiring.
+- Keep new add-ons on key-on power, so a stuck accessory can't flatten the only car.
 - Battery: EverStart Maxx, made May 2025 (under warranty per owner).
-- **Link (Chilton V6 ABS article, A–I report):** ABS code **61 = low +B-FSR voltage** at the ABS unit; Honda's fix is "check the charging system". So the ABS **61-1** read earlier points at low voltage: battery or charging, not the wheel sensor.
-- Bulletins: A88-023 Battery Testing and Replacement, A10-054 Alternator and Regulator Circuit Troubleshooting, A12-002 Alternator Testing (titles only; Chilton Bulletins tab).
 
-## 6. Maintenance with no record (treat as overdue)
-Order, shopping list and quantities: `plan-maintenance-catchup.md` (2026-10-25).
-Intervals are from the manual (`specs.md`, OM pp.202–203). Severe schedule likely applies (short local trips).
-- ATF: no record. Honda drain-and-refill method (OM p.220).
-- Engine coolant: no record (120k mi / 10 yr first change).
-- Brake fluid: no record (every 3 years).
-- Drive belt: inspect (every 30k mi / 2 yr).
-- Valve clearance: inspect at 110k mi, otherwise adjust only if noisy. Car is ~139k.
-- Cabin and engine air filters: no record.
-- Oil change: last one not recorded. Log the next one with mileage.
-- Throttle body cleaning: unknown whether done.
+## 6. Maintenance with no record
+Everything with no dated record counts as overdue. Status, intervals and what's due next:
+`maintenance.md`. Order and shopping list: `plan-maintenance-catchup.md`. First job:
+oil and filter (`procedures/accord-2005-oil-change.md`).
 
 ## 7. Body and interior (not urgent)
-- Front bumper cover cracked. Rear bumper divot and clear-coat crack. Hood rock chips to primer (check whether any reach bare metal before winter). Peeling clear coat in spots.
+- Front bumper cover cracked. Rear bumper divot and clear-coat crack. Hood rock chips to
+  primer (check whether any reach bare metal before winter). Peeling clear coat in spots.
 - Rear road noise since the deadener was lost.
 - Tint: right rear door piece needs replacing.
 - Backup camera monitor adhesive lets go in heat; keep it out of the passenger airbag zone.
 - Center vent vane broken. Leather worn in areas.
 - VTC actuator cold-start rattle (known K24 issue per past chats; UNVERIFIED). Not urgent.
+
+## Loose ends to record (no action needed, just write them down when known)
+- From Ben's invoice (2026-10-27): date, mileage, ABS sensor brand and part number,
+  whether the owner's Moog K80228 went in. Ben was waiting on a **grease fitting** for
+  the ball joint, but seller listings say K80228 isn't greaseable (COMMUNITY): ask which
+  joint went in, and whether the fitting hole is plugged.
+- From the axle job (~2026-10-22): axle brand and part number (box label or axle tag),
+  mileage.
+- O'Reilly's scan tool wouldn't connect to the OBD port (2026-10-24). Probably their tool:
+  the owner's MADDOX worked through the same port on ~2026-10-26. If another tool fails,
+  check the fuses (OM pp.268–269 don't name one for the port; Chilton wiring diagram does).
+
+## Closed recently (details in `issues-history.md`)
+- **2026-10-28: front axle nut torque. Closed by the owner; don't raise it again** unless
+  the owner asks or a new symptom points at it (clunk, wheel play, noise from the right
+  front).
+- **2026-10-27: right front grinding, loose bearing, stripped axle nut.** New right axle
+  and new axle nut (owner, ~2026-10-22); bearing play gone (owner).
+- **2026-10-27: torn lower ball joint boot.** Lower ball joint replaced at Ben's.

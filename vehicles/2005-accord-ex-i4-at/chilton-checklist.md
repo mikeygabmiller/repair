@@ -12,6 +12,8 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 
 ## Progress
 
+- **First pull (2026-10-23)**: `sources/chilton-2026-10-23.md`, done by Claude in Chrome. Results
+  are in `specs.md`, including where it disagrees with the later report.
 - **Pack F (2026-10-27)**: `sources/chilton-pack-F-2026-10-27.md`. Results are in `specs.md`.
   It refers to an earlier **pack A–E** that isn't in the repo yet: upload it.
 - **Report A–I (2026-10-27)**: `sources/chilton-report-A-I-2026-10-27.md`. Results are in
@@ -35,12 +37,12 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 - [x] 6. (A–I: C616, FR+B 2, FR-GND 18) ABS modulator connector pin numbers for the right front sensor (for a continuity test)
 - [ ] 7. (A–I: Hybrid only — needs Honda scan tool; battery disconnect doesn't clear) How to clear ABS codes on this car (scan tool required or not)
 - [ ] 8. (A–I: Hybrid only — press-in, snap ring, brown side in) Front hub bearing: confirm press-in, confirm magnetic encoder and which way it faces, removal/install steps, snap ring
-- [ ] 9. (A–I: V6 only, 7.2 lbf·ft) ABS sensor bolt torque
+- [x] 9. (A–I: V6 only, 7.2 lbf·ft. **10-23 pull: same 7.2 lbf·ft from a drawing labeled "Accord with 4-cylinder engine"**) ABS sensor bolt torque
 - [ ] 10. (A–I: Hybrid only) Lower ball joint castle nut torque + cotter pin (check Ben's work)
-- [ ] 11. Tie rod end nut torque
+- [x] 11. (10-23 pull: castle nut 29–35 lbf·ft, non-castle 32, new cotter pin; no engine split shown) Tie rod end nut torque
 - [ ] 12. Sway bar link nut torque (touched in October)
 - [ ] 13. Knuckle-to-upper-arm ball joint nut torque
-- [ ] 14. Lower arm and damper fork bolt torques, and whether they're tightened at ride height
+- [ ] 14. (10-23 pull: damper fork through-bolt 47 lbf·ft, wheels on the ground; lower arm bolts Hybrid only) Lower arm and damper fork bolt torques, and whether they're tightened at ride height
 - [ ] 15. CV axle install: how to confirm the inner joint's clip is locked into the transmission
 
 ## B. Brakes

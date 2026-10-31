@@ -5,9 +5,17 @@ questions: Claude checks this repo and official free sources first and labels ev
 (VERIFIED, OFFICIAL RECORD, COMMUNITY or UNVERIFIED). The rules are in `CLAUDE.md`.
 
 ```
-CLAUDE.md                  rules Claude follows every session
-vehicles/<car>/            profile, verified specs, parts, log, recalls, complaints
+CLAUDE.md                  rules Claude follows every chat
+vehicles/<car>/            profile, open issues, maintenance tracker, verified specs,
+                           parts, log, issue history, recalls, complaints
 procedures/                step-by-step jobs, sourced
-sources/                   owner's manual PDF, photos of labels
+mods/                      upgrades and accessories (same rules, kept apart from repairs)
+receipts/                  invoices, quotes, inspection sheets (private)
+sources/                   owner's manual PDF, Chilton pulls, photos of labels
+prompts/                   prompts for pulling Chilton data with another AI
 tools/lookup.py            pulls NHTSA recalls/complaints, EPA data, VIN decode
+tools/unmerged.py          lists chat notes that never reached main
 ```
+
+After each chat that changed notes, merge its PR into `main` (Claude will ask), or the
+next chat won't see them.

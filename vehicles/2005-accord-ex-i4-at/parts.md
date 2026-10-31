@@ -12,7 +12,7 @@ cross-reference to when known.
 | Front axle nut socket | — | 32 mm | Test fit (36 mm too big) | 2026-10-19 |
 | Front wiper blades | — | BFGoodrich Beam, 26" driver / 18" passenger | Installed and fit | 2026-09 |
 | Headlight bulbs | High HB3 (9005), low HB4 (9006) | — | VERIFIED: OM p.275 (HB3/HB4) | 2026-10-21 |
-| Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM) | Installed and working | 2026-09-08 |
+| Bluetooth adapter | — | Amazon B08JQ9G2LP (14-pin, replaces XM; Yomikoo per listing video). Has a 3.5 mm AUX input and an AUX cable in the package; USB, AUX and Bluetooth can't be used at the same time; on AUX only the radio's volume works (no wheel buttons) | Installed and working. AUX details: COMMUNITY, Amazon listing (checked 2026-10-24); confirm the cable in the box | 2026-09-08 |
 | Aux-light wiring kit | — | Harbor Freight Roadshock Light Bar Wiring Kit, item 64330: relay, inline fuse, cabin switch, one female DT output plug. Two lights need a DT Y-splitter (sold separately). 12 V fuse chart, two lights: 5 A up to 16 W each, 7.5 A for 17–24 W, 10 A for 25–50 W | Installed (owner, 2026-10-29). Kit details: HF owner's manual 64330 pp.3–4 | 2026-10-29 |
 | Battery | — | EverStart Maxx (made May 2025). Manual rating 38 AH/5 HR (OM p.275) | Installed | — |
 
@@ -31,17 +31,20 @@ in a Honda dealer's online parts catalog by VIN.
 | Throttle body / gasket | 16400-RAA-A61/A62/A63; gasket 16176-RAA-A01 | Coolant runs through it; don't unbolt without a gasket |
 | Serpentine belt | Honda 31110-RAA-A02; Gates K060475 | |
 | ATF | Honda ATF DW-1, quart 08200-9008; Idemitsu Type H-Plus | Manual specifies ATF-Z1 (OM p.219). DW-1 replacing Z1 is unverified: ask the parts counter |
-| ATF drain plug washer | never found | |
+| ATF drain plug washer | never found (Chilton shows only "new sealing washer", no number) | Ask a Honda parts counter |
 | Lower ball joint (front) | Honda **51220-SDA-A02, now 51220-SDA-305** (HondaPartsNow, 2026-10-25). Moog K80228 on hand. Boot 51225-SL5-003; circlip 52226-SL0-003 (past chats) | Past chats said K80228 crosses to 51210-SDA-A02: **wrong, that's the right front knuckle**. K80228 → 51220-SDA-A02 still to check on Moog's catalog |
-| Right front ABS sensor | Honda 57450-SDA-A11, replaces -A02/-A01 (HondaPartsNow lists it for every 2003–07 Accord incl. 2005 4-door EX KA 5AT, 2026-10-25). Japan-built 57450-SDC-013 / SDH-003 said NOT to fit (past chats) | Name brands: SMP, Dorman, Denso, Bosch |
+| Right front ABS sensor | Honda 57450-SDA-A11, replaces -A02/-A01 (HondaPartsNow lists it for every 2003–07 Accord incl. 2005 4-door EX KA 5AT, 2026-10-25). Japan-built 57450-SDC-013 / SDH-003 said NOT to fit (past chats) | Name brands: SMP, Dorman, Denso, Bosch. 2026-10-23 pull says it was also looked up **by VIN** on HondaPartsNow (Knuckle diagram, A02 → A11) and matches HondaPartsConnection's fitment text (`sources/chilton-2026-10-23.md` R1 3a). HondaPartsNow isn't clearly a Honda dealer, so it stays here until a dealer counter confirms. Ben installed a replacement 2026-10-27: brand/number on the invoice |
 | Front hub bearing | Honda 44300-TR4-A51 (replaces 44300-SDA-A52/-A51, NSK) | HondaPartsNow, 2026-10-25. See `plan-right-front-2026-10.md`. Must have the ABS magnetic encoder (`open-issues.md` item 3). Name-brand candidates, not yet cross-checked against the Honda number: SKF FW48 (SKF tech tip via Brake & Front End: 2003–07 Accord, integrated tone ring), Timken 510073 (seen ~$56 at a bearing supplier, 2026-10-27; fitment not confirmed) |
 | Front hub | Honda 44600-SDA-A00 (4-cyl 5AT only; -A10 is V6/manual) | HondaPartsNow, 2026-10-25 |
+| Front driveshaft (axle), right, OEM | Honda 44305-SDC-A00 ("Driveshaft (L4)" diagram has no tone ring) | Aftermarket axle installed ~2026-10-22, brand/number not recorded. Source: HondaPartsNow by VIN, 2026-10-23 (`sources/chilton-2026-10-23.md` R1 3b) |
+| Intake resonator box | Honda **17230-RAA-A00**, "Resonator Assembly" (HondaPartsNow lists it for 2005 4-door EX, KA/KL 5AT; $185.68, 2026-10-26). Same diagram (SDA3-B0105): Tube C air inlet 17254-RAA-A00, air inlet cover 17255-RAA-A00, airbox connecting tube 17251-RAA-A00 | Driver-side front corner behind the fender liner. Keep it if it's ever removed for an intake mod (`mods/README.md`): $186 to replace |
+| Honda coolant Type 2 | OL999-9001 (premixed) | From Chilton's **V6** coolant article (2026-10-23, R2 C03). Confirm at a Honda parts counter |
 | Front axle (spindle) nut | Honda 90305-692-010, "Nut, Spindle (22MM)" (4-cyl 5AT only; 24 mm 90305-SD4-003 is V6 and others) | HondaPartsNow, 2026-10-25. Fits the 32 mm socket confirmed above |
 | Front rotor | Honda 45251-TA0-A02 or 45251-TA5-A00: catalog lists both for a 4-door EX KA 5AT | VIN decides |
-| Interior bulbs | DE3175 festoon (dome/map), 168 (trunk, license), 194 (glovebox, door courtesy), 74 (ashtray) | Manual ratings agree: trunk 5 W, license 3 CP, door courtesy 2 CP, ceiling 8 W (OM p.275). Bulb trade numbers still unverified: pull one and match |
+| Interior bulbs | DE3175 festoon (dome/map), 168 (trunk, license), 194 (glovebox, door courtesy), 74 (ashtray) | Manual ratings agree: trunk 5 W, license 3 CP, door courtesy 2 CP, ceiling 8 W (OM p.275). **Dome bulb checked by the owner (2026-10-26):** festoon (pointed end caps), stamp "Kelly 12V 8W" (matches OM p.275 ceiling 8 W), ~31–33 mm long measured against a quarter → **31 mm festoon (DE3175 size)**. **Map (spot) lights conflict (2026-10-23):** autofiles.com says DE3175 festoon; fatboysoffroad.com says 168/194 wedge; other guides say DE3021/DE3022. None is Tier 1–3: pull one and read it. Map lights and trunk bulb not checked yet. LED upgrade plan (2026-10-26): name-brand only (Sylvania ZEVO, Philips Ultinon) in the size read off the old bulb |
 | Battery group size | 51R | Read it off the installed battery's label |
 | Fog light kit | Genuine Honda 08V31-SDA-101 (03–05 sedan) | Fog bulb listed as both 9005 and H11 |
 | Touch-up paint | Honda pen 08703-NH658PAH-A1 (paint code NH658P confirmed from door jamb) | |
 | Splash guards (OEM) | 08P00-SDA-100, 08P00-SDA-101A (listed 2006–07), 08P08-SDA-100 | Aftermarket SG023 was the past-chat pick. Which set is on the car: not recorded |
 | Hood struts (aftermarket) | Redline QuickLIFT PLUS 21-18002-02 + riveter 38-00047 | Needs drilling (conflicts with the no-drill rule) |
-| Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Only if going CarPlay |
+| Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Name-brand route, not used: an Eonon HAC1X7A was bought instead (2026-10-26, `mods/plan-head-unit-2026-10.md`) |
