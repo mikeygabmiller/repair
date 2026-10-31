@@ -37,6 +37,10 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   bars $54–67 (Accord fit unconfirmed). Boxes: Thule Force XT $600–750, Yakima SkyBox 16
   $719, SportRack Vista XL ~$350, Jegs 18 $290. FIVKLEMNZ soft bag $28–110. Sterilite 54 qt
   gasket tote $22.99; HDX 27 gal tote $44.65.
+  **Budget set to $150 (owner, 2026-10-31):** no new hard box plus rack fits (cheapest US
+  hard box seen: Jegs $199.99). Plan: budget bare-roof bars ($54–67) + soft bag strapped to
+  the bars ($28–110 depending on sale), towels in a dry bag inside it. Used hard box only
+  if one turns up cheap with keys.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
