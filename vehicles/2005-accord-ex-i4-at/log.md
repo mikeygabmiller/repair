@@ -7,6 +7,10 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-10-31: check engine light, code P0685 (mileage not recorded)
+- MADDOX: MIL on, P0685 "ECM/PCM Power Relay Control Circuit/Open", stored/confirmed. App suggests "replace main relay" (not a diagnosis).
+- Came on right after the aux-light install (entries below). Triage: `open-issues.md`, P0685 item.
+
 ## Reported 2026-10-31: auxiliary driving lights installed (owner; mileage not recorded)
 - Owner: "I added these to my car." Which lights is not confirmed: the last ones discussed were Nilight 18 W 4" spot pods, 2-pack with harness (Amazon B00Q8CF7DE; listing: 18 W / 1.5 A each).
 - Not recorded yet: exact light model, mount location and bracket (hood-gap clamp Nilight B0824RPMDB was in the cart), mounted height (WA maximum 42 in. for auxiliary driving lamps, RCW 46.37.180(4)), which harness feeds them (the installed HF 64330 kit or the Nilight harness), fuse rating (HF manual 64330 p.4: two lights of 17–24 W each = 7.5 A), trigger (high beams or a switch), tethers.
