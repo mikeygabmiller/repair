@@ -31,6 +31,12 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   (`sources/project-history-2026-10-21.md`). Advice given: towels and cords are grabbed
   every job and must stay dry, so gasketed totes inside come first; a hard locking box
   on a clamp rack if the cabin is full; a soft bag leaks at zippers and can mark the paint.
+  Prices seen 2026-10-31 (retail listings, recheck): Thule Evo Clamp feet $264.95, WingBar
+  Evo 135 pair $279.95, Evo Clamp fit kit $159.95 (~$705 rack); Yakima BaseLine towers
+  $219.95–275, JetStream bars $216–270, BaseClip $59.95–75 (~$500–620); universal bare-roof
+  bars $54–67 (Accord fit unconfirmed). Boxes: Thule Force XT $600–750, Yakima SkyBox 16
+  $719, SportRack Vista XL ~$350, Jegs 18 $290. FIVKLEMNZ soft bag $28–110. Sterilite 54 qt
+  gasket tote $22.99; HDX 27 gal tote $44.65.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
