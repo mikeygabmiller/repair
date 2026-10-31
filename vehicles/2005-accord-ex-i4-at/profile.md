@@ -4,7 +4,7 @@
 
 | Item | Value | Label |
 |---|---|---|
-| Year / make / model / trim | 2005 Honda Accord EX | Owner |
+| Year / make / model / trim | 2005 Honda Accord EX. **Trim conflict:** NHTSA's VIN decode says EX (2026-10-26); a parts site's VIN decode (HondaPartsNow, 2026-10-23) says **EX-L**, which would fit the leather. Settle it from the window sticker, a Honda dealer's VIN lookup, or the climate panel (next rows) | Owner; OFFICIAL RECORD: NHTSA vPIC; EX-L unconfirmed |
 | Body | 4-door sedan | OFFICIAL RECORD: NHTSA VIN decode |
 | Engine | 4 cylinders, 2.4 L | OFFICIAL RECORD: EPA (`epa.md`) |
 | Engine code | K24A4, 160 hp | OFFICIAL RECORD: NHTSA VIN decode |
@@ -14,15 +14,16 @@
 | VIN | 1HGCM56895A072328 (check digit valid) | OFFICIAL RECORD: NHTSA VIN decode |
 | Assembly plant | Marysville, Ohio, USA | OFFICIAL RECORD: NHTSA VIN decode |
 | Build month | unknown: it's on the driver door-jamb label, not in the VIN (matters for recall 11V395000) | — |
-| Mileage | ~137,000 at purchase (Aug 2026); 138,943 on 2026-10-18 | Owner |
+| Mileage | ~137,000 at purchase (Aug 2026); 138,943 on 2026-10-18; 139,032 on 2026-10-21 (Les Schwab paperwork) | Owner |
 | Paint / interior | NH658P Graphite Pearl, interior Type B | Owner, read from door jamb |
-| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner |
+| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner. **Climate type conflict:** OM p.106 says automatic dual-zone climate is EX-L/EX-V6 only. Check the panel: AUTO/DUAL buttons or three plain dials. The answer also helps settle the trim |
 | Engine notes | Timing chain (no belt) | VERIFIED: the 4-cylinder maintenance schedules have no timing belt item; the V6 ones do (OM pp.202–205) |
 | Role | Only vehicle: daily driver and work rig. Plan: sell around 170k, keep it documented | Owner |
-| Current setup | Front passenger seat and rear seatbacks removed for cargo | Owner |
+| Current setup | Front passenger seat **reinstalled ~2026-10-24 to 10-26** (`log.md`). Rear seatbacks: removed for cargo (no record of them going back in) | Owner |
 | Coating | CarPro CQuartz Lite | Owner, 2026-10-21 |
 
-**Open problems:** `open-issues.md`. **History:** `log.md`.
+**Open problems:** `open-issues.md`. **What's due:** `maintenance.md`. **History:** `log.md`.
+**Paperwork:** `receipts/` (invoices, quotes, inspection sheets).
 
 **To finish this profile (free):** a photo of the driver door-jamb sticker (build month,
 tire info) and the under-hood emissions label.
@@ -31,6 +32,14 @@ Owner's manual: `sources/2005-accord-owners-manual.pdf` (Honda's 2005 Accord 4dr
 Reference Owner's Manual; covers all 2005 Accord sedans, 4- and 6-cylinder).
 
 ## Recalls that may apply to this car
+
+**VIN check: 0 open recalls.** OFFICIAL RECORD: nhtsa.gov/recalls, "0 Unrepaired Recalls
+associated with this VIN", checked 2026-10-23 (data refreshed Oct 22) and again
+2026-10-26 from the owner's screenshots (data refreshed Oct 24). Honda MyGarage for the
+same VIN: "no active recalls" (last updated 10/18/2026). These lookups list only
+unfixed recalls, so each campaign below was either done or doesn't cover this VIN;
+which one, and when, needs Honda customer service (1-888-234-2138) or a dealer.
+Re-check every few months and before selling: Takata campaigns have reopened before.
 
 OFFICIAL RECORD: NHTSA (`recalls.md`, 24 campaigns for all 2005 Accords). Whether each
 applies, and whether it's already been done, is **only** known by entering the VIN at
