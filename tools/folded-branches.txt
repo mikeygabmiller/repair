@@ -1,0 +1,18 @@
+# Branches reviewed and folded into main by hand. tools/unmerged.py skips these.
+# Folded in 2026-10-28 (consolidation PR):
+claude/admiring-cannon-4ewdbm
+claude/brave-bell-73lnp2
+claude/brave-newton-mv9buh
+claude/car-lighting-brainstorm-d645a0
+claude/compassionate-dirac-h7cw38
+claude/compassionate-euler-nb3xp3
+claude/epic-meitner-13tt0b
+claude/festive-feynman-j52ffs
+claude/funny-feynman-h1x0ux
+claude/happy-rubin-w8mh84
+claude/intelligent-thompson-s1k393
+claude/kind-gauss-m6g8qr
+claude/practical-heisenberg-nm4ozv
+claude/repo-improvements-multi-i5ac0g
+claude/serene-mendel-abjd4i
+claude/upbeat-heisenberg-4rdkes
