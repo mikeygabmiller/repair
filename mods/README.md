@@ -20,6 +20,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   `research/` holds the notes behind it.
 
 ## Ideas noted
+- **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
+  the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
+  weak deal; a small trailer uses the 1,000 lb tow rating instead.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
