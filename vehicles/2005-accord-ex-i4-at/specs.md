@@ -44,6 +44,19 @@ copied here.
 | Alignment, camber | Front 0°, rear 1° (printed with no + or − sign; direction unverified) | VERIFIED: OM p.275 | 2026-10-21 |
 | Alignment, caster (front) | 3°15′ | VERIFIED: OM p.275 | 2026-10-21 |
 
+## Load and towing limits
+
+| Item | Value | Source | Checked |
+|---|---|---|---|
+| Max load (people + cargo + accessories + trailer tongue load) | 850 lb (395 kg) | VERIFIED: OM p.171. Door-jamb placard is the Tier 1 check | 2026-10-31 |
+| Roof rack (rack + load) | 165 lb (75 kg) max; an accessory rack's own limit may be lower | VERIFIED: OM p.172 | 2026-10-31 |
+| Trailer weight (trailer + everything on it) | 1,000 lb (450 kg) max | VERIFIED: OM p.190 | 2026-10-31 |
+| Tongue load | About 10% of total trailer weight (so ~100 lb at the 1,000 lb max). Honda prints no separate max tongue number | VERIFIED: OM p.190 | 2026-10-31 |
+| GVWR, 4-cyl EX | 4,125 lb (1,870 kg) | VERIFIED: OM p.191. Door-jamb label is the Tier 1 check | 2026-10-31 |
+| GAWR, 4-cyl EX | Front 2,225 lb (1,010 kg), rear 1,985 lb (900 kg) | VERIFIED: OM p.191 | 2026-10-31 |
+| Hitch / trailer brakes | Hitch must be bolted to the underbody; trailer brakes recommended at 1,000 lb or more; never tap the car's brake hydraulics | VERIFIED: OM p.192 | 2026-10-31 |
+| Towing gear (automatic) | D on level roads, D3 in hills, 2nd going downhill | VERIFIED: OM p.195 | 2026-10-31 |
+
 ## Engine and electrical
 
 | Item | Value | Source | Checked |
