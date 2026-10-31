@@ -47,5 +47,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   air sensor. AEM 22-511 install sheet covers 2003–04 only, no MAF. Which kit fits
   depends on whether the car has a MAF sensor: check before buying. Keep the stock airbox
   and resonator (Honda 17230-RAA-A00, $186 to replace, `parts.md`).
+- **Truck-bed LED strip kit as a cargo light (2026-10-31):** owner found a Temu 3-strip
+  kit (with an inline switch; lengths, current draw and its yellow lead not confirmed). Best use: inside
+  only, lighting the trunk and the rear-seat cargo area (seatbacks are out). Strip under the
+  rear package shelf, one along the cabin side of the pass-through; zip ties or adhesive on
+  clean painted metal, never on trunk carpet. Nothing on the headliner or pillar trims: side
+  curtain airbags sit in the ceiling above the side windows (VERIFIED: OM p.23). Power:
+  key-on only, either an add-a-circuit on fuse #9 (OM p.269) or, with no tapping at all,
+  a 12 V plug into the front accessory socket (key-on per OM p.78). Not on the trunk-light
+  circuit and not outside the car (WAC 204-21-230; resale). Matches switch-slot ideas #7/#17.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
