@@ -54,7 +54,16 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   clean painted metal, never on trunk carpet. Nothing on the headliner or pillar trims: side
   curtain airbags sit in the ceiling above the side windows (VERIFIED: OM p.23). Power:
   key-on only, either an add-a-circuit on fuse #9 (OM p.269) or, with no tapping at all,
-  a 12 V plug into the front accessory socket (key-on per OM p.78). Not on the trunk-light
-  circuit and not outside the car (WAC 204-21-230; resale). Matches switch-slot ideas #7/#17.
+  a 12 V plug into the front accessory socket (key-on per OM p.78). Not outside the car
+  (WAC 204-21-230; resale). Matches switch-slot ideas #7/#17.
+  **Owner wants them on with the trunk lid (2026-10-31):** doable. Shop method: a relay with
+  a suppression diode, its coil across the trunk-lamp terminals and its load side fused
+  (5 A) to the strips, so the trunk latch switch only carries the coil. That switch also
+  feeds the dash's door-and-trunk-open monitor (OM p.60), and its rating isn't known, so
+  don't load it past the stock 5 W lamp (OM p.275). Tap with Posi-Taps, no cutting. Before
+  wiring: meter which lamp side is constant +12 V and which side is switched, and pull the
+  Interior Lights schematic (`chilton-checklist.md` 51a). Drain risk only if the lid is
+  left open or ajar; the kit's own switch is the off switch. Backyard: swap the stock bulb
+  for one strip that draws no more than the bulb (bag the bulb for resale).
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
