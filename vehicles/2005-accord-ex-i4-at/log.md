@@ -10,6 +10,7 @@ unless `specs.md` lists them.
 ## 2026-10-31: check engine light, code P0685 (mileage not recorded)
 - MADDOX: MIL on, P0685 "ECM/PCM Power Relay Control Circuit/Open", stored/confirmed. App suggests "replace main relay" (not a diagnosis).
 - Came on right after the aux-light install (entries below). Triage: `open-issues.md`, P0685 item.
+- Same day: owner found **one battery terminal loose** (which one not recorded). Tighten, clear, rescan after a few days of driving.
 
 ## Reported 2026-10-31: auxiliary driving lights installed (owner; mileage not recorded)
 - Owner: "I added these to my car." Which lights is not confirmed: the last ones discussed were Nilight 18 W 4" spot pods, 2-pack with harness (Amazon B00Q8CF7DE; listing: 18 W / 1.5 A each).

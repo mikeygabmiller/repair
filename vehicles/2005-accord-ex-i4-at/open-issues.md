@@ -53,6 +53,9 @@ Last updated 2026-10-31. **The car is drivable.** Last known mileage: 139,032 (2
   lights (2026-10-31) went in (`log.md`). A loose battery terminal, a ring terminal stacked
   on a battery post, a disturbed ground or a tapped fuse can drop the computer's power for
   a moment and set exactly this code (UNVERIFIED reasoning; check below).
+- **2026-10-31 (owner): one battery terminal found loose** (which one, and whether it was
+  the one the light harness connects to, not recorded). Leading suspect now. Next: tighten,
+  clear the code, drive a few days, rescan. If P0685 stays away, close this item.
 - Recall 07V097000 (fuel pump relay = PGM-FI main relay 2) shows **not open** on this VIN.
 - Next, cheapest first:
   1. Screenshot the **Freeze Frame** before erasing anything (shows rpm, temp, speed when
