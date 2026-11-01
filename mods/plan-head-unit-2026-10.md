@@ -8,10 +8,18 @@ in `procedures/`.
 
 - **Eonon HAC1X7A**, 10.1" Android 14, wired + wireless CarPlay / Android Auto, made for
   2003–2007 Accord. Bundle **with a backup camera**, about **$200** (owner, 2026-10-26).
-  Tax, seller (eonon.com or other) and order number: not recorded yet.
+- **Order (Eonon emails, read 2026-11-01):** bought direct from eonon.com, order
+  261000311161neweng, 2026-10-26. $249.99 list − $50 = **$199.99**, free shipping, no tax
+  shown. Shipped 2026-10-27 by US Speedx, tracking SPXSEA007982610270003087 (speedx.io).
+  The shipping email lists the model as **HAC1X7A-C**; "-C" probably means the camera
+  bundle (UNVERIFIED: check the box label). Order email → `receipts/` if a PDF is wanted.
 - Eonon's page lists 4 GB RAM / 64 GB, RK3562 4-core, built-in DSP, **90-day returns**
   (eonon.com product page, read 2026-10-26). Third-party listings say 3 GB / 32 GB:
   check the label on the unit.
+- Eonon's page (read 2026-11-01): "Keep OEM features like steering wheel controls, door
+  reminder, AC control, and AC information", i.e. the **factory Honda climate panel and its
+  buttons stay**; the unit adds on-screen climate info. It does not say whether the panel
+  is reused as-is or rehoused in a new bezel: check the box contents photo / unit.
 - Why this one over the $139 Amazon "SailingTravel" unit: known brand, more memory, 90-day
   returns, and the wiring diagram shows it plugs into the factory climate panel with a
   single-zone adapter (below).
