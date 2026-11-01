@@ -29,6 +29,14 @@ in `procedures/`.
   USB cable, backup-camera video input cable, power cable, GPS antenna, single-zone
   conditioner adapter, external mic, spare fuse, manual. The camera itself is not in that
   photo; the "-C" bundle should add it.
+- **Audio (Eonon product photos, read 2026-11-01):** ST TDA7388 amp chip, "4×45W max
+  output power" (max/peak, not RMS), 48-band graphic EQ, speaker time alignment
+  (distance settings). Bluetooth 5.4 with its own module and extra antenna. Eonon sells an
+  optional A304 DSP amp (4×50 W) as an add-on. The factory radio's built-in amp is about
+  15–22 W per channel (owner's past chats, `sources/project-history-2026-10-21.md`;
+  UNVERIFIED). Expect similar loudness; gains come from EQ, time alignment and a
+  cleaner source than the old XM-port Bluetooth adapter. The 20-year-old factory speakers
+  are the limit.
 - Why this one over the $139 Amazon "SailingTravel" unit: known brand, more memory, 90-day
   returns, and it handles both single- and dual-zone climate (single-zone adapter, below).
 
