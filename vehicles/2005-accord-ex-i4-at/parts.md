@@ -23,10 +23,10 @@ in a Honda dealer's online parts catalog by VIN.
 
 | Part | Number(s) from past chats | Note |
 |---|---|---|
-| Oil filter | Honda 15400-PLM-A02; Fram TG7317 | |
-| Oil drain plug crush washer | 94109-14000 | |
-| Engine air filter | 17220-RAA-A00 | |
-| Cabin air filter | 80292-SDA-407 (said to supersede SDA-A01 / SDA-406), qty 1; Fram CF10134 / CV10135, Ecogard XC35519C | |
+| Oil filter | Honda 15400-PLM-A02; Fram TG7317 | HondaPartsNow (2026-11-03, $6.87): A01 and A02 interchangeable; its page shows no 2005 row |
+| Oil drain plug crush washer | 94109-14000 | HondaPartsNow (2026-11-03, $0.46): 14 mm, "on oil pan drain plug"; no 2005 row shown |
+| Engine air filter | 17220-RAA-A00 | HondaPartsNow lists it for 2005 4-door EX, KA 5AT (2026-11-03, $22.30). Not a dealer: confirm by VIN |
+| Cabin air filter | 80292-SDA-407 (said to supersede SDA-A01 / SDA-406), qty 1; Fram CF10134 / CV10135, Ecogard XC35519C | HondaPartsNow (2026-11-03, $20.19) lists SDA-406 and SDA-A01 among the numbers it replaces; no 2005 row shown |
 | PCV valve | 17130-RAA-A01 | |
 | Throttle body / gasket | 16400-RAA-A61/A62/A63; gasket 16176-RAA-A01 | Coolant runs through it; don't unbolt without a gasket |
 | Serpentine belt | Honda 31110-RAA-A02; Gates K060475 | |

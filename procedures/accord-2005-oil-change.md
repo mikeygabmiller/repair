@@ -2,7 +2,7 @@
 
 Sources: Honda owner's manual, "Changing the Oil and Filter", OM pp.214–215 (read
 2026-10-28) · oil type OM pp.212–213 · drain bolt torque also in Chilton (`specs.md`)
-Difficulty: easy · Time: ~1 h (estimate from `plan-maintenance-catchup.md`, not from a
+Difficulty: easy · Time: ~1 h (estimate from `vehicles/2005-accord-ex-i4-at/plans/2026-11-catch-up-maintenance.md`, not from a
 manual). The car stays drivable: if anything goes wrong it's a 10-minute fix, not a
 stranded car, as long as the parts are bought before starting.
 
