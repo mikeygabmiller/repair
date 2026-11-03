@@ -132,7 +132,7 @@ Last updated 2026-10-31. **The car is drivable.** Last known mileage: 139,032 (2
 
 ## 7. Maintenance with no record
 Everything with no dated record counts as overdue. Status, intervals and what's due next:
-`maintenance.md`. Order and shopping list: `plan-maintenance-catchup.md`. First job:
+`maintenance.md`. Order, shopping list and the day plan: `plans/2026-11-catch-up-maintenance.md`. First job:
 oil and filter (`procedures/accord-2005-oil-change.md`).
 
 ## 8. Body and interior (not urgent)

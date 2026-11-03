@@ -2,7 +2,7 @@
 
 What's due, at a glance. **Update the row every time a maintenance job is done** (date and
 odometer), and put the job in `log.md` too. Order and shopping list for the catch-up:
-`plan-maintenance-catchup.md`.
+`plans/2026-11-catch-up-maintenance.md`.
 
 Intervals are Honda's **severe** schedule (OM p.203, copied in `specs.md`), because the
 car does short local trips and winter roads (OM p.199). "No record" = treat as due now.
