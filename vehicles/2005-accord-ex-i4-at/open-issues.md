@@ -7,7 +7,7 @@ what's known and the next steps, cheapest first. When an item closes, move it to
 before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
 Part 1.
 
-Last updated 2026-10-31. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
+Last updated 2026-11-04. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
 
 ## 1. SRS (airbag) light: codes 61-10, E2-11, F1-11. Dealer or SRS shop only, never DIY
 - **With the SRS light on, the airbags may not deploy in a crash.** This is the most
@@ -56,6 +56,7 @@ Last updated 2026-10-31. **The car is drivable.** Last known mileage: 139,032 (2
 - **2026-10-31 (owner): one battery terminal found loose** (which one, and whether it was
   the one the light harness connects to, not recorded). Leading suspect now. Next: tighten,
   clear the code, drive a few days, rescan. If P0685 stays away, close this item.
+- **2026-11-04:** the phone's USB link to the head unit drops each time the aux lights switch on or off (item 9). Same kind of momentary power/ground dip; check the two together.
 - Recall 07V097000 (fuel pump relay = PGM-FI main relay 2) shows **not open** on this VIN.
 - Next, cheapest first:
   1. Screenshot the **Freeze Frame** before erasing anything (shows rpm, temp, speed when
@@ -144,6 +145,27 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
 - Center vent vane broken. Leather worn in areas.
 - VTC actuator cold-start rattle (known K24 issue per past chats; UNVERIFIED). Not urgent.
 
+## 9. Phone USB connection drops when the aux lights switch on or off (reported 2026-11-04)
+- **Owner, 2026-11-04:** turning the aux high beams on *or* off briefly disconnects the
+  phone's USB connection; the USB plug is wired into the head unit. Which head unit (the
+  Eonon HAC1X7A?), install date, mileage, cabin switch vs high-beam stalk, and the lights'
+  ground point: not recorded yet.
+- Two likely causes (UNVERIFIED, Claude's reasoning): (a) a supply or ground dip when the
+  light current switches (fits the loose battery terminal and P0685, item 2); (b) the
+  relay coil's turn-off spike (RAYFIRE JD1912; diode inside not confirmed) coupling into
+  the head unit or the USB cable through wiring routed behind the dash.
+- Next, cheapest first:
+  1. Battery clamps tight (must not turn by hand); light harness ring terminal on top of
+     the clamp, not between post and clamp. Lights grounded at battery negative or bare
+     body metal, not shared with the head unit ground.
+  2. Split test: unplug the lights at the DT plug, leave the relay, flip the switch.
+     Still drops → relay/trigger wiring; stops → light current (supply/ground).
+  3. Try the CarPlay/AA USB cable from the Eonon box and a short good phone cable.
+  4. Relay cause: diode-suppressed relay, or a diode across the coil on the aftermarket
+     harness (stripe to the + / pin-86 side; check the relay's printed diagram; backwards
+     shorts the trigger). Route trigger/switch wires away from the USB cable.
+  5. Workarounds: wireless CarPlay/AA; ferrite clamp on the USB cable (COMMUNITY).
+
 ## Loose ends to record (no action needed, just write them down when known)
 - From Ben's invoice (2026-10-27): date, mileage, ABS sensor brand and part number,
   whether the owner's Moog K80228 went in. Ben was waiting on a **grease fitting** for
@@ -154,6 +176,9 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
 - O'Reilly's scan tool wouldn't connect to the OBD port (2026-10-24). Probably their tool:
   the owner's MADDOX worked through the same port on ~2026-10-26. If another tool fails,
   check the fuses (OM pp.268–269 don't name one for the port; Chilton wiring diagram does).
+
+- Head unit: if the Eonon HAC1X7A is installed, its install date, mileage and how it went
+  aren't in `log.md` yet (`mods/plan-head-unit-2026-10.md`).
 
 ## Closed recently (details in `issues-history.md`)
 - **2026-10-28: front axle nut torque. Closed by the owner; don't raise it again** unless
