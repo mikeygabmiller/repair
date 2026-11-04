@@ -147,9 +147,11 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
 
 ## 9. Phone USB connection drops when the aux lights switch on or off (reported 2026-11-04)
 - **Owner, 2026-11-04:** turning the aux high beams on *or* off briefly disconnects the
-  phone's USB connection; the USB plug is wired into the head unit. Which head unit (the
-  Eonon HAC1X7A?), install date, mileage, cabin switch vs high-beam stalk, and the lights'
-  ground point: not recorded yet.
+  phone's USB connection; the USB plug is wired into the head unit.
+- Head unit is the **Eonon HAC1X7A, installed 2026-11-03** (owner). Aux lights come on
+  with the **high-beam stalk** (no cabin switch), so the factory high beams switch at the
+  same moment. Started the day after the install, so the Eonon's own power/ground hookup
+  is a suspect too. Lights' ground point: not recorded yet.
 - Two likely causes (UNVERIFIED, Claude's reasoning): (a) a supply or ground dip when the
   light current switches (fits the loose battery terminal and P0685, item 2); (b) the
   relay coil's turn-off spike (RAYFIRE JD1912; diode inside not confirmed) coupling into
@@ -158,12 +160,16 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   1. Battery clamps tight (must not turn by hand); light harness ring terminal on top of
      the clamp, not between post and clamp. Lights grounded at battery negative or bare
      body metal, not shared with the head unit ground.
-  2. Split test: unplug the lights at the DT plug, leave the relay, flip the switch.
-     Still drops → relay/trigger wiring; stops → light current (supply/ground).
+  2. Three-step split test, flashing the high beams each time:
+     a. Aux fuse pulled (relay and lights dead). Still drops → not the aux lights; it's
+        the factory high-beam load plus a weak connection: battery clamp, or the Eonon's
+        power/ground (connectors fully latched, any splices).
+     b. Fuse in, lights unplugged at the DT plug. Drops → relay coil spike.
+     c. Drops only with lights plugged in → light current (supply/ground).
   3. Try the CarPlay/AA USB cable from the Eonon box and a short good phone cable.
   4. Relay cause: diode-suppressed relay, or a diode across the coil on the aftermarket
-     harness (stripe to the + / pin-86 side; check the relay's printed diagram; backwards
-     shorts the trigger). Route trigger/switch wires away from the USB cable.
+     harness (stripe to the + / pin-86 side; check the relay's printed diagram). Backwards,
+     it shorts the high-beam trigger and can blow the high-beam fuse.
   5. Workarounds: wireless CarPlay/AA; ferrite clamp on the USB cable (COMMUNITY).
 
 ## Loose ends to record (no action needed, just write them down when known)
@@ -177,8 +183,8 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   the owner's MADDOX worked through the same port on ~2026-10-26. If another tool fails,
   check the fuses (OM pp.268–269 don't name one for the port; Chilton wiring diagram does).
 
-- Head unit: if the Eonon HAC1X7A is installed, its install date, mileage and how it went
-  aren't in `log.md` yet (`mods/plan-head-unit-2026-10.md`).
+- Eonon install (2026-11-03): mileage; harness #29 used or not; reverse trigger and camera
+  wiring (spliced where?); whether everything in the plan's test list works.
 
 ## Closed recently (details in `issues-history.md`)
 - **2026-10-28: front axle nut torque. Closed by the owner; don't raise it again** unless
