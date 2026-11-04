@@ -7,6 +7,9 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-11-04: phone USB drops when aux lights switch (reported; mileage not recorded)
+- Owner: turning the aux high beams on or off briefly disconnects the phone's USB connection to the head unit. Triage: `open-issues.md`, item 9.
+
 ## 2026-10-31: check engine light, code P0685 (mileage not recorded)
 - MADDOX: MIL on, P0685 "ECM/PCM Power Relay Control Circuit/Open", stored/confirmed. App suggests "replace main relay" (not a diagnosis).
 - Came on right after the aux-light install (entries below). Triage: `open-issues.md`, P0685 item.
