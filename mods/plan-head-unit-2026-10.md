@@ -1,5 +1,7 @@
 # Plan: Eonon head unit install (bought 2026-10-26)
 
+**Status: installed 2026-11-03 (owner).** Job entry: `log.md`. Open item: USB drops when the high beams switch (`open-issues.md` item 9).
+
 Written 2026-10-26 from the purchase chat. This is a **checklist and wiring sheet**, not a
 procedure. Once it's installed, the job goes in `log.md` and anything worth reusing goes
 in `procedures/`.

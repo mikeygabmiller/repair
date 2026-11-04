@@ -8,7 +8,11 @@ owner's record. Specs used in those jobs came from past chats and are **not** ve
 unless `specs.md` lists them.
 
 ## 2026-11-04: phone USB drops when aux lights switch (reported; mileage not recorded)
-- Owner: turning the aux high beams on or off briefly disconnects the phone's USB connection to the head unit. Triage: `open-issues.md`, item 9.
+- Owner: turning the aux high beams on or off (high-beam stalk) briefly disconnects the phone's USB connection to the Eonon head unit. Started the day after the Eonon install. Triage: `open-issues.md`, item 9.
+
+## 2026-11-03: Eonon HAC1X7A head unit installed (owner; mileage not recorded)
+- Owner: installed. Plan and wiring sheet: `mods/plan-head-unit-2026-10.md`.
+- Not recorded yet: mileage, harness #29 (single-zone adapter) used or not, how reverse trigger (#2) and the camera were wired, results of the plan's test list (climate, defrost, wheel buttons, FM, calls, camera, boot time), post-install draw test. Factory radio and climate panel kept for resale?
 
 ## 2026-10-31: check engine light, code P0685 (mileage not recorded)
 - MADDOX: MIL on, P0685 "ECM/PCM Power Relay Control Circuit/Open", stored/confirmed. App suggests "replace main relay" (not a diagnosis).
