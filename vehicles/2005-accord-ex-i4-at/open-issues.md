@@ -174,9 +174,11 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
 
 ## 10. Backup camera not showing on the Eonon (reported 2026-11-05)
 - **Owner, 2026-11-05:** "all the wires are confirmed connected right, it's still not
-  coming on." Not recorded yet: whether the screen switches at all in reverse (black/blue/
-  "no signal") or stays on the normal screen; which camera (new Eonon bundle or the old
-  plate-frame one); where the trigger (#2) and camera power are tapped; mileage.
+  coming on." **Owner, later 2026-11-05: reverse lights work; the screen does not change
+  at all in R** → the head unit isn't seeing reverse (trigger side), not a camera/video
+  fault yet. Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
+  where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
+  lamp socket); mileage.
 - Owner is buying a multimeter (2026-11-05) for this.
 - Next, cheapest first (Claude's diagnostic order, UNVERIFIED for this unit):
   1. Reverse lights actually light in R (key on). If not, the tapped feed is dead.
