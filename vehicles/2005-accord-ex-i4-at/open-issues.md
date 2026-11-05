@@ -186,6 +186,9 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   wiring diagram and reads power **only in reverse**. So the trigger wiring is right;
   remaining suspects: sub-harness plug not latched into the unit, a camera/reverse
   setting, or the unit itself → Eonon support (90-day return to ~2027-01-24).
+  **Owner, later 2026-11-05:** all plugs confirmed latched; nothing found in the settings.
+  **Next: Eonon support** (ask for the factory-menu password/setting, firmware, or a
+  replacement). Don't guess factory-menu passwords: climate/CAN settings live there.
   Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
