@@ -176,7 +176,13 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
 - **Owner, 2026-11-05:** "all the wires are confirmed connected right, it's still not
   coming on." **Owner, later 2026-11-05: reverse lights work; the screen does not change
   at all in R** → the head unit isn't seeing reverse (trigger side), not a camera/video
-  fault yet. Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
+  fault yet. **Owner, later 2026-11-05:** the camera kit's cable to the front has three
+  wires (ground, positive, third not named); owner connected one to "the reverse trigger
+  red wire on the back of the head unit" and says both get power in R; screen still
+  doesn't change. Open questions: how voltage was checked (to what ground); whether that
+  wire also reads 12 V in **Park** with key on (if yes, it's ACC, not a reverse input:
+  on many Android harnesses red = ACC, UNVERIFIED for Eonon); the Eonon wire's printed
+  label. Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
 - Owner is buying a multimeter (2026-11-05) for this.
