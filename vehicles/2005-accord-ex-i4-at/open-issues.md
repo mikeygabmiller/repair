@@ -182,7 +182,11 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   doesn't change. Open questions: how voltage was checked (to what ground); whether that
   wire also reads 12 V in **Park** with key on (if yes, it's ACC, not a reverse input:
   on many Android harnesses red = ACC, UNVERIFIED for Eonon); the Eonon wire's printed
-  label. Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
+  label. **Answered same day (owner):** the wire is the reverse trigger per the Eonon
+  wiring diagram and reads power **only in reverse**. So the trigger wiring is right;
+  remaining suspects: sub-harness plug not latched into the unit, a camera/reverse
+  setting, or the unit itself → Eonon support (90-day return to ~2027-01-24).
+  Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
 - Owner is buying a multimeter (2026-11-05) for this.
