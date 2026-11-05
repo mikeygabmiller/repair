@@ -7,7 +7,7 @@ what's known and the next steps, cheapest first. When an item closes, move it to
 before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
 Part 1.
 
-Last updated 2026-11-04. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
+Last updated 2026-11-05. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
 
 ## 1. SRS (airbag) light: codes 61-10, E2-11, F1-11. Dealer or SRS shop only, never DIY
 - **With the SRS light on, the airbags may not deploy in a crash.** This is the most
@@ -171,6 +171,22 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
      harness (stripe to the + / pin-86 side; check the relay's printed diagram). Backwards,
      it shorts the high-beam trigger and can blow the high-beam fuse.
   5. Workarounds: wireless CarPlay/AA; ferrite clamp on the USB cable (COMMUNITY).
+
+## 10. Backup camera not showing on the Eonon (reported 2026-11-05)
+- **Owner, 2026-11-05:** "all the wires are confirmed connected right, it's still not
+  coming on." Not recorded yet: whether the screen switches at all in reverse (black/blue/
+  "no signal") or stays on the normal screen; which camera (new Eonon bundle or the old
+  plate-frame one); where the trigger (#2) and camera power are tapped; mileage.
+- Owner is buying a multimeter (2026-11-05) for this.
+- Next, cheapest first (Claude's diagnostic order, UNVERIFIED for this unit):
+  1. Reverse lights actually light in R (key on). If not, the tapped feed is dead.
+  2. Does the screen switch in R at all? No → trigger side (#2 voltage, Eonon reverse
+     setting, CAN decoder). Yes but black → camera power, ground, video, or format setting.
+  3. Eonon camera settings: camera format (AHD 720p/1080p vs CVBS, NTSC/PAL) must match
+     the camera; check the camera cable for an AHD/CVBS select loop (COMMUNITY).
+  4. Meter, in R: +12 V at Eonon #2 and at camera power; power off: camera ground to body,
+     video cable end to end.
+  5. Ask Eonon's chat (written answer) with the camera model and a photo of the settings.
 
 ## Loose ends to record (no action needed, just write them down when known)
 - From Ben's invoice (2026-10-27): date, mileage, ABS sensor brand and part number,
