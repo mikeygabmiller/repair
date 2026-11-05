@@ -189,6 +189,8 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   **Owner, later 2026-11-05:** all plugs confirmed latched; nothing found in the settings.
   **Next: Eonon support** (ask for the factory-menu password/setting, firmware, or a
   replacement). Don't guess factory-menu passwords: climate/CAN settings live there.
+  **Emailed Eonon 2026-11-05** (support@eonon.com, reply on the order-details thread;
+  address confirmed as the sender of both order emails). Waiting on their answer.
   Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
