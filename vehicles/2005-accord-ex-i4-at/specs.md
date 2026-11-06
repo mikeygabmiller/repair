@@ -39,6 +39,8 @@ copied here.
 | **Lug nut (wheel nut) torque** | 80 lbf·ft (108 N·m), crisscross pattern | VERIFIED: OM p.250 | 2026-10-21 |
 | Tire size (EX) | P205/60R16 91V | VERIFIED: OM p.276. Confirm against the door-jamb sticker | 2026-10-21 |
 | Tire pressure, cold (EX) | Front 32 psi (220 kPa), rear 30 psi (210 kPa) | VERIFIED: OM p.276 + Service Information Summary. Confirm against the door-jamb sticker | 2026-10-21 |
+| Tire rotation pattern | Non-directional tires: fronts go **straight back** (same side); rears **cross to the front** (left rear → right front, right rear → left front). Directional tires: front-to-back only, same side. Every 10,000 mi (4-cyl) | VERIFIED: OM p.239 (diagram) | 2026-11-06 |
+| Tread wear bars | Band 1/2 in wide across the tread = under 1/16 in (1.6 mm) left; replace if 3 or more show. Replace any tire with a bump, bulge, or a cut showing cord | VERIFIED: OM p.238 | 2026-11-06 |
 | Spare | T135/90D15 at 60 psi (420 kPa) | VERIFIED: OM p.276 | 2026-10-21 |
 | Alignment, toe-in | Front 0.00 in (0.0 mm), rear 0.08 in (2.0 mm) | VERIFIED: OM p.275 | 2026-10-21 |
 | Alignment, camber | Front 0°, rear 1° (printed with no + or − sign; direction unverified) | VERIFIED: OM p.275 | 2026-10-21 |
