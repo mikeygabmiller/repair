@@ -224,6 +224,10 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   nail. Find it with soapy water (tread, both sidewalls, the bead all the way round, valve stem). Bead or
   sidewall leak, or a bulge = don't plug it; the shop dismounts it and checks the inside and the rim.
   Mileage not recorded.
+  **Soap test (owner, 2026-11-06): leaking at several spots where the tire meets the rim.** So a
+  bead leak, not a puncture: likely a bent rim lip and/or dirt forced into the bead in the ditch. A
+  bent rim could also be the low-speed wobble. Next: spare on (50 mph max), shop dismounts, cleans
+  the bead, checks the rim for runout and the tire inside. Don't buy tires until that's known.
 - **ABS was not working** (item 4), so hard braking in a turn could lock the front tires,
   and locked front tires don't steer (UNVERIFIED as the cause; general vehicle dynamics).
 - Treat as **bent or loose until proven otherwise** (wheel, tire, tie rod, control arm,
