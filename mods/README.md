@@ -72,5 +72,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   and the manual says no objects under the front seats (OM p.27). No knee airbag is listed
   (OM p.23). Driver side tied off clear of the pedals. Bed strips may be too long and too
   bright for a footwell: check lengths and cut marks; add a dimmer or a short footwell kit.
+- **White tire lettering (2026-11-06):** paint pen on the raised sidewall letters; wears
+  off or scuffs off, so fully reversible. Maker's method (Tire Penz instructions PDF,
+  RevZilla): scrub with soap and water, strip all tire shine (paint won't stick over it),
+  rubbing alcohol wipe, lightly scuff the letters with a wire brush (scour pad on new
+  tires), shake pen, thin coats, **12 h dry**, dressing OK only after that. Pens: Uni-Paint
+  PX-30 white (oil-based, broad chisel) ~$9–11 (Staples $9.19, Quill $10.59, seen
+  2026-11-06), PX-20 is the finer tip; Coker Tire white pen $15; Tire Penz kit (pen +
+  brush) price/availability not confirmed (RevZilla shows closeouts). Hold until the
+  sidewall check in `open-issues.md` item 11: a tire damaged in the ditch gets replaced.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
