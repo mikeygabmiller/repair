@@ -7,7 +7,8 @@ what's known and the next steps, cheapest first. When an item closes, move it to
 before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
 Part 1.
 
-Last updated 2026-11-05. **The car is drivable.** Last known mileage: 139,032 (2026-10-21).
+Last updated 2026-11-06. **Drivable with care: slow local trips only until item 11 (ditch
+slide, new wobble) is inspected.** Last known mileage: 139,032 (2026-10-21).
 
 ## 1. SRS (airbag) light: codes 61-10, E2-11, F1-11. Dealer or SRS shop only, never DIY
 - **With the SRS light on, the airbags may not deploy in a crash.** This is the most
@@ -204,6 +205,29 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   4. Meter, in R: +12 V at Eonon #2 and at camera power; power off: camera ground to body,
      video cable end to end.
   5. Ask Eonon's chat (written answer) with the camera model and a photo of the settings.
+
+## 11. Slid into a ditch: low-speed wheel wobble, alignment worse (reported 2026-11-06)
+- **Owner, 2026-11-06:** braking while turning at the bottom of a steep hill, didn't slow
+  enough, slid into a small ditch and came back onto the road. Since then a wheel **shakes
+  back and forth at low speed** and the alignment is worse. Photo that day: mud and grass
+  packed in the right front wheel. Not recorded yet: date, mileage, which corner hit,
+  rim/curb contact, which way the steering wheel is off.
+- **ABS was not working** (item 4), so hard braking in a turn could lock the front tires,
+  and locked front tires don't steer (UNVERIFIED as the cause; general vehicle dynamics).
+- Treat as **bent or loose until proven otherwise** (wheel, tire, tie rod, control arm,
+  knuckle, strut). No highway until checked; park it if it clunks or gets worse.
+- Next, cheapest first:
+  1. Lug nuts on all four: **80 lbf·ft, crisscross** (VERIFIED: OM p.250).
+  2. Look at both sidewalls and the **inner and outer rim lips** of the wheel that hit:
+     bulge, cut, dent, bend. Rinse the mud out of the wheel barrels.
+  3. Front on **jack stands**: spin each wheel against a fixed pointer near the rim lip and
+     the tread (wobble = bent rim or shifted belt). Rock the tire at 3/9 o'clock (tie rod)
+     and 12/6 (bearing, ball joint). Compare left vs right tie rods and lower arms for
+     bends or fresh scrapes; check the axle boots.
+  4. Shop: suspension/steering inspection, then alignment **with the printout**. Tell them
+     it hit a ditch. Bent parts and the item 4 bearing first, align last, so the alignment
+     is paid once. Safety-critical parts: OEM or name-brand.
+- Changes the baseline for item 3 (60 mph shake): re-test after this is fixed.
 
 ## Loose ends to record (no action needed, just write them down when known)
 - From Ben's invoice (2026-10-27): date, mileage, ABS sensor brand and part number,

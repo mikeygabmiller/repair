@@ -7,6 +7,9 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-11-06 (reported): slid into a small ditch (date and mileage not recorded)
+- Owner: braking while turning at the bottom of a steep hill, slid into a small ditch, came back onto the road. Since then a low-speed back-and-forth wheel shake and worse alignment. ABS was out at the time (`open-issues.md` item 4). Triage: `open-issues.md`, item 11.
+
 ## 2026-11-05: Bluetooth (Spotify) max volume too quiet on the Eonon (reported; mileage not recorded)
 - Owner: Spotify over Bluetooth is not very loud even at max volume. Looked in the unit's sound settings, no fix; couldn't find an adjustable EQ.
 - Eonon lists a 48-band graphic EQ for this unit (`mods/plan-head-unit-2026-10.md`), so it should exist; menu location not confirmed.
