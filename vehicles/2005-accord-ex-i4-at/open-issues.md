@@ -191,7 +191,14 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   **Next: Eonon support** (ask for the factory-menu password/setting, firmware, or a
   replacement). Don't guess factory-menu passwords: climate/CAN settings live there.
   **Emailed Eonon 2026-11-05** (support@eonon.com, reply on the order-details thread;
-  address confirmed as the sender of both order emails). Waiting on their answer.
+  address confirmed as the sender of both order emails). **Eonon replied 2026-11-06**
+  (Penny, customer service), generic steps: the unit takes reverse from the **CANBUS
+  decoder box**; if it doesn't switch, connect the camera's red trigger wire directly to
+  the head unit's reverse trigger wire, **"F5"** in their attached picture; camera power
+  to the reverse-light feed. Bundled camera is the **A0125**. If still failing, send clear
+  photos of the wiring and a video of the screen in reverse to their technical team.
+  Owner had already done the direct connection → next: confirm the wire used is F5 in
+  Eonon's picture, then reply with photos + video.
   Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
