@@ -219,6 +219,11 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   back and forth at low speed** and the alignment is worse. Photo that day: mud and grass
   packed in the right front wheel. Not recorded yet: date, mileage, which corner hit,
   rim/curb contact, which way the steering wheel is off.
+- **Owner, 2026-11-06: left front tire flat the morning after.** Owner is pumping it up to see if it holds.
+  After a ditch, a flat can be a **bead leak from a bent rim lip** or a **pinch/sidewall cut**, not only a
+  nail. Find it with soapy water (tread, both sidewalls, the bead all the way round, valve stem). Bead or
+  sidewall leak, or a bulge = don't plug it; the shop dismounts it and checks the inside and the rim.
+  Mileage not recorded.
 - **ABS was not working** (item 4), so hard braking in a turn could lock the front tires,
   and locked front tires don't steer (UNVERIFIED as the cause; general vehicle dynamics).
 - Treat as **bent or loose until proven otherwise** (wheel, tire, tie rod, control arm,
