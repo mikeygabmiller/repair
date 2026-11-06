@@ -20,7 +20,7 @@ Last known odometer: **139,032 mi** (2026-10-21, Les Schwab paperwork).
 | Drive belt: inspect | 30,000 mi or 2 yr | **No record** | **Now** (look only) |
 | Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | **No record** | **Now** |
 | Dust and pollen (cabin) filter | 30,000 mi or 2 yr | **No record** | **Now** |
-| Tire rotation | 10,000 mi | **No record** | **Now**, after the shake diagnosis (it moves the wheels around) |
+| Tire rotation | 10,000 mi | **No record** | **Now**, after the item 11 inspection. Chalk each tire's old spot (LF, RF, LR, RR) first so a wobble that follows a wheel shows. Pattern: `specs.md` (OM p.239) |
 | Brakes, steering, suspension, boots: inspect | 10,000 mi or 1 yr | Partial: Les Schwab free suspension check, 2026-10-21, 139,032 mi (written notes cover the right front) | Full inspection with the next brake job |
 | Valve clearance | Inspect at 110,000 mi, otherwise adjust only if noisy | **No record** (car is past 110k) | Listen for ticking; shop job. Exhaust spec is unsettled (`specs.md`) |
 | Spark plugs | 110,000 mi | **2026-10-18, 138,943 mi** (Bosch 9614, `log.md`) | ~248,900 mi |
