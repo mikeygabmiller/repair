@@ -85,6 +85,9 @@ stale notes. To stop that:
 ## Owner's standing rules for the car
 
 Apply these to every recommendation without being reminded:
+- **Default plan (2026-11-07): keep the car as long as possible, and keep it sale-ready for
+  the best price at any time.** Judge spending by both; big repairs go through the
+  walk-away worksheet in `vehicles/2005-accord-ex-i4-at/plans/long-term-ownership.md`.
 - Done right, and nothing that hurts resale value. Reversible installs; keep OEM parts.
 - No cutting factory wiring, no drilling. Use adapter harnesses, Posi-Taps,
   add-a-circuit fuse taps. If the only way involves drilling, say so up front.

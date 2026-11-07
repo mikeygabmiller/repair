@@ -18,7 +18,7 @@
 | Paint / interior | NH658P Graphite Pearl, interior Type B | Owner, read from door jamb |
 | Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, automatic dual-zone climate (DUAL button), ABS, power driver seat, 16" alloys. **Check:** EX-L sedans list factory heated front seats (switches on either side of the shifter); not yet confirmed on this car | Owner; dual-zone confirmed by owner 2026-11-07 (OM p.106: EX-L/EX-V6 only); heated-seat switch part 35650-SDA-A01 listed for EX-L only (`mods/switch-slot-ideas/research/slot_facts_oem_switches.md`) |
 | Engine notes | Timing chain (no belt) | VERIFIED: the 4-cylinder maintenance schedules have no timing belt item; the V6 ones do (OM pp.202–205) |
-| Role | Only vehicle: daily driver and work rig. Plan: sell around 170k, keep it documented | Owner |
+| Role | Only vehicle: daily driver and work rig. **Plan (2026-11-07): keep it as long as possible, while staying sale-ready for the best price at any time** (`plans/long-term-ownership.md`). Replaces "sell around 170k" | Owner |
 | Current setup | Front passenger seat **reinstalled ~2026-10-24 to 10-26** (`log.md`). Rear seatbacks: removed for cargo (no record of them going back in) | Owner |
 | Coating | CarPro CQuartz Lite | Owner, 2026-10-21 |
 

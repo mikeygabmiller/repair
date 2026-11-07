@@ -2,8 +2,8 @@
 
 Invoices, quotes, inspection sheets and parts orders for the Accord. Two reasons:
 1. They answer questions the chat can't: part numbers, brands, dates, mileage, warranty.
-2. A dated paper trail is what makes the car worth more when it's sold (plan: around
-   170k mi, `vehicles/2005-accord-ex-i4-at/profile.md`).
+2. A dated paper trail is what makes the car worth more whenever it's sold (plan: keep it
+   as long as possible, sale-ready at any time: `vehicles/2005-accord-ex-i4-at/plans/long-term-ownership.md`).
 
 Name files `YYYY-MM-DD_who_what.jpg` (or `.pdf`), e.g.
 `2026-10-27_bens-auto-care_ball-joint.jpg`. Photo straight on, whole page, readable.
