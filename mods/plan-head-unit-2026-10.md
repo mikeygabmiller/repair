@@ -45,10 +45,11 @@ in `procedures/`.
 
 ## Before installing
 
-1. **Climate panel type** (decides harness #29). The owner's manual says automatic dual-zone
-   climate is only on EX-L and EX-V6 (VERIFIED: OM p.106). The VIN decodes as plain "EX"
-   (OFFICIAL RECORD: NHTSA vPIC, 2026-10-26), but `profile.md` says "auto climate".
-   Look at the panel: two dials + AUTO / DUAL / OFF = dual-zone; three plain dials = single-zone.
+1. **Climate panel type** (decides harness #29). **Settled 2026-11-07: dual-zone** (owner
+   confirmed the DUAL control). The owner's manual says automatic dual-zone climate is only on
+   EX-L and EX-V6 (VERIFIED: OM p.106), so this car is an EX-L (`profile.md`), even though
+   the VIN decodes as plain "EX" (OFFICIAL RECORD: NHTSA vPIC, 2026-10-26). Order the
+   harness for the dual-zone (EX-L) car.
 2. **Ask Eonon's chat** (get answers in writing):
    - Photo of the climate panel: should #29 be connected? On a single-zone car, what do the
      unit's P knob and DUAL button do?

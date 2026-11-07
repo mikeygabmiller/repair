@@ -7,7 +7,7 @@ faster or more confident-sounding answer.
 
 Scope: **repair and mods**. Reversible upgrades and accessories go in `mods/` under the
 same rules. No detailing, no business. Current vehicle: the owner's
-2005 Honda Accord EX, 2.4 L 4-cylinder, automatic → `vehicles/2005-accord-ex-i4-at/`.
+2005 Honda Accord EX-L (VIN decodes as EX; see `profile.md`), 2.4 L 4-cylinder, automatic → `vehicles/2005-accord-ex-i4-at/`.
 
 ## How to answer (owner's style rules, 2026-10-31)
 
