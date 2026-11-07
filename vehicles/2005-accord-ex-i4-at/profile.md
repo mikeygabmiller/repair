@@ -4,7 +4,7 @@
 
 | Item | Value | Label |
 |---|---|---|
-| Year / make / model / trim | 2005 Honda Accord EX. **Trim conflict:** NHTSA's VIN decode says EX (2026-10-26); a parts site's VIN decode (HondaPartsNow, 2026-10-23) says **EX-L**, which would fit the leather. Settle it from the window sticker, a Honda dealer's VIN lookup, or the climate panel (next rows) | Owner; OFFICIAL RECORD: NHTSA vPIC; EX-L unconfirmed |
+| Year / make / model / trim | 2005 Honda Accord **EX-L** (4-cylinder). The car's own equipment says EX-L: the climate panel has dual-zone control (owner, 2026-11-07), which OM p.106 lists only on EX-L and EX-V6, and this is a 4-cylinder, so not the EX-V6; it also has leather, and a parts site's VIN decode (HondaPartsNow, 2026-10-23) says EX-L. **Still conflicts with** NHTSA's VIN decode, which says plain EX (2026-10-26). The car itself (Tier 1) outranks the decode; a Honda dealer's VIN lookup or the window sticker would close it for good. The folder keeps its `-ex-` name so links don't break | Owner (climate panel, leather); VERIFIED: OM p.106; OFFICIAL RECORD: NHTSA vPIC (says EX) |
 | Body | 4-door sedan | OFFICIAL RECORD: NHTSA VIN decode |
 | Engine | 4 cylinders, 2.4 L | OFFICIAL RECORD: EPA (`epa.md`) |
 | Engine code | K24A4, 160 hp | OFFICIAL RECORD: NHTSA VIN decode |
@@ -16,7 +16,7 @@
 | Build month | unknown: it's on the driver door-jamb label, not in the VIN (matters for recall 11V395000) | — |
 | Mileage | ~137,000 at purchase (Aug 2026); 138,943 on 2026-10-18; 139,032 on 2026-10-21 (Les Schwab paperwork) | Owner |
 | Paint / interior | NH658P Graphite Pearl, interior Type B | Owner, read from door jamb |
-| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, auto climate, ABS, power driver seat, 16" alloys | Owner. **Climate type conflict:** OM p.106 says automatic dual-zone climate is EX-L/EX-V6 only. Check the panel: AUTO/DUAL buttons or three plain dials. The answer also helps settle the trim |
+| Factory features | Moonroof, 6-disc CD, steering wheel audio buttons, XM, automatic dual-zone climate (DUAL button), ABS, power driver seat, 16" alloys. **Check:** EX-L sedans list factory heated front seats (switches on either side of the shifter); not yet confirmed on this car | Owner; dual-zone confirmed by owner 2026-11-07 (OM p.106: EX-L/EX-V6 only); heated-seat switch part 35650-SDA-A01 listed for EX-L only (`mods/switch-slot-ideas/research/slot_facts_oem_switches.md`) |
 | Engine notes | Timing chain (no belt) | VERIFIED: the 4-cylinder maintenance schedules have no timing belt item; the V6 ones do (OM pp.202–205) |
 | Role | Only vehicle: daily driver and work rig. Plan: sell around 170k, keep it documented | Owner |
 | Current setup | Front passenger seat **reinstalled ~2026-10-24 to 10-26** (`log.md`). Rear seatbacks: removed for cargo (no record of them going back in) | Owner |
