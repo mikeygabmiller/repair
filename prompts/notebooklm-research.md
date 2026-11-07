@@ -34,6 +34,8 @@ Written 2026-11-07. Reusable: rerun Q1–Q3 whenever new sources go in the noteb
   checked at the cited page: owner's manual / Chilton screenshot → `VERIFIED`; Honda
   bulletin or NHTSA recall/complaint data → `OFFICIAL RECORD`; forum, video, complaint
   text → `COMMUNITY`.
+- NotebookLM has labeled a torque-spec website as "Service manual" (2026-11-07). Check
+  the source title yourself: a website is COMMUNITY no matter what NotebookLM calls it.
 - Claude re-reads the cited page itself when it can (the owner's manual is in the repo).
   If it can't, the value goes in as `UNVERIFIED (NotebookLM citing <source, page>)` until
   the owner sends a screenshot of that page.
@@ -65,7 +67,9 @@ Rules for every answer:
 4. Sources whose title starts with "REPO NOTES" are my own notes. Use them only to know
    what I already have and what I'm missing. NEVER cite them as proof of a fact.
 5. Label each source type: Owner's manual / Service manual (Chilton) / Honda bulletin /
-   NHTSA recall / NHTSA complaint / Forum / Video.
+   NHTSA recall / NHTSA complaint / Website / Forum / Video. "Service manual" means
+   Chilton, ALLDATA or Honda's own manual ONLY. A torque-spec or "database" website is
+   "Website", even if it copies service manual numbers.
 6. When two sources disagree, show both with citations. Don't pick one.
 7. Answer in a table where possible:
    | Finding | Exact quote | Source title | Page or timestamp | Source type | Applies to 2.4 L AT sedan? |
