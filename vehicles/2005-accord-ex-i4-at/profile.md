@@ -56,6 +56,9 @@ done once" doesn't mean it's finished.
 Other airbag campaigns: 18V268000 (passenger airbag installed wrong during a
 replacement), 16V178000 (wrong passenger airbag module at the factory, cars built
 Oct 1, 2003 – Aug 17, 2007), 04V551000 (driver airbag fabric could tear).
+04V551000 probably doesn't cover this car: the Honda bulletin (04-072, p.1) lists 2005
+Accord L4 4-door VINs 1HGCM5…5A000005 thru 1HGCM5…5A023044, and this VIN's serial is
+072328 (UNVERIFIED: quoted by NotebookLM 2026-11-07, not yet read on the page itself).
 
 Others that cover this model:
 - **11V395000, automatic transmission software**: 2005–2010 Accord built from
