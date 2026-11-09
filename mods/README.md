@@ -81,5 +81,26 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   2026-11-06), PX-20 is the finer tip; Coker Tire white pen $15; Tire Penz kit (pen +
   brush) price/availability not confirmed (RevZilla shows closeouts). Hold until the
   sidewall check in `open-issues.md` item 11: a tire damaged in the ditch gets replaced.
+- **Dash cam (2026-11-09):** researched, nothing bought. **Pick: a standalone camera, not
+  one run through the Eonon.** Eonon's HAC1X7A page shows only one dash cam for the unit, the
+  **A100** USB camera ("not included"; 1280×720, 120°, playback on the screen; eonon.com
+  product image, read 2026-11-09), about $34–59 on eBay. Against it: 720p is weak for
+  plates; it records only while the head unit is booted; it would sit on the unit's second
+  USB port (#21 "USB Port"; #20 is CarPlay, Eonon wiring diagram) and the USB link already
+  drops with the high beams (`open-issues.md` item 9). Where it stores video and whether
+  it loops properly: not confirmed. The unit's #10 "Front Camera Input" is a live view
+  only, not a recorder (UNVERIFIED: ask Eonon). Standalone lead: **VIOFO A119 Mini 2**
+  (2K, Sony Starvis 2, supercapacitor, Wi-Fi app, 5 V / 1 A, −20 to 65 °C; viofo.com,
+  read 2026-11-09), $159.99 on viofo.com, $120–130 seen on Amazon/eBay trackers (recheck).
+  Budget: 70mai M310, about $33–53 (review sites; battery vs capacitor not confirmed).
+  Plus a high-endurance microSD. Power: key-on only. No-tap way is the front accessory
+  socket (key-on, OM p.78; fuse #9 15 A, `specs.md`); cleaner is VIOFO's HK4 hardwire kit
+  ($17.99, viofo.com) on an add-a-circuit, both leads on a key-on fuse so there is no
+  parking mode and no drain (`open-issues.md` item 6). Routing: behind the mirror, along
+  the headliner edge, down the passenger A-pillar tucked in the door weatherstrip, never
+  across the pillar trim face or behind it (side curtain airbags, OM p.23; SRS light is
+  on, item 1). Stick the mount to the glass behind the mirror, out of the driver's view
+  (RCW 46.37.410(2), read 2026-11-09). WA needs consent to record conversations (RCW
+  9.73.030 per recordinglaw.com; statute not read): turn the mic off or tell passengers.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
