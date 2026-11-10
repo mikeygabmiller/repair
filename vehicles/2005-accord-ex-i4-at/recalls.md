@@ -1,6 +1,6 @@
 # Recalls: 2005 Honda Accord
 
-Label: **OFFICIAL RECORD** (NHTSA). Pulled 2026-10-21 from <https://api.nhtsa.gov/recalls/recallsByVehicle?make=Honda&model=Accord&modelYear=2005>.
+Label: **OFFICIAL RECORD** (NHTSA). Pulled 2026-11-10 from <https://api.nhtsa.gov/recalls/recallsByVehicle?make=Honda&model=Accord&modelYear=2005>.
 
 These cover every 2005 Accord variant (4-cyl, V6, coupe, hybrid). Whether a recall applies to *this* car, and whether it was already done, is only known by checking the VIN at <https://www.nhtsa.gov/recalls> (free). Open recalls are repaired free at a Honda dealer.
 

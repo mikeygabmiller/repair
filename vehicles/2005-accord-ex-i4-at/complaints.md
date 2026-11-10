@@ -1,6 +1,6 @@
 # Owner complaints: 2005 Honda Accord
 
-Label: **COMMUNITY** (owner reports filed with NHTSA, not checked by anyone). Pulled 2026-10-21 from <https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Honda&model=Accord&modelYear=2005>.
+Label: **COMMUNITY** (owner reports filed with NHTSA, not checked by anyone). Pulled 2026-11-10 from <https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Honda&model=Accord&modelYear=2005>.
 
 Use these to spot patterns ("lots of people report X"), never as a spec or a diagnosis.
 
