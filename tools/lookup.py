@@ -10,6 +10,13 @@ Sources (all U.S. government, no key needed):
 Usage:
   python3 tools/lookup.py refresh vehicles/2005-accord-ex-i4-at
   python3 tools/lookup.py vin <17-char VIN>
+  python3 tools/lookup.py tsbs vehicles/2005-accord-ex-i4-at   (slow: ~75 MB download)
+
+The tsbs command reads NHTSA's "Manufacturer Communications" flat files
+(https://static.nhtsa.gov/odi/ffdd/tsbs/, field list in TSBS.txt there) and writes
+tsbs.md: every Honda service bulletin NHTSA holds for this model and year. NHTSA only
+stores a short summary of each bulletin; the bulletin's own text (the fix, the parts) is a
+PDF on nhtsa.gov under the vehicle's "Manufacturer Communications" tab.
 """
 import collections
 import datetime
@@ -24,7 +31,7 @@ from pathlib import Path
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "repair-kb"})
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         return r.read()
 
 
@@ -144,6 +151,73 @@ def vin(code):
     return "\n".join(lines)
 
 
+TSB_RANGES = ["1995-1999", "2000-2004", "2005-2009", "2010-2014", "2015-2019",
+              "2020-2024", "2025-2025", "2025-2029", "2026-2026"]
+
+
+def tsb_rows(v):
+    """Yield one dict per bulletin (rows for the same NHTSA ID merged)."""
+    import io
+    import zipfile
+    make, model, year = v["make"].upper(), v["nhtsa_model"].upper(), str(v["year"])
+    found = {}
+    for rng in TSB_RANGES:
+        url = f"https://static.nhtsa.gov/odi/ffdd/tsbs/TSBS_RECEIVED_{rng}.zip"
+        try:
+            blob = get(url)
+        except Exception:
+            continue  # NHTSA renames the newest file from time to time
+        with zipfile.ZipFile(io.BytesIO(blob)) as z:
+            for name in z.namelist():
+                with z.open(name) as fh:
+                    for raw in fh:
+                        line = raw.decode("latin-1")
+                        if make not in line:
+                            continue
+                        f = line.rstrip("\r\n").split("\t")
+                        if len(f) < 14 or f[7] != make or f[9] != year:
+                            continue
+                        if f[8] != model:  # skips e.g. ACCORD HYBRID
+                            continue
+                        r = found.setdefault(f[0], {
+                            "id": f[0], "doc": f[3].strip(), "date": f[4], "added": f[2],
+                            "type": f[6], "components": set(), "summary": " ".join(f[13].split())})
+                        r["components"].update(c.strip() for c in f[10].split(",") if c.strip())
+    return sorted(found.values(), key=lambda r: (r["date"], r["id"]), reverse=True)
+
+
+def tsbs(v):
+    rows = tsb_rows(v)
+    d = lambda s: f"{s[:4]}-{s[4:6]}-{s[6:]}" if len(s) == 8 and s.isdigit() else (s or "—")
+    out = [
+        f"# Honda service bulletins on file at NHTSA: {v['year']} {v['make']} {v['nhtsa_model']}",
+        "",
+        f"Label: **OFFICIAL RECORD** (NHTSA Manufacturer Communications flat files, "
+        f"<https://static.nhtsa.gov/odi/ffdd/tsbs/>). Pulled {today()} by `tools/lookup.py tsbs`.",
+        "",
+        "What this is: NHTSA's one-line summary of every communication Honda filed that names the "
+        f"{v['year']} {v['nhtsa_model']} (all engines, sedan and coupe; hybrid rows are left out). "
+        "**The summary is NHTSA's, not the bulletin's text.** It tells you a bulletin exists and what "
+        "it is about; the actual fix, part numbers and VIN ranges are only in the bulletin PDF, free "
+        "on nhtsa.gov: search the car, open \"Manufacturer Communications\", find the NHTSA ID. "
+        "Many bulletins are V6-, coupe- or other-year-only even though NHTSA lists them here.",
+        "",
+        "Hand-sorted reading of these for this car (what applies to the 2.4 L automatic sedan, by "
+        "symptom): `tsb-guide.md`.",
+        "",
+        f"Total bulletins: {len(rows)}",
+        "",
+        "| Bulletin date | Honda doc ID | NHTSA ID | NHTSA component | NHTSA summary |",
+        "|---|---|---|---|---|",
+    ]
+    for r in rows:
+        comp = "; ".join(sorted(r["components"])).replace("|", "/")
+        summ = re.sub(r"\s*\*\w+\s*$", "", r["summary"]).replace("|", "/")
+        out.append(f"| {d(r['date'])} | {r['doc'] or '—'} | {r['id']} | {comp} | {summ} |")
+    out.append("")
+    return "\n".join(out)
+
+
 def refresh(folder):
     folder = Path(folder)
     v = json.loads((folder / "vehicle.json").read_text())
@@ -160,6 +234,10 @@ def refresh(folder):
 if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == "refresh":
         refresh(sys.argv[2])
+    elif len(sys.argv) == 3 and sys.argv[1] == "tsbs":
+        folder = Path(sys.argv[2])
+        (folder / "tsbs.md").write_text(tsbs(json.loads((folder / "vehicle.json").read_text())))
+        print(f"Wrote tsbs.md in {folder}")
     elif len(sys.argv) == 3 and sys.argv[1] == "vin":
         print(vin(sys.argv[2]))
     else:
