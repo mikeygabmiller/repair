@@ -13,7 +13,7 @@ facts in `issues-history.md`; part numbers `parts.md`.
 | Item | Value | Status |
 |---|---|---|
 | Axle nut | Honda 90305-692-010, 22 mm thread, **32 mm socket** (test-fit) | Part: listing; socket: confirmed by fit |
-| Axle nut torque, 4-cyl | **NOT FOUND.** The 181 lbf·ft figure is the Hybrid article's 24 mm nut | Owner closed this question 2026-10-28; the Part 3 prompt asks again (R06) |
+| Axle nut torque, 4-cyl | **NOT FOUND.** The 181 lbf·ft figure is the Hybrid article's 24 mm nut | Owner closed this question 2026-10-28. For the bearing job the shop torques the new nut from its own data |
 | Wheel bearing | Press-in, with a **magnetic ABS encoder**; brown encoder side faces **inward** (Hybrid article) | Hybrid article; same design per MOTOR Aug 2013 (`issues-history.md`) |
 | Bearing part | Honda 44300-TR4-A51 (NSK) | Listing |
 | Lower ball joint | Honda 51220-SDA-A02 → -305; Moog K80228 reported installed right side (confirm on Ben's invoice) | Listing |
