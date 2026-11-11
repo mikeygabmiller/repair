@@ -30,13 +30,16 @@ Each chat saves its notes on its own branch, and a new chat only sees `main`. Fo
 draft PRs piled up unmerged once (folded in 2026-10-28), so Claude was answering from
 stale notes. To stop that:
 
-- **Start:** run `python3 tools/unmerged.py` before answering. If it lists branches with
+- **Start:** run `python3 tools/unmerged.py` before answering, and use `INDEX.md` to find
+  the right file fast. If it lists branches with
   open PRs, merge them (same checks as below) and tell the owner in one line. Once a
   branch is folded in by hand, add its name to `tools/folded-branches.txt`.
 - **End: merge automatically (owner's standing rule, 2026-10-31).** When this chat
   changed repo files, commit, push, open the PR, mark it ready, and merge it into `main`
   right away with a **merge commit** (not squash, so git knows the branch is merged).
-  Don't ask first. Before merging, re-read the diff; if it conflicts with `main`, merge
+  Don't ask first. Before merging, run `python3 tools/check.py` and fix every ERROR (broken
+  link, unknown complaint number); look at the WARNs (a torque not in `specs.md`, a number
+  with no label). Re-read the diff; if it conflicts with `main`, merge
   `main` into the branch and resolve it. If the merge is blocked, or resolving a conflict
   would mean choosing between two different facts, stop and tell the owner.
 
@@ -44,7 +47,9 @@ stale notes. To stop that:
 
 1. **Pin the vehicle.** Use the vehicle folder. If the question could differ by engine,
    transmission, trim or build date, say which version the answer is for.
-2. **Check the repo first**, in this order: `profile.md` (car + known issues),
+2. **Check the repo first.** New symptom → `symptom-index.md`; open problem →
+   `diagnostics.md`; fluids, fuses, bulbs, tire pressures → `quick-reference.md`; a job →
+   `procedures/README.md`; bulletins → `tsb-guide.md`. Then, in this order: `profile.md` (car + known issues),
    `open-issues.md` (what's broken now), `maintenance.md` (what's due),
    `specs.md` (already-verified numbers),
    `parts.md`, `log.md` (what's been done, at what mileage), then search `recalls.md` and
@@ -138,7 +143,11 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
   the top of `prompts/muse-chilton-pull.md`. Screenshot = VERIFIED; typed-only value =
   UNVERIFIED.
 - Refresh official data: `python3 tools/lookup.py refresh vehicles/2005-accord-ex-i4-at`
-  (also prints the VIN decode once `vehicle.json` has a VIN).
+  (also prints the VIN decode once `vehicle.json` has a VIN); bulletins:
+  `python3 tools/lookup.py tsbs vehicles/2005-accord-ex-i4-at` (a few times a year).
+- A number in a procedure or plan must match `specs.md`; add it to `specs.md` first, with
+  its source, then cite it. `tools/check.py` flags drift.
+- Something only the owner can check goes in `owner-checklist.md`, grouped by trip.
 - Knowledge updates must end up on `main` so the next chat sees them (see "Start and end
   of every chat").
 - Commit messages say what was learned or changed, e.g. "Add oil capacity from owner's

@@ -2,7 +2,7 @@
 
 Sources: Honda owner's manual (OM) "Taking Care of the Unexpected", pp.245–264 (page images
 read 2026-11-10). Every step below is from those pages unless labeled otherwise.
-It's the only car: keep the spare aired up (60 psi), jumper cables or a jump pack, and a
+It's the only car: keep the spare aired up (60 psi, OM p.246), jumper cables or a jump pack, and a
 flashlight in it.
 
 ## Flat tire (OM pp.246–251)

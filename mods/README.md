@@ -10,6 +10,12 @@ safety item the mod would delay.
 Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.md`,
 `profile.md`) are in `vehicles/2005-accord-ex-i4-at/`.
 
+## Research files
+- `tools-plan.md`: staged tool-buying plan, budget vs name-brand, loaner tools, the 2020
+  Harbor Freight jack stand recall.
+- `lighting-upgrades.md`: what's legal and worth it (halogen upgrades yes; LED/HID retrofits
+  in halogen headlights no, per NHTSA letters).
+
 ## Current
 - `plan-head-unit-2026-10.md`: Eonon HAC1X7A head unit + camera, **bought 2026-10-26**,
   not installed. 90-day return window: install and test inside it. Before installing,
