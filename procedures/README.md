@@ -23,6 +23,9 @@ Current procedures (by job):
 | Spark plugs | `accord-2005-spark-plugs.md` | Sourced (Chilton K24A4 rows) |
 | Tire rotation | `accord-2005-tire-rotation.md` | Sourced (OM p.239, p.250) |
 | Routine checks, 10k/20k inspection, wipers, hinge lube | `accord-2005-routine-checks.md` | Sourced (OM pp.201–203, 233–235) |
+| Front brake pads and rotors | `accord-2005-front-brakes.md` | Sourced (Chilton F03 + spec table; two TENTATIVE values flagged) |
+| Drive belt inspect / replace | `accord-2005-drive-belt.md` | Inspect sourced; replace DRAFT |
+| Battery, charging, parasitic draw tests | `accord-2005-battery-charging-tests.md` | Partly sourced (charging limits from a TSX article, labeled) |
 | Exterior bulbs | `accord-2005-bulbs.md` | Sourced (OM pp.226–232) |
 | Roadside: flat, jump, overheating, warning lights, towing | `accord-2005-roadside.md` | Sourced (OM pp.245–264) |
 | Wheel alignment (string method) | `accord-2005-wheel-alignment-diy.md` | DRAFT |
