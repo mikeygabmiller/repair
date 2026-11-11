@@ -14,17 +14,23 @@ Last known odometer: **139,032 mi** (2026-10-21, Les Schwab paperwork).
 |---|---|---|---|
 | Engine oil | 5,000 mi or 6 months | **No record** | **Now.** Procedure: `procedures/accord-2005-oil-change.md` |
 | Oil filter | 10,000 mi or 1 yr (change it with the oil anyway: the 4.4 qt capacity assumes a new filter, OM p.215) | **No record** | **Now** |
-| Brake fluid | Every 3 years | **No record** | **Now** |
-| Automatic transmission fluid | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr | **No record** | **Now.** Also a suspect for the 60 mph shake (`open-issues.md`) |
-| Engine coolant | 120,000 mi or 10 yr, then every 60,000 mi or 5 yr | **No record** | **Now** (car is past 120k and 10 yr) |
+| Brake fluid | Every 3 years | **No record** | **Now.** Shop recommended; what to ask for: `procedures/accord-2005-brake-fluid-coolant.md` |
+| Automatic transmission fluid | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr | **No record** | **Now.** Also a suspect for the 60 mph shake (`open-issues.md`). Procedure: `procedures/accord-2005-atf-drain-refill.md` |
+| Engine coolant | 120,000 mi or 10 yr, then every 60,000 mi or 5 yr | **No record** | **Now** (car is past 120k and 10 yr). Same file as brake fluid |
 | Drive belt: inspect | 30,000 mi or 2 yr | **No record** | **Now** (look only) |
-| Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | **No record** | **Now** |
-| Dust and pollen (cabin) filter | 30,000 mi or 2 yr | **No record** | **Now** |
-| Tire rotation | 10,000 mi | **No record** | **Now**, after the item 11 inspection. Chalk each tire's old spot (LF, RF, LR, RR) first so a wobble that follows a wheel shows. Pattern: `specs.md` (OM p.239) |
-| Brakes, steering, suspension, boots: inspect | 10,000 mi or 1 yr | Partial: Les Schwab free suspension check, 2026-10-21, 139,032 mi (written notes cover the right front) | Full inspection with the next brake job |
+| Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | **No record** | **Now.** `procedures/accord-2005-filters-air-cabin.md` |
+| Dust and pollen (cabin) filter | 30,000 mi or 2 yr; 15,000 mi if urban soot or weak airflow (OM p.233) | **No record** | **Now.** Same file |
+| Tire rotation | 10,000 mi | **No record** | **Now**, after the item 11 inspection. Chalk each tire's old spot (LF, RF, LR, RR) first so a wobble that follows a wheel shows. Pattern and steps: `procedures/accord-2005-tire-rotation.md` |
+| Brakes, steering, suspension, boots: inspect | 10,000 mi or 1 yr | Partial: Les Schwab free suspension check, 2026-10-21, 139,032 mi (written notes cover the right front) | Full inspection with the next brake job. Checklist: `procedures/accord-2005-routine-checks.md` |
 | Valve clearance | Inspect at 110,000 mi, otherwise adjust only if noisy | **No record** (car is past 110k) | Listen for ticking; shop job. Exhaust spec is unsettled (`specs.md`) |
 | Spark plugs | 110,000 mi | **2026-10-18, 138,943 mi** (Bosch 9614, `log.md`) | ~248,900 mi |
 | Idle speed: inspect | 160,000 mi | No record | 160,000 mi |
+| Lubricate all hinges, locks and latches | 10,000 mi or 1 yr (OM p.203) | **No record** | **Now** (5 min, `procedures/accord-2005-routine-checks.md`) |
+| Parking brake adjustment: check | 20,000 mi or 1 yr (OM p.203) | **No record** | **Now**, with the brake inspection |
+| Brake hoses and lines (incl. ABS), exhaust, fuel lines, lights and controls, underbody: inspect | 20,000 mi or 1 yr (OM p.203) | **No record** | **Now**: underbody especially after the ditch slide (open issue 11) |
+| Oil and coolant level | Every fuel stop (OM p.203) | — | Habit: `procedures/accord-2005-routine-checks.md` |
+| Tire pressure and condition; ATF level; brake fluid level; lights | Monthly (OM p.201) | — | Same file |
+| Wiper blades: inspect | Every 6 months (OM p.234) | 2026-09 (new blades) | ~2027-03 |
 
 ## Parts with a known age (repairs, not scheduled items)
 
