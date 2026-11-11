@@ -21,7 +21,10 @@ Car: 2005 Honda Accord EX-L sedan, 2.4 L K24A4, 5-speed automatic.
 | Something only the owner can check | `V/owner-checklist.md` | `prompts/muse-chilton-pull-3.md` |
 | Upgrades and accessories | `mods/README.md` | `mods/lighting-upgrades.md`, `mods/plan-*.md` |
 | Keep vs sell, big repair decisions | `V/plans/long-term-ownership.md` (walk-away worksheet) | `V/next-steps.md` |
+| Winter | `procedures/accord-2005-winter-prep.md` | `V/quick-reference.md` |
 | Roadside trouble | `procedures/accord-2005-roadside.md` | `V/quick-reference.md` |
+
+Latest big update: `overnight-summary-2026-11-10.md`.
 
 ## Every file, one line each
 
