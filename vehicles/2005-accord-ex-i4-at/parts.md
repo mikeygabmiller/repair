@@ -49,3 +49,52 @@ in a Honda dealer's online parts catalog by VIN.
 | Hood struts (aftermarket) | Redline QuickLIFT PLUS 21-18002-02 + riveter 38-00047 | Needs drilling (conflicts with the no-drill rule) |
 | Hood struts: **V6 parts, not for this car** | Honda 74145-SDB-A02 (passenger) / 74195-SDB-A02 (driver). HondaPartsNow lists them only on 2003–07 **V6** trims (checked 2026-10-29). Cross-refs SG326013 / StrongArm 4157, so any Amazon kit sold as "OE# SG326013, 4157" (e.g. Kbkyawy, Oct 2026) is a V6 copy | I4 car has a prop rod; mounts on hood/body unconfirmed, **VERIFY** by looking. One buyer review says they drilled to fit a 2005 (COMMUNITY) |
 | Head unit swap | Metra 99-7803G dash kit, 70-1721 harness, Axxess ASWC-1; sub pass-through 70-1721 + 71-1721 | Name-brand route, not used: an Eonon HAC1X7A was bought instead (2026-10-26, `mods/plan-head-unit-2026-10.md`) |
+
+## Catalog by system: what a 139k-mile 2005 Accord 2.4 AT will need (added 2026-11-10)
+
+One row per part this car is likely to need, so a future chat can start from a number
+instead of a search. **Status** says how far each number is from "confirmed by VIN":
+- **Confirmed**: in the table at the top of this file.
+- **Listing**: a parts site lists it for a 2005 4-door EX/KA 5AT; not a dealer VIN lookup.
+- **Lead**: seen in a retailer listing, forum or past chat for 2003–07 Accords; engine or
+  trim not pinned down.
+- **Unknown**: not looked up yet.
+
+Safety-critical rows (marked ⚠): OEM or name-brand only.
+
+| System | Part | Honda number | Status | Name-brand aftermarket (cross-ref to the Honda number before buying) |
+|---|---|---|---|---|
+| Engine service | Oil filter | 15400-PLM-A02 | Lead (HondaPartsNow, 2026-11-10: $6.81; fit list shown has no 2005 row) | Fram TG7317 (past chats) |
+| Engine service | Drain bolt washer | 94109-14000 | Lead | — |
+| Engine service | Air filter | 17220-RAA-A00 | Listing | Any major brand by this number |
+| Engine service | Cabin filter | 80292-SDA-407 (supersedes 80292-SDA-406, 80292-SDA-A01) | Lead | Fram CF10134 |
+| Engine service | Spark plugs | NGK IZFR6K-11 / DENSO SKJ20DR-M11 | VERIFIED: OM p.275 | Bosch 9614 installed 2026-10-18 |
+| Engine service | Serpentine belt | 31110-RAA-A02 | Lead | Gates K060475 (past chats) |
+| Engine service | PCV valve | 17130-RAA-A01 | Lead | — |
+| Engine | Throttle body gasket | 16176-RAA-A01 | Lead | — |
+| Engine | Valve cover gasket set | Unknown | — | Needed with the valve adjustment (bulletin A15-020 is a rear head-cover gasket leak) |
+| Engine mounts | Front engine mount (AT) | 50830-SDA-A04 | Lead (HondaPartsNow listing for 2003–07 Accord AT, seen in search 2026-11-10) | — |
+| Engine mounts | Side/rear mounts (AT) | 50820-SDP-A11 (engine side, AT); others in the 50810/50850/50860/50870-SDA family | Lead: which number is which mount on the 2.4 AT is **not** pinned down | Name-brand mount kits list "2003–07 Accord 2.4/3.0" (e.g. CF Advance 4526): fitment unconfirmed |
+| Transmission | ATF | DW-1 08200-9008 (manual says ATF-Z1) | Lead | Honda fluid only (standing rule) |
+| Transmission | ATF drain washer | 90471-PX4-000 | Lead (COMMUNITY) | — |
+| Cooling | Coolant Type 2 premixed | OL999-9001 | Lead (Chilton V6 article) | Honda only (standing rule) |
+| Cooling | Thermostat, water pump, radiator, hoses, cap | Unknown | — | Look up when needed |
+| ⚠ Brakes | Front pads | Unknown (Honda) | — | Akebono ProACT **ACT787** family is listed by retailers for 2003–07 Accord LX/EX fronts (finditparts ACT787B listing); engine not stated: confirm by the Honda number |
+| ⚠ Brakes | Front rotor | 45251-TA0-A02 or 45251-TA5-A00 | Listing (both listed; VIN decides) | Name-brand by the Honda number (Brembo, Centric, Raybestos, Bosch) |
+| ⚠ Brakes | Pad shim paste M-77 | 08798-9010 (read from Chilton as "o8798-9010") | Lead | — |
+| ⚠ Brakes | Brake fluid | Honda Heavy Duty DOT 3 | VERIFIED: OM p.223 (fluid spec) | DOT 3/DOT 4 sealed, temporary only |
+| ⚠ Front end | Hub bearing | 44300-TR4-A51 (replaces 44300-SDA-A52/-A51) | Listing | SKF FW48 / Timken 510073 (candidates, cross-ref not done) |
+| ⚠ Front end | Hub | 44600-SDA-A00 (4-cyl AT; 44600-SDA-A10 is V6/manual) | Listing | — |
+| ⚠ Front end | Lower ball joint | 51220-SDA-A02 → 51220-SDA-305 | Listing | Moog K80228 installed 2026-10-27 (to confirm on invoice) |
+| ⚠ Front end | Axle nut (22 mm) | 90305-692-010 | Listing | — |
+| ⚠ Front end | Right front axle | 44305-SDC-A00 | Listing | Aftermarket installed ~2026-10-22, brand not recorded |
+| Front end | ABS sensor, right front | 57450-SDA-A11 (replaces 57450-SDA-A02 / -A01) | Listing (also by VIN on HondaPartsNow) | SMP, Denso, Bosch, Dorman |
+| Interior | Heated seat switch (EX-L only) | 35650-SDA-A01 | Lead (`mods/switch-slot-ideas/research/slot_facts_oem_switches.md`) | — |
+| Electrical | Battery | Group 51R (unverified) | Read the label | Any brand meeting 12 V 38 AH/5 HR (OM p.275) |
+| Lighting | Headlight bulbs | HB3 9005 high / HB4 9006 low | VERIFIED: OM p.275 | `mods/lighting-upgrades.md` |
+| Wipers | Blades | — | Fit confirmed 26 in / 18 in | BFGoodrich Beam installed |
+| Tools | Scan tool (ABS/SRS read) | — | — | `mods/tools-plan.md` |
+
+Next lookups worth doing in one Honda counter call: the four "Unknown" rows that will come
+up first (front pads, valve cover gasket, thermostat, water pump) plus every "Lead" above.
+Checklist: `owner-checklist.md` section 2.

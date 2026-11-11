@@ -18,7 +18,7 @@ stranded car, as long as the parts are bought before starting.
 - Oil filter wrench. The manual says "a special wrench (available from your dealer) is
   required" (OM p.214); a cap-type filter wrench that fits the filter works the same way.
 - Socket for the drain bolt (size not in the manual: write it here after the job), torque
-  wrench that reads 33 lbf·ft, drain pan, funnel, rags, gloves.
+  wrench that reads 33 lbf·ft (the OM p.215 spec), drain pan, funnel, rags, gloves.
 - Ramps, or a jack plus **two jack stands**.
 
 ## Safety

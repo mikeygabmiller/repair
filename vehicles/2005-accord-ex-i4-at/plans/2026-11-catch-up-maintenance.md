@@ -1,6 +1,6 @@
 # Plan: catch up the maintenance nobody recorded (November 2026)
 
-Rewritten 2026-11-03 (first version 2026-10-25, then `plan-maintenance-catchup.md`). Covers
+Rewritten 2026-11-03 (first version 2026-10-25, then plan-maintenance-catchup.md, since replaced). Covers
 every **"No record → Now"** row in `maintenance.md`. Fluid types, amounts and torques are
 copied from `specs.md`, which cites the owner's manual (OM) page or Chilton. Severe
 schedule applies (OM p.199, `specs.md`). The right front job this plan used to wait for
@@ -71,7 +71,7 @@ longer than the step itself, as long as **every part is bought before you start*
 
 | When | Job | Time (estimate, UNVERIFIED) | Undrivable? |
 |---|---|---|---|
-| Before Sunday | One call to the Honda counter (above); buy everything on the DIY list, incl. 12 qt ATF if you'll do all four rounds | — | No |
+| Before Sunday | One call to the Honda counter (above); buy everything on the DIY list, incl. 12 qt ATF if you'll do all four rounds (3.0 qt each, OM p.274) | — | No |
 | Sun morning | Look at coolant (reserve tank level, colour) and brake fluid (level, colour); write it down | 5 min | No |
 | | Drive belt look | 10 min | No |
 | | Engine air filter, cabin filter | 20 min | No |

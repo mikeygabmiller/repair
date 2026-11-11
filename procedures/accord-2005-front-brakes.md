@@ -45,7 +45,7 @@ Chilton table once more before using it (that's an owner library job: `owner-che
 4. **Rotor too:** remove both caliper bolts, hang the caliper on wire (**never by the
    hose**), remove the bracket bolts and bracket, remove the rotor screws, pull the rotor
    (stuck: the 8 × 1.25 mm bolt trick). Clean the hub face of rust (a flat face prevents
-   runout). New rotor, screws, bracket at **80 lbf·ft**, pads, caliper.
+   runout). New rotor, screws, bracket at **80 lbf·ft** (Chilton), pads, caliper.
 5. Other side the same. Lug nuts **80 lbf·ft** crisscross.
 6. **Pump the pedal until it's firm before the car moves** (Chilton warning). Top the
    reservoir to MAX.

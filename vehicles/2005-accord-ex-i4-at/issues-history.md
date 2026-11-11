@@ -98,7 +98,7 @@ History:
 - Bulletins: A88-023 Battery Testing and Replacement, A10-054 Alternator and Regulator Circuit Troubleshooting, A12-002 Alternator Testing (titles only; Chilton Bulletins tab).
 
 ### 6. Maintenance with no record (treat as overdue)
-Order, shopping list and quantities: `plan-maintenance-catchup.md` (2026-10-25; rewritten 2026-11-03 as `plans/2026-11-catch-up-maintenance.md`).
+Order, shopping list and quantities: plan-maintenance-catchup.md (old file, 2026-10-25; rewritten 2026-11-03 as `plans/2026-11-catch-up-maintenance.md`).
 Intervals are from the manual (`specs.md`, OM pp.202–203). Severe schedule likely applies (short local trips).
 - ATF: no record. Honda drain-and-refill method (OM p.220).
 - Engine coolant: no record (120k mi / 10 yr first change).
