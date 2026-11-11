@@ -7,6 +7,9 @@ what's known and the next steps, cheapest first. When an item closes, move it to
 before 2026-10-28 cite "item 0–6" by the old numbering, which is in `issues-history.md`
 Part 1.
 
+Decision trees for every item: `diagnostics.md`. New symptom: `symptom-index.md`.
+Honda bulletins by symptom: `tsb-guide.md`.
+
 Last updated 2026-11-06. **Drivable with care: slow local trips only until item 11 (ditch
 slide, new wobble) is inspected.** Last known mileage: 139,032 (2026-10-21).
 
