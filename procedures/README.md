@@ -8,9 +8,24 @@ Exception: a job the owner asks for before the manual has been read can be writt
 **DRAFT**: say so at the top, label every unsourced step, give no torque specs, and end
 with a "Still needed from the FSM" list. Remove the DRAFT label once those are filled.
 
-Current procedures:
-- `accord-2005-oil-change.md`: oil and filter (owner's manual pp.214–215)
-- `accord-2005-wheel-alignment-diy.md`: string-method toe, camber check (DRAFT)
+Every procedure gives: the proper shop method first, then a labeled `COMMUNITY` backyard
+method with why it works; real time estimates (labeled as estimates); whether the car is
+left undrivable (it's the only car); tools; and a "What I couldn't verify" list.
+
+Current procedures (by job):
+
+| Job | File | Status |
+|---|---|---|
+| Oil and filter | `accord-2005-oil-change.md` | Sourced (OM pp.214–215) |
+| Automatic transmission fluid, drain and refill | `accord-2005-atf-drain-refill.md` | Sourced (OM pp.219–221, Chilton) |
+| Brake fluid exchange; coolant change | `accord-2005-brake-fluid-coolant.md` | Brake: sourced; coolant DIY steps from a V6 article (labeled) |
+| Engine air filter, cabin filter | `accord-2005-filters-air-cabin.md` | DRAFT (no manual steps exist) |
+| Spark plugs | `accord-2005-spark-plugs.md` | Sourced (Chilton K24A4 rows) |
+| Tire rotation | `accord-2005-tire-rotation.md` | Sourced (OM p.239, p.250) |
+| Routine checks, 10k/20k inspection, wipers, hinge lube | `accord-2005-routine-checks.md` | Sourced (OM pp.201–203, 233–235) |
+| Exterior bulbs | `accord-2005-bulbs.md` | Sourced (OM pp.226–232) |
+| Roadside: flat, jump, overheating, warning lights, towing | `accord-2005-roadside.md` | Sourced (OM pp.245–264) |
+| Wheel alignment (string method) | `accord-2005-wheel-alignment-diy.md` | DRAFT |
 
 Template:
 
