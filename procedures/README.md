@@ -26,6 +26,9 @@ Current procedures (by job):
 | Front brake pads and rotors | `accord-2005-front-brakes.md` | Sourced (Chilton F03 + spec table; two TENTATIVE values flagged) |
 | Drive belt inspect / replace | `accord-2005-drive-belt.md` | Inspect sourced; replace DRAFT |
 | Battery, charging, parasitic draw tests | `accord-2005-battery-charging-tests.md` | Partly sourced (charging limits from a TSX article, labeled) |
+| Front axle, wheel bearing, lower ball joint (order and check the shop job) | `accord-2005-front-axle-bearing-balljoint.md` | Shop-first; Chilton summaries; axle nut torque NOT FOUND |
+| Valve clearance | `accord-2005-valve-clearance.md` | DRAFT; exhaust spec in conflict, shop recommended |
+| Throttle body cleaning, idle relearn | `accord-2005-throttle-body-idle-relearn.md` | DRAFT; relearn from a V6 article |
 | Exterior bulbs | `accord-2005-bulbs.md` | Sourced (OM pp.226–232) |
 | Roadside: flat, jump, overheating, warning lights, towing | `accord-2005-roadside.md` | Sourced (OM pp.245–264) |
 | Wheel alignment (string method) | `accord-2005-wheel-alignment-diy.md` | DRAFT |

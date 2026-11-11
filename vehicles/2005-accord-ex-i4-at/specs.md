@@ -45,6 +45,10 @@ copied here.
 | Alignment, toe-in | Front 0.00 in (0.0 mm), rear 0.08 in (2.0 mm) | VERIFIED: OM p.275 | 2026-10-21 |
 | Alignment, camber | Front 0°, rear 1° (printed with no + or − sign; direction unverified) | VERIFIED: OM p.275 | 2026-10-21 |
 | Alignment, caster (front) | 3°15′ | VERIFIED: OM p.275 | 2026-10-21 |
+| Wheel (EX) | 16 x 6 1/2 JJ | VERIFIED: OM p.240 | 2026-11-10 |
+| Wheel balancing | Genuine Honda wheel weights only on the aluminum wheels; dynamic balance | VERIFIED: OM p.238 | 2026-11-10 |
+| Tire chains (EX) | Front only; SCC Radial Chain CH2311T or SCC SC Cable SC1030 | VERIFIED: OM p.241 | 2026-11-10 |
+| Hot vs cold pressure | Hot readings run 4–6 psi higher; don't bleed them down | VERIFIED: OM p.237 | 2026-11-10 |
 
 ## Load and towing limits
 
@@ -72,6 +76,11 @@ copied here.
 | 12 V accessory sockets | 120 W / 10 A max, **combined** across all sockets; won't run a cigarette lighter element | VERIFIED: OM p.103 | 2026-10-26 |
 | When the sockets have power | Key in ACCESSORY (I) or ON (II); off with the key out | VERIFIED: OM p.78 | 2026-10-26 |
 | Socket fuse | Interior fuse box #9, 15 A, "Front Accessory Sockets" | VERIFIED: OM p.269 | 2026-10-26 |
+| Full fuse charts | Both boxes, every position | VERIFIED: OM pp.268–269, copied in `quick-reference.md` | 2026-11-10 |
+| Jump start ground point (4-cyl) | Booster negative to the engine grounding strap shown in the picture, not the battery negative | VERIFIED: OM p.254 | 2026-11-10 |
+| Oil pressure light after restart | Must go out within 10 s, else tow | VERIFIED: OM p.258 | 2026-11-10 |
+| Towing, front wheels down | Max 50 miles, under 35 mph; engine running, D then N, engine off | VERIFIED: OM p.264 | 2026-11-10 |
+| Readiness codes after battery disconnect | At least 3 days of mixed driving; MIL on 20 s at key-on = set, 5 blinks = not set | VERIFIED: OM p.260 | 2026-11-10 |
 
 ## Bulbs (12 V)
 
@@ -176,7 +185,8 @@ configuration it was printed for. Only rows marked K24A4 / L4 / "2005 Accord" ar
 
 | Item | Chilton says | Other source says | Which ranks higher |
 |---|---|---|---|
-| Tire pressure, cold | Front 30 psi / rear 29 psi (pack F11; row doesn't say sedan or coupe) | **Front 32 / rear 30 psi** (OM p.276) | Neither yet: the **door-jamb sticker** on this car decides (Tier 1). Until then use the OM numbers, which are written for this sedan |
+| Tire pressure, cold | Front 30 psi / rear 29 psi (pack F11; row doesn't say sedan or coupe) | **Front 32 / rear 30 psi** (OM pp.237, 276) | **Mostly settled (2026-11-10):** OM p.237 prints 30/29 psi **for the LX (P205/65R15) only** and 32/30 for all other models, EX included. Chilton's row is the LX value. Use **32/30**; the door-jamb sticker (Tier 1) still has the last word |
+| Back-up light fuse | Under-dash **No. 21** (7.5 A) on the Back-up Lights schematic (report F, G34) | OM p.269 interior chart: **No. 7 "Back-Up Lights" 10 A**; No. 21 is "IG Meter" 7.5 A | **Unsettled.** Possibly the lamp circuit is fed through the meter fuse and No. 7 is another branch (UNVERIFIED). Check with a meter or the fuse-box lid before tapping (`owner-checklist.md`) |
 | ATF drain and refill | 3.0 **L** (3.2 qt) in the A/T Fluid Replacement article, which doesn't split V6 from 4-cyl | 3.0 **US qt (2.8 L)**: OM p.274 **and** Chilton's K24A4 Fluid Capacities row (6.0 pt) | **Settled: 3.0 US qt** (two sources, one of them engine-specific). Fill to the dipstick |
 | Spark plug anti-seize | "Light coat of anti-seize on the threads" (general article) | Plugs went in dry on 2026-10-18 (`log.md`, past-chat advice) | Chilton outranks past chats. Plug maker's instructions (on the Bosch box/site) are the tiebreaker for plated plugs. Not a reason to pull the plugs now |
 | Valve clearance | K24A4 tune-up row: intake 0.008–0.010 in, **exhaust 0.011–0.013 in** (no "cold" label printed). Acura TSX article: intake 0.21–0.25 mm, exhaust 0.25–0.29 mm (0.010–0.011 in), head below 100 °F | Past chats: intake 0.21–0.25 / exhaust 0.25–0.29 mm (= the TSX numbers) | **Unsettled for exhaust.** The K24A4 row outranks a TSX article and past chats, but the table has no cold label and differs from the only procedure found. Confirm (2006–07 Accord article, or a Honda dealer) before adjusting valves |

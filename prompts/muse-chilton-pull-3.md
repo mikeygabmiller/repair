@@ -35,9 +35,6 @@ and engine of the article it came from**. Never present a Hybrid, V6 or TSX valu
   tightened with the car at ride height/on the ground.
 - R04 Front damper (strut) pinch bolt torque (the through-bolt is known: 47 lbf·ft).
 - R05 Knuckle-to-upper-arm ball joint nut torque.
-- R06 **Front axle (spindle) nut torque for the 4-cylinder 22 mm nut** (Honda 90305-692-010).
-  The only value found so far (181 lbf·ft) is the Hybrid article's 24 mm nut. Say whether
-  the wheel must be on the ground when torquing and how the nut is staked.
 - R07 How to confirm the CV axle's inner joint clip is locked into the transmission.
 
 ## S. Engine items blocking procedures
@@ -76,7 +73,7 @@ and engine of the article it came from**. Never present a Hybrid, V6 or TSX valu
 ## After the pull (for Claude, when importing)
 Each value goes to `specs.md` (with path, model year/engine of the article, date), then:
 Q → `procedures/accord-2005-front-brakes.md` (remove TENTATIVE where the screenshot settles
-it); R → `chilton-checklist.md` items 1, 10, 12–15 and `plan-right-front-2026-10.md`;
+it); R → `chilton-checklist.md` items 10, 12–15 and `plan-right-front-2026-10.md`;
 S → filters, coolant, belt, oil procedures (remove DRAFT labels); T01 →
 `diagnostics.md` item 2 step E; T04 → `quick-reference.md` fuse note; tick
 `owner-checklist.md`.
