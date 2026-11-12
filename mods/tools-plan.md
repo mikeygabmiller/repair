@@ -15,7 +15,7 @@ one socket labeled "Accord drain plug" (size not written down); Quinn digital to
 adapter (range not read yet); black impact sockets labeled "Accord lug" (size not written
 down); drive adapters (bottom-left slots; sizes not read yet). Planned: extensions, spark plug socket. Gaps found: **no 14 mm or 17 mm**, no deep
 sockets, no swivel/U-joint, no wrenches. Fill this in as sizes are confirmed.
-Layer plan (top layer = Accord jobs only): `mods/tool-tray-layout.html`.
+Layer plan: core layer (every job) `mods/tool-tray-core-layer.jpg`; earlier all-in-one version `mods/tool-tray-layout.html`. Job items live in kits: wheel kit in the trunk, spark kit, oil kit.
 
 ## Stage 0: free first (borrow before you buy)
 Chain parts stores lend specialty tools free with a refundable deposit (AutoZone
