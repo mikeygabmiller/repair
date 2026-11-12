@@ -17,7 +17,9 @@ stranded car, as long as the parts are bought before starting.
   manual says to fit a new washer every time (OM p.215).
 - Oil filter wrench. The manual says "a special wrench (available from your dealer) is
   required" (OM p.214); a cap-type filter wrench that fits the filter works the same way.
-- Socket for the drain bolt (size not in the manual: write it here after the job), torque
+- Socket for the drain bolt: size not in the manual. Lead: **17 mm, 6-point** (COMMUNITY:
+  lancelhoff.com drain plug size table and ahgautoservice.com, 2026-11-12; one listing
+  says 14 mm, which is the thread size, M14 × 1.5). Test-fit, then write it here. Torque
   wrench that reads 33 lbf·ft (the OM p.215 spec), drain pan, funnel, rags, gloves.
 - Ramps, or a jack plus **two jack stands**.
 
