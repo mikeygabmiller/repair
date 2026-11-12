@@ -92,6 +92,7 @@ Safety-critical rows (marked ⚠): OEM or name-brand only.
 | Interior | Heated seat switch (EX-L only) | 35650-SDA-A01 | Lead (`mods/switch-slot-ideas/research/slot_facts_oem_switches.md`) | — |
 | Electrical | Battery | Group 51R (unverified) | Read the label | Any brand meeting 12 V 38 AH/5 HR (OM p.275) |
 | Lighting | Headlight bulbs | HB3 9005 high / HB4 9006 low | VERIFIED: OM p.275 | `mods/lighting-upgrades.md` |
+| Lighting | Headlight assembly (housing) | Driver 33151-SDA-A01, passenger 33101-SDA-A01 | Listing (HondaPartsNow, 2026-11-12: $269.45 each, MSRP $390.50; lists 2003–07 4-door incl. 2005 EX-L KA 5AT, **but also 2-door coupes**, so its fit data looks loose: confirm by VIN) | Depo / TYC, CAPA-certified only. See `mods/lighting-upgrades.md` "Replacing the headlight housings" |
 | Wipers | Blades | — | Fit confirmed 26 in / 18 in | BFGoodrich Beam installed |
 | Tools | Scan tool (ABS/SRS read) | — | — | `mods/tools-plan.md` |
 

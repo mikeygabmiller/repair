@@ -34,6 +34,25 @@ lens clarity. Cloudy lenses cut light more than any bulb adds; restoring them is
 job outside this repo's scope, but replacement housings (DOT, by part number) are a repair
 option if the lenses are cracked.
 
+## Replacing the headlight housings (researched 2026-11-12)
+Only worth it if a lens is cracked, leaking (water inside), has burnt/peeling reflectors, or
+still looks hazy after a restore. Plain surface haze is a sanding/clear-coat job, not a part.
+
+| Choice | Price seen | For | Against |
+|---|---|---|---|
+| **Honda OEM** 33151-SDA-A01 (driver) / 33101-SDA-A01 (passenger) | $269.45 each, MSRP $390.50 ([HondaPartsNow](https://www.hondapartsnow.com/oem-2005-honda-accord-headlight.html), 2026-11-12) | Exact fit, correct beam, "OEM" at sale | ~$540 a pair |
+| **Used OEM** from a salvage yard (search car-part.com free by part number) | not priced | OEM optics cheap | 20-year-old lenses may be just as hazy: inspect for cracks, broken mounting tabs, burnt reflectors |
+| **CAPA-certified** aftermarket (Depo or TYC; Honda partslink HO2502120 driver / HO2503120 passenger) | ~$77–141 per side seen (GO-Parts, CarLights360 listings, 2026-11-12) | Cheap, CAPA means a third party checked fit and DOT photometrics | Lens coating tends to yellow sooner than OEM (COMMUNITY); check the CAPA label is real |
+| Projector / halo / "LED strip" / black-housing styles (Spec-D, Anzo, etc.) | — | Looks | **Not recommended:** resale, glare, and a history of FMVSS 108 noncompliance recalls on aftermarket lamps for this car (`profile.md`) |
+
+OFFICIAL RECORD (`recalls.md`): **07E004000** recalled TYC 20-6361-00 / 20-6362-00 headlamps
+sold for 2003–2006 Accords (misaligned photometrics), and **07E031000** recalled some Depo
+317-1131 series lamps (turn signal intensity). Both were 2007 production runs; it shows why
+"DOT" printed on a cheap lamp isn't enough. CAPA is the extra check.
+
+After any housing swap: have the aim set (OM p.226). The swap itself is front-bumper-off on
+most 2003–07 Accords (UNVERIFIED: get the procedure from Chilton before starting).
+
 ## Option B: interior LEDs (fine, legal, reversible)
 Name-brand only (Sylvania ZEVO, Philips Ultinon), size read off the old bulb (`parts.md`).
 Dome bulb is a **31 mm festoon, 8 W** (owner, 2026-10-26). The middle courtesy light dims
