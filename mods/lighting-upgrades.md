@@ -53,6 +53,35 @@ sold for 2003–2006 Accords (misaligned photometrics), and **07E031000** recall
 After any housing swap: have the aim set (OM p.226). The swap itself is front-bumper-off on
 most 2003–07 Accords (UNVERIFIED: get the procedure from Chilton before starting).
 
+## "Way more light than stock" on a budget (asked 2026-11-12)
+No affordable bolt-in housing for this car is both legal and much brighter than a **good**
+stock headlight. What's on the market:
+- Styled plug-in projector housings (Spec-D, PRO Design, CG, Anzo): ~$80–370 a pair in
+  listings (SEMotors, Vivid Racing, ProCivic, 2026-11-12). "DOT" on these is the seller's
+  claim. Cheap projectors often give a blotchy beam and a poor cutoff (COMMUNITY), and Anzo
+  lamps for this car were recalled (06E023000). Not recommended.
+- Morimoto XB-style DOT LED assemblies: none found for the 2003–07 Accord (search 2026-11-12).
+
+Ranked path instead:
+1. **Bring stock back to new.** New housings (above) or restored lenses, fresh good
+   halogens (Option A), then aim. A 20-year-old hazy lens and dulled reflector lose a lot of
+   light, so this is the biggest gain per dollar.
+2. **Check voltage at the bulb.** Back-probe the low-beam connector, engine running, lights
+   on, and compare with battery voltage. COMMUNITY (Daniel Stern's halogen notes): halogen
+   output rises steeply with voltage, so a 1 V drop costs a noticeable amount of light. A
+   drop over ~0.5 V means a relay harness (ground and feed straight from the battery) is
+   worth it; a small drop means skip it. The under-hood box already has separate L/R
+   hi/low fuses (`quick-reference.md`), so the factory feed may already be relayed:
+   measure before buying.
+3. **The real step up: a projector retrofit in a second set of housings.** Buy spare
+   housings (used OEM or CAPA), bake them open, fit quality bi-LED or bi-xenon projectors,
+   and keep the originals on a shelf to swap back before sale. Gives a sharp cutoff and far
+   more usable light, but **it is not a federally compliant headlamp** (same NHTSA problem
+   as retrofit bulbs), takes a full weekend, and can fail an inspection. Prices not pinned
+   down here.
+4. Read bulletin **A08-010** first (free from a Honda dealer service desk; NHTSA has only
+   the title). It may cover a low-beam fix on these housings.
+
 ## Option B: interior LEDs (fine, legal, reversible)
 Name-brand only (Sylvania ZEVO, Philips Ultinon), size read off the old bulb (`parts.md`).
 Dome bulb is a **31 mm festoon, 8 W** (owner, 2026-10-26). The middle courtesy light dims
