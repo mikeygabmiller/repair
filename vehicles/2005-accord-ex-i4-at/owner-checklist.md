@@ -41,7 +41,7 @@ chat files it (photos → `sources/photos/`, paperwork → `receipts/`).
 
 **With the front on ramps (only if it's already up for the oil change)**
 - [ ] ATF drain plug: what drive it takes (3/8-in square or hex, size).
-- [ ] Oil drain bolt socket size.
+- [ ] Oil drain bolt socket size (lead: 17 mm, COMMUNITY; test-fit, record in the oil change procedure).
 - [ ] Right axle: brand/part number on the tag or boot clamp; right axle seal dry?
 
 ## 2. Phone call A: Honda dealer **parts counter**, with the VIN (`vehicle.json`), ~15 min
