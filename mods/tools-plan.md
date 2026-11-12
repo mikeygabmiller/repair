@@ -9,6 +9,13 @@ up, below.
 Labels: prices and product claims are **COMMUNITY/retail listing** unless marked; NHTSA
 recall data is **OFFICIAL RECORD**.
 
+## Owned now (photo 2026-11-12, foam tray)
+3/8 in ratchet (drive size assumed from the photo); shallow sockets 10, 11, 12, 13, 15 mm;
+one socket labeled "Accord drain plug" (size not written down); Quinn digital torque
+adapter (range not read yet); black impact sockets labeled "Accord lug" (size not written
+down). Planned: extensions, spark plug socket. Gaps found: **no 14 mm or 17 mm**, no deep
+sockets, no swivel/U-joint, no wrenches. Fill this in as sizes are confirmed.
+
 ## Stage 0: free first (borrow before you buy)
 Chain parts stores lend specialty tools free with a refundable deposit (AutoZone
 "Loan-A-Tool", O'Reilly, Advance). Several articles describe the deposit-refund model and a
