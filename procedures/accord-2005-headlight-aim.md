@@ -10,7 +10,8 @@ Difficulty: easy. Time: ~45 min including setup (estimate). Car stays drivable.
 A shop with an optical aimer (dealer or alignment shop). Ask for the price first.
 
 ## Tools
-Long Phillips screwdriver, tape measure, painter's tape, a towel, flat level ground facing
+Long Phillips screwdriver (UNVERIFIED for this car: only a 2001-Accord guide and older-gen
+forum posts say Phillips; look down the hole first, a hex head needs a socket), tape measure, painter's tape, a towel, flat level ground facing
 a wall or garage door, about 30 ft of room, after dark.
 
 ## Steps (UNVERIFIED unless noted)
