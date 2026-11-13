@@ -107,6 +107,14 @@ Ranked by real light gained:
    listings 2026-11-13). Look only: thin reviews, beam quality unknown, Anzo units for this
    car were recalled (06E023000).
 
+**Budget cap $259 (owner, 2026-11-13).** A name-brand projector retrofit doesn't fit:
+Morimoto M-LED 2.0 bi-LED projectors alone list at ~$370–485 a pair (The Retrofit Source,
+Morimoto HID, Vehicle Accessory Pros listings, 2026-11-13; Summit's $193.60 is per
+projector). Inside $259 the pick is a **new CAPA-certified Depo/TYC pair** (fresh
+reflectors and lenses, factory beam, legal) plus the voltage-drop test (item 2 above),
+with a relay harness only if the drop is over ~0.5 V. Real projector light needs about
+$450–600 (housings + name-brand projectors; estimate, not quoted).
+
 Don't: used JDM Inspire/Saber HID headlights (eBay listing exists). Fit to US wiring not
 confirmed, and Japan drives on the left, so the beam cutoff steps up on the wrong side
 (UNVERIFIED principle: check the lens/projector for an LHT marking).
