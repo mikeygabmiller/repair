@@ -53,6 +53,22 @@ didn't load from here (403), so the exact list is unconfirmed.
 | 1/2 in breaker bar + lug socket | Lug nuts, axle nut | HF (owner already has an 18 in pry bar, a 32 mm axle socket, a 2 lb dead blow: `log.md`) | — |
 | Dial indicator with magnetic base | Rotor runout (limit 0.004 in, Chilton) | ~$25 | — |
 
+## Optional: speed ratchet (asked 2026-11-13)
+What the owner wants: break the bolt loose by hand, then let a motor spin it out. That is a
+**cordless ratchet**. Keep the hand 3/8 ratchet anyway: the cordless head is bulkier and
+the body is long (Milwaukee 2557 listed at 10.87 in), so a hand ratchet still fits tighter
+spots. A cordless one helps where there's **no room to swing a handle**.
+Rules: crack tight or rusted bolts with the hand ratchet or breaker bar, not the cordless
+(neither maker's max manual torque found); never final-tighten with the motor (40–55 ft-lb
+is enough to strip small 10 mm bolts). Finish with the torque wrench per `specs.md`.
+
+| Option | Specs / price (COMMUNITY/retail listing) | Pros | Cons |
+|---|---|---|---|
+| Harbor Freight **Hercules 12V 3/8 in ratchet, item 57280** | 40 ft-lb, 275 RPM; $79.99 on 2021–22 coupon pages ([HF](https://go.harborfreight.com/coupons/2022/09/179000-57280)); a review puts it about $100 plus ~$25 battery ([The Drive](https://www.thedrive.com/guides-and-gear/harbor-freight-hercules-12v-cordless-ratchet-review)). SlashGear reports a new HF 12V ratchet line for 2026 ([SlashGear](https://www.slashgear.com/2063078/harbor-freight-hercules-ratchet-vs-milwaukee-comparison)). **Current price/model not confirmed** | Cheapest cordless | Commits to the Hercules battery |
+| **Milwaukee M12 FUEL 3/8 in ratchet 2557-20** (bare tool) | 55 ft-lb, 200 RPM ([Milwaukee](https://www.milwaukeetool.com/Products/Power-Tools/2557-20)); $199 at several retailers ([Power Tool Store](https://thepowertoolstore.com/collections/m18-m12/products/milwaukee-2557-20)); battery and charger extra, not priced. Head height listings conflict (2.74 vs 3.54 in) | Strong, proven, big M12 battery line | About 2x the price |
+| **Air ratchet** | Not priced | Owner already has a compressor | Hose drag under the car |
+| **GearWrench 81226** 3/8 in 72-tooth thumbwheel ratchet (manual) | $23–46 in listings ([GearWrench](https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81226-38-drive-72-tooth-thumbwheel-ratchet)) | No battery; thumbwheel spins a loose bolt | Slower than a motor |
+
 ## Stage 4: bigger jobs only if DIY is chosen
 Ball joint press, hub bearing press, valve adjustment tools, coolant pressure tester: **rent
 or borrow**, or let a shop do it. The October axle job showed these jobs can strand the only
