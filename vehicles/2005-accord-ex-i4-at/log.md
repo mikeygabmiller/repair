@@ -42,6 +42,13 @@ unless `specs.md` lists them.
 - Owner: "car is pretty shaky around 60 mph." Coast test the same day: coasting at ~60 is "kind of shaky", **much worse on the gas**.
 - Triage plan: `open-issues.md`, shake item.
 
+## Reported 2026-10-27: low-beam bulbs replaced (owner; mileage not recorded)
+- Owner put in **Sylvania SilverStar Ultra 9006** low beams, bought at O'Reilly ("$35 each"). Pack: 2 halogen lamps, 12.8 V 55 W (photo: `sources/photos/2026-10-27-bulb-purchase.jpg`). The manual rates the low beam HB4, 12 V 51 W (VERIFIED: OM p.275); 9006 is HB4, rated at a different test voltage.
+- Result (owner, same day): "I don't notice a very big lighting difference." That chat sent him to check, cheapest first: bulb fully twisted in, lens haze, aim, voltage at the headlight plug. The Nov 12 plan in `mods/lighting-upgrades.md` picks it up from there.
+- Bought on the same trip, **install not recorded**: Sylvania SilverStar 168 2-pack (14 V 4.9 W; license plate / trunk) and two Sylvania LED DE3175 cool white festoons (12.8 V 0.5 W; dome / map). The dome bulb was measured the day before as a 31 mm festoon (`parts.md`), so the DE3175 size fits it.
+- Not recorded: mileage, whether the old low beams were kept (resale rule), where the 168s and LEDs went.
+- Filed 2026-11-13 from the Oct 27 chat, which said it would log the install and never did.
+
 ## Reported 2026-10-27: Ben's Auto Care, right front lower ball joint + ABS sensor (mileage not recorded)
 - **Lower ball joint replaced** with the owner's Moog K80228: **$275 labor**, about 1.5 hours by Ben's estimate (owner, 2026-10-27).
 - **Right front ABS sensor replaced.** The old sensor **snapped while the ball joint was being pressed** out of the knuckle; Ben ordered a replacement for **$40, at his cost (no markup)** per Ben. Brand/part number not recorded yet (cross-check against 57450-SDA-A11).

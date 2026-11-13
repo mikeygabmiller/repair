@@ -19,6 +19,9 @@ car at sale. Honda bulletin **A08-010 "Low beam headlight distributes light poor
 exists for this model (`tsb-guide.md`): read it before spending money.
 
 ## Option A (legal, cheapest, reversible): high-performance halogen
+**Already done on the low beams (2026-10-27):** SilverStar Ultra 9006 installed; the owner
+noticed little difference (`log.md`). So the next dollar goes to lens, aim and voltage, not bulbs.
+
 | Bulb | Price seen | Notes |
 |---|---|---|
 | Sylvania SilverStar **Ultra** 9006 (2-pack) | $48.75 (Walmart listing), $53.99 (Land M Supply); a past Amazon deal at $27 ([Walmart](https://www.walmart.com/ip/21950007), [Slickdeals](https://slickdeals.net/f/18461914-sylvania-9006-silverstar-ultra-high-performance-halogen-headlight-bulb-27)) | Listings call it a 55 W halogen (the OM rates the stock low beam 51 W, p.275); brighter/whiter. DOT compliance for the Ultra: check the package (not confirmed from a primary page) |
