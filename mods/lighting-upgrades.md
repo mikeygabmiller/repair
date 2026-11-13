@@ -20,7 +20,8 @@ exists for this model (`tsb-guide.md`): read it before spending money.
 
 ## Option A (legal, cheapest, reversible): high-performance halogen
 **Already done on the low beams (2026-10-27):** SilverStar Ultra 9006 installed; the owner
-noticed little difference (`log.md`). So the next dollar goes to lens, aim and voltage, not bulbs.
+noticed little difference (`log.md`). **Owner's call (2026-11-13): skip lens restore and aim
+talk; go straight to new housings** (see "Housing picks" below).
 
 | Bulb | Price seen | Notes |
 |---|---|---|
@@ -84,6 +85,31 @@ Ranked path instead:
    down here.
 4. Read bulletin **A08-010** first (free from a Honda dealer service desk; NHTSA has only
    the title). It may cover a low-beam fix on these housings.
+
+## Housing picks for more light + style (owner asked 2026-11-13)
+Ranked by real light gained:
+1. **Projector retrofit in a spare pair of housings** (the only route that gives a lot
+   more usable light). Base: CAPA Depo/TYC pair (prices above) or used OEM. Inside:
+   name-brand bi-LED or bi-xenon projectors, shrouds, blacked-out inner bezel for the
+   style. OEM pair goes on a shelf for resale. Two ways: send housings to a retrofit shop,
+   or DIY over a weekend (bake open, mount, reseal with butyl). Not a federally compliant
+   headlamp (see the NHTSA section). Which projector fits the 7th-gen bowl with no cutting:
+   not confirmed here (6thgenaccord.com threads say the Morimoto Mini H1 is the easy one on
+   the *previous* generation; COMMUNITY). Shop and kit prices not pinned down.
+2. **Oracle pre-assembled halo headlights**: OEM-style housing with Oracle halo rings,
+   $601.99 white, $700–859 ColorSHIFT, built to order 6–8 weeks, no cancel; page claims
+   "FMVSS 108 and SAE Compliant"; lists 2003–07 EX sedan
+   ([Oracle](https://oraclelightswholesale.com/products/2003-2007-honda-accord-coupe-sedan-pre-assembled-headlights),
+   2026-11-13). Style upgrade only: low-beam source not stated, bulbs not included, so
+   expect stock-level light.
+3. **Budget styled projectors** (Spec-D 2LHP-ACD03JM-RS ~$205 with H1 low-beam bulbs,
+   sold out at SEMotors; Spec-D/Spyder halo units ~$124–212; Pro Design/CG ~$200–370;
+   listings 2026-11-13). Look only: thin reviews, beam quality unknown, Anzo units for this
+   car were recalled (06E023000).
+
+Don't: used JDM Inspire/Saber HID headlights (eBay listing exists). Fit to US wiring not
+confirmed, and Japan drives on the left, so the beam cutoff steps up on the wrong side
+(UNVERIFIED principle: check the lens/projector for an LHT marking).
 
 ## Option B: interior LEDs (fine, legal, reversible)
 Name-brand only (Sylvania ZEVO, Philips Ultinon), size read off the old bulb (`parts.md`).
