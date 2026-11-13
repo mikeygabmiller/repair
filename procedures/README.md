@@ -31,6 +31,7 @@ Current procedures (by job):
 | Throttle body cleaning, idle relearn | `accord-2005-throttle-body-idle-relearn.md` | DRAFT; relearn from a V6 article |
 | Winter prep | `accord-2005-winter-prep.md` | Sourced (OM pp.216–253) |
 | Exterior bulbs | `accord-2005-bulbs.md` | Sourced (OM pp.226–232) |
+| Headlight aiming (wall method) | `accord-2005-headlight-aim.md` | DRAFT (OM has no procedure) |
 | Roadside: flat, jump, overheating, warning lights, towing | `accord-2005-roadside.md` | Sourced (OM pp.245–264) |
 | Wheel alignment (string method) | `accord-2005-wheel-alignment-diy.md` | DRAFT |
 
