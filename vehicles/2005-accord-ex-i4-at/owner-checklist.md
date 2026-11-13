@@ -36,6 +36,8 @@ chat files it (photos → `sources/photos/`, paperwork → `receipts/`).
 - [ ] Center console: **heated seat switches** next to the shifter? (`profile.md`)
 - [ ] **Keys**: how many, and do they all start the car?
 - [ ] Map light bulb and trunk bulb: pull one, read the number (`parts.md`).
+- [ ] Bulbs bought 2026-10-27: did the 168s and the two LED DE3175s go in, and where? Are the
+      old low-beam bulbs kept (for resale)? (`log.md`, 2026-10-27)
 - [ ] Driver's seat belt: pulls out and retracts smoothly; label date (look only, open
       issue 1).
 
