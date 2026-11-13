@@ -12,7 +12,7 @@ Tools: flat screwdriver (fender clips), nothing else per the manual.
 - Halogen glass: **don't touch it**. Handle by the plastic base; if touched, clean with
   denatured alcohol. Oil, sweat or a scratch makes it overheat and shatter (OM p.226).
 - Headlight aim was set at the factory; heavy loads or a trailer can need re-aiming by a
-  shop (OM p.226).
+  shop (OM p.226). DIY wall method: `accord-2005-headlight-aim.md`.
 - Upgrades (LED/HID) are in `mods/lighting-upgrades.md`: read that first. Swapping in a
   non-DOT LED in a halogen housing is a resale and legality problem.
 
