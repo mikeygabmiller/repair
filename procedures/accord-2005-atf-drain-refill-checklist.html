@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATF Drain and Refill</title>
+<style>
+:root{
+  --bg:#f6f5f2; --card:#ffffff; --ink:#1d1d1f; --muted:#5d5d63; --line:#dcdad4;
+  --accent:#b4441b; --accent-soft:#fbe9e1;
+  --ok:#1f6f43; --ok-soft:#e3f2e9; --warn:#8a5a00; --warn-soft:#fdf1d8;
+  --stop:#a3201c; --stop-soft:#fbe4e2; --tag:#ecebe6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141416; --card:#1f1f23; --ink:#ecebe8; --muted:#a3a2a8; --line:#34343a;
+    --accent:#f08a5d; --accent-soft:#3a2219;
+    --ok:#7fd1a0; --ok-soft:#18301f; --warn:#f2c46b; --warn-soft:#352a12;
+    --stop:#ff8a83; --stop-soft:#3a1716; --tag:#2b2b31;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141416; --card:#1f1f23; --ink:#ecebe8; --muted:#a3a2a8; --line:#34343a;
+  --accent:#f08a5d; --accent-soft:#3a2219;
+  --ok:#7fd1a0; --ok-soft:#18301f; --warn:#f2c46b; --warn-soft:#352a12;
+  --stop:#ff8a83; --stop-soft:#3a1716; --tag:#2b2b31;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px 16px 64px}
+h1{font-size:1.5rem;line-height:1.2;margin:8px 0 4px}
+h2{font-size:1.15rem;margin:28px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+p{margin:6px 0}
+.sub{color:var(--muted);font-size:.95rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.big div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.big b{display:block;font-size:1.35rem;color:var(--accent);line-height:1.2}
+.big span{font-size:.85rem;color:var(--muted)}
+.note{border-left:4px solid var(--warn);background:var(--warn-soft);padding:10px 12px;border-radius:8px;margin:10px 0}
+.stop{border-left:4px solid var(--stop);background:var(--stop-soft);padding:10px 12px;border-radius:8px;margin:10px 0}
+.good{border-left:4px solid var(--ok);background:var(--ok-soft);padding:10px 12px;border-radius:8px;margin:10px 0}
+.tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.02em;background:var(--tag);
+  color:var(--muted);border-radius:6px;padding:1px 6px;margin-left:4px;white-space:nowrap;vertical-align:1px}
+.tag.v{color:var(--ok)} .tag.c{color:var(--warn)} .tag.u{color:var(--stop)}
+ol.steps{list-style:none;padding:0;margin:0;counter-reset:s}
+ol.steps>li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  margin:10px 0;padding:0}
+ol.steps>li label{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:12px 14px;cursor:pointer}
+ol.steps input{width:26px;height:26px;margin:2px 0 0;accent-color:var(--accent)}
+.stxt::before{content:"Step " counter(s) " · ";font-weight:700;color:var(--accent)}
+ol.steps li.done{opacity:.55}
+ol.steps li.done .stxt{text-decoration:line-through;text-decoration-color:var(--muted)}
+.stxt ul{margin:6px 0 0;padding-left:20px}
+ul.check{list-style:none;padding:0;margin:0}
+ul.check li label{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}
+ul.check li:last-child label{border-bottom:0}
+ul.check input{width:24px;height:24px;margin:1px 0 0;accent-color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+td{border-bottom:1px solid var(--line);padding:8px 6px;vertical-align:top}
+td:first-child{color:var(--muted);width:42%}
+input[type=text]{width:100%;font:inherit;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.bar{position:sticky;top:0;z-index:2;background:var(--bg);padding:8px 0;display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--line)}
+.prog{flex:1;height:10px;background:var(--line);border-radius:6px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+button{font:inherit;font-size:.9rem;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.count{font-size:.9rem;color:var(--muted);min-width:56px;text-align:right}
+@media print{.bar,button{display:none} body{background:#fff;color:#000} .card,ol.steps>li{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+
+<div class="bar">
+  <div class="prog" aria-hidden="true"><i id="pbar"></i></div>
+  <span class="count" id="pcount">0 / 0</span>
+  <button type="button" id="reset">Reset</button>
+</div>
+
+<h1>Transmission fluid: drain and refill (one round)</h1>
+<p class="sub">2005 Honda Accord EX-L, 2.4 L, 5-speed automatic. Follow top to bottom; tick each box as you go (ticks are saved on this phone). For rounds 2–4, run the same list again.</p>
+
+<div class="big">
+  <div><b>3.0 qt</b><span>fluid per round (US quarts)</span></div>
+  <div><b>36 lb-ft</b><span>drain plug torque, new washer</span></div>
+  <div><b>60–90 s</b><span>check level this soon after engine off</span></div>
+  <div><b>~45–60 min</b><span>per round (estimate)</span></div>
+</div>
+
+<div class="card">
+  <p><b>What the labels mean:</b>
+  <span class="tag v">VERIFIED</span> from the owner's manual (OM) or Chilton ·
+  <span class="tag c">COMMUNITY</span> forum/YouTube tip ·
+  <span class="tag u">UNVERIFIED</span> not confirmed for this car.</p>
+  <p class="sub">The car is undrivable only from pulling the plug until the refill is done (~30 min). Don't start this the night before a work day.</p>
+</div>
+
+<h2>Before you start: have all of this</h2>
+<div class="card">
+<ul class="check" data-group="have">
+  <li><label><input type="checkbox"><span><b>4 qt of fluid</b>, all one brand (Honda DW-1, or MaxLife if that's what you chose). You'll use about 3. <span class="tag v">OM p.274</span></span></label></li>
+  <li><label><input type="checkbox"><span><b>New drain plug washer.</b> Never reuse the old one. Lead part no. 90471-PX4-000, confirm by VIN. <span class="tag v">Chilton: new washer</span> <span class="tag c">part no.</span></span></label></li>
+  <li><label><input type="checkbox"><span><b>Torque wrench that reaches 36 lb-ft.</b> Check the range printed on your EverTough before you start. If it can't, borrow one from AutoZone Loan-A-Tool. <span class="tag c">loaner</span></span></label></li>
+  <li><label><input type="checkbox"><span>Ratchet and the right socket/drive for the plug (size not recorded yet; many Honda ATF plugs take a <b>3/8 in square drive</b>, ratchet straight in). <span class="tag u">look first</span></span></label></li>
+  <li><label><input type="checkbox"><span>Drain pan (5 qt or bigger)</span></label></li>
+  <li><label><input type="checkbox"><span><b>Measuring jug</b> with quart marks (or an empty, rinsed quart bottle to pour into)</span></label></li>
+  <li><label><input type="checkbox"><span><b>Long, skinny funnel</b> that fits down the dipstick tube</span></label></li>
+  <li><label><input type="checkbox"><span>Floor jack + <b>two jack stands</b> (your Daytona 3-ton), wheel chocks</span></label></li>
+  <li><label><input type="checkbox"><span>Gloves, rags, flashlight, cardboard to lie on, an empty container for the old fluid</span></label></li>
+  <li><label><input type="checkbox"><span>Phone ready for photos (plug magnet, old fluid, odometer)</span></label></li>
+</ul>
+</div>
+
+<div class="note"><b>Skip:</b> filter kits, pan gaskets and additives (Shudder Fixx etc.). Honda's procedure uses only the drain plug and the dipstick tube. <span class="tag v">OM pp.219–220, Chilton</span></div>
+
+<h2>Part 1: Warm it up and drain</h2>
+<ol class="steps" data-group="drain">
+  <li><label><input type="checkbox"><span class="stxt"><b>Photo the odometer.</b> Write the mileage in the log box at the bottom.</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Drive until fully warm:</b> engine at normal temperature and the radiator fan has come on. Warm fluid drains out more completely. <span class="tag v">Chilton</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Park on <b>flat, level ground</b>. Shift to P, set the parking brake, engine off. Chock both <b>rear</b> wheels.</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Optional baseline check</b> (60–90 s after shutting off): pull the <b>yellow-loop</b> dipstick, wipe, push all the way in, pull and read. Note the level and the colour/smell, and photo the dipstick. <span class="tag v">OM p.219, Chilton</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Raise the front</b> with the jack at the factory jacking point and set <b>both jack stands</b>. Shake the car gently: it must not move. <b>Never get under it on the jack alone.</b>
+    <ul><li>Jack points: OM p.248 picture. <span class="tag v">OM</span></li>
+    <li>Stands go on the pinch weld next to those points. <span class="tag u">not from Chilton yet</span></li></ul></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Find the transmission drain plug.</b> It's on the bottom of the <b>transmission case</b> (driver's side), <b>not</b> the engine oil pan drain bolt you use for oil changes.
+    <div class="stop"><b>Not 100% sure which plug it is? Stop.</b> Take a photo and ask before loosening anything. Draining the engine oil by mistake and then starting the car would ruin the engine.</div></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Pan under the plug. Loosen it, then finish by hand and pull it away quickly. <b>Fluid may be hot.</b> Let it drain until it only drips (about 5–10 minutes).</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Look at the magnet</b> on the plug and photo it. Fine grey paste = normal wear. Metal chunks or flakes = not normal; keep going but tell me. <span class="tag c">COMMUNITY</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Wipe the plug clean, put the NEW washer on</b>, thread it in <b>by hand</b> first so it can't cross-thread.</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Torque the plug to 36 lb-ft (49 N·m).</b> Don't guess this by feel. <span class="tag v">Chilton A/T Fluid Replacement</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Measure what came out</b>: pour the old fluid from the pan into the measuring jug. Write the amount in the log. Expect about 3 qt. <span class="tag c">backyard trick</span>
+    <ul><li>Why: a drain only empties the case (~3 of 6.9 qt). Putting back the same amount gets the level close before you even look at the dipstick. <span class="tag v">capacities OM p.274</span></li></ul></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Look under once more:</b> plug tight, no drip. Then remove the stands and lower the car onto <b>level ground</b>.</span></label></li>
+</ol>
+
+<h2>Part 2: Refill</h2>
+<ol class="steps" data-group="fill" style="counter-reset:s 12">
+  <li><label><input type="checkbox"><span class="stxt">Car <b>level, on the ground</b>, engine off. Pull the yellow-loop dipstick. <span class="tag v">OM p.219</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Put the funnel in the dipstick tube. <b>Pour in the same amount that came out</b> (about <b>3.0 qt</b>), <b>slowly</b>. Wipe any spill right away. <span class="tag v">OM p.219, p.274</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Put the dipstick <b>all the way back in</b>, seated. <span class="tag v">OM p.220</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Start the engine. With your <b>foot on the brake</b>, move the shifter slowly through each position, pausing a few seconds in each, back to P. This fills the passages. <span class="tag c">COMMUNITY</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Let it idle (or drive gently) until the engine is at normal temperature and the radiator fan has come on. <span class="tag v">Chilton</span></span></label></li>
+</ol>
+
+<h2>Part 3: Check the level (the step that matters most)</h2>
+<ol class="steps" data-group="level" style="counter-reset:s 17">
+  <li><label><input type="checkbox"><span class="stxt">Car <b>level</b>. <b>Turn the engine off</b> and start counting. <span class="tag v">OM p.219</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Within 60–90 seconds:</b> pull the dipstick, wipe it, push it <b>all the way in</b>, pull it and read. <span class="tag v">Chilton level check</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Level must be <b>between the upper and lower marks</b>. <span class="tag v">OM p.219</span>
+    <ul><li><b>Low:</b> add a small amount (a few ounces), warm it, check again.</li>
+    <li><b>Never overfill.</b> If it's above the upper mark, some has to be drained back out.</li></ul></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Dipstick fully seated. Look under the car for drips at the plug.</span></label></li>
+</ol>
+
+<h2>Part 4: Finish</h2>
+<ol class="steps" data-group="finish" style="counter-reset:s 21">
+  <li><label><input type="checkbox"><span class="stxt"><b>Test drive</b> 10–20 minutes: shifts smooth? Note how the <b>60 mph shake</b> feels now (same / better / worse).</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Recheck the plug for drips after the drive.</span></label></li>
+  <li><label><input type="checkbox"><span class="stxt">Old fluid in a sealed container. Most chain parts stores take used oil; ask if they take ATF too. <span class="tag c">check your store</span></span></label></li>
+  <li><label><input type="checkbox"><span class="stxt"><b>Send me the log below</b> (screenshot is fine) so it goes in <code>log.md</code> and <code>maintenance.md</code>.</span></label></li>
+</ol>
+
+<div class="good"><b>Rounds 2–4 (optional, whenever money allows):</b> same list again with a new washer and 3 qt. One round is Honda's routine service; 4 is the "thorough flush." Stay with the same fluid brand every round. <span class="tag v">OM p.220</span></div>
+
+<h2>Log (fill in, then screenshot)</h2>
+<div class="card">
+<table>
+  <tr><td>Date</td><td><input type="text" data-k="date"></td></tr>
+  <tr><td>Odometer</td><td><input type="text" data-k="odo"></td></tr>
+  <tr><td>Round # (1–4)</td><td><input type="text" data-k="round"></td></tr>
+  <tr><td>Fluid brand / part no.</td><td><input type="text" data-k="fluid"></td></tr>
+  <tr><td>Quarts out</td><td><input type="text" data-k="out"></td></tr>
+  <tr><td>Quarts in</td><td><input type="text" data-k="in"></td></tr>
+  <tr><td>Drain plug drive / socket size</td><td><input type="text" data-k="drive"></td></tr>
+  <tr><td>Magnet (paste / flakes / chunks)</td><td><input type="text" data-k="magnet"></td></tr>
+  <tr><td>Old fluid colour / smell</td><td><input type="text" data-k="color"></td></tr>
+  <tr><td>Level after (in marks?)</td><td><input type="text" data-k="level"></td></tr>
+  <tr><td>60 mph shake after</td><td><input type="text" data-k="shake"></td></tr>
+</table>
+</div>
+
+<h2>Not confirmed yet</h2>
+<div class="card">
+<ul>
+  <li><b>Drain plug drive size:</b> look under the car once and write it in the log.</li>
+  <li><b>Washer part number</b> 90471-PX4-000: confirm by VIN at a Honda parts counter (free).</li>
+  <li><b>Jack stand points:</b> the OM shows jack points (p.248); exact stand points aren't confirmed from Chilton.</li>
+  <li><b>Shifting through the gears and the 10–20 min drive:</b> common practice, not a Honda number.</li>
+</ul>
+<p class="sub">Source of record: <code>procedures/accord-2005-atf-drain-refill.md</code> and <code>specs.md</code> in the repair repo. If the two ever disagree, the repo wins.</p>
+</div>
+
+</main>
+<script>
+(function(){
+  var KEY='atf-checklist-v1';
+  var state={};
+  try{ state=JSON.parse(localStorage.getItem(KEY)||'{}')||{}; }catch(e){ state={}; }
+  function save(){ try{ localStorage.setItem(KEY,JSON.stringify(state)); }catch(e){} }
+  var boxes=[].slice.call(document.querySelectorAll('input[type=checkbox]'));
+  var fields=[].slice.call(document.querySelectorAll('input[type=text]'));
+  function refresh(){
+    var n=0;
+    boxes.forEach(function(b){
+      var li=b.closest('li'); if(li){ li.classList.toggle('done',b.checked); }
+      if(b.checked) n++;
+    });
+    document.getElementById('pcount').textContent=n+' / '+boxes.length;
+    document.getElementById('pbar').style.width=(boxes.length? n/boxes.length*100:0)+'%';
+  }
+  boxes.forEach(function(b,i){
+    b.checked=!!state['c'+i];
+    b.addEventListener('change',function(){ state['c'+i]=b.checked; save(); refresh(); });
+  });
+  fields.forEach(function(f){
+    var k='f-'+f.getAttribute('data-k');
+    if(state[k]) f.value=state[k];
+    f.addEventListener('input',function(){ state[k]=f.value; save(); });
+  });
+  document.getElementById('reset').addEventListener('click',function(){
+    if(!confirm('Clear all ticks and the log for a new round?')) return;
+    state={}; save();
+    boxes.forEach(function(b){ b.checked=false; });
+    fields.forEach(function(f){ f.value=''; });
+    refresh();
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
