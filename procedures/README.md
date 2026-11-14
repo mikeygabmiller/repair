@@ -18,6 +18,7 @@ Current procedures (by job):
 |---|---|---|
 | Oil and filter | `accord-2005-oil-change.md` | Sourced (OM pp.214–215) |
 | Automatic transmission fluid, drain and refill | `accord-2005-atf-drain-refill.md` | Sourced (OM pp.219–221, Chilton) |
+| ATF: printable phone checklist (one round) | `accord-2005-atf-drain-refill-checklist.html` | Copy of the procedure above; the .md wins if they differ |
 | Brake fluid exchange; coolant change | `accord-2005-brake-fluid-coolant.md` | Brake: sourced; coolant DIY steps from a V6 article (labeled) |
 | Engine air filter, cabin filter | `accord-2005-filters-air-cabin.md` | DRAFT (no manual steps exist) |
 | Spark plugs | `accord-2005-spark-plugs.md` | Sourced (Chilton K24A4 rows) |
