@@ -13,7 +13,7 @@ Car: 2005 Honda Accord EX-L sedan, 2.4 L K24A4, 5-speed automatic.
 | How to do a job | `procedures/README.md` (table of every procedure) | `V/specs.md` |
 | A torque, capacity, pressure, gap | `V/specs.md` | `V/quick-reference.md` |
 | Which fluid, fuse, bulb, tire pressure | `V/quick-reference.md` | owner's manual `sources/2005-accord-owners-manual.pdf` |
-| A part number or which brand to buy | `V/parts.md` (confirmed table, then "Catalog by system") | `mods/tools-plan.md` for tools |
+| A part number or which brand to buy | `V/parts.md` (confirmed table, then "Catalog by system") | `mods/tools-owned.md` (what the owner has) and `mods/tools-plan.md` (what to buy) for tools |
 | Honda service bulletins | `V/tsb-guide.md` (by symptom) | `V/tsbs.md` (all 183, generated) |
 | Recalls | `V/profile.md` (what applies) | `V/recalls.md` (generated) |
 | What other owners report | `V/complaints.md` (counts) | `V/complaints-all.md` (search it) |
@@ -58,7 +58,7 @@ Latest big update: `overnight-summary-2026-11-10.md`.
 
 **Procedures (`procedures/`)**: see `procedures/README.md`.
 
-**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-plan.md`,
+**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-owned.md` (what the owner has, from receipts), `tools-plan.md`,
 `lighting-upgrades.md`, `plan-head-unit-2026-10.md`, `plan-hitch-storage-2026-10.md`,
 `switch-slot-ideas/`.
 
