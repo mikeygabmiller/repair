@@ -210,7 +210,7 @@ SKJ20DR-M11 · 5,000 mi oil changes match the severe schedule.
 | ATF total ~7.4 qt | 6.9 US qt (6.5 L) for the 4-cylinder. 7.6 qt is the V6 figure | OM p.274 |
 | Valve lash due at 105k | 4-cylinder: **inspect at 110,000 mi**, otherwise adjust only if noisy. 105k is the V6 interval | OM p.202–203 |
 | ATF: Honda DW-1 | Honda ATF-Z1 (DEXRON III only temporarily). DW-1 as Z1's replacement is UNVERIFIED: ask a Honda parts counter | OM p.219 |
-| ATF: repeat drain-and-fill 3 times, 50–100 mi apart | A full change is 3 drain-and-refills with a short drive after each, then a final drain-and-refill | OM p.220 |
+| ATF: repeat drain-and-fill 3 times, 50–100 mi apart | Scheduled service is one drain-and-refill; a *thorough flush* is 3 drain-and-refills with a short drive after each, then a final drain-and-refill. No mileage between rounds is given | OM p.220 |
 | ATF: check engine off "within ~60 sec" | Check at normal operating temperature, level ground, engine shut off. The manual gives no time window | OM p.219 |
 | Power steering: Honda PSF only | Honda PSF preferred; another brand only as a temporary replacement; never ATF | OM Service Information Summary |
 
