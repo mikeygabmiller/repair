@@ -75,6 +75,14 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
   forum advice).
 
 ## Gotchas
+- **No pan, gasket or filter in this job.** The OM (pp.219–220) and Chilton's A/T Fluid
+  Replacement use only the drain plug and the dipstick tube; Chilton's only ATF filter
+  article is Hybrid-only (report E, G27). AutoZone's "complete the job" add-ons for this car
+  (Duralast filter kit TF534, Fel-Pro pan gasket 2304, Lubegard Shudder Fixx; seen
+  2026-11-14) are not part of Honda's procedure: skip them. Additives also break the
+  Honda-fluid rule and would muddy the 60 mph shake test.
+- **Price check (2026-11-14):** AutoZone MaxLife Multi-Vehicle 1 gal $45.99 = ~$11.50/qt,
+  more than Honda DW-1 at $10.75/qt (`next-steps.md`). One gallon covers one round only.
 - One round replaces only part of the fluid. That's why the manual says four.
 - Honda bulletin list on NHTSA includes **A89-022 "Using the ATF DW-1 Cooler Cleaner"**
   (Chilton bulletin list item 24): a shop item tied to transmission replacement, not this
