@@ -10,9 +10,11 @@ Labels: prices and product claims are **COMMUNITY/retail listing** unless marked
 recall data is **OFFICIAL RECORD**.
 
 ## Owned now (photo 2026-11-12, foam tray)
+Full list from Harbor Freight receipts (2026-11-14): `tools-owned.md`. It confirms the trolley jack is item 64874 (bought as-is, SKU 864874), the digital torque adapter is 58706 (**25–250 ft-lb**), the air impact is the 1/2 in mini Earthquake XT (63534), the compressor is the 8 gal oil-free (64294), and a 25 in 1/2 in breaker bar (62729) was bought 2026-11-13. Two socket sets on the receipts (63461, 64387) may already cover 14 and 17 mm: check them before buying sockets.
+
 3/8 in ratchet (drive size assumed from the photo); shallow sockets 10, 11, 12, 13, 15 mm;
 one socket labeled "Accord drain plug" (size not written down); Quinn digital torque
-adapter (range not read yet); black impact sockets labeled "Accord lug" (size not written
+adapter (58706, 25–250 ft-lb per receipt); black impact sockets labeled "Accord lug" (size not written
 down); drive adapters (bottom-left slots; sizes not read yet). Also owned (owner, 2026-11-12): **Daytona 3-ton Heavy Duty Ratcheting jack stands, metallic green, item 73332** (not on the 2020 recall list; earlier chat read the manual: Mobility Pin + Safety Pin are a required step p.4, chock wheels p.4, lube handle pivots p.5, not re-checked); a ~$40 Pittsburgh trolley jack, probably the **2-ton Compact Trolley Jack item 64874** ($39.99; lift 5-3/8 to 12-3/8 in, 17-1/2 in long, HF product page read 2026-11-12; **confirm the item number on its label**); air impact, compressor (models not recorded). Planned: extensions, spark plug socket. Gaps found: **no 14 mm or 17 mm**, no deep
 sockets, no swivel/U-joint, no wrenches. Fill this in as sizes are confirmed.
 Layer plan: core layer (every job) `mods/tool-tray-core-layer.jpg`; layers 2 (wrenches, deep sockets) and 3 (hand tools, checks) `mods/tool-tray-layers-2-3.jpg`; earlier all-in-one version `mods/tool-tray-layout.html`. Job items live in kits: wheel kit in the trunk, spark kit, oil kit.
@@ -49,8 +51,8 @@ didn't load from here (403), so the exact list is unconfirmed.
 |---|---|---|---|
 | Outside micrometer 0–1 in | Rotor thickness vs the stamped minimum (open issue 5) | ~$20 | Mitutoyo/Starrett (pricier) |
 | Brake caliper piston tool / big C-clamp | Push pistons back | Loaner | — |
-| One-person bleeder bottle or hand vacuum pump | Brake fluid exchange | ~$10–20 / loaner | Mityvac |
-| 1/2 in breaker bar + lug socket | Lug nuts, axle nut | HF (owner already has an 18 in pry bar, a 32 mm axle socket, a 2 lb dead blow: `log.md`) | — |
+| One-person bleeder bottle or hand vacuum pump | Brake fluid exchange | **Owned:** pneumatic brake fluid bleeder with auto-refill, HF 92924 (receipt 2026-08-27) | Mityvac |
+| 1/2 in breaker bar + lug socket | Lug nuts, axle nut | **Breaker bar owned:** 25 in, HF 62729 (receipt 2026-11-13). HF (owner already has an 18 in pry bar, a 32 mm axle socket, a 2 lb dead blow: `log.md`) | — |
 | Dial indicator with magnetic base | Rotor runout (limit 0.004 in, Chilton) | ~$25 | — |
 
 ## Optional: speed ratchet (asked 2026-11-13)
