@@ -20,7 +20,7 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
 
 | Item | Spec | Source |
 |---|---|---|
-| Fluid | **Honda ATF-Z1**; DEXRON III only as a temporary replacement. Z1 is discontinued; Honda DW-1 is sold as its replacement (COMMUNITY + parts retailer; **ask the Honda parts counter with the VIN**, `parts.md`) | VERIFIED: OM p.219 |
+| Fluid | **Honda ATF-Z1**; DEXRON III only as a temporary replacement. Z1 is discontinued; Honda DW-1 is sold as its replacement (COMMUNITY + parts retailer; **ask the Honda parts counter with the VIN**, `parts.md`). No Honda fluid locally: order DW-1 online, or see the MaxLife note in `parts.md` (not Honda, not OEM licensed) | VERIFIED: OM p.219 |
 | Amount per round | **3.0 US qt (2.8 L)**. Buy 4 qt per round so a spill doesn't stop you | VERIFIED: OM p.274; Chilton K24A4 capacities row agrees (6.0 pt) |
 | Full change | 3 drain-and-refills with a short drive after each, then a final drain-and-refill = **4 rounds, 12 qt** | VERIFIED: OM p.220 |
 | Drain plug | Thread 18 × 1.5 mm, **36 lbf·ft (49 N·m)**, **new sealing washer** every time | VERIFIED: Chilton report E (`specs.md`) |
