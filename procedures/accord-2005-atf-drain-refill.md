@@ -22,7 +22,8 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
 |---|---|---|
 | Fluid | **Honda ATF-Z1**; DEXRON III only as a temporary replacement. Z1 is discontinued; Honda DW-1 is sold as its replacement (COMMUNITY + parts retailer; **ask the Honda parts counter with the VIN**, `parts.md`). No Honda fluid locally: order DW-1 online, or see the MaxLife note in `parts.md` (not Honda, not OEM licensed) | VERIFIED: OM p.219 |
 | Amount per round | **3.0 US qt (2.8 L)**. Buy 4 qt per round so a spill doesn't stop you | VERIFIED: OM p.274; Chilton K24A4 capacities row agrees (6.0 pt) |
-| Full change | 3 drain-and-refills with a short drive after each, then a final drain-and-refill = **4 rounds, 12 qt** | VERIFIED: OM p.220 |
+| Scheduled service | **One drain-and-refill** ("drained and refilled with new fluid according to the… maintenance schedule") | VERIFIED: OM p.220 |
+| Thorough flush (optional) | 3 drain-and-refills with a short drive after each, then a final drain-and-refill = **4 rounds, 12 qt**. Worth it here (no fluid record at ~139k), but rounds can be spread out as budget allows | VERIFIED: OM p.220 ("To thoroughly flush the transmission…") |
 | Drain plug | Thread 18 × 1.5 mm, **36 lbf·ft (49 N·m)**, **new sealing washer** every time | VERIFIED: Chilton report E (`specs.md`) |
 | Drain plug washer | Lead: 90471-PX4-000 (COMMUNITY, YouTube description). **Confirm by VIN** before buying | `parts.md` |
 | Filler bolt (only if you use it) | 24 × 1.5 mm, 33 lbf·ft (44 N·m), new washer | VERIFIED: Chilton report E |
@@ -57,7 +58,7 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
    of shutting off. Wipe the dipstick, push it **all the way in** with the rubber cap
    seated, pull and read. Between the upper and lower marks. Low: add a little and recheck.
    **Never overfill.**
-8. Rounds 2–4: drive a short distance (OM p.220 says "a short distance"; 10–20 min of normal
+8. Rounds 2–4 (optional thorough flush; can be weeks apart): drive a short distance (OM p.220 says "a short distance"; 10–20 min of normal
    driving is the usual reading, COMMUNITY), then repeat steps 1–7. Rounds can be a day or
    two apart; the car is drivable between them.
 
@@ -83,7 +84,10 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
   Honda-fluid rule and would muddy the 60 mph shake test.
 - **Price check (2026-11-14):** AutoZone MaxLife Multi-Vehicle 1 gal $45.99 = ~$11.50/qt,
   more than Honda DW-1 at $10.75/qt (`next-steps.md`). One gallon covers one round only.
-- One round replaces only part of the fluid. That's why the manual says four.
+- One round replaces only part of the fluid: about 3.0 of 6.9 qt (OM p.274), ~43%. Estimated
+  new-fluid share, assuming the old and new mix fully: 1 round ~43%, 2 ~68%, 3 ~82%, 4 ~90%
+  (Claude's arithmetic from the OM numbers, not a Honda figure). The manual's routine service
+  is one round; the 4-round flush is its "thorough" option (OM p.220).
 - Honda bulletin list on NHTSA includes **A89-022 "Using the ATF DW-1 Cooler Cleaner"**
   (Chilton bulletin list item 24): a shop item tied to transmission replacement, not this
   job. Not read in full.
