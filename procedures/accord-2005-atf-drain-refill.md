@@ -76,11 +76,20 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
   forum advice).
 
 ## Gotchas
-- **No pan, gasket or filter in this job.** The OM (pp.219–220) and Chilton's A/T Fluid
-  Replacement use only the drain plug and the dipstick tube; Chilton's only ATF filter
-  article is Hybrid-only (report E, G27). AutoZone's "complete the job" add-ons for this car
+- **No pan or gasket in this job.** The OM (pp.219–220) and Chilton's A/T Fluid
+  Replacement use only the drain plug and the dipstick tube.
+- **External ATF filter: probably exists, not on Honda's schedule.** Owner sees a filter
+  under the under-hood fuse box (2026-11-15, no photo yet). Honda catalog (HondaPartsNow
+  category listing, 2026-11-15) shows **25430-PLR-003 "Filter (ATf)"** for 2003–2011 Accord
+  trims incl. DX/VP/PZEV (4-cylinder only) with KA/KL 5AT; forums call it an inline filter
+  on a cooler line (COMMUNITY). 25450-RAY-003 is **V6 only** (HondaPartsNow fitment). The
+  OM maintenance schedule (pp.202–203) has no ATF filter item, and Chilton's only filter
+  article is Hybrid-only (report E, G27): no 4-cyl procedure or torque pulled yet. Don't
+  replace it until a photo confirms what it is, the part is confirmed by VIN, and the
+  Chilton 4-cyl steps are pulled. AutoZone's "complete the job" add-ons for this car
   (Duralast filter kit TF534, Fel-Pro pan gasket 2304, Lubegard Shudder Fixx; seen
-  2026-11-14) are not part of Honda's procedure: skip them. Additives also break the
+  2026-11-14) are not part of Honda's procedure: skip them (TF534 comes with a pan gasket;
+  this transmission has no pan). Additives also break the
   Honda-fluid rule and would muddy the 60 mph shake test.
 - **"Don't change old fluid on a car with no history" (heard at O'Reilly, 2026-11-15).** No
   Honda source says this. Honda's schedule says drain and refill (OM p.220, no exception for
