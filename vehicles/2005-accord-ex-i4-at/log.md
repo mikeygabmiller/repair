@@ -7,6 +7,14 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-11-15, 139,781 mi: ATF drain and refill, round 1 of 4 (owner)
+- Drained ~2.9 qt (read off a marked bucket, photo); refilled ~2.9 qt through the dipstick tube, on ramps, before starting the engine. Spec: 3.0 US qt (OM p.274).
+- Fluid in: **Valvoline** (owner's form says "valovine"; exact product not recorded, likely MaxLife Multi-Vehicle). Not Honda fluid: owner's call (`parts.md` ATF row). Next rounds: Honda DW-1 or the same Valvoline, owner to decide.
+- Drain plug: **3/8-in square drive**; owner says it's on the **passenger side** of the transmission. Washer replaced and torque used: not recorded.
+- Old fluid: owner "fine brown". Paper-towel drop (photo): translucent reddish-brown, spread evenly, no black, no grit seen. No milky/pink froth in the bucket. Smell not recorded.
+- Magnet: owner "nope" (taken as nothing on it; to confirm).
+- Level after warm-up on level ground: **not reported yet**. 60 mph shake after: not tested yet (`open-issues.md` item 3).
+
 ## 2026-11-06 (reported): slid into a small ditch (date and mileage not recorded)
 - Owner: braking while turning at the bottom of a steep hill, slid into a small ditch, came back onto the road. Since then a low-speed back-and-forth wheel shake and worse alignment. ABS was out at the time (`open-issues.md` item 4). Triage: `open-issues.md`, item 11.
 
