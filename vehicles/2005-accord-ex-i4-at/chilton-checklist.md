@@ -80,7 +80,7 @@ the library card → 2005 Honda Accord, **2.4L 4-cyl** (not the V6) → automati
 ## E. Transmission
 - [x] 42. ATF drain plug: 36 lbf·ft, 18 × 1.5 mm thread, new washer (A–I). Socket size still unknown
 - [x] 43. (A–I: check within 60–90 s of shutoff) ATF level check procedure (compare with OM p.219)
-- [ ] 44. (A–I: Hybrid only) Is there a serviceable ATF filter or strainer, and its service interval
+- [ ] 44. (A–I: Hybrid only) Is there a serviceable ATF filter or strainer, and its service interval. Lead 2026-11-15: inline filter 25430-PLR-003 (`parts.md`); pull the **4-cylinder** Fluid Filter Replacement steps and bolt torques if Chilton offers a non-Hybrid config
 - [ ] 45. Transmission trouble code chart
 
 ## F. Electrical and the battery drain
