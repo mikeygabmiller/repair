@@ -26,7 +26,7 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 | 10 mm Metric Essential Socket Set, 10-piece | 58957 | 2026-10-15, $11.99 | |
 | Hex socket driver set, 3-pc | 68513 | 2026-02-04, $5.99 | |
 | 1/2 in drive 25 in breaker bar | 62729 | 2026-11-13, $21.99 | |
-| **1/2 in drive digital torque adapter, 25 to 250 ft-lb** | 58706 | 2026-10-24, $49.99 | This is the "Quinn digital torque adapter" in the tray photo (range was unknown; receipt gives it). ESP plan 602362242 runs to 2029-01-22. Won't go below 25 ft-lb |
+| **1/2 in drive digital torque adapter, 25 to 250 ft-lb** | 58706 | 2026-10-24, $49.99 | This is the "Quinn digital torque adapter" in the tray photo (range was unknown; receipt gives it). ESP plan 602362242 runs to 2029-01-22. **25 ft-lb is the minimum, not the max**: covers lugs, drains, caliper brackets, axle nut. Won't go below 25 ft-lb. Accuracy ±2% CW/CCW (COMMUNITY: retailer listings, not Quinn's spec sheet, 2026-11-15). HF 90-day return window ends 2027-01-22: test it against a loaner click wrench before then |
 | EverTough torque wrench | — | 2026-10-19 (`log.md`) | Not an HF receipt; range not recorded |
 | 32 mm socket (axle nut) | — | 2026-10-19 (`log.md`) | Not on an HF receipt |
 | Socket tray/organizer, 3-pc metric | 68102 | 2026-03-02 | |
