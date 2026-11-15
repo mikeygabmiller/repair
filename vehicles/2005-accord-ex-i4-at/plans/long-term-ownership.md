@@ -4,6 +4,11 @@
 keeping it in a state that gets the most money back if the owner decides to sell at any
 point. (This replaces "sell around 170k".) Apply this to every recommendation.
 
+**Target (owner, 2026-11-15): 500,000 miles.** That's ~361,000 more miles. Pace so far is
+roughly 2,000 mi from purchase (Aug 2026, ~137,000) to 139,032 (2026-10-21), about 10,000 mi
+a year if it holds (rough: purchase date and mileage are approximate). At that pace 500k is
+decades away, so **age (rust, rubber, plastic, wiring) is as big a threat as miles.**
+
 Mileage when this was written: last known 139,032 (2026-10-21).
 
 ## How the two goals fit together
@@ -64,6 +69,26 @@ The owner decides; the worksheet just puts the numbers side by side.
 5. **Parts that will fail along the way.** Water pump, radiator, alternator, starter, A/C
    compressor, mounts, bushings, brakes. Replace on failure; safety-critical parts OEM or
    name-brand.
+
+## Extra habits for the 500k target (added 2026-11-15)
+
+- **Transmission fund.** Set aside money every month toward a transmission replacement or
+  rebuild. Fluid care lowers the odds but doesn't make a 2005 automatic last 500k
+  (COMMUNITY/UNVERIFIED: the automatic is widely seen as this generation's weak point).
+  When it comes, the walk-away worksheet decides.
+- **ATF every 30,000 mi or 2 yr** after the catch-up (VERIFIED: OM p.203, severe), and the
+  inline filter decision (`parts.md`, 25430-PLR-003) once the 4-cyl Chilton steps are pulled.
+- **Oil top-up log.** Write every quart added, with the odometer, in `log.md`. A rising
+  rate is the earliest warning of engine wear (COMMUNITY reasoning).
+- **Valve clearance** on a regular cycle once the spec conflict is settled (`specs.md`):
+  tight exhaust valves on high-mileage K24s can burn (COMMUNITY, UNVERIFIED).
+- **Timing chain / VTC.** No replacement interval; listen. A cold-start rattle that gets
+  longer (open issue 8) goes to `symptom-index.md` before it becomes a chain job.
+- **Rust is what usually ends a long-life car in a salt state.** Winter underbody rinses
+  (above); consider a yearly oil-based undercoat spray (COMMUNITY: e.g. Fluid Film; washes
+  off, doesn't hurt resale). Fix rock chips to bare metal before winter (open issue 8).
+- **Rubber and cooling parts age out.** Look at hoses, mounts, bushings and the radiator's
+  plastic tanks once a year; coolant on schedule (Honda Type 2).
 
 ## Sale-ready checklist (keep these true at all times)
 
