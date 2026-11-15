@@ -8,14 +8,14 @@ Intervals are Honda's **severe** schedule (OM p.203, copied in `specs.md`), beca
 car does short local trips and winter roads (OM p.199). "No record" = treat as due now.
 Whichever comes first, miles or time.
 
-Last known odometer: **139,032 mi** (2026-10-21, Les Schwab paperwork).
+Last known odometer: **139,781 mi** (2026-11-15, owner, ATF round 1).
 
 | Item | Interval (severe, OM p.203) | Last done | Next due |
 |---|---|---|---|
 | Engine oil | 5,000 mi or 6 months | **No record** | **Now.** Procedure: `procedures/accord-2005-oil-change.md` |
 | Oil filter | 10,000 mi or 1 yr (change it with the oil anyway: the 4.4 qt capacity assumes a new filter, OM p.215) | **No record** | **Now** |
 | Brake fluid | Every 3 years | **No record** | **Now.** Shop recommended; what to ask for: `procedures/accord-2005-brake-fluid-coolant.md` |
-| Automatic transmission fluid | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr | **No record** | **Now.** Also a suspect for the 60 mph shake (`open-issues.md`). Procedure: `procedures/accord-2005-atf-drain-refill.md` |
+| Automatic transmission fluid | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr | 2026-11-15, 139,781 mi: round 1 of 4 (Valvoline, `log.md`) | Rounds 2–4 of the thorough flush (OM p.220), each after a short drive. Then 169,781 mi or 2028-11 (severe, OM p.203). Procedure: `procedures/accord-2005-atf-drain-refill.md` |
 | Engine coolant | 120,000 mi or 10 yr, then every 60,000 mi or 5 yr | **No record** | **Now** (car is past 120k and 10 yr). Same file as brake fluid |
 | Drive belt: inspect | 30,000 mi or 2 yr | **No record** | **Now** (look only) |
 | Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | **No record** | **Now.** `procedures/accord-2005-filters-air-cabin.md` |

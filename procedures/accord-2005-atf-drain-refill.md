@@ -27,7 +27,7 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
 | Drain plug | Thread 18 × 1.5 mm, **36 lbf·ft (49 N·m)**, **new sealing washer** every time | VERIFIED: Chilton report E (`specs.md`) |
 | Drain plug washer | Lead: 90471-PX4-000 (COMMUNITY, YouTube description). **Confirm by VIN** before buying | `parts.md` |
 | Filler bolt (only if you use it) | 24 × 1.5 mm, 33 lbf·ft (44 N·m), new washer | VERIFIED: Chilton report E |
-| Socket / drive for the drain plug | **Not recorded.** Many Honda ATF drain plugs take a 3/8-in square drive (ratchet straight in) (COMMUNITY, UNVERIFIED for this car): look before buying anything | Write it here after the job |
+| Socket / drive for the drain plug | **3/8-in square drive** (ratchet straight in, no socket) | Owner, round 1, 2026-11-15 |
 | Also | Torque wrench that reads 36 lbf·ft, drain pan (≥5 qt), long-neck funnel that fits the dipstick tube, rags, gloves, ramps or jack + **two jack stands** | — |
 
 ## Safety
@@ -43,16 +43,18 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
 1. **Warm it up**: drive until the engine is at normal temperature (the radiator fan has
    cycled) (Chilton C01). Park level, engine off.
 2. Raise the front on ramps or stands. Find the drain plug on the bottom of the
-   transmission (driver's side, below the engine oil pan area; look for the square-drive
-   or hex plug on the transmission case, not the engine oil pan). If unsure, **don't pull
+   transmission case: a **3/8-in square-drive** plug; owner found it toward the
+   **passenger side** (round 1, 2026-11-15). Not the engine oil pan's hex bolt. If unsure, **don't pull
    anything**: ask, or compare with the oil drain bolt you already know.
 3. Pan under it, remove the plug, let it drain until it only drips. Look at the plug's
    magnet: fine grey paste is normal wear; chunks or flakes are not (COMMUNITY): photo it.
 4. New washer on the plug, thread in by hand, torque **36 lbf·ft** (Chilton).
-5. Lower the car to level ground. Pull the **yellow-loop dipstick** (OM p.219; location
+5. Pour the fill in before starting the engine (it's fine to pour on ramps: you're adding a
+   measured amount; just don't read the dipstick there). Never start it or drive off the
+   ramps with the case empty: the pump would draw air. Pull the **yellow-loop dipstick** (OM p.219; location
    OM p.210). Funnel in **3.0 US qt** through the dipstick tube, slowly (OM p.219: clean
    spills right away).
-6. Start the engine, run it to normal temperature, shift slowly through each gear with
+6. Start the engine, drive off the ramps onto level ground, run it to normal temperature, shift slowly through each gear with
    your foot on the brake, back to P.
 7. **Check the level** (OM p.219 + Chilton): level ground, engine **off**, within **60–90 s**
    of shutting off. Wipe the dipstick, push it **all the way in** with the rubber cap
@@ -120,7 +122,7 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
 
 ## What I couldn't verify
 - DW-1 replacing Z1 and the drain washer number: Honda parts counter, free, with the VIN.
-- Drain plug drive size and exact location photo: look under the car once.
+- Exact drain plug location photo (owner: passenger side, 3/8-in drive).
 - Jack stand points: Chilton (library) → "Jacking" section; or the OM p.248 jack points are
   the safe lift points, stands go next to them on the pinch weld (COMMUNITY, UNVERIFIED).
 - "Short distance" between rounds: the manual gives no number.
