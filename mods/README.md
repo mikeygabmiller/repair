@@ -131,5 +131,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   Mounting depths not on that page.
   **$100 plan (2026-11-15):** free tuning first, then high-sensitivity rear 6x9s (no drill)
   and/or built-in-crossover dash tweeters. Front doors wait for the owner's call on drilling.
+  **6x9 picks for bass (2026-11-15, retailer specs, nothing bought):** Kicker DSC6930,
+  92 dB, 4 ohm, top-mount depth 3-3/16" (Kicker page via search) or 3-1/4" (Sonic
+  Electronix), $119.99 a pair at Sonic Electronix. Budget: Pioneer TS-A6990F, 90 dB
+  (Crutchfield, onlinecarstereo), 3-3/8" depth, $89.99 seen, discontinued. Harness: Metra
+  72-7800 (Honda, lists Accord; owners report it fits the Accord rear deck), replaced by NVX
+  NSH-7800. No official rear-deck depth limit found; 2003-07 Accord rear kits ship speakers of
+  3" to 3.83". **With the rear seatbacks out, the trunk no longer seals off the back of the
+  cone, so some deep bass cancels** (acoustics, UNVERIFIED how much in this car). Free test:
+  cover the seatback opening with a heavy blanket or cardboard and listen for the bass change.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
