@@ -160,5 +160,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   woofer top-mount depth 1-13/16" (Electronic Express, Sonic Electronix), $179.95 seen
   (Sound of Tri-State, out of stock). Its tweeter goes in the factory dash-corner spot,
   crossovers behind the radio (Crutchfield method). Door butyl with the same panel-off.
+  Owner found **JBL Stage2 65C** (Sonic Electronix, 2026-11-15; price not read, page blocks
+  bots): 90 dB, 4 ohm (retailer listings); depth 2-3/16" (eBay) to 6.06 cm / 2.39" (most
+  retailers), no JBL sheet found. Likely ~1/4-3/8" deeper than the ~2" owners report: fits
+  only if the measured door depth allows. Club 6500C is 2 dB more sensitive and shallower.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
