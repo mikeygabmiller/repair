@@ -82,6 +82,14 @@ light-throttle shudder pattern in NHTSA complaints that fresh fluid sometimes he
   (Duralast filter kit TF534, Fel-Pro pan gasket 2304, Lubegard Shudder Fixx; seen
   2026-11-14) are not part of Honda's procedure: skip them. Additives also break the
   Honda-fluid rule and would muddy the 60 mph shake test.
+- **"Don't change old fluid on a car with no history" (heard at O'Reilly, 2026-11-15).** No
+  Honda source says this. Honda's schedule says drain and refill (OM p.220, no exception for
+  missed services), and Honda bulletins for other models fix judder by replacing worn fluid
+  with drain-and-refills (16-060). The warning mostly comes from pressure-machine flushes and
+  from transmissions that were already failing before the change (COMMUNITY/UNVERIFIED).
+  Honda's drain-and-refill is the gentlest way: no pressure, ~43% swapped per round. If the
+  fluid is burnt or the magnet has chunks, the transmission was already worn; the change
+  doesn't cause that, but it won't fix it either.
 - **Price check (2026-11-14):** AutoZone MaxLife Multi-Vehicle 1 gal $45.99 = ~$11.50/qt,
   more than Honda DW-1 at $10.75/qt (`next-steps.md`). One gallon covers one round only.
 - One round replaces only part of the fluid: about 3.0 of 6.9 qt (OM p.274), ~43%. Estimated
