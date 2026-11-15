@@ -140,5 +140,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   3" to 3.83". **With the rear seatbacks out, the trunk no longer seals off the back of the
   cone, so some deep bass cancels** (acoustics, UNVERIFIED how much in this car). Free test:
   cover the seatback opening with a heavy blanket or cardboard and listen for the bass change.
+  **Under-seat sub: ruled out (2026-11-15).** The manual says not to "put any cargo or metal
+  objects under the front seats" (VERIFIED: OM p.27); the driver's seat position sensor and
+  passenger weight sensors are there, and the SRS light is already on (`open-issues.md` 1).
+  Same compact powered sub goes on the rear cargo floor or in the trunk instead, strapped
+  down: with the seatbacks out it plays straight into the cabin, and its own sealed box means
+  the open seatbacks don't cancel it. Wiring: fused battery lead, chassis ground, Eonon sub
+  out (#9-18) and remote lead (#7 "AMP", UNVERIFIED that it's a remote turn-on). Firewall
+  pass through an existing grommet (location not confirmed; if drilling is the only way, stop).
+  After `open-issues.md` 2, 6 and 9 are closed.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
