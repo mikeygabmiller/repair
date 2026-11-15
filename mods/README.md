@@ -108,6 +108,13 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   on, item 1). Stick the mount to the glass behind the mirror, out of the driver's view
   (RCW 46.37.410(2), read 2026-11-09). WA needs consent to record conversations (RCW
   9.73.030 per recordinglaw.com; statute not read): turn the mic off or tell passengers.
+  **Update 2026-11-15 (owner wants one):** A119 Mini 2 deals: $100 at Best Buy (Slickdeals,
+  2026-09-07, was $140); viofo.com $109.99 sale / $149.99 regular (undated). Buy-now line
+  about $100 or less; Black Friday is 2026-11-27. Front + rear option: **VIOFO A229 Plus 2CH**,
+  2K + 2K STARVIS 2, $209.99 sale / $249.99 regular (viofo.com), refurb $139.99
+  (BlackboxMyCar). Rear cable: run it along the floor under the door-sill trims and up through
+  the cargo area to the back glass, not along the headliner past the curtain airbags.
+  Plan: start on the 12 V socket plug (no install), hardwire later with HK4 on key-on only.
 - **Audio: deadening vs speakers vs sub, which first (2026-11-15):** nothing bought.
   Order: (1) free: sort out the quiet Bluetooth and find the EQ (`log.md` 2026-11-05);
   louder speakers can't fix a weak signal. (2) Rear floor deadener: this is a **repair**,
