@@ -119,7 +119,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   dip already drops the USB link. **The old "LC2i / speaker-level input" note is out of
   date:** the Eonon has a sub output among its unused leads #9–18 (Eonon wiring diagram,
   `plan-head-unit-2026-10.md`), so a powered sub can run from that; which lead is the sub
-  out is not confirmed. Speaker sizes, depths and adapters: UNVERIFIED, check Crutchfield's
-  free vehicle fit guide.
+  out is not confirmed.
+  **Factory speakers (Crutchfield Research Garage, "2003-2007 Honda Accord", read
+  2026-11-15):** front doors 6-1/2" in plastic frames; **aftermarket door speakers need
+  adapter brackets and new screw holes drilled in the door steel** (conflicts with the
+  no-drill rule; a bracket that uses the factory clip holes is not confirmed). Rear deck
+  6"x9", "much easier", no drilling listed (panel tool, 8 mm socket); Crutchfield says to
+  deaden the deck if subs go there. Two tweeters in the upper dash corners with the crossover
+  built in; no tweeter harness, so Posi-Products connectors. Speaker harnesses exist for
+  every other spot. No outboard factory amp; factory radio "roughly 10 watts RMS x 4".
+  Mounting depths not on that page.
+  **$100 plan (2026-11-15):** free tuning first, then high-sensitivity rear 6x9s (no drill)
+  and/or built-in-crossover dash tweeters. Front doors wait for the owner's call on drilling.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
