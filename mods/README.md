@@ -149,5 +149,16 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   out (#9-18) and remote lead (#7 "AMP", UNVERIFIED that it's a remote turn-on). Firewall
   pass through an existing grommet (location not confirmed; if drilling is the only way, stop).
   After `open-issues.md` 2, 6 and 9 are closed.
+  **Front door speakers (2026-11-15):** drilling conflict. Crutchfield says new screw holes
+  in the door steel; **Metra 82-7806** (pair, 6.5" and most 6.75") says "mount directly into
+  the factory location, so no drilling is required" (metraonline.com, read 2026-11-15) and
+  Sonic Electronix lists it for 1998-2007 Accord. Metra's own Accord fit not read (fit
+  guide). Metra outranks Crutchfield on its own part; confirm with the bracket in hand.
+  **Depth is the limit:** owners report about 2" from the door's mounting surface to the
+  window track (2005 sedan and 2001, forum posts; no official figure). Measure with the glass
+  down before buying. Candidate: JBL Club 6500C component set, 92 dB at 2.83 V, 3 ohm,
+  woofer top-mount depth 1-13/16" (Electronic Express, Sonic Electronix), $179.95 seen
+  (Sound of Tri-State, out of stock). Its tweeter goes in the factory dash-corner spot,
+  crossovers behind the radio (Crutchfield method). Door butyl with the same panel-off.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
