@@ -90,6 +90,42 @@ The owner decides; the worksheet just puts the numbers side by side.
 - **Rubber and cooling parts age out.** Look at hoses, mounts, bushings and the radiator's
   plastic tanks once a year; coolant on schedule (Honda Type 2).
 
+## Interior: keep it from wearing out (added 2026-11-15)
+
+Over decades the interior dies from **water, sun and wear points**, in that order of
+damage. Cleaning products are the owner's own field; this is the repair side.
+
+- **Water first.** A wet floor rots carpet padding, rusts the floor pan and smells, and the
+  driver's seat position sensor and passenger weight sensors sit under the front seats
+  (VERIFIED: OM p.27, "do not spill any liquids on or under the seats"). Spills also damage
+  wiring (OM p.103). Twice a year, and after any musty smell: press the carpet in each
+  footwell and the trunk/spare well for damp. Common leak paths: clogged moonroof drains,
+  door seals, a door's plastic water shield left loose after panel work (COMMUNITY,
+  UNVERIFIED for this car). Bulletin A05-012 covers a damaged moonroof glass weatherstrip
+  (title only, `tsb-guide.md`). Don't run the moonroof when frozen or snow-covered (VERIFIED:
+  OM p.99). Silicone spray on door and trunk seals keeps them from sticking and tearing
+  (VERIFIED: OM p.244, storage section). Cabin filter on schedule (OM p.233).
+- **Nothing liquid loose in the cabin.** The fuel-can spill already cost the rear deadener
+  (`log.md`). Chemicals and fuel ride in sealed bins in the trunk, never under the seats.
+- **Sun.** Doors are tinted (`log.md`, right rear piece still to redo). A fitted reflective
+  windshield shade when parked does the most for the dash and front leather (COMMUNITY).
+- **Mats.** Custom-fit all-weather mats that hook on the factory anchors; never a mat on top
+  of the anchored mat (VERIFIED: OM p.233). Box the OEM carpet mats for the sale.
+- **Leather.** Worn spots (open issue 8): repair early with a color-matched leather
+  repair/dye kit before cracks spread (COMMUNITY). **Fitted seat covers: front seats have
+  side airbags; don't cover the front seat-backs without consulting the dealer** (VERIFIED:
+  OM p.33). Rear seats and bottoms are fine.
+- **Seat belts:** mild soap and warm water only, no bleach or solvents; wipe the loops so
+  they retract freely (VERIFIED: OM p.233). Nothing clipped to belts (OM p.19).
+- **Headliner and pillars:** no wet cleaning (glue lets go and it sags, COMMUNITY); nothing
+  mounted there, curtain airbags above the side windows (VERIFIED: OM p.23).
+- **Wear parts that will fail by 500k:** door lock actuators, window regulators/motors
+  (both common in NHTSA complaint text for 2005 Accords, COMMUNITY). Replace on failure.
+- **Cheap replacement trim:** same-color pieces from a salvage yard Accord of the same
+  generation; match the interior color code ("Type B", door jamb) and the OEM part number
+  (COMMUNITY).
+- **Yearly photo set** of seats, dash, door panels and headliner, kept with the sale file.
+
 ## Sale-ready checklist (keep these true at all times)
 
 - [ ] No warning lights on the dash.
