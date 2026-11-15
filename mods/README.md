@@ -108,5 +108,18 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   on, item 1). Stick the mount to the glass behind the mirror, out of the driver's view
   (RCW 46.37.410(2), read 2026-11-09). WA needs consent to record conversations (RCW
   9.73.030 per recordinglaw.com; statute not read): turn the mic off or tell passengers.
+- **Audio: deadening vs speakers vs sub, which first (2026-11-15):** nothing bought.
+  Order: (1) free: sort out the quiet Bluetooth and find the EQ (`log.md` 2026-11-05);
+  louder speakers can't fix a weak signal. (2) Rear floor deadener: this is a **repair**,
+  replacing what the gas spill dissolved (`log.md`); butyl only (gasoline dissolved the
+  asphalt kind), on fully clean, dry metal. (3) Front doors: deaden + new speakers in **one**
+  panel-off session, because a door speaker's bass depends on a sealed, damped door. Keep the
+  factory speakers for resale. (4) Sub last, and only after the power items are closed
+  (`open-issues.md` 2, 6, 9): an amp is the biggest current draw in this list, and a supply
+  dip already drops the USB link. **The old "LC2i / speaker-level input" note is out of
+  date:** the Eonon has a sub output among its unused leads #9–18 (Eonon wiring diagram,
+  `plan-head-unit-2026-10.md`), so a powered sub can run from that; which lead is the sub
+  out is not confirmed. Speaker sizes, depths and adapters: UNVERIFIED, check Crutchfield's
+  free vehicle fit guide.
 - **12 V accessories:** sockets are limited to 120 W / 10 A combined, fuse #9 (`specs.md`).
   Keep add-ons on key-on power (`open-issues.md`, battery item).
