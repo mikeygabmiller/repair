@@ -115,6 +115,11 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   (BlackboxMyCar). Rear cable: run it along the floor under the door-sill trims and up through
   the cargo area to the back glass, not along the headliner past the curtain airbags.
   Plan: start on the 12 V socket plug (no install), hardwire later with HK4 on key-on only.
+  **$60 budget (owner, 2026-11-15):** only the **70mai M310** fits with a card: 2304x1296,
+  130 deg, no GPS, no HDR, **battery not supercapacitor** (DashCamTalk forum), $32.99-40
+  (DashCamTalk), rated 6.3/10, weak at night. Vantrue E1 Lite (supercapacitor, GPS, 1080p) is
+  $89.99 (Best Buy), over budget. Pick: M310 + 64 GB high-endurance card if $60 is firm;
+  otherwise watch Black Friday for the A119 Mini 2 near $85-100.
 - **Audio: deadening vs speakers vs sub, which first (2026-11-15):** nothing bought.
   Order: (1) free: sort out the quiet Bluetooth and find the EQ (`log.md` 2026-11-05);
   louder speakers can't fix a weak signal. (2) Rear floor deadener: this is a **repair**,
