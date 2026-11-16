@@ -75,6 +75,13 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   avoids that but breathes hotter under-hood air. Expect sound, not a real power gain
   (gains quoted are maker dyno claims). Oiled filters: oil lightly if the car has a MAF.
   Install after the P0685 check-engine item closes, so a new code isn't mixed up with it.
+  **Budget set to $80 (owner, 2026-11-16).** Name brands are all over it (Injen black
+  $239.97, Revlinekc $185.47, AEM $293.99, Injen polished $305.02; listings 2026-11-16).
+  Only new kit found under $80: ProTuningLab aluminum short ram, $71.99 sale (reg. $110.30),
+  2003–2006 Accord 2.4, **non-MAF only, excludes SULEV/LEV2** (search summary; the product
+  page didn't load, so confirm fitment and what's included). Other route: a used name-brand
+  kit for the right MAF version, plus a new filter. Generic risks: filter quality (dust
+  past a poor filter wears the engine, which matters for 500k), loose couplers, no CARB EO.
 - **Truck-bed LED strip kit as a cargo light (2026-10-31):** owner found a Temu 3-strip
   kit (with an inline switch; lengths, current draw and its yellow lead not confirmed). Best use: inside
   only, lighting the trunk and the rear-seat cargo area (seatbacks are out). Strip under the
