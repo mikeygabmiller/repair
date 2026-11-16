@@ -83,6 +83,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   through an existing firewall grommet (location on this car not confirmed; no drilling);
   ground to a factory body bolt, **never a seat-belt anchor**. Fix the quiet Bluetooth
   level first (`log.md` 2026-11-05) or the sub's gain gets set too high.
+  **No-firewall route (2026-11-16):** small sub only. Power from the front accessory-socket
+  circuit (interior fuse #9, 15 A; sockets 120 W / 10 A combined, VERIFIED: OM p.103/269,
+  `specs.md`) via a hardwired fuse tap, not a cigarette plug. OK only if the sub's own fuse
+  is 10 A or less (SS8P fuse rating not found yet: read it off the unit or manual). It
+  shares a cabin circuit, so watch for head-unit or USB dropouts on bass hits (ties to
+  open items 2 and 9). The BAB10 or anything bigger needs a battery run through a grommet.
+  In a sedan the cabin is a better spot than the trunk (COMMUNITY); keep it off the seat
+  rails and seat wiring (SRS light on).
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
