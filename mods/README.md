@@ -201,6 +201,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   built in; no tweeter harness, so Posi-Products connectors. Speaker harnesses exist for
   every other spot. No outboard factory amp; factory radio "roughly 10 watts RMS x 4".
   Mounting depths not on that page.
+  **Speakers already owned (owner, 2026-11-16):** an unused set of replacement speakers
+  bought for the old Saturn. Brand, model, size, mounting depth and sensitivity not recorded
+  yet. Check whether they fit the front doors or rear deck before buying new ones.
   **$100 plan (2026-11-15):** free tuning first, then high-sensitivity rear 6x9s (no drill)
   and/or built-in-crossover dash tweeters. Front doors wait for the owner's call on drilling.
   **6x9 picks for bass (2026-11-15, retailer specs, nothing bought):** Kicker DSC6930,
