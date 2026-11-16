@@ -45,6 +45,18 @@ the door into a better enclosure (COMMUNITY: general car-audio practice).
 | **Amazon Basics car sound deadener (owner's pick, 2026-11-16)** | 10-pack $14–16 (Slickdeals posts Sept 2025, Jan 2026); 36 sq ft kit price not found | Butyl with foil face. 10-pack = ten 14.5"×10" sheets, ~10 sq ft. 60 mil (10-pack) / 80 mil (36 sq ft) per a Slickdeals commenter quoting the manual: COMMUNITY, check the box. Plan: two 10-packs (~$30), or the 36 sq ft kit if cheaper |
 | Dynamat Xtreme | ~2–2.5× Kilmat per sq ft | Name brand; independent tests put it only slightly ahead of Kilmat |
 
+### Walmart in-store options (owner's screenshots, Monroe Supercenter, 2026-11-16)
+
+| Part | Price | Notes |
+|---|---|---|
+| Kicker 48ESC65, 6.5" 2-way coaxial, "230 W peak" | $69.97 | Best of the three. Sensitivity not found online; Kicker's other 6.5" coaxials (CS, DS) list 90 dB (COMMUNITY: retailer listings, search 2026-11-16). Read it off the box |
+| Pioneer TS-601M, 6.5" 4-way, "320 W max" | $59.97 | Newegg lists 70 W RMS; sensitivity and depth not found |
+| Scosche 6.5" 4-way "Precision HD", "200 W peak" | $32.99 | Skip: cheapest, and "4-way" adds little on a 6.5" coaxial |
+| Scosche KPA6CC amp wiring kit | $34.99 | Not needed: only for an amp |
+| Scosche TK12A tool kit / iTK-WP1 crimp terminals | $21.47 / $13.24 | Not needed: owner has HF trim tools (64126) and screwdrivers; plug-in harness means no crimps (owner's rule is solder + heat shrink anyway) |
+
+The Metra plates and harness weren't in the screenshots; have them in hand (above) before install day.
+
 Professional install (Best Buy, `switch-slot-ideas/research/install_labor_costs.md`):
 speakers $99.99, component speakers $149.99, parts and vehicle-specific kits extra.
 Deadening is usually quoted separately.
