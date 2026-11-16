@@ -42,6 +42,7 @@ the door into a better enclosure (COMMUNITY: general car-audio practice).
 | Metra 72-7800 speaker harness (pair) | ~$6–9 | Plug-in to factory speaker plug. Connector match not confirmed for 2003–07; compare with the old speaker's plug |
 | Metra 82-HD1 plate + harness kit | $22.95–24.99 | Alternative to buying the two separately; fit listed as "select Honda 1997–2007" |
 | Kilmat 80 mil, 36 sq ft | $69.95–72.95 | Enough for both front doors with plenty left (rear floor where the old deadener was lost) |
+| **Amazon Basics car sound deadener (owner's pick, 2026-11-16)** | 10-pack $14–16 (Slickdeals posts Sept 2025, Jan 2026); 36 sq ft kit price not found | Butyl with foil face. 10-pack = ten 14.5"×10" sheets, ~10 sq ft. 60 mil (10-pack) / 80 mil (36 sq ft) per a Slickdeals commenter quoting the manual: COMMUNITY, check the box. Plan: two 10-packs (~$30), or the 36 sq ft kit if cheaper |
 | Dynamat Xtreme | ~2–2.5× Kilmat per sq ft | Name brand; independent tests put it only slightly ahead of Kilmat |
 
 Professional install (Best Buy, `switch-slot-ideas/research/install_labor_costs.md`):
@@ -56,6 +57,8 @@ Deadening is usually quoted separately.
 | Budget coaxial + Kilmat | ~$175–205 |
 | Alpine component + Kilmat | ~$240–285 |
 | Shop install | add $100–150 labor |
+
+With the owner's pick (two Amazon Basics 10-packs, ~$30) plus clips (~$10, UNVERIFIED) and, for components, Posi-Products (~$10–15, UNVERIFIED): Kicker coaxial ~$145–170; Alpine component ~$215–265, before tax.
 
 ## Job notes
 
