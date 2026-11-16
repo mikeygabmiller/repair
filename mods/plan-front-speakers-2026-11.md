@@ -63,7 +63,10 @@ Deadening is usually quoted separately.
 - Disconnect the battery before swapping speakers (repo rule).
 - Door panels: plastic clips break with age; buy a small bag of replacement clips before
   starting. Clip part number not looked up (check Honda parts catalog by VIN).
-- Keep the factory speakers in a labeled bag for resale.
+- **Owner, 2026-11-16:** OK with changing wiring for this speaker job (buyers won't remove
+  aftermarket speakers). Claude's advice: still use the plug-in harness on the doors (about
+  $6–9 and faster than splicing, nothing to troubleshoot later); Posi-Products or soldered
+  splices at the tweeters, owner's choice. Keeping the factory speakers is optional.
 - Door panels hold no airbag on this car (side airbags are in the seats); UNVERIFIED,
   confirm in the owner's manual SRS section before starting. Don't touch seat wiring
   while the SRS light is on.
