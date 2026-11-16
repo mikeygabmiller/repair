@@ -45,6 +45,18 @@ the door into a better enclosure (COMMUNITY: general car-audio practice).
 | **Amazon Basics car sound deadener (owner's pick, 2026-11-16)** | 10-pack $14–16 (Slickdeals posts Sept 2025, Jan 2026); 36 sq ft kit price not found | Butyl with foil face. 10-pack = ten 14.5"×10" sheets, ~10 sq ft. 60 mil (10-pack) / 80 mil (36 sq ft) per a Slickdeals commenter quoting the manual: COMMUNITY, check the box. Plan: two 10-packs (~$30), or the 36 sq ft kit if cheaper |
 | Dynamat Xtreme | ~2–2.5× Kilmat per sq ft | Name brand; independent tests put it only slightly ahead of Kilmat |
 
+### Sensitivity and depth (retailer spec listings, searched 2026-11-16; COMMUNITY, confirm on the box)
+
+| Speaker | Sensitivity | Top-mount depth | Source |
+|---|---|---|---|
+| Kicker CSC65 (46CSC654) | 90 dB | 2.37" | audiosavings.com listing |
+| Alpine S2-S65 coaxial | 88 dB (1 W/1 m) | 57.7 mm (2-5/16") | incartec.co.uk, sonicelectronix.com |
+| Alpine S2-S65C component | 88 dB (system) | woofer 2.28"; tweeter 17.6 mm | crutchfield.com FAQ, supercheapauto.com.au |
+
+On head-unit power the Kicker's +2 dB makes it a little louder; the Alpine component's gain is
+clarity and stereo image from the separate tweeters. Door depth not yet known (Crutchfield fit tool).
+On Amazon, buy the single pair, not the "two pairs" 46CSC654 bundle (~$160).
+
 ### Walmart in-store options (owner's screenshots, Monroe Supercenter, 2026-11-16)
 
 | Part | Price | Notes |
