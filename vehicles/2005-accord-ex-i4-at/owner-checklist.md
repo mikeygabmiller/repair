@@ -26,7 +26,8 @@ chat files it (photos → `sources/photos/`, paperwork → `receipts/`).
       (`procedures/accord-2005-drive-belt.md`).
 - [ ] **Airbox**: how the cover is fastened (clips or screws), and the intake tube between
       airbox and throttle body: is there a **sensor plugged into it** (MAF)? Decides which
-      intake kit could even fit (`mods/README.md`).
+      intake kit could even fit (`mods/README.md`). Photo the sensor and any number on it,
+      and the under-hood emissions label (does it say SULEV?).
 - [ ] **Rear brakes**: disc or drum? (Look through the rear wheel spokes.)
 - [ ] **Front rotors**: any minimum thickness cast/stamped on the rotor hat (visible
       through the spokes on some wheels).
