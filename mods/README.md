@@ -53,6 +53,15 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   air sensor. AEM 22-511 install sheet covers 2003–04 only, no MAF. Which kit fits
   depends on whether the car has a MAF sensor: check before buying. Keep the stock airbox
   and resonator (Honda 17230-RAA-A00, $186 to replace, `parts.md`).
+  **2026-11-16 lookup:** listings split by MAF too: HPS 827-737 "2003–2006 Accord 2.4L
+  without MAF" (includes 2005 EX), HPS 827-173R "2003–2007 2.4L with MAF"; some sellers
+  list separate "SULEV" kits. COMMUNITY (Honda-Tech thread): SULEV cars carry a MAF/IAT
+  combo sensor, non-SULEV don't. So the under-hood emissions label (SULEV or not) plus a
+  look at the intake tube settles which kit fits. Before buying: true cold-air kits put
+  the filter low in the fender, so a deep puddle can pull in water (hydrolock); short ram
+  avoids that but breathes hotter under-hood air. Expect sound, not a real power gain
+  (gains quoted are maker dyno claims). Oiled filters: oil lightly if the car has a MAF.
+  Install after the P0685 check-engine item closes, so a new code isn't mixed up with it.
 - **Truck-bed LED strip kit as a cargo light (2026-10-31):** owner found a Temu 3-strip
   kit (with an inline switch; lengths, current draw and its yellow lead not confirmed). Best use: inside
   only, lighting the trunk and the rear-seat cargo area (seatbacks are out). Strip under the
