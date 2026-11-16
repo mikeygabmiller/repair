@@ -209,6 +209,11 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   if the measured depth allows (~2" reported). Use the Metra 82-7806 bracket and a speaker
   harness, not splices (harness fit for the front doors not confirmed). Inspect surrounds and
   check for cone rub before installing; test them on the harness before the panel goes back on.
+  **Prices seen 2026-11-16:** Metra 82-7806 $12.99 (Sonic Electronix) to $19.95; Metra
+  72-7800 (pair) $7.99 (Quality Mobile Video) to $15.51; 80 mil 36 sq ft butyl: VEVOR $53.90
+  (Walmart), Kilmat $86.22 (eBay), Noico sold out in the US listings found. JBL Club 6500C
+  $179.95 (out of stock) to $319 (Sonic Electronix), so not worth it over the free Kenwoods
+  for 2 dB. Front doors with the Kenwoods: about $75-120 all in.
   **$100 plan (2026-11-15):** free tuning first, then high-sensitivity rear 6x9s (no drill)
   and/or built-in-crossover dash tweeters. Front doors wait for the owner's call on drilling.
   **6x9 picks for bass (2026-11-15, retailer specs, nothing bought):** Kicker DSC6930,
