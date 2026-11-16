@@ -41,6 +41,10 @@ chat files it (photos → `sources/photos/`, paperwork → `receipts/`).
       old low-beam bulbs kept (for resale)? (`log.md`, 2026-10-27)
 - [ ] Driver's seat belt: pulls out and retracts smoothly; label date (look only, open
       issue 1).
+- [ ] Exhaust tip (for the dual-tip idea, `mods/README.md`): which side it exits; tailpipe
+      outside diameter (wrap a paper strip around it, mark the overlap, length ÷ 3.14);
+      how far the pipe end sits from the bumper edge; width of the bumper opening; rust
+      or holes in the last foot of pipe. Engine cold.
 
 **With the front on ramps (only if it's already up for the oil change)**
 - [ ] ATF drain plug: what drive it takes (3/8-in square or hex, size).

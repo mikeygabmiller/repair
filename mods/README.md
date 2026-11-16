@@ -60,6 +60,18 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   -A01 / -A10; COMMUNITY: retailer listing nahrods.com, 2026-11-16, confirm against the
   Honda catalog by VIN). Before any exhaust work: inspect for damage from the ditch slide
   (open issue 11). Flange bolt torque is not in `specs.md`: pull it from Chilton.
+  **Looks-only option (owner, 2026-11-16): clamp-on dual-outlet tip** on the stock
+  tailpipe. Bolts on after the muffler, so it doesn't make the car louder (COMMUNITY;
+  the law targets louder, `RCW 46.37.390(3)`) and comes off for resale. Pick: 304
+  stainless, double wall, side-specific for the exit side. Name-brand: Flowmaster
+  **15390** (2.5 in inlet, dual 3 in angle-cut, polished 304, **left** side, clamp-on;
+  ~$120–165, retailer listings 2026-11-16); Mishimoto, MBRP, Takeda make similar 2.5 in
+  inlet tips. Budget no-name tips: price and steel grade not checked (avoid chrome-plated
+  mild steel and "201" stainless: they rust). **Blocker: stock tailpipe size unknown.**
+  Most name-brand clamp-on tips are 2.5 in inlet; if the pipe is smaller, a muffler shop
+  expands the pipe end or an adapter sleeve is needed. Measure first (owner checklist).
+  A true dual exit (one each side) means custom pipe work and cutting the rear bumper
+  cover: not reversible, rejected.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
