@@ -47,6 +47,19 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   hard box seen: Jegs $199.99). Plan: budget bare-roof bars ($54–67) + soft bag strapped to
   the bars ($28–110 depending on sale), towels in a dry bag inside it. Used hard box only
   if one turns up cheap with keys.
+- **Aftermarket exhaust (asked 2026-11-16): not recommended until 2030.** Washington law
+  bans modifying the exhaust to be louder than the original muffler and bans cutouts or
+  bypasses; vehicles 25 or more years old are exempt (OFFICIAL RECORD: RCW 46.37.390(1),(3),
+  last amended 2006, read 2026-11-16; no decibel number in the current text, the old 95 dB
+  rule is gone). This car (2005) reaches 25 around 2030; whether that counts from model
+  year is UNVERIFIED. Removing or hollowing the catalytic converter is federal tampering:
+  never. A louder system also cuts against the sale-ready rule (most buyers of a stock
+  Accord see it as a minus) and drones at highway cruise. **When the stock exhaust rusts
+  out**, the stock-sound bolt-on replacement is MagnaFlow BRExhaust **106-0585**
+  (~$223; listing says 2003–07 Accord 2.4 L, interchanges with Honda 18030-SDN-A00 /
+  -A01 / -A10; COMMUNITY: retailer listing nahrods.com, 2026-11-16, confirm against the
+  Honda catalog by VIN). Before any exhaust work: inspect for damage from the ditch slide
+  (open issue 11). Flange bolt torque is not in `specs.md`: pull it from Chilton.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
