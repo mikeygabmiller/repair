@@ -201,9 +201,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   built in; no tweeter harness, so Posi-Products connectors. Speaker harnesses exist for
   every other spot. No outboard factory amp; factory radio "roughly 10 watts RMS x 4".
   Mounting depths not on that page.
-  **Speakers already owned (owner, 2026-11-16):** an unused set of replacement speakers
-  bought for the old Saturn. Brand, model, size, mounting depth and sensitivity not recorded
-  yet. Check whether they fit the front doors or rear deck before buying new ones.
+  **Speakers already owned (owner, 2026-11-16): Kenwood KFC-1666S**, 6.5" 2-way coaxial,
+  pulled from the Saturn's front doors (used; they were spliced to the Saturn's wires with no
+  harness). Retailer specs: 4 ohm, 90 dB (Newegg, mobilespecs.net), top-mount depth 1-11/16"
+  (Newegg) to 1-3/4" (mobilespecs.net), 30 W RMS (mobilespecs.net). No Kenwood sheet found.
+  Same sensitivity as the Stage2 65C and shallower, so they are the **front-door candidate**
+  if the measured depth allows (~2" reported). Use the Metra 82-7806 bracket and a speaker
+  harness, not splices (harness fit for the front doors not confirmed). Inspect surrounds and
+  check for cone rub before installing; test them on the harness before the panel goes back on.
   **$100 plan (2026-11-15):** free tuning first, then high-sensitivity rear 6x9s (no drill)
   and/or built-in-crossover dash tweeters. Front doors wait for the owner's call on drilling.
   **6x9 picks for bass (2026-11-15, retailer specs, nothing bought):** Kicker DSC6930,
