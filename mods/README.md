@@ -72,6 +72,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   expands the pipe end or an adapter sleeve is needed. Measure first (owner checklist).
   A true dual exit (one each side) means custom pipe work and cutting the rear bumper
   cover: not reversible, rejected.
+- **Subwoofer, $100 budget (asked 2026-11-16):** $100 new only buys an all-in-one
+  powered sub (amp built in). Seen 2026-11-16 (retail listings, recheck): Rockville SS8P,
+  8" slim, 100 W RMS / 400 W peak, $99.95 (rockvilleaudio.com, Walmart); BOSS BAB10, 10",
+  ~$97 (Walmart), listed "600 W RMS" but buyer reviews dispute it: treat as marketing.
+  Name-brand powered subs (Rockford, Kicker, Pioneer) run ~$200–300 new; a used one is
+  the best value at $100. Add ~$20–40 for a power wire kit (most don't include one).
+  Hookup: Eonon sub RCA out + its AMP remote lead (#7) to the sub's REM, so it shuts off
+  with the radio (battery item, `open-issues.md` 6); power wire fused near the battery,
+  through an existing firewall grommet (location on this car not confirmed; no drilling);
+  ground to a factory body bolt, **never a seat-belt anchor**. Fix the quiet Bluetooth
+  level first (`log.md` 2026-11-05) or the sub's gain gets set too high.
 - **Short ram intake (sound mod, 2026-10-26):** Injen IS1680P / IS1680BLK, $305.02
   (Modbargains, KamiSpeed), **no-MAF cars only**, CARB EO D-476-5. K&N Typhoon
   69-1209TS, $419.99 (Velocity Shop), lists 2004–07 EX, says it keeps the factory mass
