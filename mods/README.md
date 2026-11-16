@@ -26,6 +26,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   `research/` holds the notes behind it.
 
 ## Ideas noted
+- **Front speakers + door deadening (2026-11-16):** `plan-front-speakers-2026-11.md`.
+  6-1/2" doors + dash tweeters. DIY ~$105–130 budget coaxial, ~$175–205 with Kilmat,
+  ~$240–285 Alpine component + Kilmat; shop labor $100–150 extra. Pick by sensitivity, not watts.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
