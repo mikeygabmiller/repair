@@ -36,6 +36,10 @@ Current procedures (by job):
 | Roadside: flat, jump, overheating, warning lights, towing | `accord-2005-roadside.md` | Sourced (OM pp.245–264) |
 | Wheel alignment (string method) | `accord-2005-wheel-alignment-diy.md` | DRAFT |
 
+**Phone checklists:** `checklists.html` is generated from every procedure here by
+`python3 tools/checklists.py` (never edit it by hand). It's published as the private
+"Accord Garage Checklists" artifact (<https://claude.ai/artifact/4aED2sm2MyWmr8QqBR8YgL>). The hand-made ATF page above stays as it is.
+
 Template:
 
 ```markdown

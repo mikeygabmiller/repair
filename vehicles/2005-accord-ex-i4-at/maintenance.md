@@ -10,6 +10,9 @@ Whichever comes first, miles or time.
 
 Last known odometer: **139,781 mi** (2026-11-15, owner, ATF round 1).
 
+Quick answer from the data: `python3 tools/due.py` (reads `schedule.csv` and `ledger.csv`).
+This table stays the human-readable version with notes; if the two disagree, fix the ledger.
+
 | Item | Interval (severe, OM p.203) | Last done | Next due |
 |---|---|---|---|
 | Engine oil | 5,000 mi or 6 months | **No record** | **Now.** Procedure: `procedures/accord-2005-oil-change.md` |
@@ -48,4 +51,5 @@ Useful when something acts up again, and for the buyer when the car is sold.
 
 Every job, inspection or symptom report needs the odometer reading. A photo of the
 dashboard is enough. Most entries in `log.md` say "mileage not recorded", and a dated,
-mileage-stamped history is what makes the car worth more when it's sold around 170k.
+mileage-stamped history is what makes the car worth more whenever it's sold, and what the
+500k plan (`plans/roadmap-500k.md`) runs on.

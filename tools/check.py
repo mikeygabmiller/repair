@@ -14,6 +14,11 @@ Checks (each finding is ERROR or WARN):
                    doesn't list
   odi       ERROR  an NHTSA complaint/communication number (10xxxxxx / 11xxxxxx) cited
                    that isn't in complaints-all.md or tsbs.md
+  ledger    WARN   a log.md job dated 2026-11-17 or later with no ledger.csv row that day, or a
+                   ledger.csv item kind/key the tools don't know
+  odometer  WARN   maintenance.md's "Last known odometer" is behind the newest ledger.csv reading
+  generated WARN   procedures/checklists.html or the roadmap table is out of date
+  size      WARN   a tracked file over 5 MB (big files bloat every clone, and stay in history)
 
 Run it after editing notes and before merging (CLAUDE.md, "Keeping the repo current").
 It can't tell whether a number is *right*, only whether it drifted from specs.md or lost
@@ -96,6 +101,8 @@ def main():
                     if pn not in parts:
                         warns.append(f"partnos {where}: {pn} not in parts.md")
 
+    warns += extra_checks()
+
     if not quiet:
         for e in errors:
             print("ERROR", e)
@@ -103,6 +110,53 @@ def main():
             print("WARN ", w)
     print(f"check.py: {len(errors)} errors, {len(warns)} warnings")
     sys.exit(1 if errors else 0)
+
+
+def extra_checks():
+    import csv
+    import subprocess
+    sys.path.insert(0, str(ROOT / "tools"))
+    out = []
+    with open(CAR / "ledger.csv", newline="") as fh:
+        ledger = list(csv.DictReader(fh))
+    with open(CAR / "schedule.csv", newline="") as fh:
+        keys = {r["key"] for r in csv.DictReader(fh)}
+    kinds = {"purchase", "maintenance", "repair", "mod", "tool", "inspection"}
+    dates = {r["date"] for r in ledger}
+    for n, r in enumerate(ledger, 2):
+        if r["kind"] not in kinds:
+            out.append(f"ledger  ledger.csv:{n}: kind '{r['kind']}' not one of {sorted(kinds)}")
+        if r["kind"] == "maintenance" and r["item"] not in keys:
+            out.append(f"ledger  ledger.csv:{n}: maintenance item '{r['item']}' not a schedule.csv key")
+    log = (CAR / "log.md").read_text().splitlines()
+    for n, line in enumerate(log, 1):
+        m = re.match(r"## (?:~|Reported )?(\d{4}-\d{2}-\d{2})\b", line)
+        # Older entries were back-filled by hand when the ledger started; symptom reports
+        # and lookups aren't jobs, so they don't need a row.
+        if (m and m.group(1) >= "2026-11-17" and m.group(1) not in dates
+                and not re.search(r"report|symptom|lookup|no work on the car", line, re.I)):
+            out.append(f"ledger  log.md:{n}: {m.group(1)} entry has no ledger.csv row "
+                       "(add one, with the cost if known)")
+    odos = [float(r["odometer"]) for r in ledger if r["odometer"].strip()]
+    m = re.search(r"Last known odometer: \*\*([\d,]+) mi", (CAR / "maintenance.md").read_text())
+    if odos and m and float(m.group(1).replace(",", "")) < max(odos):
+        out.append(f"odometer maintenance.md: last known odometer {m.group(1)} is behind "
+                   f"ledger.csv ({max(odos):,.0f})")
+    import checklists
+    if not checklists.OUT.exists() or checklists.OUT.read_text() != checklists.build():
+        out.append("generated procedures/checklists.html is stale: run python3 tools/checklists.py")
+    import due
+    if due.roadmap_stale(CAR):
+        out.append("generated plans/roadmap-500k.md table is stale: run python3 tools/due.py roadmap --write")
+    try:
+        files = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True).stdout.split()
+    except OSError:
+        files = []
+    for f in files:
+        p = ROOT / f
+        if p.exists() and p.stat().st_size > 5_000_000:
+            out.append(f"size    {f}: {p.stat().st_size / 1e6:.0f} MB tracked file")
+    return out
 
 
 if __name__ == "__main__":

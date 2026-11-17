@@ -1,0 +1,17 @@
+date,odometer,kind,item,cost,by,what,note
+2026-08,137000,purchase,car,,owner,Bought the car,"Odometer and date approximate (log.md: ~137k, Aug 2026). Price not on file"
+2026-08,,mod,backup-camera,,owner,Backup camera kit (plate-frame camera + 4.3 in monitor),Cost not recorded
+2026-09-07,,mod,bluetooth-adapter,53.94,owner,14-pin Bluetooth adapter (Amazon B08JQ9G2LP),
+2026-09,,maintenance,wipers,,owner,"Front wiper blades, BFGoodrich Beam 26 in / 18 in (Costco)",Cost not recorded; mid-September
+2026-10-18,138943,maintenance,spark-plugs,60.00,owner,Spark plugs: Bosch 9614 Double Iridium (AutoZone),
+2026-10-19,138900,tool,axle-job-tools,,owner,"32 mm socket, EverTough torque wrench, pry bar, dead blow, PB Blaster, magnetic tray",Odometer approximate (~138.9k). Cost not recorded
+2026-10-20,138900,mod,window-tint,28.99,owner,35% pre-cut tint kit (PrecutAutoTint),Odometer approximate (~138.9k). Black Magic install kit cost not recorded
+2026-10-21,139032,inspection,suspension-check,0,Les Schwab,Free suspension check,Partial inspection: written notes cover the right front only
+2026-10-22,,repair,cv-axle-rf,83.74,owner,Right front CV axle + new axle nut (Parts Geek order 31-12567661),Order total from the order emails (issues-history.md)
+2026-10-27,,repair,ball-joint-rf,275.00,Ben's Auto Care,Right front lower ball joint: labor,Date is when the owner reported it. Moog K80228 part cost not recorded
+2026-10-27,,repair,abs-sensor-rf,40.00,Ben's Auto Care,Right front ABS wheel speed sensor,At Ben's cost per Ben; to be confirmed against the invoice
+2026-10-27,,mod,low-beam-bulbs,,owner,Sylvania SilverStar Ultra 9006 low beams (O'Reilly),"Owner: ""$35 each""; total and the 168 / DE3175 bulbs bought the same trip not recorded"
+2026-10-29,,mod,aux-light-harness,,owner,Harbor Freight light bar wiring kit 64330 (relay harness),Cost not recorded; the test light was returned
+2026-10-31,,mod,aux-lights,,owner,Auxiliary driving lights,Exact model and cost not recorded
+2026-11-03,,mod,head-unit,199.99,owner,Eonon HAC1X7A head unit with backup camera,Eonon order email 2026-10-26 (mods/plan-head-unit-2026-10.md)
+2026-11-15,139781,maintenance,atf,,owner,"ATF drain and refill, round 1 of 4 (Valvoline)",Fluid cost not recorded

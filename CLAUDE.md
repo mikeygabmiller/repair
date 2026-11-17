@@ -106,7 +106,8 @@ Apply these to every recommendation without being reminded:
   the car undrivable. Don't plan big jobs the night before a work day.
 - Give the proven shop method. "Try harder" is not an answer.
 - The owner has the radio anti-theft code, so disconnecting the battery is never blocked.
-- Every finished job goes in `log.md`.
+- Every finished job goes in `log.md` **and** gets a row in `ledger.csv` (date, odometer,
+  kind, item, cost). The checklists page's log box writes the row; paste it in as given.
 
 ## Source tiers (highest first)
 
@@ -127,8 +128,15 @@ Aftermarket part fitment: confirm by cross-referencing the OEM part number, not 
 
 - When the owner confirms a value from a real source (sticker photo, manual page,
   library database), add it to `specs.md` with the source and date, then commit.
-- After any job, add an entry to `log.md` (date, mileage, what, parts used, notes). A
-  maintenance job also updates its row in `maintenance.md`.
+- After any job, add an entry to `log.md` (date, mileage, what, parts used, notes) and a
+  row to `ledger.csv` (`kind` is purchase, maintenance, repair, mod, tool or inspection; a
+  maintenance row's `item` is its `schedule.csv` key). A maintenance job also updates its
+  row in `maintenance.md`. Then run `python3 tools/due.py roadmap --write`.
+- "What's due?" or "what has the car cost?": run `python3 tools/due.py` (add `--odo N` with
+  the owner's reading). It only does arithmetic on `schedule.csv` and `ledger.csv`.
+- After changing any procedure, `schedule.csv` or `procedures/README.md`, run
+  `python3 tools/checklists.py` and republish the "Accord Garage Checklists" artifact
+  (Artifact tool, file `procedures/checklists.html`, `url` https://claude.ai/artifact/4aED2sm2MyWmr8QqBR8YgL; private).
 - **Mileage:** when the owner reports a job, inspection or symptom without the odometer
   reading, ask for it (a dash photo is fine). Write "not recorded" only if they don't know.
 - `open-issues.md` holds **current items only**: status, what's known, next steps. When
