@@ -1,6 +1,7 @@
 # Repair and maintenance log: 2005 Accord EX
 
-Newest first. One entry per job, problem or inspection.
+Newest first. One entry per job, problem or inspection. Every job also gets a row in
+`ledger.csv` (date, odometer, cost), which `tools/due.py` adds up.
 
 Entries before 2026-10-21 come from the owner's project history
 (`sources/project-history-2026-10-21.md`, compiled from past chats). What was done is the

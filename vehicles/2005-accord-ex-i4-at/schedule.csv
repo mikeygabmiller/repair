@@ -1,0 +1,17 @@
+key,item,first_miles,first_months,every_miles,every_months,source,procedure,parts_cost,parts_cost_source
+oil,Engine oil,,,5000,6,OM p.203 severe,procedures/accord-2005-oil-change.md,0.46,"drain washer 94109-14000, HondaPartsNow 2026-11-03; oil itself not priced"
+oil-filter,Oil filter,,,10000,12,OM p.203 severe,procedures/accord-2005-oil-change.md,6.87,"15400-PLM-A02, HondaPartsNow 2026-11-03"
+tire-rotation,Tire rotation,,,10000,,OM p.203 severe,procedures/accord-2005-tire-rotation.md,,
+inspect-10k,"Brakes, steering, suspension, boots: inspect",,,10000,12,OM p.203 severe,procedures/accord-2005-routine-checks.md,,
+hinge-lube,"Hinges, locks and latches: lubricate",,,10000,12,OM p.203 severe,procedures/accord-2005-routine-checks.md,,
+inspect-20k,"Parking brake, brake hoses and lines, exhaust, fuel lines, lights, underbody: inspect",,,20000,12,OM p.203 severe,procedures/accord-2005-routine-checks.md,,
+air-filter,Air cleaner element,,,15000,,OM p.203 severe (dusty),procedures/accord-2005-filters-air-cabin.md,22.30,"17220-RAA-A00, HondaPartsNow 2026-11-03"
+cabin-filter,Dust and pollen (cabin) filter,,,30000,24,OM p.203 severe,procedures/accord-2005-filters-air-cabin.md,20.19,"80292-SDA-407, HondaPartsNow 2026-11-03"
+drive-belt,Drive belt: inspect,,,30000,24,OM p.203 severe,procedures/accord-2005-drive-belt.md,,
+atf,Automatic transmission fluid,60000,36,30000,24,OM p.203 severe,procedures/accord-2005-atf-drain-refill.md,32.25,"3 qt Honda DW-1 at $10.75/qt, HondaPartsNow 2026-11-03; washer not priced"
+brake-fluid,Brake fluid,,,,36,OM p.203,procedures/accord-2005-brake-fluid-coolant.md,,
+coolant,Engine coolant,120000,120,60000,60,OM p.203,procedures/accord-2005-brake-fluid-coolant.md,,
+spark-plugs,Spark plugs,,,110000,,OM p.203,procedures/accord-2005-spark-plugs.md,60.00,"what the owner paid 2026-10-18 (log.md)"
+valve-clearance,Valve clearance: inspect,110000,,,,OM p.203 (then only if noisy),procedures/accord-2005-valve-clearance.md,,
+idle-speed,Idle speed: inspect,,,160000,,OM p.203,procedures/accord-2005-throttle-body-idle-relearn.md,,
+wipers,Wiper blades: inspect,,,,6,OM p.234,procedures/accord-2005-routine-checks.md,,
