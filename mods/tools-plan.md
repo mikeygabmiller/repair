@@ -17,7 +17,7 @@ one socket labeled "Accord drain plug" (size not written down); Quinn digital to
 adapter (58706, 25–250 ft-lb per receipt); black impact sockets labeled "Accord lug" (size not written
 down); drive adapters (bottom-left slots; sizes not read yet). Also owned (owner, 2026-11-12): **Daytona 3-ton Heavy Duty Ratcheting jack stands, metallic green, item 73332** (not on the 2020 recall list; earlier chat read the manual: Mobility Pin + Safety Pin are a required step p.4, chock wheels p.4, lube handle pivots p.5, not re-checked); a ~$40 Pittsburgh trolley jack, probably the **2-ton Compact Trolley Jack item 64874** ($39.99; lift 5-3/8 to 12-3/8 in, 17-1/2 in long, HF product page read 2026-11-12; **confirm the item number on its label**); air impact, compressor (models not recorded). Planned: extensions, spark plug socket. Gaps found: **no 14 mm or 17 mm**, no deep
 sockets, no swivel/U-joint, no wrenches. Fill this in as sizes are confirmed.
-Layer plan: core layer (every job) `mods/tool-tray-core-layer.jpg`; layers 2 (wrenches, deep sockets) and 3 (hand tools, checks) `mods/tool-tray-layers-2-3.jpg`; earlier all-in-one version `mods/tool-tray-layout.html`. Job items live in kits: wheel kit in the trunk, spark kit, oil kit.
+Layer plan: core layer (every job) `mods/tool-tray-core-layer.jpg`; layers 2 (wrenches, deep sockets) and 3 (hand tools, checks) `mods/tool-tray-layers-2-3.jpg`; earlier all-in-one version `mods/tool-tray-layout.html`. **The bottom layer is now being 3D printed** (2026-11-18): `mods/tool-tray-print/README.md`. Job items live in kits: wheel kit in the trunk, spark kit, oil kit.
 
 ## Stage 0: free first (borrow before you buy)
 Chain parts stores lend specialty tools free with a refundable deposit (AutoZone

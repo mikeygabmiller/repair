@@ -63,7 +63,7 @@ Latest big update: `overnight-summary-2026-11-10.md`.
 
 **Procedures (`procedures/`)**: see `procedures/README.md`.
 
-**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-owned.md` (what the owner has, from receipts), `tools-plan.md`,
+**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-owned.md` (what the owner has, from receipts), `tools-plan.md`, `tool-tray-print/README.md` (printed toolbox layer),
 `lighting-upgrades.md`, `plan-head-unit-2026-10.md`, `plan-hitch-storage-2026-10.md`,
 `switch-slot-ideas/`.
 
