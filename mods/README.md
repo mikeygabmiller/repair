@@ -29,6 +29,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
 - **Front speakers + door deadening (2026-11-16):** `plan-front-speakers-2026-11.md`.
   6-1/2" doors + dash tweeters. DIY ~$105–130 budget coaxial, ~$175–205 with Kilmat,
   ~$240–285 Alpine component + Kilmat; shop labor $100–150 extra. Pick by sensitivity, not watts.
+- **Used 10" sub on Marketplace (asked 2026-11-18): fair price, not a steal; not bought.**
+  Pioneer "TS-W251F", $50, Monroe, driver + grille only (no box, no amp). "TS-W251F" not
+  found anywhere; probably the TS-W251R, which a retailer lists as 10", single 4 Ω,
+  120 W RMS / 600 W peak, 90 dB (COMMUNITY: Sonic Electronix search snippet, 2026-11-18),
+  not the listing's "300 W". Ask the seller for a photo of the magnet label. Pioneer's box
+  volume not found. A bare driver also needs a sealed box, a mono amp (~120–150 W RMS at
+  4 Ω) and a copper (not CCA) 8 AWG kit; the Eonon has a sub output (wiring sheet,
+  `plan-head-unit-2026-10.md`), so no line-output converter. Before any amp: fix the loose
+  battery-terminal / USB-dropout item and repeat the draw test after (`open-issues.md`).
+  Firewall pass-through without drilling not confirmed. Front speakers still the first
+  upgrade; a sub then lets the doors be high-passed so they play louder and cleaner.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
