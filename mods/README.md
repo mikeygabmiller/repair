@@ -11,6 +11,8 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
 `profile.md`) are in `vehicles/2005-accord-ex-i4-at/`.
 
 ## Research files
+- `tool-tray-print/README.md`: 3D-printed bottom layer of the toolbox (2026-11-18): what goes
+  in it, the photo scan sheet, and the print phases.
 - `tools-plan.md`: staged tool-buying plan, budget vs name-brand, loaner tools, the 2020
   Harbor Freight jack stand recall.
 - `lighting-upgrades.md`: what's legal and worth it (halogen upgrades yes; LED/HID retrofits
