@@ -106,6 +106,13 @@ Ranked by real light gained:
    sold out at SEMotors; Spec-D/Spyder halo units ~$124–212; Pro Design/CG ~$200–370;
    listings 2026-11-13). Look only: thin reviews, beam quality unknown, Anzo units for this
    car were recalled (06E023000).
+4. **DT Moto black "LED DRL tube" pair** (eBay seller DT_MOTOSPORT, $138.99, $125.09 with
+   coupon, 2 ratings; owner screenshot 2026-11-18, owner planning to buy). Photos show
+   reflector bowls for the stock 9005/9006 bulbs, so light ≈ a fresh stock lens, not more.
+   Listing says "Fit 03-07 Accord All Model" and "Plug & Play": coupe lamps differ from the
+   sedan, so confirm the fitment chart says **4-door sedan**, and find out what powers the
+   DRL tube (an extra wire to splice = check it can go on a Posi-Tap / add-a-circuit).
+   DOT/SAE marking on the lens not confirmed. Keep the OEM housings for resale.
 
 **Budget cap $259 (owner, 2026-11-13).** A name-brand projector retrofit doesn't fit:
 Morimoto M-LED 2.0 bi-LED projectors alone list at ~$370–485 a pair (The Retrofit Source,
