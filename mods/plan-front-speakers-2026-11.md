@@ -97,3 +97,26 @@ With the owner's pick (two Amazon Basics 10-packs, ~$30) plus clips (~$10, UNVER
 - Door panels hold no airbag on this car (side airbags are in the seats); UNVERIFIED,
   confirm in the owner's manual SRS section before starting. Don't touch seat wiring
   while the SRS light is on.
+
+## Amp research (2026-11-19)
+
+Owner asked whether an amp is the way to "a lot louder and clearer". Answer: yes for louder,
+but only with new speakers (the 20-year-old stock speakers already distort on head-unit power).
+Prices are retailer listings seen 2026-11-19; recheck before buying.
+
+**Compare RMS watts per channel at 4 ohms only.** "Max", "peak" and 2-ohm figures are
+marketing (CEA-2006 exists because of this).
+
+| Option | Power (as listed) | Price seen | Notes |
+|---|---|---|---|
+| Eonon A304 DSP amp | "up to 4×50W" (eonon.com); Amazon UK lists "rated 4×40W, max 4×50W". No RMS / ohm / THD spec found | $89 (eonon.com; page also says sold out in U.S.) | Plugs into the 16-pin harness, no cutting (eonon.com). Page does not say whether it takes power from the 16-pin harness or a battery wire. Same power class as the head unit's "4×45W max": **small gain at best**. No independent review found. COMMUNITY/listing only |
+| Kicker CXA360.4 (46CXA3604T), class A/B | 65 W RMS ×4 @ 4 Ω, 90 W ×4 @ 2 Ω (retailer listings; one source says 60 W) | $229.99 (Sonic Electronix, eBay, Audio Express); list $249.99 | Real loudness jump. Name brand |
+| Rockford Fosgate R2-300X4, class D | 50 W ×4 @ 4 Ω, 75 W @ 2 Ω (Sonic Electronix); listings conflict | $304.99–309.99 | Pricier for less 4 Ω power than the Kicker |
+| Boss / Skar budget amps | Ratings conflict across listings; several discontinued | not found | Not researched far enough to recommend |
+
+A full amp install also needs a power/ground wire kit, an inline fuse at the battery, a
+turn-on lead (the Eonon harness has an AMP/remote wire, capped; `plan-head-unit-2026-10.md`),
+and signal from the head unit (RCA pre-outs on the HAC1X7A not confirmed, or speaker-level
+inputs on the amp). Wire-kit gauge, fuse size and pricing: not looked up. Battery wire goes
+through an existing firewall grommet (no drilling): COMMUNITY, confirm the grommet on the car.
+Electrical add-on: watch for a return of the battery drain (`open-issues.md` #6).
