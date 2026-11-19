@@ -28,6 +28,7 @@ More gets added later (owner): leave open space on tile 2.
   reprinting the rest.
 - **Sockets sit in small cups** that drop into standard holes in the tile: a new or
   changed socket is a 15-minute cup, not a new tile.
+- **Crush ribs** (thin ribs inside each pocket that flex) take up the photos' ~1 mm error.
 - **Cutouts traced from photos** (owner chose this over measuring, 2026-11-18), with
   about 0.5 to 1 mm room per side, plus finger scoops.
 - **Labels pressed in** beside each pocket and on each cup rim; white paint marker
@@ -62,8 +63,8 @@ circle measured 23.88 mm, a 50 x 80 mm block 49.9 x 79.9 mm. Real photos will be
 ## Phases
 | Phase | What | Status |
 |---|---|---|
-| 0 | Scan sheet + photos | Sheet done 2026-11-18; photos pending |
-| 1 | Fit test: 2 mm outlines of both tiles in the box | |
+| 0 | Scan sheet + photos | Sheet done 2026-11-18. First photos 2026-11-19 (all tools on one sheet, plus the ratchet): sheet printed at **95.3%** ("Fit to page"; card and paper edges agree within 0.2%, `scan.py` corrects it). Pasted again at 512 x 384, so about 0.55 mm/px: pockets get crush ribs to absorb that. Waiting on the owner to name each numbered item |
+| 1 | Fit test: `tiles.py` -> two 1.2 mm frames, A and B, joined by 2 dovetails (0.25 mm gap), floor 430.8 x 151.4 mm, each 218.4 mm long, no skirt (1 hr each, ~9 g PLA) | Sent 2026-11-19 |
 | 2 | Tile 1: sockets (cups), 19 lug spot, Quinn, hex adapter | |
 | 3 | Tile 2: wrenches, inserts, ratchet, open space | |
 | 4+ | Added tools: new cups or a replacement tile | |
