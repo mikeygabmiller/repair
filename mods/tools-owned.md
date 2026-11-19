@@ -53,7 +53,6 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 | Tool | SKU | Bought | Notes |
 |---|---|---|---|
 | MADDOX ("MRBT") Smart Mobile Device OBDII code reader | 70894 | 2026-10-18, $59.99 | 2-yr replacement plan bought with it. May not reach ABS (`log.md`) |
-| Multimeter | — | 2026-11-05 (`tools-plan.md`) | Not on an HF receipt; model not recorded |
 | Off-road light wiring kit | 64330 | 2026-10-29 | With a 6 in LED spotlight (57189) and 2-yr plan |
 
 ## Hand tools and shop
@@ -94,5 +93,5 @@ repo's scope.
   sockets, extensions**, and fix the "Gaps found" line in `tools-plan.md`.
 - EverTough torque wrench: drive size and range (for torques under 25 ft-lb the digital
   adapter can't do).
-- Multimeter model, and whether it has a 10 A jack (needed for the draw test).
+- Multimeter: owner has none (2026-11-19). Buy one with a 10 A jack (draw test, amp gain).
 - Air hammer: confirm it's the McGraw 70479.

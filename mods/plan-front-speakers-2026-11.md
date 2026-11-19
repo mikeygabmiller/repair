@@ -120,3 +120,21 @@ and signal from the head unit (RCA pre-outs on the HAC1X7A not confirmed, or spe
 inputs on the amp). Wire-kit gauge, fuse size and pricing: not looked up. Battery wire goes
 through an existing firewall grommet (no drilling): COMMUNITY, confirm the grommet on the car.
 Electrical add-on: watch for a return of the battery drain (`open-issues.md` #6).
+
+## Used JL Audio e1400D + dual Kicker 12" box (Marketplace, 2026-11-19)
+Seller agreed to $150 (amp, dual 12" sealed box with one Kicker Comp and one older Kicker, wiring kit).
+Not bought yet. **Owner has no multimeter** (2026-11-19; the old `tools-owned.md` entry was wrong and is removed).
+e1400D install facts (VERIFIED: JL Audio e1400D owner's manual, via manualsnet.com, read 2026-11-19):
+- Fuse **40 A**, within 18 in of the battery positive post. Fuse type AGU or MaxiFuse.
+- Power wire **8 AWG minimum**; ground the same gauge, as short as possible (36 in max).
+- Remote: amp turns on with +12 V at REM (18–12 AWG wire).
+- Inputs: RCA line level **or** a 4-pin high-level (speaker-level) plug for amplified sources.
+  So no line-output converter is needed even if the Eonon has no RCA sub out.
+- Minimum load **2 ohms**; below 2 ohms is not recommended and may trip protection.
+Still unknown, check before paying or installing:
+- Final impedance of the two subs as wired (magnet labels + box wiring photo). Must be 2 ohms or more.
+- Wiring kit: printed power-wire gauge, whether a fuse holder, RCA, remote and speaker wire are included.
+- Box size vs. the trunk opening (measure both).
+- Whether Eonon lead #7 "AMP" is a remote turn-on output (UNVERIFIED). Fallback: add-a-circuit fuse tap on an ignition-switched fuse.
+- Firewall grommet: COMMUNITY reports a driver-side grommet above the pedals on 2003–07 Accords
+  (caraudio.com, honda-tech.com threads). Not confirmed on this car; if drilling is the only way, stop.

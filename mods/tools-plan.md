@@ -42,7 +42,7 @@ didn't load from here (403), so the exact list is unconfirmed.
 ## Stage 2: diagnosing the warning lights (open issues 2, 4, 6, 9, 10)
 | Tool | Why | Budget | Name-brand | Trade-off |
 |---|---|---|---|---|
-| **Multimeter** | Draw test, voltages, camera trigger. **Owner bought one 2026-11-05** | — | — | Needs a **10 A** jack for the draw test |
+| **Multimeter** | Draw test, voltages, camera trigger, amp gain. **Owner has none (2026-11-19); the 2026-11-05 "bought" note was wrong** | — | — | Needs a **10 A** jack for the draw test |
 | **Scan tool that reads Honda ABS and SRS** | The MADDOX may not reach ABS/SRS (`log.md`); reading (not repairing) SRS codes lets the owner tell a shop what's stored | Foxwell **NT510 Elite** (Honda/Acura software): ~$129–142 on eBay listings; Honda manual claims Engine, ABS, SRS, transmission, TPMS ([eBay](https://www.ebay.com/itm/235536576784), [manuals.plus](https://manuals.plus/asin/B08B5RMFBG)) | Autel MaxiCOM / MaxiSys line (not priced today) | **2005 Accord coverage not confirmed**: check Foxwell's year/model list or ask Foxwell support before buying. SRS: read only, never use it to clear and ignore an SRS fault |
 | Test light / circuit tester | Quick fuse and trigger checks | ~$10 | — | Don't probe SRS (yellow) connectors, ever |
 
