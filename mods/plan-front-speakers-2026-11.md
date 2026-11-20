@@ -138,3 +138,8 @@ Still unknown, check before paying or installing:
 - Whether Eonon lead #7 "AMP" is a remote turn-on output (UNVERIFIED). Fallback: add-a-circuit fuse tap on an ignition-switched fuse.
 - Firewall grommet: COMMUNITY reports a driver-side grommet above the pedals on 2003–07 Accords
   (caraudio.com, honda-tech.com threads). Not confirmed on this car; if drilling is the only way, stop.
+
+## Install guide (2026-11-20)
+Owner bought the Scosche KPA8CC (price and odometer not given yet). Amp location changed: rear
+floor behind a front seat (not under it, OM p.27). Step-by-step page for amp + Kenwood doors +
+deadening: [`amp-speaker-deadening-install.html`](amp-speaker-deadening-install.html).

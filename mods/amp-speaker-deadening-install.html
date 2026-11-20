@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amp, Speakers, Deadening Install</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 16px; line-height: 1.45; color: #111; background: #fff; }
+  h1 { font-size: 1.4em; } h2 { font-size: 1.15em; margin-top: 1.6em; border-bottom: 1px solid #ccc; }
+  li { margin: 0.3em 0; }
+  .warn { background: #fff3cd; border-left: 4px solid #c90; padding: 8px 12px; }
+  .tag { font-size: 0.8em; color: #555; }
+  table { border-collapse: collapse; width: 100%; } td, th { border: 1px solid #ccc; padding: 4px 6px; text-align: left; vertical-align: top; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } .warn { background: #3a2f00; } td, th, h2 { border-color: #444; } .tag { color: #aaa; } }
+</style>
+</head>
+<body>
+<h1>Amp + Kenwood door speakers + deadening</h1>
+<p>2005 Accord EX-L sedan. Hertz HCP 4 amp behind a front seat (on the rear floor), Scosche KPA8CC kit, Kenwood KFC-1666S in the front doors, butyl deadener. Written 2026-11-20.</p>
+<p class="tag">Labels: VERIFIED = read in a real source. COMMUNITY = forums/listings, tips only. UNVERIFIED = not checked; check before relying on it.</p>
+
+<div class="warn">
+<b>Before anything:</b>
+<ul>
+<li>Disconnect the battery negative before any wiring (you have the radio code).</li>
+<li>Nothing goes <b>under</b> a front seat (VERIFIED: owner's manual p.27; seat sensors there, p.23). Stay away from yellow SRS connectors. Your SRS light is already on.</li>
+<li>No drilling. If the firewall grommet can't be found, stop and ask.</li>
+<li>Do this on a day off. Plan a full day (time UNVERIFIED). The car is drivable each night as long as the battery is reconnected and the doors are back together.</li>
+</ul>
+</div>
+
+<h2>Have in hand first</h2>
+<ul>
+<li>Hertz HCP 4 + its speaker-level input plug (ask the seller; if missing you need a 2nd RCA pair, and the Eonon must have RCA pre-outs, UNVERIFIED).</li>
+<li>Scosche KPA8CC (8 ga power + ground, remote wire, RCA, 50 A fuse holder per listing).</li>
+<li>16 ga speaker wire, 25 ft (fronts only) or 50 ft (all 4). Measure with a string first.</li>
+<li>Kenwood KFC-1666S pair. Metra 82-7806 brackets. Metra 72-7800 speaker harness (pair).</li>
+<li>Butyl deadener (Amazon Basics 10-packs or 36 sq ft), roller, isopropyl alcohol, rags.</li>
+<li>Door panel clips (spares; they break). Part number not looked up: Honda parts site by VIN.</li>
+<li>Multimeter with a 10 A jack and AC volts. Solder, heat shrink, heat gun or lighter, ring terminals (8 ga).</li>
+<li>Trim tools (you have HF 64126), screwdrivers, 10 mm socket, zip ties, Velcro or straps for the amp.</li>
+<li>Add-a-circuit fuse tap (only if Eonon wire #7 is not a remote turn-on).</li>
+</ul>
+
+<h2>Order of work</h2>
+<ol>
+<li>Doors: panels off, deaden, speakers in, test. (Parts A, B, C)</li>
+<li>Amp wiring: power, ground, remote, signal, outputs. (Part D)</li>
+<li>Test, set gain, check the amp turns off. (Part E)</li>
+<li>Panels back on.</li>
+</ol>
+<p>Leave the door panels off until the amp is working, so you can test each speaker before closing up.</p>
+
+<h2>A. Front door panel off (each door)</h2>
+<p class="tag">COMMUNITY / UNVERIFIED for the front door. Chilton has a "Front Doors" section (free with a library card) that wasn't pulled yet. The steps below follow the Chilton rear-door article for the 2005–07 Accord (Hybrid), which uses the same clip-and-hook design.</p>
+<ol>
+<li>Window all the way down. Battery negative off.</li>
+<li>Pry off the small triangle trim by the mirror, if it's held by clips.</li>
+<li>Pry up the power window switch panel from its rear edge with a trim tool. Unplug the switch connector.</li>
+<li>Remove the screw(s) under the pull pocket cap and behind the inner door handle trim. Look for every screw before pulling.</li>
+<li>Start at the bottom edge and pop the clips with the trim tool, working around the sides. Bend the panel as little as possible.</li>
+<li>Lift the panel up and over the lock knob. <b>Don't pull it far:</b> the inner handle cable is still attached. Hold the panel and unhook the cable.</li>
+<li>Set the panel somewhere padded. Collect any clips that stayed in the door.</li>
+<li>Peel back the plastic sheet (vapor barrier) only as far as needed. Keep it intact; it goes back on.</li>
+</ol>
+
+<h2>B. Sound deadening (each door)</h2>
+<p class="tag">COMMUNITY (general car-audio practice).</p>
+<ol>
+<li>Work warm. Butyl sticks badly in the cold. Warm the metal and the sheets with a heat gun or hair dryer, and work in a garage if you can.</li>
+<li>Clean the metal with isopropyl alcohol. It must be dry and free of oil and dust.</li>
+<li>Reach through the access holes and stick pieces to the <b>outer skin</b> right behind the speaker opening first. That spot does the most good. About 25–50% coverage of the outer skin is plenty.</li>
+<li>Roll every piece hard with the roller, so there are no bubbles or loose edges.</li>
+<li><b>Keep clear of:</b> the window glass path, the window regulator and its rails, the lock rods and cables, and the <b>drain holes at the bottom of the door</b>. Water must still drain out.</li>
+<li>Optional: cover the small holes in the inner skin near the speaker to make the door a better box. Leave the big service holes coverable by the vapor barrier.</li>
+<li>Run the window up and down and test the locks and handle <b>before</b> anything else goes back.</li>
+</ol>
+
+<h2>C. Kenwood speaker in (each door)</h2>
+<ol>
+<li>Remove the factory speaker and frame (hardware type UNVERIFIED: screws or clips). Unplug it. <b>Keep the factory speakers</b> in a bag for resale.</li>
+<li><b>Depth check:</b> with the window down, measure from the mounting surface to the glass or track. Owners report about 2 in (COMMUNITY). The Kenwood is 1-11/16 to 1-3/4 in deep (retailer listings, COMMUNITY). If it hits, stop.</li>
+<li>Check the Kenwoods: no torn surrounds and no scraping when you gently push the cone in.</li>
+<li>Screw the Kenwood to the Metra 82-7806 bracket. Mount the bracket in the factory spot. No drilling is needed per Metra (COMMUNITY: metraonline.com). Confirm with the bracket in hand.</li>
+<li>Plug the Metra 72-7800 harness into the factory speaker plug (fit on the front doors not confirmed; compare with the old plug). Connect the harness to the Kenwood <b>+ to +, − to −</b>. If the harness has bare ends, solder and heat-shrink them.</li>
+<li>Don't put the panel on yet. Test after the amp is in (Part E).</li>
+</ol>
+<p>No new wire goes into the doors. The factory wires already run from the radio to the doors.</p>
+
+<h2>D. Amp wiring</h2>
+<p><b>Signal path:</b> Eonon speaker outputs → amp speaker-level inputs. Amp outputs → the wires that go to the car's speakers, at the Eonon adapter harness behind the radio. You splice between the Eonon harness and the adapter harness, not into factory wires (COMMUNITY method). All splices soldered and heat-shrunk.</p>
+
+<h3>D1. Mount the amp</h3>
+<ol>
+<li>Rear floor behind a front seat. <b>Not under the seat</b>, and clear of the seat rails with the seat all the way back.</li>
+<li>Leave an air gap around it. The HCP 4 is a Class AB amp and runs warm. Don't cover it with a floor mat. Its size is 12.4 × 7.5 × 2 in (listing, COMMUNITY).</li>
+<li>Hold it down with heavy Velcro or straps so it can't slide. No drilling.</li>
+</ol>
+
+<h3>D2. Power wire (KPA8CC red, 8 ga)</h3>
+<ol>
+<li>Battery still disconnected. <b>Leave the fuse out</b> of the holder until the very end.</li>
+<li>Find the driver-side firewall grommet above the pedals (COMMUNITY: caraudio.com and honda-tech threads; not confirmed on this car). Poke a small hole through the rubber, not the metal. Feed the wire through and seal around it.</li>
+<li>Mount the fuse holder <b>within 18 in of the battery +</b> (standard practice; the Hertz manual wasn't read). Fuse size: use the <b>amp's own fuse rating or smaller</b>. Read it off the Hertz (not found online). The kit's 50 A fuse may be bigger than you need.</li>
+<li>Route inside under the sill trim (door threshold) to the amp. Keep power on <b>one side</b> of the car and the speaker/signal wires on the <b>other side</b> to avoid noise (COMMUNITY). Cross at a right angle if you have to.</li>
+<li>Keep it away from the pedals and any moving parts. Zip-tie it.</li>
+</ol>
+
+<h3>D3. Ground (KPA8CC black, 8 ga)</h3>
+<ol>
+<li>As short as possible, to a factory body bolt near the amp. <b>Never a seat-belt anchor bolt.</b></li>
+<li>Scrape the paint to bare metal under the ring terminal. Bolt it tight, then touch up the edge with paint to stop rust.</li>
+</ol>
+
+<h3>D4. Remote turn-on (KPA8CC blue)</h3>
+<ol>
+<li>Eonon wire #7 "AMP" (currently capped) <b>might</b> be a remote output (UNVERIFIED). Test it: radio on = about 12 V DC to ground, radio off = 0 V.</li>
+<li>If it passes, solder blue to #7 and run it to the amp's REM terminal.</li>
+<li>If not, use an add-a-circuit fuse tap on a key-on fuse (fuse #9, accessory sockets, 15 A, VERIFIED: owner's manual p.103/269) for the blue wire only.</li>
+</ol>
+
+<h3>D5. Speaker wiring</h3>
+<ol>
+<li>Pull the Eonon out of the dash. Find the 4 speaker pairs between the Eonon harness and the adapter harness (FL, FR, RL, RR; + and −). Use the harness color chart.</li>
+<li>Cut <b>only between the two aftermarket harnesses</b>. Eonon side → 16 ga run to the amp's <b>inputs</b> (speaker-level plug). Car side → 16 ga run from the amp's <b>outputs</b>.</li>
+<li>Label every wire at both ends with tape (FL+, FL−...). Keep + and − straight. A swapped pair kills bass.</li>
+<li>Front doors only? Amp outputs ch 1–2 to the fronts. Leave the rears straight-through from the Eonon and adjust the fader.</li>
+<li>Run the speaker wires on the side opposite the power wire.</li>
+</ol>
+
+<h3>D6. Amp settings before power-up</h3>
+<ul>
+<li>Gain all the way down.</li>
+<li>Crossover: with <b>no sub</b>, use full range (OFF) if the switch has that setting. The listing shows an 80 Hz HPF; whether it can be turned off is UNVERIFIED. Look at the amp. Once a sub is added, set the doors to HPF 80 Hz.</li>
+<li>Bass boost off.</li>
+</ul>
+
+<h2>E. Power up, test, set gain</h2>
+<ol>
+<li>Double-check: no bare wire touching metal, ground tight, fuse still out.</li>
+<li>Reconnect the battery negative. Put the fuse in last.</li>
+<li>Radio on: the amp's power light should come on. Radio off: the light must go off.</li>
+<li>Low volume. Use the balance and fader to check each speaker plays from the right spot.</li>
+<li><b>Set the gain with the multimeter</b> (COMMUNITY method):
+  <ul>
+  <li>Unplug the speakers from the amp outputs.</li>
+  <li>Play a 1 kHz 0 dB test tone (a free download). Eonon EQ flat, loudness/bass off, volume at about 3/4 of max (the loudest you'll actually use).</li>
+  <li>Meter on AC volts across one channel's output.</li>
+  <li>Target for the Kenwoods (30 W RMS, 4 Ω): √(30 × 4) = <b>about 11 V AC</b>. Turn the gain up until it reads that, and no higher.</li>
+  <li>Repeat for each channel pair. Reconnect the speakers.</li>
+  </ul></li>
+<li>Listen for distortion at high volume. If you hear it, back the gain off.</li>
+<li><b>Battery drain check</b> (you had drains in September): with everything off and the doors closed, wait about 30 min. Then measure current with the meter in series on the negative cable (10 A jack). The amp should add nothing when off. Your notes have the draw-test steps.</li>
+<li>Last: put the vapor barrier back sealed, replace broken clips, hook the handle cable on, plug in the window switch, and press the panel on. Test the windows, locks and handles.</li>
+</ol>
+
+<h2>What I couldn't verify</h2>
+<table>
+<tr><th>Item</th><th>Free way to check</th></tr>
+<tr><td>Front door panel steps</td><td>Chilton Library (library card) → Body → Front Doors → Door Panels</td></tr>
+<tr><td>Hertz HCP 4 fuse size, HPF switch, input plug</td><td>Read the amp label and switches. Ask the seller for the manual and plug.</td></tr>
+<tr><td>Eonon #7 is remote turn-on</td><td>Multimeter test (D4)</td></tr>
+<tr><td>Firewall grommet location</td><td>Look above the driver pedals with a flashlight</td></tr>
+<tr><td>Door depth vs Kenwood depth</td><td>Measure with the window down</td></tr>
+<tr><td>Metra 72-7800 fits the front door plug</td><td>Compare with the factory plug</td></tr>
+<tr><td>Speaker wire length</td><td>String from the amp spot to the radio opening</td></tr>
+<tr><td>Job time</td><td>Not known. Plan a full day off.</td></tr>
+</table>
+<p class="tag">Sources: owner's manual p.23, 27, 103, 269 (VERIFIED, in repo); Chilton rear door panel article, 2005–07 Accord Hybrid (sources/chilton-report-A-I-2026-10-27.md); mods/README.md and mods/plan-front-speakers-2026-11.md for parts and specs.</p>
+</body>
+</html>
