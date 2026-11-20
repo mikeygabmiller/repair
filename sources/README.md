@@ -11,6 +11,8 @@ Have:
 - `chilton-2026-10-23.md`: first Chilton Library pull, plus parts catalog and NHTSA
   lookups, run by Claude in Chrome (values, menu paths, which engine version each article
   covers).
+- `chilton/front-door-panel-hybrid-2026-11-20.pdf`: Chilton front door panel removal (2005–07 Accord
+  Hybrid article; owner printout, pictures missing). Copyrighted: remove before any public release.
 - `chilton-pack-F-2026-10-27.md` and `chilton-report-A-I-2026-10-27.md`: the owner's
   Chilton research packs. Pack A–E is referred to but not uploaded yet.
 - `project-history-2026-10-21.md`: the owner's history compiled from past AI chats. Trust
