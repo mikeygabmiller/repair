@@ -31,7 +31,7 @@
 
 <h2>Have in hand first</h2>
 <ul>
-<li>Hertz HCP 4 + its speaker-level input plug (ask the seller; if missing you need a 2nd RCA pair, and the Eonon must have RCA pre-outs, UNVERIFIED).</li>
+<li>Hertz HCP 4. <b>It came with no speaker-level input plug</b> (owner, 2026-11-20). The amp has both Speaker-In and RCA Pre-In inputs (VERIFIED: Hertz HCP 4 tech sheet, beps.it, read 2026-11-20). The Speaker-In connector type isn't on the sheet: photo the input end of the amp to identify it. Otherwise use RCA (D5).</li>
 <li>Scosche KPA8CC (8 ga power + ground, remote wire, RCA, 50 A fuse holder per listing).</li>
 <li>16 ga speaker wire, 25 ft (fronts only) or 50 ft (all 4). Measure with a string first.</li>
 <li>Kenwood KFC-1666S pair. Metra 82-7806 brackets. Metra 72-7800 speaker harness (pair).</li>
@@ -39,7 +39,7 @@
 <li>Door panel clips (spares; they break). Part number not looked up: Honda parts site by VIN.</li>
 <li>Multimeter with a 10 A jack and AC volts. Solder, heat shrink, heat gun or lighter, ring terminals (8 ga).</li>
 <li>Trim tools (you have HF 64126), screwdrivers, 10 mm socket, zip ties, Velcro or straps for the amp.</li>
-<li>Add-a-circuit fuse tap (only if Eonon wire #7 is not a remote turn-on).</li>
+<li>Add-a-circuit fuse tap: only if you use RCA inputs <b>and</b> Eonon wire #7 turns out not to be a remote turn-on.</li>
 </ul>
 
 <h2>Order of work</h2>
@@ -118,7 +118,7 @@
 <ol>
 <li>Battery still disconnected. <b>Leave the fuse out</b> of the holder until the very end.</li>
 <li>Find the driver-side firewall grommet above the pedals (COMMUNITY: caraudio.com and honda-tech threads; not confirmed on this car). Poke a small hole through the rubber, not the metal. Feed the wire through and seal around it.</li>
-<li>Mount the fuse holder <b>within 18 in of the battery +</b> (standard practice; the Hertz manual wasn't read). Fuse size: use the <b>amp's own fuse rating or smaller</b>. Read it off the Hertz (not found online). The kit's 50 A fuse may be bigger than you need.</li>
+<li>Mount the fuse holder <b>within 18 in of the battery +</b> (standard practice). The amp has <b>2 × 20 A</b> fuses on board and draws up to 21 A at 2 Ω (VERIFIED: Hertz HCP 4 tech sheet, beps.it, read 2026-11-20). Use a <b>40 A</b> fuse at the battery instead of the kit's 50 A: it matches the amp and protects the CCA wire better (COMMUNITY sizing practice).</li>
 <li>Route inside under the sill trim (door threshold) to the amp. Keep power on <b>one side</b> of the car and the speaker/signal wires on the <b>other side</b> to avoid noise (COMMUNITY). Cross at a right angle if you have to.</li>
 <li>Keep it away from the pedals and any moving parts. Zip-tie it.</li>
 </ol>
@@ -131,7 +131,8 @@
 
 <h3>D4. Remote turn-on (KPA8CC blue)</h3>
 <ol>
-<li>Eonon wire #7 "AMP" (currently capped) <b>might</b> be a remote output (UNVERIFIED). Test it: radio on = about 12 V DC to ground, radio off = 0 V.</li>
+<li><b>Using Speaker-In: skip this.</b> The HCP 4 has selectable ART, Automatic Remote Turn-On/Off, which works on Speaker-In only: the amp turns on when it senses the radio signal (VERIFIED: Hertz HCP 4 tech sheet, beps.it, read 2026-11-20). Turn ART on with its switch. No blue wire needed.</li>
+<li>Using RCA: Eonon wire #7 "AMP" (currently capped) <b>might</b> be a remote output (UNVERIFIED). Test it: radio on = about 12 V DC to ground, radio off = 0 V.</li>
 <li>If it passes, solder blue to #7 and run it to the amp's REM terminal.</li>
 <li>If not, use an add-a-circuit fuse tap on a key-on fuse (fuse #9, accessory sockets, 15 A, VERIFIED: owner's manual p.103/269) for the blue wire only.</li>
 </ol>
@@ -140,6 +141,7 @@
 <ol>
 <li>Pull the Eonon out of the dash. Find the 4 speaker pairs between the Eonon harness and the adapter harness (FL, FR, RL, RR; + and −). Use the harness color chart.</li>
 <li>Cut <b>only between the two aftermarket harnesses</b>. Eonon side → 16 ga run to the amp's <b>inputs</b> (speaker-level plug). Car side → 16 ga run from the amp's <b>outputs</b>.</li>
+<li><b>No Speaker-In plug?</b> Two ways: (1) RCA: if the Eonon has RCA pre-outs (UNVERIFIED), run RCA cables to Pre-In (0.6–5 V). The kit has one pair; 4 channels need a second pair. That skips the Eonon-side speaker run. (2) Find the right Speaker-In plug or pigtail for the amp. Photo the input end first. Speaker-In takes 1.5–12 V RMS (Hertz tech sheet), so the Eonon's speaker outputs are in range.</li>
 <li>Label every wire at both ends with tape (FL+, FL−...). Keep + and − straight. A swapped pair kills bass.</li>
 <li>Front doors only? Amp outputs ch 1–2 to the fronts. Leave the rears straight-through from the Eonon and adjust the fader.</li>
 <li>Run the speaker wires on the side opposite the power wire.</li>
@@ -148,7 +150,7 @@
 <h3>D6. Amp settings before power-up</h3>
 <ul>
 <li>Gain all the way down.</li>
-<li>Crossover: with <b>no sub</b>, use full range (OFF) if the switch has that setting. The listing shows an 80 Hz HPF; whether it can be turned off is UNVERIFIED. Look at the amp. Once a sub is added, set the doors to HPF 80 Hz.</li>
+<li>Crossover: front and rear channels each have a <b>FULL</b> setting, plus HPF 80 Hz and LPF 50–500 Hz (VERIFIED: Hertz HCP 4 tech sheet, beps.it, read 2026-11-20). With <b>no sub</b>, set both to FULL. Once a sub is added, set the doors to HPF 80 Hz. Mono switches off. Bass boost (0/6/12 dB) at 0.</li>
 <li>Bass boost off.</li>
 </ul>
 
@@ -175,8 +177,8 @@
 <table>
 <tr><th>Item</th><th>Free way to check</th></tr>
 <tr><td>Front door panel: Chilton article is Hybrid-only; mirror-cover and window-reset sub-articles not captured</td><td>Chilton: open the linked "mirror mount cover" and "power window control unit reset" articles and screenshot them, pictures included</td></tr>
-<tr><td>Hertz HCP 4 fuse size, HPF switch, input plug</td><td>Read the amp label and switches. Ask the seller for the manual and plug.</td></tr>
-<tr><td>Eonon #7 is remote turn-on</td><td>Multimeter test (D4)</td></tr>
+<tr><td>Hertz Speaker-In connector type (plug missing)</td><td>Photo the amp's input end. A replacement plug or bare-wire pigtail may exist; otherwise use RCA.</td></tr>
+<tr><td>Eonon #7 is remote turn-on (only matters with RCA)</td><td>Multimeter test (D4)</td></tr>
 <tr><td>Firewall grommet location</td><td>Look above the driver pedals with a flashlight</td></tr>
 <tr><td>Door depth vs Kenwood depth</td><td>Measure with the window down</td></tr>
 <tr><td>Metra 72-7800 fits the front door plug</td><td>Compare with the factory plug</td></tr>
