@@ -143,3 +143,14 @@ Still unknown, check before paying or installing:
 Owner bought the Scosche KPA8CC (price and odometer not given yet). Amp location changed: rear
 floor behind a front seat (not under it, OM p.27). Step-by-step page for amp + Kenwood doors +
 deadening: [`amp-speaker-deadening-install.html`](amp-speaker-deadening-install.html).
+
+## Hertz HCP 4 bought (2026-11-20; price and odometer not given yet)
+Came with **the amp only**: no speaker-level input plug, no manual. Specs (VERIFIED: Hertz HCP 4
+tech sheet, https://www.beps.it/items/pdf/Hertz_HCP4_tech.pdf, read 2026-11-20):
+- Fuse on amp **2 × 20 A**; 11–15 VDC; idle 1 A on / 0.04 mA off; 21 A max at 2 Ω.
+- Inputs: Pre-In (RCA) 0.6–5 V RMS; Speaker-In 1.5–12 V RMS (47 Ω). Connector type not stated.
+- **ART** (auto turn-on from the Speaker-In signal), selectable; Remote In 7–15 V otherwise.
+- 55 W × 4 at 4 Ω (1% THD, 14.4 V); CEA-2006 50 W × 4 at 4 Ω; 85 W × 4 at 2 Ω.
+- Front and rear filters: FULL / HPF 80 Hz / LPF 50–500 Hz, 12 dB/oct; bass boost 0/6/12 dB; mono switches.
+- 315 × 190 × 50 mm (12.40 × 7.48 × 1.97 in), 2.62 kg.
+Battery fuse: 40 A rather than the kit's 50 A (COMMUNITY sizing). Next: photo the input end to identify the Speaker-In plug, or use RCA if the Eonon has pre-outs.
