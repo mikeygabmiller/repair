@@ -179,3 +179,12 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   in the bundle. A loose translucent-blue wire with a **bare copper end** hangs behind the
   radio (likely the kit's REM wire, unconnected). Owner to tape it and say where its amp end goes.
   Speaker-wire colors and which plug is car-side are not confirmed yet.
+- More photos 2026-11-21 (`sources/photos/2026-11-21-eonon-*.jpg`): only the **front** RCA pair
+  feeds the amp; a white and a green female RCA hang unused (one labeled "Subwoofer Out...").
+  No rear RCA output seen yet, so set the amp's REAR IN so the rears copy the front input
+  (which way that is: UNVERIFIED, flip it if the rears stay silent). The white 20-pin plug
+  "DQ36-20P" carries the label "Includes AMP amplifier control wire to ensure the car speakers
+  work normally" and goes into the rightmost socket on the unit's back (label drawing). It was
+  hanging loose in the photo. Ask the owner whether it was plugged in during the test drive.
+  The 8 speaker wires are still not identified. Need the wiring-diagram page of the Eonon paper
+  manual, or ask Eonon support. No color chart found online (manuals.plus HAC1X7 page).
