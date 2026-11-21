@@ -167,3 +167,7 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   car-side speaker wires and the Eonon's 8 speaker wires taped off separately (step 7);
   (2) RCAs on the Eonon's front/rear *outputs*, not AUX IN (photo the labels); (3) how REM is
   fed, and that the amp's light goes out with the key off; (4) set gain with the meter.
+- **Meter steps in the install page are UNVERIFIED**: "press MODE until it shows AC/DC" was
+  guessed from a photo of the Doyle DM500 and didn't match how the owner's meter works
+  (owner, 2026-11-21). No DM500 manual found online. Rewrite the meter steps from a photo of
+  the dial and screen (or the manual in the box) before the gain step.
