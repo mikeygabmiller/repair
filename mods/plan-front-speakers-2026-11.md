@@ -188,3 +188,10 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   hanging loose in the photo. Ask the owner whether it was plugged in during the test drive.
   The 8 speaker wires are still not identified. Need the wiring-diagram page of the Eonon paper
   manual, or ask Eonon support. No color chart found online (manuals.plus HAC1X7 page).
+- **Eonon wiring diagram** (owner-supplied image, `sources/photos/eonon-hac1x7a-wiring-diagram.jpg`):
+  #7 AMP, #9 Subwoofer Out, #12/13 AUX In R/L, #14/15 Front Audio Out R/L all hang off one lead
+  with a single multi-pin plug into the unit, likely the white "DQ36-20P" plug with the
+  AMP-control label. If so, that plug must be in for the amp to get any signal. **Rear Audio Out
+  R (#16) / L (#18)** plus Center Out (#17) are on a separate lead (with #19 RX/TX). So the
+  rear RCA exists: use the Scosche 12 ft RCA from #16/#18 to amp REAR IN. The diagram gives no
+  speaker-wire colors; identify them by back-probing for 2–8 Ω.
