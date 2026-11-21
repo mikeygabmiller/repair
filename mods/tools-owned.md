@@ -88,10 +88,16 @@ Detailing gear (polisher, pads, wet/dry vac detailing kit, spray guns, mops, hos
 microfiber) and the 212 cc engine (69730) are on the receipts too but are outside this
 repo's scope.
 
+## Multimeter
+**Doyle DM500** (owner has it, 2026-11-20). From the face labels (owner photo, 2026-11-21):
+True RMS, autoranging. Dial: OFF, V≂ (AC and DC volts share one spot), Hz%, Ω/diode/continuity/CAP,
+TEMP, NCV, 9V/1.5V BATT, µA≂, mA≂, 10A≂. Buttons: MODE/REL, RANGE, MAX/MIN, HOLD. Jacks: 10A (30 s max
+every 15 min, fused), COM, V mA µA Ω (600 V / 500 mA fused). The screen shows AC or DC as a ~ or ⎓ symbol,
+not the words. Which one MODE starts on: UNVERIFIED (battery test: ~12.6 V = DC).
+
 ## Gaps to settle (owner, next time in the garage)
 - Open the 63461 and 64387 sets: write down the sizes, especially **14 mm, 17 mm, deep
   sockets, extensions**, and fix the "Gaps found" line in `tools-plan.md`.
 - EverTough torque wrench: drive size and range (for torques under 25 ft-lb the digital
   adapter can't do).
-- Multimeter: owner has none (2026-11-19). Buy one with a 10 A jack (draw test, amp gain).
 - Air hammer: confirm it's the McGraw 70479.
