@@ -173,3 +173,9 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   the dial and screen (or the manual in the box) before the gain step.
 - Step-by-step page for session 2 (with diagrams and the DM500 meter steps):
   [`amp-install-session-2.html`](amp-install-session-2.html).
+- Photos 2026-11-21 (`sources/photos/2026-11-21-eonon-*.jpg`): amp's front RCA is on the Eonon
+  leads labeled **"Front Audio Out L"** (white) and **"Front Audio Out R"** (red, label partly
+  hidden). Correct. A second labeled "...Audio Out L" pair and a "Subwoofer Out" lead are also
+  in the bundle. A loose translucent-blue wire with a **bare copper end** hangs behind the
+  radio (likely the kit's REM wire, unconnected). Owner to tape it and say where its amp end goes.
+  Speaker-wire colors and which plug is car-side are not confirmed yet.
