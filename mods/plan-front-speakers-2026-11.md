@@ -171,3 +171,5 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   guessed from a photo of the Doyle DM500 and didn't match how the owner's meter works
   (owner, 2026-11-21). No DM500 manual found online. Rewrite the meter steps from a photo of
   the dial and screen (or the manual in the box) before the gain step.
+- Step-by-step page for session 2 (with diagrams and the DM500 meter steps):
+  [`amp-install-session-2.html`](amp-install-session-2.html).
