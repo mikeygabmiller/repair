@@ -195,3 +195,8 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   R (#16) / L (#18)** plus Center Out (#17) are on a separate lead (with #19 RX/TX). So the
   rear RCA exists: use the Scosche 12 ft RCA from #16/#18 to amp REAR IN. The diagram gives no
   speaker-wire colors; identify them by back-probing for 2–8 Ω.
+- 16-pin plug photos 2026-11-21 (`sources/photos/2026-11-21-eonon-16pin-side-*.jpg`): the black
+  16-pin plug into the radio (diagram #1) carries **2 white, 2 gray, 2 green, 2 purple**, the
+  usual speaker pairs (stripes not visible in the photos). Plan: unplug it, check each pair reads
+  2–8 Ω at the plug face, then cut ~4 in from the plug. The stub on the plug is the radio end
+  (tape); the long piece goes to the car (amp wire). Next-steps page updated.
