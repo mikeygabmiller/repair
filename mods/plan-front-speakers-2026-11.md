@@ -154,3 +154,16 @@ tech sheet, https://www.beps.it/items/pdf/Hertz_HCP4_tech.pdf, read 2026-11-20):
 - Front and rear filters: FULL / HPF 80 Hz / LPF 50–500 Hz, 12 dB/oct; bass boost 0/6/12 dB; mono switches.
 - 315 × 190 × 50 mm (12.40 × 7.48 × 1.97 in), 2.62 kg.
 Battery fuse: 40 A rather than the kit's 50 A (COMMUNITY sizing). Next: photo the input end to identify the Speaker-In plug, or use RCA if the Eonon has pre-outs.
+
+## Install session 1 (2026-11-20 evening; odometer not given yet)
+Owner went the **RCA route** (Eonon has RCA leads; labels were confusing). Amp has power and
+ground and turns on. **Sound unchanged** on a test drive with the same songs. Gain step (8)
+skipped; LEVELS set near max by hand. Stopped early (cold).
+- Diagnosis: identical sound means the speakers are still fed by the Eonon's own outputs.
+  If the amp drove them, near-max gain would be clearly louder or distorted; if the amp were
+  in the path with no input, they'd be silent.
+- Next session: LEVELS to MIN first. Pull the amp's power fuse with music playing; if nothing
+  changes, the amp isn't in the speaker path. Then confirm: (1) amp outputs wired to the
+  car-side speaker wires and the Eonon's 8 speaker wires taped off separately (step 7);
+  (2) RCAs on the Eonon's front/rear *outputs*, not AUX IN (photo the labels); (3) how REM is
+  fed, and that the amp's light goes out with the key off; (4) set gain with the meter.
