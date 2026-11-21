@@ -200,3 +200,5 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   usual speaker pairs (stripes not visible in the photos). Plan: unplug it, check each pair reads
   2–8 Ω at the plug face, then cut ~4 in from the plug. The stub on the plug is the radio end
   (tape); the long piece goes to the car (amp wire). Next-steps page updated.
+- Owner 2026-11-21: all 4 pairs in the 16-pin have one striped wire (white, gray, green and
+  purple each have a striped partner). Striped = −. Owner has all parts; starting the next-steps page.
