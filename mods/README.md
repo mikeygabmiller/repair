@@ -225,6 +225,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   if the measured depth allows (~2" reported). Use the Metra 82-7806 bracket and a speaker
   harness, not splices (harness fit for the front doors not confirmed). Inspect surrounds and
   check for cone rub before installing; test them on the harness before the panel goes back on.
+  **One is damaged (owner photo, 2026-11-22):** a crack runs across the cone from the tweeter
+  post out to the surround (about 2"), the surround is wrinkled at that spot, and the frame lip
+  is bent near the leads. Not worth patching; plan on a new pair for the front doors.
   **Prices seen 2026-11-16:** Metra 82-7806 $12.99 (Sonic Electronix) to $19.95; Metra
   72-7800 (pair) $7.99 (Quality Mobile Video) to $15.51; 80 mil 36 sq ft butyl: VEVOR $53.90
   (Walmart), Kilmat $86.22 (eBay), Noico sold out in the US listings found. JBL Club 6500C
