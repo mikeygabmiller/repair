@@ -202,3 +202,14 @@ skipped; LEVELS set near max by hand. Stopped early (cold).
   (tape); the long piece goes to the car (amp wire). Next-steps page updated.
 - Owner 2026-11-21: all 4 pairs in the 16-pin have one striped wire (white, gray, green and
   purple each have a striped partner). Striped = −. Owner has all parts; starting the next-steps page.
+
+## Install session 2 (2026-11-21/22; odometer not given yet)
+Owner wired **fronts only**: white pair (LF) and gray pair (RF) cut ~4 in from the Eonon 16-pin,
+stubs taped, long pieces soldered to new runs to amp front block. Gray pair had no visible
+stripe, so polarity is to be set by ear. Rears (green/purple) still on the Eonon.
+**Fuse-pull test passed 2026-11-22: fronts go silent with the amp fuse out**, so the amp drives
+them. Fronts play strong. Owner reports the FRONT LEVELS knob makes little audible difference,
+even at max. Likely cause: a strong Eonon RCA output, so the amp is loud even at MIN and more
+gain mostly adds clipping (Eonon RCA output level UNVERIFIED). Next: LEVELS to MIN, set the gain
+with the meter (7–8 V AC); if over 8 V at MIN, cap the radio volume. Then by-ear polarity,
+window reset, log + ledger (need odometer and costs).
