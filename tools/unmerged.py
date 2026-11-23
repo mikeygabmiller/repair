@@ -9,7 +9,7 @@ the start of every chat (CLAUDE.md); it can also be run by hand:
 
 A branch is skipped when git counts it as merged, when it's listed in
 tools/folded-branches.txt (reviewed and folded in by hand), or when every line it adds is
-already on main (squash-merged). Never fails: any error just prints nothing.
+already on main (squash-merged). Never crashes: any error prints a WARNING line.
 """
 import subprocess
 from pathlib import Path
@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def git(*args, timeout=30):
-    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True,
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, errors="replace",
                           timeout=timeout).stdout
 
 
@@ -59,5 +59,6 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"WARNING: unmerged check failed ({type(e).__name__}: {e}). "
+              "Run `git branch -r --no-merged origin/main` by hand.")
