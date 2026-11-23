@@ -8,21 +8,21 @@ Intervals are Honda's **severe** schedule (OM p.203, copied in `specs.md`), beca
 car does short local trips and winter roads (OM p.199). "No record" = treat as due now.
 Whichever comes first, miles or time.
 
-Last known odometer: **139,781 mi** (2026-11-15, owner, ATF round 1).
+Last known odometer: **~140,000 mi** (2026-11-23, owner).
 
 Quick answer from the data: `python3 tools/due.py` (reads `schedule.csv` and `ledger.csv`).
 This table stays the human-readable version with notes; if the two disagree, fix the ledger.
 
 | Item | Interval (severe, OM p.203) | Last done | Next due |
 |---|---|---|---|
-| Engine oil | 5,000 mi or 6 months | **No record** | **Now.** Procedure: `procedures/accord-2005-oil-change.md` |
-| Oil filter | 10,000 mi or 1 yr (change it with the oil anyway: the 4.4 qt capacity assumes a new filter, OM p.215) | **No record** | **Now** |
+| Engine oil | 5,000 mi or 6 months | 2026-08, 137,572 mi (Supertech 5W-20 HM synthetic; drain washer reused, `log.md`) | **142,572 mi or 2027-02**, whichever first. New drain washer 94109-14000. Procedure: `procedures/accord-2005-oil-change.md` |
+| Oil filter | 10,000 mi or 1 yr (change it with the oil anyway: the 4.4 qt capacity assumes a new filter, OM p.215) | 2026-08, 137,572 mi (Mobil 1 M1-110A, `log.md`) | 147,572 mi or 2027-08 by schedule; new filter at every oil change is the habit (OM p.215 note) |
 | Brake fluid | Every 3 years | **No record** | **Now.** Shop recommended; what to ask for: `procedures/accord-2005-brake-fluid-coolant.md` |
 | Automatic transmission fluid | 60,000 mi or 3 yr, then every 30,000 mi or 2 yr | 2026-11-15, 139,781 mi: round 1 of 4 (Valvoline, `log.md`) | Rounds 2–4 of the thorough flush (OM p.220), each after a short drive. Then 169,781 mi or 2028-11 (severe, OM p.203). Procedure: `procedures/accord-2005-atf-drain-refill.md` |
 | Engine coolant | 120,000 mi or 10 yr, then every 60,000 mi or 5 yr | **No record** | **Now** (car is past 120k and 10 yr). Same file as brake fluid |
 | Drive belt: inspect | 30,000 mi or 2 yr | **No record** | **Now** (look only) |
-| Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | **No record** | **Now.** `procedures/accord-2005-filters-air-cabin.md` |
-| Dust and pollen (cabin) filter | 30,000 mi or 2 yr; 15,000 mi if urban soot or weak airflow (OM p.233) | **No record** | **Now.** Same file |
+| Air cleaner element | 15,000 mi in dusty conditions (normal 30,000) | 2026-08, 137,585 mi (STP SA9564, `log.md`) | 152,585 mi. `procedures/accord-2005-filters-air-cabin.md` |
+| Dust and pollen (cabin) filter | 30,000 mi or 2 yr; 15,000 mi if urban soot or weak airflow (OM p.233) | 2026-08, 137,585 mi (STP CAF1781, `log.md`) | 167,585 mi or 2028-08 (152,585 if urban soot or weak airflow). Same file |
 | Tire rotation | 10,000 mi | **No record** | **Now**, after the item 11 inspection. Chalk each tire's old spot (LF, RF, LR, RR) first so a wobble that follows a wheel shows. Pattern and steps: `procedures/accord-2005-tire-rotation.md` |
 | Brakes, steering, suspension, boots: inspect | 10,000 mi or 1 yr | Partial: Les Schwab free suspension check, 2026-10-21, 139,032 mi (written notes cover the right front) | Full inspection with the next brake job. Checklist: `procedures/accord-2005-routine-checks.md` |
 | Valve clearance | Inspect at 110,000 mi, otherwise adjust only if noisy | **No record** (car is past 110k) | Listen for ticking; shop job. Exhaust spec is unsettled (`specs.md`) |

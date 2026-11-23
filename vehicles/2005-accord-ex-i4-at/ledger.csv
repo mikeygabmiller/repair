@@ -15,3 +15,7 @@ date,odometer,kind,item,cost,by,what,note
 2026-10-31,,mod,aux-lights,,owner,Auxiliary driving lights,Exact model and cost not recorded
 2026-11-03,,mod,head-unit,199.99,owner,Eonon HAC1X7A head unit with backup camera,Eonon order email 2026-10-26 (mods/plan-head-unit-2026-10.md)
 2026-11-15,139781,maintenance,atf,,owner,"ATF drain and refill, round 1 of 4 (Valvoline)",Fluid cost not recorded
+2026-08,137572,maintenance,oil,40.00,owner,Oil change: Supertech 5W-20 High Mileage full synthetic,"Owner's service log; sheet date ""08/11/25"" (year must be 2026, day unclear). $40 covers oil + filter. Drain washer reused"
+2026-08,137572,maintenance,oil-filter,,owner,Oil filter: Mobil 1 M1-110A,Cost included in the oil row
+2026-08,137585,maintenance,air-filter,40.00,owner,Engine air filter: STP SA9564,"Owner's service log; $40 covers both filters"
+2026-08,137585,maintenance,cabin-filter,,owner,Cabin filter: STP CAF1781,Cost included in the air-filter row
