@@ -30,7 +30,8 @@ Each chat saves its notes on its own branch, and a new chat only sees `main`. Fo
 draft PRs piled up unmerged once (folded in 2026-10-28), so Claude was answering from
 stale notes. To stop that:
 
-- **Start:** run `python3 tools/unmerged.py` before answering, and use `INDEX.md` to find
+- **Start:** the session-start hook runs `python3 tools/unmerged.py` and puts its output
+  in context; if that output isn't there, run it yourself. Use `INDEX.md` to find
   the right file fast. If it lists branches with
   open PRs, merge them (same checks as below) and tell the owner in one line. Once a
   branch is folded in by hand, add its name to `tools/folded-branches.txt`.
@@ -42,6 +43,16 @@ stale notes. To stop that:
   with no label). Re-read the diff; if it conflicts with `main`, merge
   `main` into the branch and resolve it. If the merge is blocked, or resolving a conflict
   would mean choosing between two different facts, stop and tell the owner.
+  The `/wrap-up` skill has these steps; a Stop hook reminds Claude if changes aren't on main.
+
+**Automations in `.claude/` (added 2026-11-23).** Hooks run on their own: session start
+→ `unmerged.py`; after Claude edits a notes file → `check.py` (plus `checklists.py` or
+`due.py roadmap --write` when procedures, `schedule.csv` or `ledger.csv` change); before
+Claude finishes → no check.py ERRORs and changes merged. Skills: `/log-job` (record a
+finished job) and `/wrap-up` (end of chat). Subagent `source-auditor`: run it on any answer
+or diff with torque specs, capacities, part numbers or safety-critical steps before the
+owner sees it. Edits made through Bash skip the after-edit hook, so prefer Edit/Write for
+notes files.
 
 ## Answering a question
 
