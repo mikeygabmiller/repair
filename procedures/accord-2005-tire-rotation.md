@@ -28,10 +28,21 @@ and open issue 3 (60 mph shake) are checked, and **chalk each tire's old positio
 6. Re-check lug torque after ~50 miles (COMMUNITY, common shop practice; not in the OM).
 
 ## Backyard notes (COMMUNITY)
-- Two stands on one side at a time is enough for a rotation: front-to-back on the same side,
-  then the crossing pair needs all four up, or a shop. Why: the cross pattern can't be done
-  with only one corner in the air. With two stands, do one side (front ↔ rear on that
-  side), then go to a shop for the cross, or rotate front-to-back only this time and log it.
+- **Spare as the placeholder (one jack, one stand, one corner up at a time).** Why it works:
+  a rotation is a loop of four moves, and a loop needs one empty "slot" to start. The spare
+  is that slot, like a temp variable in a swap. Each step: jack the corner, stand under it,
+  swap, snug the nuts crisscross, lower.
+  1. LR off → spare on LR. (LR tire is now loose.)
+  2. RF off → old LR on RF. (RF loose.)
+  3. RR off → old RF on RR. (RR loose.)
+  4. LF off → old RR on LF. (LF loose.)
+  5. Spare off LR → old LF on LR. Spare back in the trunk.
+  Result matches the OM p.239 pattern (fronts straight back, rears cross forward). Torque
+  all four to 80 lbf·ft crisscross at the end, on the ground. The car never moves on the
+  spare, so its 50 mph limit (OM p.246) doesn't come into it. 5 lifts instead of 2, so
+  ~1 h (estimate).
+- With two stands and no spare trick: one side at a time does only front ↔ rear; the cross
+  needs the spare trick above or a shop.
 - Torque wrench: parts-store loaner is fine (deposit refunded).
 
 ## After
