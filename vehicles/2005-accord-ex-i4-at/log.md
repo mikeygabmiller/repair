@@ -146,6 +146,14 @@ unless `specs.md` lists them.
 ## 2026-08-24: rear bumper first repair try
 - Sanding the divot didn't work (low spots get filled, not sanded). Damage is paint only: cracked clear and a divot, plastic not torn.
 
+## 2026-08, 137,572 / 137,585 mi: oil and filter; engine air and cabin filters (owner)
+Source: owner's own service log spreadsheet (`receipts/2026-11-23_owner_service-log.pdf`). The sheet's
+date reads "08/11/25"; the car was bought in Aug 2026 (~137k), so the year must be 2026
+and the exact day is unclear. Logged as 2026-08 (mid-month for `tools/due.py`).
+- **137,572 mi: oil change and filter.** Supertech 5W-20 High Mileage full synthetic (5W-20 matches the manual, `specs.md`) + **Mobil 1 M1-110A** filter (owner's sheet: "25k miles filter"). OEM cross-ref for M1-110A not checked against 15400-PLM-A02. $40.00 for oil + filter.
+- **Drain plug washer reused** (owner: "no new crush washer"). OM p.215 calls for a new one: watch for drips at the plug; use a new 94109-14000 next change (`parts.md`). Drain plug torque used not recorded.
+- **137,585 mi: engine air filter and cabin filter replaced.** STP SA9564 and STP CAF1781 (from the SA/CAF prefixes, SA = engine air, CAF = cabin: not confirmed). OEM cross-ref not checked (17220-RAA-A00 / 80292-SDA-407). $40.00 for both.
+
 ## 2026-08 (~137k): purchase and first changes
 - Bought at ~137,000 mi with code P0507.
 - Backup camera kit installed (plate-frame camera + 4.3" monitor, no drilling).
