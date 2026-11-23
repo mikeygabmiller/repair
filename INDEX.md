@@ -39,6 +39,11 @@ Latest big update: `overnight-summary-2026-11-10.md`.
 - `tools/due.py`: what's due now, cost so far and per mile; `roadmap --write` refreshes the
   500k table.
 - `tools/checklists.py`: builds `procedures/checklists.html`, the phone checklists page.
+- `.claude/settings.json` + `.claude/hooks/`: automatic checks (session start, after each
+  edit, before Claude finishes). See CLAUDE.md "Automations".
+- `.claude/skills/log-job/`, `.claude/skills/wrap-up/`: `/log-job` (record a finished job),
+  `/wrap-up` (check, commit, merge at end of chat).
+- `.claude/agents/source-auditor.md`: read-only reviewer for sourcing rules.
 
 **Vehicle folder (`V/`)**
 - `profile.md`: the car, recalls that apply, trim evidence.
