@@ -55,6 +55,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   a few ohms = OK, near 0 or OL = bad), check the surround and push the cone evenly for
   scraping, and hear it play off a battery. Same order as below: power items
   (`open-issues.md` 2, 6, 9) closed first.
+  **Follow-up (2026-11-24):** new prices seen (retail listings, recheck): CP110-W0v3
+  $199.99–249.99 (Car Toys), CP112-W0v3 $249.99–279.99 (Car Toys, Sound of Tristate,
+  Online Car Stereo); JD500/1 ~$330–410 base (Sonic Electronix, JBS Power Centre). New pair
+  ≈ $530–690, so $250 used is about 40–45% of new. Listed 5 weeks with one drop already, so
+  an offer under asking is reasonable. **Power with the Hertz HCP 4 already on the Scosche
+  KPA8CC 8 AWG run:** the 8 AWG run can't also feed a 50 A amp. Plan: one 4 AWG power and
+  ground run, a main fuse at the battery sized for that wire, a fused distribution block at
+  the amps (40 A Hertz branch, 50 A JL branch); the old 8 AWG can be reused as the short
+  block-to-Hertz branch because the 40 A branch fuse protects it (COMMUNITY: standard
+  distribution-block practice). Main fuse size: from the 4 AWG kit's own rating, not chosen
+  yet. Finish Hertz session 2 first so the signal path is proven.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
