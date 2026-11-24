@@ -66,6 +66,8 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   block-to-Hertz branch because the 40 A branch fuse protects it (COMMUNITY: standard
   distribution-block practice). Main fuse size: from the 4 AWG kit's own rating, not chosen
   yet. Finish Hertz session 2 first so the signal path is proven.
+  **Seller offered $100 (2026-11-24)**, ~15–20% of new. Confirm it's sub + amp, test both
+  before paying, cash in person, no deposit.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
