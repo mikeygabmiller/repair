@@ -106,6 +106,14 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   2 Ω, not allowed bridged). A bare sub needs a box: get the seller's empty box with it and
   measure it (inside ≈ 0.625 ft³ sealed; depth ≥ 5.3 in plus clearance). Low efficiency, so on
   Hertz power it plays clean but not loud.
+- **Pioneer TS-A3000LB 12" shallow box on Marketplace (asked 2026-11-24): works on the Hertz,
+  one channel, no bridging; not bought.** $120, Snohomish (seller: $250 new on Amazon).
+  **2 Ω single voice coil**, 400 W RMS, 88 dB (COMMUNITY: Crutchfield, Pioneer Australia/
+  Malaysia/Russia listings; one retailer says 4 Ω, outvoted; meter it). Size about
+  23-5/8 × 13-3/4 × 6-3/4 in (Crutchfield; listings differ). Can't bridge (Hertz min 4 Ω) and
+  can't be rewired (single coil). Simple hookup: **one Hertz rear channel at 2 Ω = 85 W**
+  (VERIFIED: Hertz sheet, 4 ch 85 W × 4 at 2 Ω; "AB-Class 2 Ω stable"), REAR MONO on, LPF
+  ~80 Hz. 88 dB on 85 W ≈ the EPICX D2 (84.8 dB) on 170 W: 3 dB either way (math).
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
