@@ -248,6 +248,13 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
      is paid once. Safety-critical parts: OEM or name-brand.
 - Changes the baseline for item 3 (60 mph shake): re-test after this is fixed.
 
+## 12. Driver door won't open from inside after the speaker install (reported 2026-11-23)
+**Safety: fix before normal driving** (a crash could need the door opened from inside).
+Inside handle has no resistance; it works only when the handle housing is pulled forward. The
+cable is hooked but slack, most likely the sheath end not seated in the handle housing
+(UNVERIFIED). Fix steps and status: `../../mods/plan-front-speakers-2026-11.md` ("Driver door
+Kenwood + inside handle problem"). Status: not confirmed fixed.
+
 ## Loose ends to record (no action needed, just write them down when known)
 - From Ben's invoice (2026-10-27): date, mileage, ABS sensor brand and part number,
   whether the owner's Moog K80228 went in. Ben was waiting on a **grease fitting** for

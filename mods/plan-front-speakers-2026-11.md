@@ -232,3 +232,25 @@ Component sets need the tweeter and the woofer on separate crossover outputs; wh
 factory dash-tweeter lead joins the door circuit is not known, so a component install may
 need a new tweeter run. Gain target for a 55 W RMS, 3 Ω speaker: √(55 × 3) ≈ 12.8 V AC
 (arithmetic from the rating; the session-2 page's 11 V was for the Kenwoods).
+
+## Driver door Kenwood + inside handle problem (2026-11-22/23; odometer not given)
+- One used Kenwood KFC-1666S has a cracked cone (crack from the tweeter post to the surround,
+  surround wrinkled, rim bent; owner photo). The **good one went in the driver's door**; the
+  passenger door still has the factory speaker. Factory LF speaker kept as a spare (AA-pop test
+  it first). Gain stays at the factory-speaker target (7–8 V AC) while one factory speaker remains.
+- **After reassembly the driver door would not open from inside.** Owner: handle has no
+  resistance; it only works if the whole handle housing is pulled forward toward the steering
+  wheel. Diagnosis (UNVERIFIED, from the symptom): the cable's inner wire is hooked, but the
+  cable has slack, most likely the outer sheath end not snapped into its slot on the handle
+  housing, or the cable looped / out of a door clip. Fix: panel off, lock the sheath end, check
+  the route and the 2 handle screws, test the latch (screwdriver-close it, pull the handle 3×)
+  before pressing the panel on. Status: not confirmed fixed. Safety item; see open-issues.md.
+- **Testing the cracked Kenwood** before using it on the passenger side, stop at the first fail:
+  1. Meter Ω across the terminals: pass ≈ 3–4 Ω (UNVERIFIED, usual reading for a 4 Ω speaker);
+     OL = open coil, ≈0 = shorted.
+  2. Press the cone evenly: scratchy = voice coil rub, junk it.
+  3. AA battery tap: clean pop.
+  4. Play test on the amp's RF terminals (RF car-end wires off, ends apart), loose on the seat:
+     bass track then high-pitched track; listen only for buzz/rattle and a working tweeter
+     (loose speakers always have weak bass). Compare against the driver side with the balance.
+  Buzz only → thin E6000 on both sides of the crack (COMMUNITY), cure 24 h, retest. Fails 1–3 → junk.
