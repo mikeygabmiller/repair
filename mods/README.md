@@ -114,6 +114,8 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   can't be rewired (single coil). Simple hookup: **one Hertz rear channel at 2 Ω = 85 W**
   (VERIFIED: Hertz sheet, 4 ch 85 W × 4 at 2 Ω; "AB-Class 2 Ω stable"), REAR MONO on, LPF
   ~80 Hz. 88 dB on 85 W ≈ the EPICX D2 (84.8 dB) on 170 W: 3 dB either way (math).
+  Seller: **$120 firm**. New $175.48 (Amazon deal, Slickdeals) to $179.99 (Walmart), up to
+  $279.99–309.98 elsewhere (2026-11-24, recheck), so $120 used ≈ 2/3 of the lowest new price.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
