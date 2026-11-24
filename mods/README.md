@@ -79,6 +79,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   on the Eonon. JD route instead: KnuKonceptz Kolossus 4 AWG OFC kit $71.99–79.99
   (knukonceptz.com, eBay) + fused block (Scosche PDM482 $11.56, Stinger SPD5622 $42.95,
   Walmart listings, 2026-11-24, recheck) ≈ $85–125 and a second firewall run.
+  **Fell through (owner, 2026-11-24).**
+- **Used Kicker VCWR122 (48VCWR122) on Marketplace (asked 2026-11-24): pass unless it can be
+  made 4 Ω; not bought.** $200, Monroe pickup, box only (no amp). CompR 12" ported,
+  500 W RMS, **2 Ω final** (COMMUNITY: Sonic Electronix, Worldwide Stereo, AutoPro listings),
+  18-3/8" L × 16" H × 11-1/4"/14-7/16" W (listing). New $259–350 (eBay, Worldwide Stereo,
+  Car Toys, 2026-11-24), so $200 is ~57–77% of new. **The Hertz can't bridge 2 Ω (min 4 Ω,
+  tech sheet)**; one Hertz channel at 2 Ω gives 85 W. Works on the Hertz only if the driver is
+  dual 2 Ω and gets rewired in series (= 4 Ω); whether the loaded box uses a DVC driver is not
+  confirmed (the bare 48CWR122 driver is DVC 2 Ω). Check: unscrew the driver, count terminal
+  pairs (2 = dual coil). Otherwise it needs a 2 Ω mono amp plus the 4 AWG route. Look for 4 Ω
+  boxes instead.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
