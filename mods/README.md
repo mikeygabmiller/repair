@@ -42,6 +42,19 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   battery-terminal / USB-dropout item and repeat the draw test after (`open-issues.md`).
   Firewall pass-through without drilling not confirmed. Front speakers still the first
   upgrade; a sub then lets the doors be high-passed so they play louder and cleaner.
+- **Used JL sub + JD500/1 on Marketplace (asked 2026-11-24): good gear, worth it if it
+  tests good; not bought.** $250 (was $350), Monroe. Box reads "Slot-Ported BassWedge";
+  JL sells that as the **CP-series with a W0v3 driver** (CP110-W0v3 10", CP112-W0v3 12"),
+  CP112-W0v3 listed 300 W RMS, 4 Ω (COMMUNITY: retailer listings, abt.com, 2026-11-24).
+  Exact model and size: read the box label. **JD500/1:** 250 W RMS at 4 Ω, 500 W at 2 Ω
+  (14.4 V), **no onboard fuse; JL calls for 4 AWG power and ground and a 50 A fuse near the
+  battery** (COMMUNITY: Crutchfield JD500/1 FAQ, 2026-11-24; confirm in the JL manual).
+  So this setup **cannot** use the fuse-tap / no-firewall route: it needs a battery run
+  through a firewall grommet (location still not confirmed; no drilling). 4 Ω sub on a
+  250 W-at-4 Ω amp is a good match. Before buying: meter the sub's voice coil (DM500 on Ω;
+  a few ohms = OK, near 0 or OL = bad), check the surround and push the cone evenly for
+  scraping, and hear it play off a battery. Same order as below: power items
+  (`open-issues.md` 2, 6, 9) closed first.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
