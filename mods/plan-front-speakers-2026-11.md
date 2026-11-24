@@ -213,3 +213,22 @@ even at max. Likely cause: a strong Eonon RCA output, so the amp is loud even at
 gain mostly adds clipping (Eonon RCA output level UNVERIFIED). Next: LEVELS to MIN, set the gain
 with the meter (7–8 V AC); if over 8 V at MIN, cap the radio volume. Then by-ear polarity,
 window reset, log + ledger (need odometer and costs).
+
+## Replacing the damaged Kenwoods: what to order (2026-11-24)
+Owner asked for new front speakers that fit and "make a big difference". The fronts now run
+on the Hertz HCP 4 (CEA-2006 50 W × 4 at 4 Ω, more into 3 Ω; tech sheet above), so pick for
+about 50–70 W RMS, not head-unit sensitivity. **Depth is still the limit**: ~2" from the
+mounting surface to the window track (COMMUNITY, forum posts; a 2007 the12volt.com post calls
+the 2005 front door "very shallow"). Not measured on this car. Crutchfield's fit filter
+uses a measured limit but doesn't show it (search snippet, 2026-11-24).
+
+| Pick | Power / sens. / impedance | Woofer depth | Price seen 2026-11-24 |
+|---|---|---|---|
+| **JBL Club 64FSL** coaxial, shallow-mount (safe-fit pick) | 55 W RMS, 92 dB @2.83 V, 3 Ω (JBL Club Gen 3 spec sheet, read 2026-11-24) | 1-15/16" (Sound of Tri-State, GS Distributing); 1.88–1.90" (Sonic Electronix) | $74.95 (onlinecarstereo.com), $79.95 (Sound of Tri-State) |
+| **JBL Club 64C** component (clearest; only if depth allows) | 70 W RMS, 3 Ω (JBL Gen 3 sheet); 92 dB (JBL product page via search) | 2-1/8" (two retailers); 55 mm (LDLC) | refurb $99.99 (Sound of Tri-State); new US price not found |
+| Hertz CK 165 F component (matches the amp brand) | 90 W RMS, 93 dB (Crutchfield.ca, everything4wd via search) | conflict: 1-3/4" (Crutchfield.ca) vs 62.5 mm / 2.46" (everything4wd) | not found |
+
+Component sets need the tweeter and the woofer on separate crossover outputs; where the
+factory dash-tweeter lead joins the door circuit is not known, so a component install may
+need a new tweeter run. Gain target for a 55 W RMS, 3 Ω speaker: √(55 × 3) ≈ 12.8 V AC
+(arithmetic from the rating; the session-2 page's 11 V was for the Kenwoods).
