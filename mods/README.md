@@ -95,6 +95,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   visible in the photo. Model, driver series and impedance not in the listing. Ask for photos
   of the box label, the magnet label and the terminal cup. Hertz-bridge rule: needs 4 Ω (single
   4 Ω, or dual 2 Ω wired in series); meter reading about 3–4 Ω at the terminals.
+- **"Car Sound System" on Marketplace (asked 2026-11-24): AudioControl EPICX 10" new in box +
+  empty carpeted 10" box + amp kit; owner asked the seller about the sub alone.** $200 (was
+  $400), Monroe. Sub (VERIFIED: archive.audiocontrol.com EPICX10D2/D4 page, read 2026-11-24):
+  dual voice coil, **D2 or D4 versions**, 500 W RMS, efficiency 84.8 dB, mounting depth 5.3 in,
+  cutout 9.25 in; ideal sealed box 0.625 ft³ internal (14 × 12.75 × 11 in outside, 0.75 in
+  wood); ported 1.25 ft³ net at 35 Hz. New EPICX10D2 ~$149 (Elite Auto Gear, Online Car
+  Stereo, 2026-11-24). On the Hertz: **D2** → coils in series = 4 Ω → bridged 170 W (best);
+  **D4** → each coil on its own rear channel, REAR MONO on, 55 W × 2 at 4 Ω (D4 in parallel =
+  2 Ω, not allowed bridged). A bare sub needs a box: get the seller's empty box with it and
+  measure it (inside ≈ 0.625 ft³ sealed; depth ≥ 5.3 in plus clearance). Low efficiency, so on
+  Hertz power it plays clean but not loud.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
