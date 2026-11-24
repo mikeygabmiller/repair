@@ -90,6 +90,11 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   confirmed (the bare 48CWR122 driver is DVC 2 Ω). Check: unscrew the driver, count terminal
   pairs (2 = dual coil). Otherwise it needs a 2 Ω mono amp plus the 4 AWG route. Look for 4 Ω
   boxes instead.
+- **Used JL Audio 10" in a box on Marketplace (asked 2026-11-24): promising if it's 4 Ω; not
+  bought.** $100 OBO, Marysville, listed 22 h. Tall carpeted box, black trim ring, no port
+  visible in the photo. Model, driver series and impedance not in the listing. Ask for photos
+  of the box label, the magnet label and the terminal cup. Hertz-bridge rule: needs 4 Ω (single
+  4 Ω, or dual 2 Ω wired in series); meter reading about 3–4 Ω at the terminals.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
