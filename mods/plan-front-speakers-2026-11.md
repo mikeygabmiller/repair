@@ -153,6 +153,10 @@ tech sheet, https://www.beps.it/items/pdf/Hertz_HCP4_tech.pdf, read 2026-11-20):
 - 55 W × 4 at 4 Ω (1% THD, 14.4 V); CEA-2006 50 W × 4 at 4 Ω; 85 W × 4 at 2 Ω.
 - Front and rear filters: FULL / HPF 80 Hz / LPF 50–500 Hz, 12 dB/oct; bass boost 0/6/12 dB; mono switches.
 - 315 × 190 × 50 mm (12.40 × 7.48 × 1.97 in), 2.62 kg.
+- **3-channel (re-read 2026-11-24, same sheet p.1):** 55 W × 2 (4 Ω) + **170 W × 1 (4 Ω)** at
+  14.4 V, 1% THD; 2-ch bridged 170 W × 2 (4 Ω); **minimum load bridged 4 Ω** ("@ 2 Ch: 4 Ω").
+  Feature 7: "Mono operation mode (selectable) to realize a sub + front three-channel system";
+  REAR Ch. MONO on/off. Which terminals bridge: not on the sheet; read the amp's printed label.
 Battery fuse: 40 A rather than the kit's 50 A (COMMUNITY sizing). Next: photo the input end to identify the Speaker-In plug, or use RCA if the Eonon has pre-outs.
 
 ## Install session 1 (2026-11-20 evening; odometer not given yet)
