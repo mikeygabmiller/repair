@@ -68,6 +68,17 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   yet. Finish Hertz session 2 first so the signal path is proven.
   **Seller offered $100 (2026-11-24)**, ~15–20% of new. Confirm it's sub + amp, test both
   before paying, cash in person, no deposit.
+  **Simplest route (2026-11-24): skip the JD500/1, run the sub off the Hertz's unused rear
+  channels bridged.** Hertz 3-ch mode gives 170 W × 1 at 4 Ω, min bridged load 4 Ω (VERIFIED:
+  Hertz HCP 4 tech sheet, `plan-front-speakers-2026-11.md`). 250 W vs 170 W is about 1.7 dB
+  (10·log10 of the power ratio), a small difference. Uses the existing 8 AWG run and fuse; no new
+  power wire, block or firewall pass. Needs: sub meters about 3–4 Ω (a 4 Ω coil; if it reads
+  ~2 Ω, it can't be bridged on the Hertz), Eonon "Subwoofer Out" RCA → Hertz REAR IN (Y-adapter
+  to both rear inputs, COMMUNITY), REAR MONO on, REAR LPF ~80 Hz, FRONT HPF 80 Hz, boost 0,
+  speaker wire from the bridged terminals (read the amp's label) to the box. Rear speakers stay
+  on the Eonon. JD route instead: KnuKonceptz Kolossus 4 AWG OFC kit $71.99–79.99
+  (knukonceptz.com, eBay) + fused block (Scosche PDM482 $11.56, Stinger SPD5622 $42.95,
+  Walmart listings, 2026-11-24, recheck) ≈ $85–125 and a second firewall run.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
   the no-drill hitch (~$200–270). The car's ~100 lb tongue limit makes a hitch carrier a
   weak deal; a small trailer uses the 1,000 lb tow rating instead.
