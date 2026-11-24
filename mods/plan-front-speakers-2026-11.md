@@ -157,6 +157,12 @@ tech sheet, https://www.beps.it/items/pdf/Hertz_HCP4_tech.pdf, read 2026-11-20):
   14.4 V, 1% THD; 2-ch bridged 170 W × 2 (4 Ω); **minimum load bridged 4 Ω** ("@ 2 Ch: 4 Ω").
   Feature 7: "Mono operation mode (selectable) to realize a sub + front three-channel system";
   REAR Ch. MONO on/off. Which terminals bridge: not on the sheet; read the amp's printed label.
+- **Mono sub input (VERIFIED: Hertz HCP owner's manual, bilradiospes.no "hcp4 brukermanual.pdf",
+  read 2026-11-24):** rear RCA input is printed "REAR IN (L - MONO IN)"; block diagram p.54: the
+  **REAR IN** switch ON selects the rear inputs (OFF = rears copy the front input), and the rear
+  **"(IN L) MONO"** switch sends the L input to both rear channels. p.44 "3CH: FRONT + SUB":
+  one "SUB INPUT" RCA into REAR IN L, "activate REAR INPUT". So a single sub RCA goes to
+  **REAR IN L only; no Y-adapter.**
 Battery fuse: 40 A rather than the kit's 50 A (COMMUNITY sizing). Next: photo the input end to identify the Speaker-In plug, or use RCA if the Eonon has pre-outs.
 
 ## Install session 1 (2026-11-20 evening; odometer not given yet)

@@ -73,8 +73,9 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   Hertz HCP 4 tech sheet, `plan-front-speakers-2026-11.md`). 250 W vs 170 W is about 1.7 dB
   (10·log10 of the power ratio), a small difference. Uses the existing 8 AWG run and fuse; no new
   power wire, block or firewall pass. Needs: sub meters about 3–4 Ω (a 4 Ω coil; if it reads
-  ~2 Ω, it can't be bridged on the Hertz), Eonon "Subwoofer Out" RCA → Hertz REAR IN (Y-adapter
-  to both rear inputs, COMMUNITY), REAR MONO on, REAR LPF ~80 Hz, FRONT HPF 80 Hz, boost 0,
+  ~2 Ω, it can't be bridged on the Hertz), Eonon "Subwoofer Out" RCA → Hertz REAR IN **L only,
+  no Y-adapter** (Hertz manual p.44/54, `plan-front-speakers-2026-11.md`), REAR IN switch ON,
+  REAR MONO on, REAR LPF ~80 Hz, FRONT HPF 80 Hz, boost 0,
   speaker wire from the bridged terminals (read the amp's label) to the box. Rear speakers stay
   on the Eonon. JD route instead: KnuKonceptz Kolossus 4 AWG OFC kit $71.99–79.99
   (knukonceptz.com, eBay) + fused block (Scosche PDM482 $11.56, Stinger SPD5622 $42.95,
