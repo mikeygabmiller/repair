@@ -119,6 +119,12 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   (repo file only; owner doesn't want it as an artifact). Eonon sub out: likely the
   unused **white** female RCA (label partly reads "…bw… …p…", owner photo 2026-11-21); the
   unused green one matches #10 Front Camera Input on the Eonon diagram. Read the label first.
+  **Install result (owner, 2026-11-25; odometer not given yet):** sub wired to REAR L +/−. With
+  the new RCA in the Eonon's **green** plug and REAR IN ON: no bass. With REAR IN OFF (rears
+  copy the front RCA): **sub plays**. So amp, speaker wire and sub are good, and the green plug
+  is not a working sub output (fits the diagram: #10 camera input). Next: read the white plug's
+  label and try it, and look for a Subwoofer setting in the Eonon. Fallback that works now:
+  REAR IN OFF, rear LO pass ~80 Hz. Loose strands seen on the REAR L − wire; re-strip and tin.
   Seller: **$120 firm**. New $175.48 (Amazon deal, Slickdeals) to $179.99 (Walmart), up to
   $279.99–309.98 elsewhere (2026-11-24, recheck), so $120 used ≈ 2/3 of the lowest new price.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
