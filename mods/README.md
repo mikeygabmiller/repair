@@ -116,7 +116,7 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   (VERIFIED: Hertz sheet, 4 ch 85 W × 4 at 2 Ω; "AB-Class 2 Ω stable"), REAR MONO on, LPF
   ~80 Hz. 88 dB on 85 W ≈ the EPICX D2 (84.8 dB) on 170 W: 3 dB either way (math).
   **Install page (2026-11-25):** [`sub-install-hertz-rear.html`](sub-install-hertz-rear.html)
-  (published: https://claude.ai/artifact/9rCnXB2oa6txnuUb73kj9h). Eonon sub out: likely the
+  (repo file only; owner doesn't want it as an artifact). Eonon sub out: likely the
   unused **white** female RCA (label partly reads "…bw… …p…", owner photo 2026-11-21); the
   unused green one matches #10 Front Camera Input on the Eonon diagram. Read the label first.
   Seller: **$120 firm**. New $175.48 (Amazon deal, Slickdeals) to $179.99 (Walmart), up to
