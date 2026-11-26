@@ -8,6 +8,10 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-11-26: check engine light, code P1157 (mileage not recorded)
+- MADDOX: MIL on, P1157 listed as MIL, stored/confirmed **and** pending. App suggests "replace A/F sensor" (not a diagnosis).
+- Owner erased it; it had not come back at the time of reporting. Freeze frame not saved before erasing. Triage: `open-issues.md`, P1157 item.
+
 ## 2026-11-15, 139,781 mi: ATF drain and refill, round 1 of 4 (owner)
 - Drained ~2.9 qt (read off a marked bucket, photo); refilled ~2.9 qt through the dipstick tube, on ramps, before starting the engine. Spec: 3.0 US qt (OM p.274).
 - Fluid in: **Valvoline** (owner's form says "valovine"; exact product not recorded, likely MaxLife Multi-Vehicle). Not Honda fluid: owner's call (`parts.md` ATF row). Next rounds: Honda DW-1 or the same Valvoline, owner to decide.
