@@ -19,3 +19,4 @@ date,odometer,kind,item,cost,by,what,note
 2026-08,137572,maintenance,oil-filter,,owner,Oil filter: Mobil 1 M1-110A,Cost included in the oil row
 2026-08,137585,maintenance,air-filter,40.00,owner,Engine air filter: STP SA9564,"Owner's service log; $40 covers both filters"
 2026-08,137585,maintenance,cabin-filter,,owner,Cabin filter: STP CAF1781,Cost included in the air-filter row
+2026-11-26,,inspection,code-scan,0,owner,MADDOX scan: P1157 (A/F sensor circuit high voltage); erased,"Odometer not recorded"

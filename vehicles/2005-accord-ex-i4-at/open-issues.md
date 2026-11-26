@@ -75,6 +75,24 @@ slide, new wobble) is inspected.** Last known mileage: 139,032 (2026-10-21).
      test the main relay with the factory procedure (Chilton through the library), not by
      guessing.
 
+## 2a. Check engine light: P1157, A/F sensor (sensor 1) circuit high voltage (2026-11-26)
+- **2026-11-26 (owner, MADDOX screenshot):** MIL on, P1157 stored/confirmed and pending.
+  Owner erased it; not back yet. Freeze frame not saved. Mileage not recorded.
+- Definition: "A/F Sensor (Sensor 1) AFS Circuit High Voltage" (COMMUNITY: Honda CR-V
+  manual page reposted at hcrv.net; Accord 2.4 wording not yet checked in Chilton).
+  Sensor 1 = the upstream air/fuel sensor before the catalytic converter.
+- Why it didn't return (UNVERIFIED reasoning): erasing clears the code but fixes nothing.
+  It only resets when the ECM reruns the A/F sensor check (warm engine, steady cruise,
+  sometimes decel) and the fault is present during that check. An intermittent connector,
+  wiring or power fault can pass for days.
+- Leads, cheapest first: (1) rescan after ~a week of mixed driving, Pending list included,
+  and check the Monitors screen; (2) inspect the A/F sensor connector and harness for
+  looseness, corrosion, grease/oil, melted or chafed wire, especially anywhere the new aux
+  light / head unit wiring runs; (3) live data: A/F sensor reading at warm idle and on
+  decel; (4) only then the sensor, by Chilton's test, with an OEM-cross-referenced part.
+- Possible link to P0685 / loose battery terminal (item 2) and item 9: a power dip can
+  upset sensor circuits too (UNVERIFIED).
+
 ## 3. Shake around 60 mph, much worse on the gas (reported 2026-10-28)
 - **2026-10-28 (owner, coast test):** coasting at ~60 is "kind of shaky"; **much worse on
   the gas**.
