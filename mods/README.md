@@ -128,6 +128,13 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   is not a working sub output (fits the diagram: #10 camera input). Next: read the white plug's
   label and try it, and look for a Subwoofer setting in the Eonon. Fallback that works now:
   REAR IN OFF, rear LO pass ~80 Hz. Loose strands seen on the REAR L − wire; re-strip and twist tight (no solder, rule 2026-11-26).
+  **Symptom (owner, 2026-11-26; odometer not given):** now and then, mostly over bumps, the
+  fronts (maybe all speakers) cut out for a few seconds while the sub keeps playing. Sub
+  still playing rules out amp protect, power, ground and remote (those kill all channels).
+  Suspect a loose connection on the front path: front RCA at the Eonon or at Hertz FRONT IN
+  (if the sub now runs off the Eonon sub out), or the front speaker wires at the Hertz
+  terminals (if the sub still copies the front RCA). Next: wiggle test, owner to report
+  where the sub's signal comes from now and whether the Eonon-powered rears also cut.
   Seller: **$120 firm**. New $175.48 (Amazon deal, Slickdeals) to $179.99 (Walmart), up to
   $279.99–309.98 elsewhere (2026-11-24, recheck), so $120 used ≈ 2/3 of the lowest new price.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is
