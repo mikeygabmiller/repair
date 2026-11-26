@@ -77,9 +77,10 @@ in `procedures/`.
 | 7 | AMP | Leave capped unless the car has a factory amp (UNVERIFIED) |
 | 3 | Steering wheel control 2 | Likely unused; set up buttons in the unit's settings |
 | 23 | Brake/shift control | Follow Eonon's manual |
-| 9–18 | Sub, front camera, AUX, audio outs | Unused; cap with heat shrink |
+| 9–18 | Sub, front camera, AUX, audio outs | Unused; tape each end separately (3M Super 33+) |
 
-Splices: soldered and heat-shrunk, or Posi-Tap at the reverse light. No cutting factory wiring.
+Splices: crimped nylon butt connectors (rule changed 2026-11-26, `wiring-kit-2026-11.md`),
+or Posi-Tap at the reverse light. No cutting factory wiring.
 
 ## Install notes from the Sep 7–8 Bluetooth job (`log.md`)
 

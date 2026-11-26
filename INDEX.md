@@ -68,7 +68,7 @@ Latest big update: `overnight-summary-2026-11-10.md`.
 
 **Procedures (`procedures/`)**: see `procedures/README.md`.
 
-**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-owned.md` (what the owner has, from receipts), `tools-plan.md`, `tool-tray-print/README.md` (printed toolbox layer),
+**Mods (`mods/`)**: `README.md` (ideas and rules), `tools-owned.md` (what the owner has, from receipts), `tools-plan.md`, `wiring-kit-2026-11.md` (crimp-no-heat wiring rule + connector/tool shopping list), `tool-tray-print/README.md` (printed toolbox layer),
 `lighting-upgrades.md`, `plan-head-unit-2026-10.md`, `sub-install-hertz-rear.html` (sub on the Hertz install page), `plan-hitch-storage-2026-10.md`,
 `switch-slot-ideas/`.
 

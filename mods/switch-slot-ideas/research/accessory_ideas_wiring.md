@@ -213,7 +213,7 @@ The owner's manual identifies **interior fuse #9 "Front Accessory Sockets" 15 A*
 - **"IG" prefix = ignition-switched** is Honda's naming convention. That reading is UNVERIFIED here; confirm with a test light.
 - **Relay rule:** loads over ~5 A (fogs ~110 W/pair, horns ~11 A, compressors, inverters, coolers) should get a 30/40 A automotive relay. The relay load feed comes from the battery through an inline fuse within ~7 in (18 cm) of the battery (common 12 V practice, UNVERIFIED). The dash switch drives only the relay coil (~0.15 A) from an ACC tap. That keeps the 10 A tap limit irrelevant and keeps factory circuits unloaded.
 - **Grounds without drilling:** use existing body-ground bolts near the kick panel/fuse box, the factory ground studs, or a seat-track bolt **that is not a seat-belt anchor or SRS ground**. Never use seat-belt anchor bolts (safety-critical, CLAUDE.md).
-- Solder + heat-shrink (owner rule) applies at the accessory side. Fuse taps and Posi-Taps are the no-cut interfaces at the car side.
+- Crimped nylon butt connectors, no heat (owner rule, changed 2026-11-26 from solder + heat-shrink) apply at the accessory side. Fuse taps and Posi-Taps are the no-cut interfaces at the car side.
 
 ### Gaps
 - Physical fuse form (standard mini vs low-profile mini) in the 2005 interior box is unconfirmed. Pull one fuse and compare, or buy a tap kit with both.
