@@ -107,7 +107,13 @@ Apply these to every recommendation without being reminded:
 - Done right, and nothing that hurts resale value. Reversible installs; keep OEM parts.
 - No cutting factory wiring, no drilling. Use adapter harnesses, Posi-Taps,
   add-a-circuit fuse taps. If the only way involves drilling, say so up front.
-- Wire connections soldered and heat-shrunk.
+- **Wire connections (owner, 2026-11-26; replaces "soldered and heat-shrunk"): crimped,
+  no heat.** Nylon-insulated butt connectors (red/blue/yellow) in a ratcheting crimper for
+  insulated terminals, tug-test every crimp; self-fusing silicone tape over joints in the
+  engine bay or under the car. No solder, no heat-shrink connectors, no solder-seal sleeves,
+  no Wago lever nuts, no bare/non-insulated connectors; vinyl only if no nylon option
+  exists (say so). Posi-Taps/Posi-Locks and add-a-circuits at the car side as before.
+  Shopping list and verified listings: `mods/wiring-kit-2026-11.md`.
 - **Safety-critical parts** (brakes, wheel bearings/hubs, ball joints, axles, steering,
   suspension, SRS): OEM or name-brand only, with a one-line reason.
 - **Everything else, including tools** (Harbor Freight and other budget brands OK):

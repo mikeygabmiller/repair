@@ -65,7 +65,7 @@ On Amazon, buy the single pair, not the "two pairs" 46CSC654 bundle (~$160).
 | Pioneer TS-601M, 6.5" 4-way, "320 W max" | $59.97 | Newegg lists 70 W RMS; sensitivity and depth not found |
 | Scosche 6.5" 4-way "Precision HD", "200 W peak" | $32.99 | Skip: cheapest, and "4-way" adds little on a 6.5" coaxial |
 | Scosche KPA6CC amp wiring kit | $34.99 | Not needed: only for an amp |
-| Scosche TK12A tool kit / iTK-WP1 crimp terminals | $21.47 / $13.24 | Not needed: owner has HF trim tools (64126) and screwdrivers; plug-in harness means no crimps (owner's rule is solder + heat shrink anyway) |
+| Scosche TK12A tool kit / iTK-WP1 crimp terminals | $21.47 / $13.24 | Not needed: owner has HF trim tools (64126) and screwdrivers; plug-in harness means no crimps. Wiring rule is now crimped nylon, no heat (2026-11-26, `wiring-kit-2026-11.md`) |
 
 The Metra plates and harness weren't in the screenshots; have them in hand (above) before install day.
 
@@ -92,8 +92,8 @@ With the owner's pick (two Amazon Basics 10-packs, ~$30) plus clips (~$10, UNVER
   starting. Clip part number not looked up (check Honda parts catalog by VIN).
 - **Owner, 2026-11-16:** OK with changing wiring for this speaker job (buyers won't remove
   aftermarket speakers). Claude's advice: still use the plug-in harness on the doors (about
-  $6–9 and faster than splicing, nothing to troubleshoot later); Posi-Products or soldered
-  splices at the tweeters, owner's choice. Keeping the factory speakers is optional.
+  $6–9 and faster than splicing, nothing to troubleshoot later); Posi-Products or crimped
+  nylon butt splices at the tweeters, owner's choice (no solder, rule 2026-11-26). Keeping the factory speakers is optional.
 - Door panels hold no airbag on this car (side airbags are in the seats); UNVERIFIED,
   confirm in the owner's manual SRS section before starting. Don't touch seat wiring
   while the SRS light is on.

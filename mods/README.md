@@ -3,7 +3,8 @@
 Upgrades and accessories, kept apart from repairs so repair answers stay easy to find.
 Same rules as the rest of the repo (`CLAUDE.md`): every spec and part number sourced,
 **reversible installs only, no cutting factory wiring, no drilling** (if drilling is the
-only way, say so up front), soldered and heat-shrunk connections, keep the OEM parts.
+only way, say so up front), crimped nylon connectors with no heat (rule and kit:
+`wiring-kit-2026-11.md`), keep the OEM parts.
 Repairs and safety items come first: don't start a mod while `open-issues.md` has a
 safety item the mod would delay.
 
@@ -15,6 +16,8 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   in it, the photo scan sheet, and the print phases.
 - `tools-plan.md`: staged tool-buying plan, budget vs name-brand, loaner tools, the 2020
   Harbor Freight jack stand recall.
+- `wiring-kit-2026-11.md`: crimp-no-heat wiring rule (2026-11-26), per-joint method,
+  wire sizes, verified tool/connector listings and the recommended buy (~$143 Klein route).
 - `lighting-upgrades.md`: what's legal and worth it (halogen upgrades yes; LED/HID retrofits
   in halogen headlights no, per NHTSA letters).
 
@@ -124,7 +127,7 @@ Vehicle files referred to below (`log.md`, `open-issues.md`, `parts.md`, `specs.
   copy the front RCA): **sub plays**. So amp, speaker wire and sub are good, and the green plug
   is not a working sub output (fits the diagram: #10 camera input). Next: read the white plug's
   label and try it, and look for a Subwoofer setting in the Eonon. Fallback that works now:
-  REAR IN OFF, rear LO pass ~80 Hz. Loose strands seen on the REAR L − wire; re-strip and tin.
+  REAR IN OFF, rear LO pass ~80 Hz. Loose strands seen on the REAR L − wire; re-strip and twist tight (no solder, rule 2026-11-26).
   Seller: **$120 firm**. New $175.48 (Amazon deal, Slickdeals) to $179.99 (Walmart), up to
   $279.99–309.98 elsewhere (2026-11-24, recheck), so $120 used ≈ 2/3 of the lowest new price.
 - **Hitch for storage (2026-10-31):** `plan-hitch-storage-2026-10.md`. Draw-Tite 24787 is

@@ -36,7 +36,8 @@ procedure step and diagnosis claim:
 5. **Community tips**: forum/YouTube/complaint text may give tips and patterns, never specs.
 6. **Owner's standing rules** (CLAUDE.md): Honda fluids (ATF, PS fluid, Type 2 coolant);
    OEM or name-brand for safety-critical parts with a reason; no cutting factory wiring
-   or drilling (if unavoidable, said up front); solder + heat-shrink; jack stands, never
+   or drilling (if unavoidable, said up front); crimped nylon connectors, no solder or
+   heat (2026-11-26); jack stands, never
    just a jack; battery disconnect before electrical work; **never DIY airbags/SRS**; says
    if the car is left undrivable and how long the job takes; no paid data subscriptions.
 7. **"What I couldn't verify"** list exists and names every UNVERIFIED item with a free
