@@ -20,3 +20,4 @@ date,odometer,kind,item,cost,by,what,note
 2026-08,137585,maintenance,air-filter,40.00,owner,Engine air filter: STP SA9564,"Owner's service log; $40 covers both filters"
 2026-08,137585,maintenance,cabin-filter,,owner,Cabin filter: STP CAF1781,Cost included in the air-filter row
 2026-11-26,,inspection,code-scan,0,owner,MADDOX scan: P1157 (A/F sensor circuit high voltage); erased,"Odometer not recorded"
+2026-11-27,,tool,floor-jack-and-shop-tools,243.73,owner,"Harbor Freight: 3-ton low-profile floor jack 70482, underhood light, headlamp, lantern, heat gun, magnetic parts holder, 3 gal compressor","Receipt total incl. $20.93 tax (receipts/2026-11-27_harbor-freight_floor-jack-lights.jpg). Date = day reported; receipt date cut off"

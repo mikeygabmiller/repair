@@ -223,7 +223,7 @@ oil and filter (`procedures/accord-2005-oil-change.md`).
   Not recorded yet: which camera (new Eonon bundle or the old plate-frame one);
   where the trigger (#2) and camera power are tapped (+12 V side or ground side of the
   lamp socket); mileage.
-- Owner is buying a multimeter (2026-11-05) for this.
+- Multimeter: owned since 2026-11-20 (Doyle, HF 59455; `mods/tools-owned.md`).
 - Next, cheapest first (Claude's diagnostic order, UNVERIFIED for this unit):
   1. Reverse lights actually light in R (key on). If not, the tapped feed is dead.
   2. Does the screen switch in R at all? No → trigger side (#2 voltage, Eonon reverse

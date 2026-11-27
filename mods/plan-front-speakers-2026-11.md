@@ -123,7 +123,7 @@ Electrical add-on: watch for a return of the battery drain (`open-issues.md` #6)
 
 ## Used JL Audio e1400D + dual Kicker 12" box (Marketplace, 2026-11-19)
 Seller agreed to $150 (amp, dual 12" sealed box with one Kicker Comp and one older Kicker, wiring kit).
-Not bought yet. **Owner has no multimeter** (2026-11-19; the old `tools-owned.md` entry was wrong and is removed).
+Not bought yet. Multimeter: owned since 2026-11-20 (Doyle, HF 59455; `tools-owned.md`).
 e1400D install facts (VERIFIED: JL Audio e1400D owner's manual, via manualsnet.com, read 2026-11-19):
 - Fuse **40 A**, within 18 in of the battery positive post. Fuse type AGU or MaxiFuse.
 - Power wire **8 AWG minimum**; ground the same gauge, as short as possible (36 in max).
