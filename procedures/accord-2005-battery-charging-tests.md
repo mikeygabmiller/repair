@@ -1,7 +1,8 @@
 # Battery, charging and parasitic draw tests: 2005 Accord EX-L 2.4 L
 
 For open issues 2 (P0685), 6 (past drains) and 9 (USB drops). Cheap-first: the parts-store
-tests are free; the draw test needs only a multimeter (owner bought one, 2026-11-05).
+tests are free; the draw test needs only a multimeter (owner has one: Doyle 600V TRMS, HF 59455, bought
+2026-11-20, `mods/tools-owned.md`).
 
 Sources: battery rating OM p.275; battery care OM pp.242–243; jump OM pp.253–255; charging
 fault limits are from Chilton's **Acura TSX** article (same K24 family, **not confirmed for
