@@ -5,6 +5,9 @@ Built 2026-11-14 from every Harbor Freight emailed receipt in Gmail (33 receipts
 2025-06-27 to 2026-11-13, all Monroe WA store #825) plus Extended Service Protection (ESP)
 emails. **Source for each line: the HF receipt of that date**; item names are HF's receipt
 text, SKU = HF item number. Anything not from a receipt says where it came from.
+Added since: the 2026-11-20 emailed receipt (multimeter) and the 2026-11-27 paper receipt
+(photo `receipts/2026-11-27_harbor-freight_floor-jack-lights.jpg`; store and date cut off,
+date = day reported; receipt text is cut short, so names come from HF's item pages).
 
 **Limits:** only purchases that got an emailed receipt show up. At least one HF purchase
 has no receipt email (the air hammer, below), and some tools came from elsewhere. Items
@@ -15,6 +18,7 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 |---|---|---|---|
 | 2-ton compact trolley jack ("AS IS", open-box) | 864874 | 2025-11-28, $22.39 | Receipt SKU is 864874 = the as-is version of **64874**, so the earlier "probably 64874" guess is now backed by the receipt. Still read the jack's label once |
 | Daytona 3-ton Heavy Duty Ratcheting jack stands, item 73332 | 73332 | not on a receipt | Owner, 2026-11-12. Not on the 2020 recall list (`tools-plan.md`) |
+| **PITTSBURGH 3-ton Low-Profile Floor Jack with RAPID PUMP, slate gray** | 70482 | 2026-11-27, $99.99 | The jack picked 2026-11-12 (`tools-plan.md`: lift 3-1/8 to 19-7/8 in, HF page). **No ESP on the receipt**: add in-store by 2026-12-27 if still wanted (30-day ESP rule, `tools-plan.md`). Before first use: check oil, test with no load, bleed only if it misbehaves (HF manual for the sister jack 70485, p.2; read the paper 70482 manual). Return window 90 days with receipt (HF receipt text), ends 2027-02-25 |
 
 ## Sockets, ratchets, torque
 | Tool | SKU | Bought | Notes |
@@ -35,6 +39,7 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 | Tool | SKU | Bought | Notes |
 |---|---|---|---|
 | 8 gal 1.5 HP oil-free compressor | 64294 | 2026-05-20, $159.99 | |
+| McGRAW 3 gal 1/3 HP 110 PSI oil-free hotdog compressor | 57572 | 2026-11-27, $52.99 | Second compressor (portable). Receipt: "Subject to Restock Fee": HF charges 20% on a return unless it's unopened and new, or exchanged for an upgrade (go.harborfreight.com, read 2026-11-27) |
 | 3/8 in x 50 ft rubber air hose | 58543 | 2026-05-20 | |
 | 100 ft manual steel air hose reel | 63861 | 2026-09-29 | |
 | 1/2 in mini air impact wrench (Earthquake XT, "EQXT") | 63534 | 2026-07-03, $50.97 | |
@@ -60,7 +65,7 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 |---|---|---|
 | 18 in pry bar | 68392 | 2026-10-18 |
 | 2 lb neon orange dead blow hammer | 41797 | 2026-10-18 |
-| 6 in magnetic parts holder | 57468 | 2026-10-18 |
+| 6 in magnetic parts holder (2) | 57468 | 2026-10-18; second 2026-11-27, $5.99 |
 | Cushion-grip screwdriver set, 12-pc | 61344 | 2026-09-19 |
 | Trim and molding tool set, 5-pc | 64126 | 2026-10-24 |
 | Toolbox set, 4-pc | 3721 | 2026-10-29 |
@@ -69,6 +74,9 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 | Anti-fatigue foam mat set, 4-pack | 94635 | 2026-11-12 |
 | 500 lumen swivel headlamp | 70752 | 2026-03-11 |
 | LED mini worklight; 30 lm keychain light | 63878, 64886 | 2025-11-17, 2026-10-29 |
+| BRAUN 845 lm Underhood Rechargeable Work Light | 63990 | 2026-11-27, $17.99 |
+| BRAUN 1400 lm Hands-Free Rechargeable Headlamp | 70756 | 2026-11-27, $20.99 |
+| BRAUN 2000 lm 4-Mode Soft Shade Portable Lantern (4 D batteries) | 58489 | 2026-11-27, $14.99 |
 
 ## Power tools
 | Tool | SKU | Bought | Notes |
@@ -76,6 +84,7 @@ bought and returned are left out. Tools broken, lost or lent are not tracked; te
 | 20 V 1/2 in drill/driver kit | 73216 | 2026-07-14, $54.99 | 2-yr replacement plan |
 | 3.2 A 3/8 in variable-speed drill (corded) | 58528 | 2026-10-15, $17.99 | 2-yr replacement plan |
 | 20 V high-pressure inflator | 56546 | 2026-07-18, $29.99 | Same 20 V battery family as the drill? Not confirmed |
+| WARRIOR 1500 W 11 A dual-temperature heat gun | 56434 | 2026-11-27, $9.86 | Not for wiring joints: the wiring rule is crimp, no heat (`wiring-kit-2026-11.md`) |
 
 ## Shop supplies on hand
 PB Penetrant Pro (57404, 2026-10-18); 0.2 oz semi-permanent threadlock (96059, 2026-09-17);
@@ -89,7 +98,9 @@ microfiber) and the 212 cc engine (69730) are on the receipts too but are outsid
 repo's scope.
 
 ## Multimeter
-**Doyle DM500** (owner has it, 2026-11-20). From the face labels (owner photo, 2026-11-21):
+**Doyle DM500** (owner has it, 2026-11-20). HF receipt 2026-11-20: "600V True-RMS
+Auto-Ranging Digital Multimeter", SKU **59455**, $39.99 (HF item page: DOYLE 600V TRMS
+Auto-Ranging Digital Multimeter, item 59455). From the face labels (owner photo, 2026-11-21):
 True RMS, autoranging. Dial: OFF, V≂ (AC and DC volts share one spot), Hz%, Ω/diode/continuity/CAP,
 TEMP, NCV, 9V/1.5V BATT, µA≂, mA≂, 10A≂. Buttons: MODE/REL, RANGE, MAX/MIN, HOLD. Jacks: 10A (30 s max
 every 15 min, fused), COM, V mA µA Ω (600 V / 500 mA fused). The screen shows AC or DC as a ~ or ⎓ symbol,

@@ -8,6 +8,14 @@ Entries before 2026-10-21 come from the owner's project history
 owner's record. Specs used in those jobs came from past chats and are **not** verified
 unless `specs.md` lists them.
 
+## 2026-11-27: Harbor Freight tools: 3-ton floor jack, lights, 3 gal compressor (owner)
+- Paper receipt, photo `receipts/2026-11-27_harbor-freight_floor-jack-lights.jpg`. Store and date are cut off; date = the day the owner sent it. No emailed receipt as of 2026-11-27. Debit **$243.73** = $222.80 + $20.93 tax; coupons saved $36.00.
+- Seven lines (full names from HF's item pages on go.harborfreight.com, read 2026-11-27; the lines add up to the subtotal): **PITTSBURGH 3-Ton Low-Profile Floor Jack with RAPID PUMP, slate gray, 70482** $99.99; BRAUN 845 lm Underhood Rechargeable Work Light 63990 $17.99; BRAUN 1400 lm Hands-Free Rechargeable Headlamp 70756 $20.99; BRAUN 2000 lm 4-Mode Soft Shade Portable Lantern 58489 (4 D batteries) $14.99; WARRIOR 1500 W Dual-Temperature Heat Gun 56434 $9.86; 6 in magnetic parts holder 57468 $5.99 (second one; first 2026-10-18); McGRAW 3 gal 110 PSI Oil-Free Hotdog Air Compressor 57572 $52.99.
+- Jack: the one picked 2026-11-12 (`mods/tools-plan.md`). **No Extended Service Protection line on this receipt**, though the plan included it. HF's ESP terms allow adding it in-store within 30 days of the jack (read 2026-11-12, `tools-plan.md`): by 2026-12-27, with this receipt.
+- Compressor: the receipt prints "Subject to Restock Fee". HF: 20% fee on a return, waived if the item is unopened and new, or exchanged for an upgrade in the same category (go.harborfreight.com re-stocking fee page, read 2026-11-27).
+- Before the jack's first use: check its oil level and test it with no load; bleed air only if it doesn't work properly (HF manual for the sister jack 70485, p.2; the 70482 manual isn't online, so check the paper one). The jack only lifts: the Daytona 73332 stands go under the car before anyone does.
+- Inventory: `mods/tools-owned.md`.
+
 ## 2026-11-26: check engine light, code P1157 (mileage not recorded)
 - MADDOX: MIL on, P1157 listed as MIL, stored/confirmed **and** pending. App suggests "replace A/F sensor" (not a diagnosis).
 - Owner erased it; it had not come back at the time of reporting. Freeze frame not saved before erasing. Triage: `open-issues.md`, P1157 item.
