@@ -90,6 +90,18 @@ Rule used: half off only pays where the list price is high **and** Harbor Freigh
 
 Not sold by Tekton (site nav, 2026-11-28): tire gauges, extractor sockets, flare nut wrenches, hose clamp pliers.
 
+## Stage 3b: DIY alignment (asked 2026-11-28; procedure `procedures/accord-2005-wheel-alignment-diy.md`)
+Only after item 11 (ditch) and the item 4 bearing are fixed: aligning over a bent or loose
+part is wasted. This car only adjusts **toe** (front tie rods, rear cam bolts); camber and
+caster are measure-only.
+| Tool | Why | Budget | Name-brand | Trade-off |
+|---|---|---|---|---|
+| **String setup**: braided mason's line, 4 stands at hub height, steel ruler with mm marks | Measures toe at all four wheels and rear thrust | Mason's line + a steel ruler: hardware store, not priced. Stands: the owner's Daytona 73332 pair + any two stable stands/boxes (they only hold string) | — | Cheapest and does all four wheels; ~45 min setup the first time, strings get bumped easily |
+| **Toe plates** (optional, replaces strings for front toe only) | Faster front toe check | Lupar Heavy Duty Toe Alignment Plate Kit, $39 with coupon (The Drive deals article, undated snapshot, [The Drive](https://www.thedrive.com/guides-and-gear/deals-diy-alignment-tool-toe-plates-amazon-shop-equipment-sale)) | Longacre 52-79501 ~$75–78; Deluxe 52-79505 $161.99 (retailer listings, [Speedway](https://www.speedwaymotors.com/Longacre-52-79505-Deluxe-Toe-Plates-pair-%2C283112.html)) | Front toe only, no rear or thrust angle. Strings do more for less |
+| **Digital angle gauge** | Camber check left vs right (bent-part check after the ditch) | Pittsburgh item 63615 (also 95998), magnetic base, $19.97 on an undated HF listing ([HF](https://go.harborfreight.com/sku/63615)) | Intercomp 102144 ~$70.99 (HF's comparison on the same page) | Budget gauge is fine for a left-vs-right comparison; zero it on the floor at each wheel spot |
+| Turn plates | Front tires move while adjusting on the ground | Two squares of floor tile or cutting board per tire, grease between (COMMUNITY, see procedure) | Commercial turn plates (not priced) | DIY version is free; no degree marks, so no caster reading |
+| Wrenches for tie rod jam nut / inner tie rod flats / rear cam bolts | Adjusting | Sizes **not verified** (FSM or test-fit) | — | Get sizes before buying anything |
+
 ## Stage 4: bigger jobs only if DIY is chosen
 Ball joint press, hub bearing press, valve adjustment tools, coolant pressure tester: **rent
 or borrow**, or let a shop do it. The October axle job showed these jobs can strand the only
