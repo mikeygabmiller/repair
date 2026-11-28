@@ -74,6 +74,22 @@ is enough to strip small 10 mm bolts). Finish with the torque wrench per `specs.
 | **Ryobi USB Lithium 3/8 in FVRC51K** | 50+ ft-lb manual, motor only 140 in-lb; $66.95 kit ([Ryobi](https://espanol.ryobitools.com/products/details/33287221967)) | Small USB battery | Motor too weak for most car bolts |
 | **GearWrench 81226** 3/8 in 72-tooth thumbwheel ratchet (manual) | $23–46 in listings ([GearWrench](https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81226-38-drive-72-tooth-thumbwheel-ratchet)) | No battery; thumbwheel spins a loose bolt | Slower than a motor |
 
+## Tekton at half off (owner's friend works there; researched 2026-11-28)
+List prices read on tekton.com 2026-11-28 (COMMUNITY/retail listing); half = the friend's price, if the boss allows it.
+Tekton warranty page: no time limit, no receipt, Tekton pays shipping; no separate shorter term for torque wrenches shown (exclusions not found).
+Rule used: half off only pays where the list price is high **and** Harbor Freight has no equal for the money.
+
+| Item | Tekton list → half | Harbor Freight closest | Verdict |
+|---|---|---|---|
+| Split beam 3/8 in 20–100 ft-lb, **TRQ61122** (new 2026 line, replaces TRQ62103) | $140 → $70 | ICON 59108, same range, ±4% CW (59108 manual): $129.99 Monroe 2026-11-28, past coupons $80–90. Its manual voids the warranty without professional recalibration every 6 months | Yes, if the friend can get it; otherwise wait for an ICON coupon, never $129.99 |
+| Flex-head ratcheting combination set, **WRC95001** (15 pc) | $200 → $100 | ICON 7 pc ratcheting $129.99, Pittsburgh 7 pc $28.99 (SlashGear) | Best value per wrench. Confirm it's metric only and the size list first |
+| Combination wrench set, 14 pc 6–19 mm (WCB94201) | $85 (Walmart) → ~$43 | ICON 14 pc $119.99 (SlashGear) | Yes: owner has no wrenches |
+| 1/2 in split beam 50–250, TRQ62122 | $165 → $83 | — | Skip: Quinn digital adapter covers 25–250 |
+| Electronic 3/8 in 10–100, TRQ81122 | $350 → $175 | — | Skip: overlaps the split beam and adapter |
+| Pliers, picks, bits, pry bars, sockets | — | Doyle/Pittsburgh/ICON | Skip: HF is as good for the money |
+
+Not sold by Tekton (site nav, 2026-11-28): tire gauges, extractor sockets, flare nut wrenches, hose clamp pliers.
+
 ## Stage 4: bigger jobs only if DIY is chosen
 Ball joint press, hub bearing press, valve adjustment tools, coolant pressure tester: **rent
 or borrow**, or let a shop do it. The October axle job showed these jobs can strand the only
