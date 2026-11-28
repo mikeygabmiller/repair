@@ -34,6 +34,10 @@ replace OEM parts: keep the originals if you ever fit them.
 - **Only after worn parts are fixed.** Aligning with a loose wheel bearing, a bad ball
   joint or a worn tie rod end gives meaningless numbers. On this car right now: do the
   right-front axle/bearing/ball joint job first (`open-issues.md` item 0 and 2).
+  **Update 2026-11-28:** the blockers are now `open-issues.md` item 11 (ditch slide:
+  bead leak, possible bent rim or suspension part) and item 4 (right front bearing). Do
+  steps 26–28 (camber, left vs right) early as a cheap bent-part check, but adjust toe
+  only after those are fixed. Tool list with prices: `mods/tools-plan.md`, Stage 3b.
 - After replacing tie rods, tie rod ends, struts, control arms, or the rack.
 - When the steering wheel is off-center driving straight, the car pulls, or tires wear
   on one edge.
